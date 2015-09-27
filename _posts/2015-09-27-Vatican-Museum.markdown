@@ -4,8 +4,9 @@ title:      "The Vatican Museum"
 subtitle:   ""
 date:       2015-09-27 16:52:32
 author:     "Brian Exelbierd"
-header-img: "pope-chariot.jpg"
+header-img: "img/vatican-carriage.jpg"
 ---
+
 Today we visited the Vatican Museum. I'm not sure what I was expecting, but it wasn't quite what I initially got. I knew there wouldn't be dancing cardinals to entertain us while we waited in the one and a half hour line to get in (we got there only 30 minutes before opening). I also knew that 8:30 am was to early to eat pope shaped ice cream bars, even if they could be found. 
 
 I guess I expected the Catholic equivalent of Jewish Museums, lots of objects and explanation of the faith. Instead I got a fascinating building that has a long usage history that was often ignored and lots of art, including pieces taken from around the world. Just once I'd like to be able to your a site and get an in depth history of its use, not a passing, "these were the papal apartments of Pope X, now let's discuss the statues filling this space now."
