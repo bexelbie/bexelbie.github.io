@@ -11,6 +11,7 @@ github_username:  bexelbie
 facebook_username:  
 linkedin_username:  bcexelbi
 email_username: bex@pobox.com
+future: false
 
 # Build settings
 markdown: kramdown
