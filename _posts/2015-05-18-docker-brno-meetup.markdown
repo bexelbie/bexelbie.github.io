@@ -5,6 +5,7 @@ subtitle:   "posted at projectatomic.io"
 date:       2015-05-18 16:52:32
 author:     "Brian Exelbierd"
 header-img: "img/docker-brno-meetup-1-jfolta.jpg"
+published:  true
 ---
 
 Last Thursday night, we held the first-ever Docker meetup in Brno. Approximately  100 people gathered to hear speakers from four different organizations on container technology and its use. The space, video recordings (links coming soon) and catering were provided through support from [Red Hat's Open Source and Standards Team](http://community.redhat.com), [Impact Hub](http://www.hubbrno.cz/en/), [Good Data](http://www.gooddata.com/), and [Seznam.cz](http://seznam.cz).

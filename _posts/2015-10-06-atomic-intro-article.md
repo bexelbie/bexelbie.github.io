@@ -5,6 +5,7 @@ subtitle:   "posted at linux.com"
 date:       2015-10-06 12:32:00
 author:     "Brian Exelbierd"
 header-img: ""
+published:  true
 ---
 
 # Project Atomic or: How I Learned to Stop Worrying and Love Containers

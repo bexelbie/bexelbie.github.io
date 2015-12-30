@@ -5,6 +5,7 @@ subtitle:   "posted at community.redhat.com"
 date:       2015-10-12 12:32:00
 author:     "Brian Exelbierd"
 header-img: ""
+published:  true
 ---
 
 I recently attended [LinuxCon Europe 2015](http://events.linuxfoundation.org/events/linuxcon-europe) from 5-7 October, 2015 in Dublin, Ireland. I came with high expectations and goals and I am pleased to be able to say they were met.

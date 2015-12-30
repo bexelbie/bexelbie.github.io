@@ -5,6 +5,7 @@ subtitle:   "posted at projectatomic.io"
 date:       2015-08-18 16:52:32
 author:     "Brian Exelbierd"
 header-img: ""
+published:  true
 ---
 
 <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fglobal3.memecdn.com%2Fa-whole-new-world_o_941765.jpg&f=1">

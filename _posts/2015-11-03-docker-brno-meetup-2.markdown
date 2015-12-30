@@ -5,6 +5,7 @@ subtitle:   "posted at projectatomic.io"
 date:       2015-11-03 21:10:00
 author:     "Brian Exelbierd"
 header-img: "img/docker-brno-meetup-2-jfolta.jpg"
+published:  true
 ---
 
 The [Docker Brno Meetup](http://www.meetup.com/Docker-Brno/events/225508213/) group had its second big meeting on 15 October 2015 at 6 pm at the [Impact Hub](http://maps.google.com/maps?f=q&hl=en&q=Cyrilsk%C3%A1+7%2C+Brno%2C+cz) in Brno, Czech Republic.  This meeting followed up a monthly set of more informal gatherings in pubs around the city and the [first meeting on 18 May 2015](http://www.projectatomic.io/blog/2015/05/docker-meetup-brno/).

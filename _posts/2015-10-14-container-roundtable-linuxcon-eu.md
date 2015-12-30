@@ -5,6 +5,7 @@ subtitle:   "posted at projectatomic.io"
 date:       2015-10-14 13:46:51
 author:     "Brian Exelbierd"
 header-img: ""
+published:  true
 ---
 
 At [LinuxCon Europe 2015](http://events.linuxfoundation.org/events/linuxcon-europe) from 5-7 October, 2015 in Dublin, Ireland. Project Atomic's Joe Brockmeier [moderated a panel discussion](http://sched.co/3xqB) between Tom Barlow from Docker, Sebastien Goasguen of Citrix, and Brandon Philips from CoreOS about containers.  
