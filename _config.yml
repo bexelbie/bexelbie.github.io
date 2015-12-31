@@ -11,6 +11,7 @@ github_username:  bexelbie
 facebook_username:  
 linkedin_username:  bcexelbi
 email_username: bex@pobox.com
+
 future: false
 
 # Build settings
@@ -19,3 +20,6 @@ highlighter: pygments
 permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems:
+  - jekyll-feed
