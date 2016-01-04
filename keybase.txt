@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/bexelbie
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.winglemeyer.org
+  * I am bexelbie (https://keybase.io/bexelbie) on keybase.
+  * I have a public key with fingerprint CE92 EA39 3146 3300 34BC  AA49 8473 3A2D BF0C AA95
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101a9e7a8f3e199eca30869653770a8977a5c196046c10aea885325cf119114eca80a",
+            "fingerprint": "ce92ea393146330034bcaa4984733a2dbf0caa95",
+            "host": "keybase.io",
+            "key_id": "84733a2dbf0caa95",
+            "kid": "0101a9e7a8f3e199eca30869653770a8977a5c196046c10aea885325cf119114eca80a",
+            "uid": "47b9ed1878830846c78c5bc533002319",
+            "username": "bexelbie"
+        },
+        "service": {
+            "hostname": "www.winglemeyer.org",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1451937320,
+    "expire_in": 157680000,
+    "prev": "5962e89efb88900c9058407f6c54748a5f29a897e38f55b9c16ac8ef6faa3a97",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - https://gpgtools.org
+
+owGtkltoE0EUhpNqq8YoCoJFxcpiK2ovO5m9zIT6YCn2Qa3SihXUxtnN2bg23Y2b
+bdJSij5UxAu0aOsNvKAiUhVioWjBS0GloDZFwTvqk3dFXwKiPjgb9M1H52WYw/f/
+85/D6Z02wRfwdyfDFTeDA/3+ex803/q92VCnoNnRDiHcKbRA/oJ4FJJupMWMCmFB
+RCJiFFRGDAyIUtAZFolCFRmrqsgIVVUm64gqoqToSGTACJFxSNYNhChCEueJyIRy
+wTCtGDgJx7RcbqsDDQHDFCNJwVgUsaTpjEmUSCrGLBTVDJG/qcyFW+2kp+DhNJaE
+StPmNf6I5OP9g//PudvydpKqUYgiohLCbbhEJbqs6bKXPYQR9cAkOBZrBU5r0A5x
+zQShq1zg1ZSpgzdYr5M/RDqdrkzzicShFTrAqbSdGLdIOLZr63acA1tdNxH29G5H
+Ii8ALfLHKqKZVpRruSAFTtK0LSGMOKm7pueNJBlRrOKQWC5Ae8J0IGJ6hKwqROTH
++wZS3FJupkoICAVDI4SKok5FmUiiaii6LKkSYbIRot6kABNDljWqI4XpBAzFYAwz
+qgped9stWwhLPCeLcc+kGbOY2+bw1gN7/PMm+vwBX1FhgbdnvsCUGX+Xb7hmsu9+
+xllzO7CyuOTu1wJ/7u2ZXw+cvkfxY/emJZ9fGM1+Pfqmx3gLm+qLf8F4n9VvPjgy
+s2561c5LR/cFsw11TdHveFV4x9RYS+n5TzsOTK4pOt2FrN5zn6rfDadibfXFj6tO
+zXq2buhpdemdi5MuF47nVn9p/GnnHh63ryxtUoKL+t8MjU3faI+63dnxip0vldGV
+I++DJz4uqR58Emn3abW5x4n5ddeytKj2xcC2Qwv6D+9ftvr5vN1NK8bWL7n04eqr
+MvXgwIYt5bMXvl7rQNGPG1B2/fOtsjsnP6czlwdLWgMTd835VtLYvrm59GHD3J5U
+35NgwXKhCVtzFt93z5zNjGQyvwE=
+=lmeI
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bexelbie
+
+==================================================================
+
