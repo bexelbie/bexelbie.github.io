@@ -14,7 +14,7 @@ I guess I expected the Catholic equivalent of Jewish Museums, lots of objects an
 
 Instead I was greeted by signs pointing me toward the Egyptian museum and similar things. I'm not opposed to standard museum fare, but that's not why I came. Frankly, if this is your first exposure to these kinds of things, shame on you. Got to your local museum and start your education now. 
 
-After a brief discussion Dominika and I decided to head straight to something we would be sure is unique, The Sistine Chapel. No video, photography, or talking is allowed in the chapel. Ok. The first unexpected thing was the guards continually announcing this to the crowd. 
+After a brief discussion Dominika and I decided to head straight to something we would be sure is unique, The Sistine Chapel. No video, photography, or talking is allowed in the chapel. OK. The first unexpected thing was the guards continually announcing this to the crowd. 
 
 What I should have expected was to be surprised by the size. The chapel, while large, is smaller than I expected. More importantly *The Creation of Adam*, that painting you're thinking is is ... well ... Wikipedia says, ["*The Creation of Adam* is the best known, having an iconic standing equalled only by Leonardo da Vinci's *Mona Lisa*."](https://en.m.wikipedia.org/wiki/Sistine_Chapel_ceiling) A very apt description as like the *Mona Lisa*, the piece is much smaller in real life than you expect.
 
