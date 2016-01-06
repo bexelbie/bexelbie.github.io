@@ -4,11 +4,9 @@ title:      "Testing Nulecule on Debian"
 subtitle:   "posted at projectatomic.io"
 date:       2015-08-18 16:52:32
 author:     "Brian Exelbierd"
-header-img: ""
+header-img: "img/2015/nulecule-debian.jpg"
 published:  true
 ---
-
-<img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fglobal3.memecdn.com%2Fa-whole-new-world_o_941765.jpg&f=1">
 
 Unless you've recently returned from a sabbatical year in a remote monastery with no internet, you know that Containers have arrived, and it's a whole new world.
 

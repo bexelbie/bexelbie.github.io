@@ -4,7 +4,7 @@ title:      "First Docker Meetup in Brno, Czech Republic"
 subtitle:   "posted at projectatomic.io"
 date:       2015-05-18 16:52:32
 author:     "Brian Exelbierd"
-header-img: "img/docker-brno-meetup-1-jfolta.jpg"
+header-img: "img/2015/docker-brno-meetup-1-jfolta.jpg"
 published:  true
 ---
 

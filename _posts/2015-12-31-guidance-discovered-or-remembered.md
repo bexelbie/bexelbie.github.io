@@ -4,7 +4,7 @@ title:      "Guidance Discovered or Remembered"
 subtitle:   ""
 date:       2015-12-31 08:00:00
 author:     "Brian Exelbierd"
-header-img: "img/wedding-shot.jpg"
+header-img: "img/2015/wedding-shot.jpg"
 published:  true
 ---
 

@@ -4,7 +4,7 @@ title:      "Follow the Money to save Encryption"
 subtitle:   ""
 date:       2016-01-05 08:00:00
 author:     "Brian Exelbierd"
-header-img: "img/New100front.jpg"
+header-img: "img/2016/New100front.jpg"
 published:  false
 ---
 

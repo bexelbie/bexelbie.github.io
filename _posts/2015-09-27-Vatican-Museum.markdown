@@ -4,7 +4,7 @@ title:      "The Vatican Museum"
 subtitle:   ""
 date:       2015-09-27 16:52:32
 author:     "Brian Exelbierd"
-header-img: "img/vatican-carriage.jpg"
+header-img: "img/2015/vatican-carriage.jpg"
 published:  true
 ---
 

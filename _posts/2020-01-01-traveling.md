@@ -4,7 +4,7 @@ title:      "A Study in Process"
 subtitle:   "Adventures in an Indian Airport"
 date:       2020-01-01 08:00:00
 author:     "Brian Exelbierd"
-header-img: "img/India-customs-form.jpg"
+header-img: "img/2016/India-customs-form.jpg"
 published:  false
 ---
 
