@@ -1,0 +1,7 @@
+/* add a shaded box behind titles so I don't have to shade my pictures */
+.intro-header .site-heading .title-box,
+.intro-header .post-heading .title-box,
+.intro-header .page-heading .title-box {
+  padding: 0 10px 10px;
+  background: rgba(0, 0, 0, .4);
+}
