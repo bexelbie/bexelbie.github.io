@@ -7,7 +7,8 @@ Do a cname: https://help.github.com/articles/setting-up-a-custom-domain-with-git
 # Must be run from base dir
 
 Mac:
-docker run -e BUNDLE_CACHE=1 --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p $(boot2docker ip):4000:4000 jekyll/jekyll jekyll s --force_polling --unpublished --future
+docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll/jekyll jekyll s --force_polling --unpublished --future
+#docker run -e ENABLE_CACHE=1 --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll/jekyll jekyll s --force_polling --unpublished --future
 
 Linux:
 docker run -e BUNDLE_CACHE=1 --privileged --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll/jekyll jekyll s --force_polling --unpublished --future
