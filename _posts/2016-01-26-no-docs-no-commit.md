@@ -5,7 +5,7 @@ subtitle:   "Playing with travis-ci.org"
 date:       2016-01-26 14:00:00
 author:     "Brian Exelbierd"
 header-img: "img/2016/crack-team.png"
-published:  false
+published:  true
 ---
 
 My fantastic colleagues who work for [Red Hat's Customer Content
