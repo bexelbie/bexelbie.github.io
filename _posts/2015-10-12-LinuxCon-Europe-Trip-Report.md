@@ -4,7 +4,7 @@ title:      "A Containers-Eye View of LinuxCon EU"
 subtitle:   "posted at community.redhat.com"
 date:       2015-10-12 12:32:00
 author:     "Brian Exelbierd"
-header-img: ""
+#header-img: ""
 published:  true
 ---
 

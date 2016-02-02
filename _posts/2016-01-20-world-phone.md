@@ -4,7 +4,7 @@ title:      "I Want A World Phone"
 subtitle:   ""
 date:       2016-01-20 08:00:00
 author:     "Brian Exelbierd"
-header-img: ""
+#header-img: ""
 published:  true
 ---
 

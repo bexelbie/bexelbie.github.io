@@ -4,7 +4,7 @@ title:      "Happy New Year"
 subtitle:   "It's the year of ..."
 date:       2016-01-04 15:30:00
 author:     "Brian Exelbierd"
-header-img: ""
+#header-img: ""
 published:  true
 ---
 

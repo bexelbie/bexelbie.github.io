@@ -4,7 +4,7 @@ title:      "Project Atomic or: How I Learned to Stop Worrying and Love Containe
 subtitle:   "posted at linux.com"
 date:       2015-10-06 12:32:00
 author:     "Brian Exelbierd"
-header-img: ""
+#header-img: ""
 published:  true
 ---
 
