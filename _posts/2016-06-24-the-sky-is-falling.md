@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "The Sky is Falling"
-subtitle:   "#BREXIT"
+subtitle:   "Brexit Edition"
 date:       2016-06-24 23:30:00
 author:     "Brian Exelbierd"
 #header-img: ""
@@ -25,4 +25,4 @@ If you're worried, figure out two things:
 
 2) What does this mean to me long term? Who knows. If you could predict the future you wouldn't be reading this BS on the internet because you'd own it. Put on your big person pants, buy an index fund, and move on.
 
-Posted from my phone, therefore errors will be blamed on things. 
+Posted from my phone, therefore errors will be blamed on things. Condescension knowingly included as these kinds of things never change minds, so the best you can do is rule up "violent agreement through hair splitting."
