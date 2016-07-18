@@ -2,7 +2,7 @@
 layout:     post
 title:      "The European Project"
 subtitle:   "Could you be less committed?"
-date:       2016-07-18 12:00:00
+date:       2016-07-18 12:00:00 +0200
 author:     "Brian Exelbierd"
 #header-img: ""
 published:  true
@@ -10,8 +10,8 @@ published:  true
 This entire rant may get invalidated by a single comment from
 an English friend, however, I suspect it won't.
 
-I was recently
-reading an article, ["How remain failed: the inside story of a doomed
+I was recently reading an article,
+["How remain failed: the inside story of a doomed
 campaign"](http://www.theguardian.com/politics/2016/jul/05/how-remain-failed-inside-story-doomed-campaign)
 by Rafael Behr in The Guardian.  I am told that The Guardian was not in
 favor of leaving the European Union.  This quote struck me:
