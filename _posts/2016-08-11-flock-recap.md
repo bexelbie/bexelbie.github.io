@@ -120,7 +120,7 @@ provides opportunity for growth.
 
 The audience was small as we were in competition with
 [Langdon White's](https://twitter.com/1angdon)
-Modularity talk, but the seemed to really understand the
+Modularity talk, but they seemed to really understand the
 topic.  As a measure of success, we received a documentation
 [PR](https://github.com/projectatomic/adb-atomic-developer-bundle/pull/491)
 1 day after the talk from someone who was in the room.  The audience
