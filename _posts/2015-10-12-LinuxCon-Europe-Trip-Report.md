@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "A Containers-Eye View of LinuxCon EU"
-subtitle:   "posted at community.redhat.com"
+subtitle:   "posted on the Red Hat Community Blog"
 date:       2015-10-12 12:32:00
 author:     "Brian Exelbierd"
 #header-img: ""
@@ -14,7 +14,7 @@ The conference was combined with two other conferences (CloudOpen and Embedded L
 
 Rather than recap every talk I attended, I'll talk about the event from the perspective of a software engineer working with container-related technologies. In my $dayjob I focus on [Project Atomic](http://www.projectatomic.io), a collection of container-related technologies that make containers easier to implement and deploy. While the project focuses on Docker containers and tends to use the Kubernetes orchestrator, Atomic is really container-technology agnostic.
 
-Read more over at [community.redhat.com](http://community.redhat.com/blog/2015/10/a-containers-eye-view-of-linuxcon-eu/) where this was originally posted.
+Read more over at the [Red Hat Community Blog](http://community.redhat.com/blog/2015/10/a-containers-eye-view-of-linuxcon-eu/) where this was originally posted.
 
 <!--
 I attended Alban Crequy's talk, ["Container Mechanics in rkt and Linux"](http://events.linuxfoundation.org/sites/events/files/slides/Container%20mechanics%20in%20rkt%20and%20Linux.pdf). Because I don't work directly on Docker (or rkt), I have a comprehension of how the software works, but not of how it is actually implemented. Crequy's talk provided an in-depth discussion of namespaces, cgroups, and the like to explain the underlying "judo flips" the kernel does to make a container live in its own world. It was great to understand the underlying layers. However, I would have appreciated a talk that included specifics on rkt's implementation choices versus Docker.

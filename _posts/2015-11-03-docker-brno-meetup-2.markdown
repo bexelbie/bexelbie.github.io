@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "What Happened at the 2nd Big Docker Meetup in Brno, Czech Republic on 15 October"
-subtitle:   "posted at projectatomic.io"
+subtitle:   "posted at ProjectAtomic.io"
 date:       2015-11-03 21:10:00
 author:     "Brian Exelbierd"
 header-img: "img/2015/docker-brno-meetup-2-jfolta.jpg"

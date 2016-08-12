@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Testing Nulecule on Debian"
-subtitle:   "posted at projectatomic.io"
+subtitle:   "posted at ProjectAtomic.io"
 date:       2015-08-18 16:52:32
 author:     "Brian Exelbierd"
 header-img: "img/2015/nulecule-debian.jpg"

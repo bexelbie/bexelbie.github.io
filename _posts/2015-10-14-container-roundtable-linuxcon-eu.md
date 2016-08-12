@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Report on the Container Keynote Panel from LinuxCon EU 2015"
-subtitle:   "posted at projectatomic.io"
+subtitle:   "posted at ProjectAtomic.io"
 date:       2015-10-14 13:46:51
 author:     "Brian Exelbierd"
 #header-img: ""

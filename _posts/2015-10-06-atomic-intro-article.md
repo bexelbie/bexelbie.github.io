@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Project Atomic or: How I Learned to Stop Worrying and Love Containers"
-subtitle:   "posted at linux.com"
+subtitle:   "posted at Linux.com"
 date:       2015-10-06 12:32:00
 author:     "Brian Exelbierd"
 #header-img: ""
