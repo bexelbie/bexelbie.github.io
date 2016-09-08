@@ -2,7 +2,7 @@
 layout:   post
 title:   "A Semantic Markup Proposal for AsciiDoc"
 subtitle:  "And Fedora Docs"
-date:    2016-09-08 15:25:00 +0000
+date:    2016-09-08 15:35:00 +0200
 author:   "Brian Exelbierd"
 #header-img: ""
 published: true
