@@ -4,17 +4,17 @@ title: Tags by Category
 tags: no-navigation
 ---
 
-<div class="tags-expo">
-  <div class="tags-expo-list">
-    <ul>
+<div>
+  <div>
+    <p>|
     {% assign sortedCategories = site.categories | sort:name %}
     {% for tag in sortedCategories %}
-    <li><a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a></li>
+     <a href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a> |
     {% endfor %}
-    </ul>
+    </p>
   </div>
   <hr/>
-  <div class="tags-expo-section">
+  <div>
     {% for category in sortedCategories %}
       <h2 id="{{ category[0] | slugify }}">{{ category[0] }}</h2>
       <ul>
@@ -23,14 +23,14 @@ tags: no-navigation
         {% assign zz = tag[1] | where: "category", category[0] %}
         {% if zz != empty %}
           <li><h3 id="{{category[0] | slugify }}-{{ tag[0] | slugify }}">{{ tag[0] }}</h3></li>
-          <ul class="tags-expo-posts">
+          <ul>
             {% for post in tag[1] %}
-              <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
-            <li>
-              {{ post.title }}
+            {% if post.categories[0] == category[0] %}
+                <li><a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
+              {{ post.title }} |
             (<small class="post-date">{{ post.date | date_to_string }}</small>)
-            </li>
-            </a>
+              </a></li>
+            {% endif %}
             {% endfor %}
           </ul>
         {% endif %}

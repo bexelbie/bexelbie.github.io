@@ -4,20 +4,12 @@ title: Tags
 tags: no-navigation
 ---
 
-<div class="tags-expo">
-  <div class="tags-expo-list">
-    <ul>
+<div>
+  <div>
     {% assign sortedTags = site.tags | sort:name %}
     {% for tag in sortedTags %}
-    <li><a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a></li>
-    {% endfor %}
-    </ul>
-  </div>
-  <hr/>
-  <div class="tags-expo-section">
-    {% for tag in sortedTags %}
     <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
-    <ul class="tags-expo-posts">
+    <ul>
       {% for post in tag[1] %}
         <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
       <li>
