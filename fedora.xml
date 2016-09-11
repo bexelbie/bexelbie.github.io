@@ -8,7 +8,7 @@ layout: null
       <description>{{ site.description }}</description>
     <link>{{ site.url }}</link>
     {% for post in site.posts %}
-      {% if post.tags contains 'fedora' %}
+      {% if post.tags contains 'Fedora' %}
         <item>
           <title>{{ post.title | xml_escape }}</title>
           <description>{{ post.content | xml_escape }}</description>
