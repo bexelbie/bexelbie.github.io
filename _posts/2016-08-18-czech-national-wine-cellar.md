@@ -70,15 +70,15 @@ I am more of a pijan (drinker) than a degustátor (taster).
 {:.caption}
 
 When I first started drinking wine, I fell in love with Rieslings.
-I have since expanded my tastes some, though I do tend to drink more
-beer.  Most of the wines at the beginning of the cellar are Rieslings.
-I did not make a point of drinking each of them. s it seemed to early
-to commit to that in this experience.
+I have since expanded my tastes, however, these days I tend to drink
+more beer than wine.  Most of the wines at the beginning of the cellar
+are Rieslings.  I did not make a point of drinking each of them. As it
+seemed to early to commit to that at the beginning of the tasting.
 
 Once I got started I thought, this isn't too bad, I'll taste a little from
 each bottle.  By about wine 5 that fell apart.  Around wine 15 I realized
 I had no idea what I was doing and that I hadn't even found the reds yet.
-Finally, somewhere around 45 minutes in, I decided to try and find and
+Finally, somewhere around 45 minutes in, I decided to try to find and
 compare wines with the same grape and different levels of barikové
 (Czech for 'barrique' which is apparently French for 'oakiness').
 I did this because I realized I needed a mission or things were going
@@ -113,7 +113,8 @@ Reds and whites ready for sampling.
 While I wouldn't have minded having some guidance during the journey,
 there was some fun to be had in being very free-spirited.  There was a
 sommelier, however it wasn't clear if he spoke English.  Two of our group
-did some guidance from him near the end and found two wines they adored.
+did get some guidance from him near the end and found two wines they
+adored.
 
 After my adventure in oakiness, I looked for the most expensive wine.
 I regret now that I didn't look for the least expensive.  If I have the
@@ -125,9 +126,9 @@ see if I can determine what drives my tastes in wine.
 It was great to see the quality wines available in the Czech Republic
 on display.  Wine making is an old art here, but it was [nearly lost under
 Communism](http://mobile.nytimes.com/2016/08/16/world/europe/czech-wine-moravia.html?_r=0).
-This may also explain why a lot of the wines I find in the story are
+This may also explain why a lot of the wines I find in the store are
 not raved about.  The wine makers are really rediscovering the
-art and we haven't seen it trickle all the way down yet to the Tesco yet.
+art and we haven't seen it trickle all the way down to the Tesco yet.
 
 At the end of the day, after we had tried countless wines (one person
 who claims they counted said they sampled 29 wines), we purchased a total
@@ -143,6 +144,10 @@ And one final gift ...
 
 ![It's Electric](/img/2016/wine/electric.jpg)
 No trip into an old chateau cellar is complete without some scary
-electrical wiring.  {:.caption}
+electrical wiring.
+{:.caption}
+
+Note: This post was edited for grammar, typos and phrasing.  A full history is available in the git repository.
+{:.footnotes}
 
 [^0]: The other bottles went home with the rest of the group.

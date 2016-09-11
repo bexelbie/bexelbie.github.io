@@ -51,7 +51,7 @@ script:
       echo "There appear to be docs in this commit.  Thank you."
       exit
     else
-      echo "There commit doesn't seem to have any docs."
+      echo "This commit doesn't seem to have any docs."
       exit 1
     fi
 ~~~
@@ -66,3 +66,7 @@ will be standing by to tell you, "No."
 
 ![IRC log](/img/2016/crack-team.png)
 IRC log courtesy of #taskwarrior.
+{:.footnotes}
+
+Note: This post was edited for grammar, typos and phrasing.  A full history is available in the git repository.
+{:.footnotes}

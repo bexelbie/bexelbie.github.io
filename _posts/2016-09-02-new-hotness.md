@@ -51,7 +51,7 @@ What about the cake?
 
 Oh yeah, about the cake. The new role's title is quite a mouthful.
 I don't really know what to do about it other than to abbreviate it.
-That makes it **FCaIC**. I am choosing to pronounce it as *F-cake.*
+That makes it **FCAIC**. I am choosing to pronounce it as *F-cake.*
 I love my new role and I love dessert[^2]. I get to have my "cake"
 and eat it too!
 

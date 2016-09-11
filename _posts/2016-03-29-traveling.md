@@ -14,8 +14,8 @@ tags:
 During the Easter holiday my travel included segments on trains by
 two different companies and on buses by two different companies.
 Each company has it's own method of managing tickets, services,
-delays, and connections.  Some feel better than others, but none
-are truly wrong or broken.  None of these processes had as many
+delays, and connections.  Some of the processes seem better than others,
+but none are truly wrong or broken.  None of these processes had as many
 steps as traveling through an Indian airport.
 
 When you travel in India, you quickly learn that traveling  through
@@ -34,21 +34,23 @@ the following:
    for each carryon bag and attach it. You do not need to fill out
    the tag.
 
-4. If you're bag is overweight you have to take an overweight receipt
+4. If your bag is overweight you have to take an overweight receipt
    to a separate counter, pay, and then return to get your boarding
    card. This may involve crossing a checkpoint.  They won't care
    that you are the only person in the airport and that they watched
-   you the whole time.
+   you the whole time.  Your ID will be re-checked against your itinerary
+   anway.
 
 5. Go to security. To enter the screening line show just your
    boarding card, no ID.
 
-6. A guard supervises your putting your carryon bags on the security
-   scanner belt.  They will rearrange bags, look in bags, and
-   generally makes sure things are in order.  Laptops are removed.
+6. A guard supervises you putting your carryon bags on the security
+   scanner conveyor belt.  They will rearrange bags, look in bags, and
+   generally make sure things are in order.  Laptops are removed.
    Laptops are placed in separate bins and you are given a bin claim
    tag.  In all other ways, the bags are screened as expected.  The
-   luggage tag on your carryon should be stamped after it is screened.
+   luggage tag on your carryon will be stamped by the gaurd after the
+   bag is screened.
 
 7. Walk through a magnetometer, separated by gender. 
 
@@ -57,7 +59,7 @@ the following:
    twice with an ink stamper.
 
 9. Collect your carryon bags and make sure you have a stamp on the
-   luggage tag.
+   luggage tags.
 
 10. At some airports you have to show your tickets and luggage tags
     to a guard to verify they are stamped before you can leave
@@ -93,3 +95,6 @@ covered in ink smears.  The stamps used are wet ink stampers and
 the tickets and tags are all mostly waterproof so the ink smears
 and takes a long time to dry.  Perhaps this inconvenience would be
 enough to satisfy the American flying public.
+
+Note: This post was edited for grammar, typos and phrasing.  A full history is available in the git repository.
+{:.footnotes}

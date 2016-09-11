@@ -219,5 +219,6 @@ and computer), a dinner cruise on the Vistula, and an evening in Browar
 
 Photo Credit: [Mary Shakshober](https://marygraphicdesigns.wordpress.com/)
 and the [Fedora Design Team](https://fedoraproject.org/wiki/Design)
+{:.footnotes}
 
 [^0]: There is a people reason to wait.  A core contributor is away unexpectedly.

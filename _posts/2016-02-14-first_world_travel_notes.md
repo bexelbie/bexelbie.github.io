@@ -46,12 +46,16 @@ orderly.  However, this is also a BAD idea.
     how they operate. It is already too much to expect them to read
     numbers and letters from their boarding card, understand them,
     find the right seat, put their stuff in an overhead bin and sit
-    down all while not blocking and aisle, bitching, or hurting
+    down all while not blocking the aisle, bitching, or hurting
     themselves or others. You really want to add the complication
     of making them figure out a seat belt before you explain it?[^1]
 
 The usual rants about bad airport signage, extra BS security screening and security theater, lack of free wifi or BS limits on it, and unprepared people have been deliberately omitted.
 
 Photo by Dominika Bula: Dragon Lantern at the "Magical Lantern Festival" at the Chiswick House and Gardens in London on 14 February 2016.
+{:.footnotes}
 
 [^1]: This particular thought struck me after helping a domestic passenger in China understand how his seat belt operated ... with sign language and demos.
+
+Note: This post was edited for grammar, typos and phrasing.  A full history is available in the git repository.
+{:.footnotes}

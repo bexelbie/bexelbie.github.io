@@ -10,6 +10,7 @@ category: Ramblings
 tags:
  - Politics
 ---
+
 This entire rant may get invalidated by a single comment from
 an English friend, however, I suspect it won't.
 

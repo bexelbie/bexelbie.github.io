@@ -75,8 +75,8 @@ contribute to your old phone feeling slower:
 
 2. Apple makes it hard for the average user to turn off new features to
    improve performance. I believe they do this because of their business
-   philosophy that phone experience matters and new features make the
-   experience better.[^5]
+   philosophy that the phone experience is critically important and new
+   features make the experience better.[^5]
 
 Two interesting examples that show this behavior in action are:
 
@@ -106,8 +106,8 @@ The petition and poster also missed the contributions apps make towards
 a bad old phone experience.
 
 Apps get updated constantly.  Many users have it done in the background
-and don't even know they got updated.  New app features work just like new
-software features.  They can often come with greater resource demands.
+and don't even know the update happened.  New app features work just like
+new software features.  They can often come with greater resource demands.
 App authors also like to use the new features of the operating system.
 
 Do you remember when notifications became easily available in the phone
@@ -122,8 +122,8 @@ in extra network data and power for the antenna.
 The only conclusions I can draw are:
 
 1. Never accept any phone software updates.  This will cause your phone
-   to slowly become more and more insecure and unstable.  This could
-   cause you to lose your data to software crashes or hackers.
+   to slowly become more and more insecure and possibly unstable.
+   This could cause you to lose your data to software crashes or hackers.
 
 2. Never update your apps. You won't be able to paint your face for the
    Olympics in Facebook or access the newest Pokemon Go whatever they
@@ -150,6 +150,9 @@ industry do an Internet image search for "ship breaking."
 
 Wow, that turned out to be much longer than I expected.  I hope it
 was useful.
+
+Note: This post was edited for grammar, typos and phrasing.  A full history is available in the git repository.
+{:.footnotes}
 
 [^0]: Companies and people are generally not evil and out to get you.
       Companies and people often act in their own best interest, but
@@ -179,7 +182,7 @@ was useful.
       of turning off a lot of "unnecessary" resource draining features.
       I suspect there is a similar setting for Android.  However, your
       mileage may vary, so experiment.  In my personal use, I find it
-      extend the battery life significantly and reduces my data usage
+      extends the battery life significantly and reduces my data usage
       to a trickle.  I do find myself missing some the features that are
       turned off like many push notifications and animation prettiness.
 
@@ -189,5 +192,5 @@ was useful.
       $3 because of a similar accounting issue.
 
 [^7]: This is also a simplification. Some people argue that part of
-      Apple's motivates have to do with keeping their ecosystem from
-      fragmenting which helps the Apps side of the house.
+      Apple's motivation is to keep their ecosystem from fragmenting
+      which helps the Apps side of the house.

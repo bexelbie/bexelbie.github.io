@@ -10,6 +10,7 @@ category: Ramblings
 tags:
  - Politics
 ---
+
 Today makes me wonder how UK citizens and residents plan anything. A two year out possibility from a non-binding referendum whose proponents have already started walking it back has everyone panicked.  Guess what, two years from now was never guaranteed.
 
 There isn't even a plan yet. Heck, your PM just dropped the mic and said, "nope." Now the proponents have to figure out a government before they can even get started. And from what I've read they're trying to make someone else do the deed while they refute their promises.
