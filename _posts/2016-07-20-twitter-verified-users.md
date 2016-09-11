@@ -6,7 +6,11 @@ date:    2016-07-20 18:23:00 +0200
 author:   "Brian Exelbierd"
 header-img: "img/2016/twitter.png"
 published: true
+category: Ramblings
+tags:
+ - Identity
 ---
+
 Twitter recently decided to ban a user for inciting harassment. I am
 not going to weigh in on that as I feel like it is going to be explored
 enough by others. Instead, I find it interesting that this has created

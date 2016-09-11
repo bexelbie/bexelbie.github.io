@@ -6,6 +6,9 @@ date:       2015-12-31 08:00:00
 author:     "Brian Exelbierd"
 header-img: "img/2015/wedding-shot.jpg"
 published:  true
+category: Ramblings
+tags:
+ - Life Lessons
 ---
 
 In the last two years I've had the privilege of attending two weddings. Both were traditional Catholic Polish affairs, complete with rituals and words I'd never heard or experienced before. I am grateful for the experiences. 

@@ -6,6 +6,9 @@ date:       2016-01-26 14:00:00
 author:     "Brian Exelbierd"
 header-img: "img/2016/crack-team.png"
 published:  true
+category: Technology
+tags:
+ - Documentation
 ---
 
 My fantastic colleagues who work for [Red Hat's Customer Content

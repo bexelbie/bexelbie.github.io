@@ -6,6 +6,10 @@ date:       2015-08-18 16:52:32
 author:     "Brian Exelbierd"
 header-img: "img/2015/nulecule-debian.jpg"
 published:  true
+category: Technology
+tags:
+ - Project Atomic
+ - Containers
 ---
 
 Unless you've recently returned from a sabbatical year in a remote monastery with no internet, you know that Containers have arrived, and it's a whole new world.

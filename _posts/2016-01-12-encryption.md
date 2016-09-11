@@ -6,6 +6,9 @@ date:       2016-01-12 08:00:00
 author:     "Brian Exelbierd"
 header-img: "img/2016/New100front.jpg"
 published:  true
+category: Ramblings
+tags:
+ - Encryption
 ---
 
 [Several governments](http://www.wsj.com/articles/fbi-seeks-to-reframe-encryption-debate-1451417252) want to put [back doors](https://www.eff.org/deeplinks/2015/12/encryption-balance-2015-review) into encryption systems.  The goal is to be able to provide safety by being able to read messages sent by "terrorists".  They promise to safeguard the back doors so that only they can use them. They also promise not misuse the access.

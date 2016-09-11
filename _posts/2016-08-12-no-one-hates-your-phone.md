@@ -6,6 +6,9 @@ date:    2016-08-12 12:18:00 +0200
 author:   "Brian Exelbierd"
 #header-img: "img/2016/flock.png"
 published: true
+category: Ramblings
+tags:
+ - Gadgets
 ---
 
 **tl;dr:** No one cares enough to try and make your phone slow on purpose

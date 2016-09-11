@@ -6,6 +6,9 @@ date:       2016-01-04 15:30:00
 author:     "Brian Exelbierd"
 #header-img: ""
 published:  true
+category: Ramblings
+tags:
+ - Random
 ---
 
 A friend, [Liam Proven](https://twitter.com/lproven), retweeted [John Cleese](https://twitter.com/JohnCleese/status/683681888687538177).

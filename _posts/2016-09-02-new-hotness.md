@@ -6,6 +6,9 @@ date:    2016-09-02 13:30:00 +0200
 author:   "Brian Exelbierd"
 #header-img: ""
 published: true
+category: Ramblings
+tags:
+ - Personal
 ---
 
 Yes, the rumors are true. Something new has come into my life. Frankly,

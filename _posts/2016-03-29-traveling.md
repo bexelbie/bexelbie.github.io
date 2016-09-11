@@ -6,6 +6,9 @@ date:       2016-03-29 08:00:00
 author:     "Brian Exelbierd"
 header-img: "img/2016/India-customs-form.jpg"
 published:  true
+category: Travel
+tags:
+ - Process
 ---
 
 During the Easter holiday my travel included segments on trains by

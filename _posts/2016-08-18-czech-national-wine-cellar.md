@@ -6,6 +6,10 @@ date:    2016-08-18 09:00:00 +0200
 author:   "Brian Exelbierd"
 header-img: "img/2016/wine/labels.jpg"
 published: true
+category: Travel
+tags:
+ - Czech Republic
+ - Wine
 ---
 
 ![The Wine Cellar](/img/2016/wine/cellar.jpg)

@@ -6,7 +6,10 @@ date:    2016-09-08 15:35:00 +0200
 author:   "Brian Exelbierd"
 #header-img: ""
 published: true
-tags: "fedora"
+category: Technology
+tags:
+  - Fedora
+  - Documentation
 ---
 
 This is a bit long, but I hope it is worth it.

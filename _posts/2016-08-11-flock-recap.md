@@ -5,8 +5,10 @@ subtitle:  "Community Means Hanging with Your Friends"
 date:    2016-08-11 18:23:00 +0200
 author:   "Brian Exelbierd"
 header-img: "img/2016/flock.png"
-tags: "fedora"
 published: true
+category: Technology
+tags:
+  - Fedora
 ---
 
 [Flock](https://flocktofedora.org/), the Fedora Contributors conference

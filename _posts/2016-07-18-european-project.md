@@ -6,6 +6,9 @@ date:       2016-07-18 12:00:00 +0200
 author:     "Brian Exelbierd"
 #header-img: ""
 published:  true
+category: Ramblings
+tags:
+ - Politics
 ---
 This entire rant may get invalidated by a single comment from
 an English friend, however, I suspect it won't.

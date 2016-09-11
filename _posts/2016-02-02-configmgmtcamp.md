@@ -6,6 +6,11 @@ date:       2016-02-02 14:00:00
 author:     "Brian Exelbierd"
 #header-img: ""
 published:  true
+category: Technology
+tags:
+ - Containers
+ - Conferences
+ - Project Atomic
 ---
 
 ![Config Management Camp EU Logo](/img/2016/configmgmtcampeu2016-logo.png)

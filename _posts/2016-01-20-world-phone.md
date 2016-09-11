@@ -6,6 +6,9 @@ date:       2016-01-20 08:00:00
 author:     "Brian Exelbierd"
 #header-img: ""
 published:  true
+category: Travel
+tags:
+ - Gadgets
 ---
 
 I want worldwide phone and data service.  And I think the only way to get it is to build a better phone.

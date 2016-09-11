@@ -6,6 +6,9 @@ date:       2016-02-14 08:00:00
 author:     "Brian Exelbierd"
 header-img: "img/2016/2016-02-14-Dragon.jpg"
 published:  true
+category: Travel
+tags:
+ - Process
 ---
 
 Traveling, especially alone, gives you lots of time to observe the

@@ -6,6 +6,11 @@ date:    2016-08-15 08:15:00 +0000
 author:   "Brian Exelbierd"
 header-img: "img/2016/docs-update-flock-2016.jpg"
 published: true
+category: Technology
+tags:
+ - Fedora
+ - Documentation
+ - Conferences
 ---
 
 At [Flock 2016 in Krakow, Poland](https://flocktofedora.org), I had the

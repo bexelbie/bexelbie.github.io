@@ -1,11 +1,14 @@
 ---
 layout:     post
 title:      "The Sky is Falling"
-subtitle:   "Brexit Edition"
+subtitle:   "BRExit Edition"
 date:       2016-06-24 23:30:00
 author:     "Brian Exelbierd"
 #header-img: ""
 published:  true
+category: Ramblings
+tags:
+ - Politics
 ---
 Today makes me wonder how UK citizens and residents plan anything. A two year out possibility from a non-binding referendum whose proponents have already started walking it back has everyone panicked.  Guess what, two years from now was never guaranteed.
 
