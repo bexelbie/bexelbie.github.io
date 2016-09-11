@@ -29,3 +29,34 @@
 .footnotes {
   font-size: 12px;
 }
+
+li a {
+  text-decoration: underline;
+}
+
+.sidebar a {
+  text-decoration: underline;
+}
+
+.navbar-custom {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-header a {
+  color: black;
+}
+
+.navbar-custom .navbar-brand {
+  color: black;
+}
+
+.navbar-custom .nav li a {
+  color: black;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #0085a1;
+}
