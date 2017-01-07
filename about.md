@@ -25,9 +25,8 @@ hats professionally and semi-professionally, including:
 * "Student" of International Taxation
 
 These days I am working for [Red Hat](https://community.redhat.com)
-as a software engineer.  I am transitioning to a new role as the
-[Fedora](https://www.fedoraproject.org) community's new [Action and
-Impact Coordinator](https://fedoraproject.org/wiki/Community_Leader).
+as the [Fedora](https://www.fedoraproject.org) community's [Action
+and Impact Coordinator](https://fedoraproject.org/wiki/Community_Leader).
 
 I've written some code and contributed to other code bases.  A lot
 of this work has been done in [GitHub](https://github.com/bexelbie).
@@ -41,6 +40,23 @@ profile](https://www.linkedin.com/in/bcexelbi), amongst other places.
 
 If anyone actually reads this page and sends me a question, I'll
 make this description better.
+
+## Barbarism
+
+I engage in one habit that a friend has described as "barbarism."  I put
+two spaces after periods. \*gasp\*  I also tend to hardwrap non-email
+text. \*shock\*  Finally, I have currently set my tab to be 4 spaces
+and not 8. \*fainting noise\*
+
+## GPG Key
+
+For those of you who need to send me something super sekrit, you can
+use my spiffy GPG key.  Please keep in mind that my response time on
+encrypted emails is pretty slow.
+
+Fingerprint: `CE92 EA39 3146 3300 34BC AA49 8473 3A2D BF0C AA95`
+
+You can find my full key, [here](https://keybase.io/bexelbie/pgp_keys.asc?fingerprint=ce92ea393146330034bcaa4984733a2dbf0caa95).
 
 # About This Site
 
