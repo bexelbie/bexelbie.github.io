@@ -93,3 +93,13 @@ li a {
     background: $theme-color;
     color: $white;
   }
+
+.input-text {
+    width: 100%;
+}
+
+.comment_avatar {
+    float: left;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+}

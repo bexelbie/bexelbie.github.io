@@ -52,6 +52,12 @@ layout: default
                     {% endif %}
                 </ul>
 
+
+                {% if page.comments == true %}
+                    {% include post-comments.html %}
+                {% endif %}
+
+
             </div>
         </div>
     </div>
