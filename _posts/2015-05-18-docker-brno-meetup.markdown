@@ -6,6 +6,7 @@ date:       2015-05-18 16:52:32
 author:     "Brian Exelbierd"
 header-img: "img/2015/docker-brno-meetup-1-jfolta.jpg"
 published:  true
+comments:   true
 category: Technology
 tags:
  - Project Atomic

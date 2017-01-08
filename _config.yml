@@ -27,3 +27,6 @@ paginate: 10
 exclude: ["less","node_modules","Gemfile","Gemfile.lock","Gruntfile.js","package.json","README.md","vendor","README"]
 
 gems: [jekyll-paginate, jekyll-feed]
+
+# Comments by StaticMan - https://staticman.net/
+staticmanUrl: https://api.staticman.net/v2/entry/bexelbie/bexelbie.github.io/master/comments
