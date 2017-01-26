@@ -1,0 +1,2 @@
+highligher in vi for the most common 1000 English words
+could also be for when you've written 1000 words for optimal post length

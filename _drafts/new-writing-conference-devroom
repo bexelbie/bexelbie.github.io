@@ -1,0 +1,74 @@
+CFP Suggested Topics
+- how our tool chain works and why we made these choices
+- innovations in a particular tool
+- reference architectures 
+- solving mult-format problems
+- what we test and how (lightning talk style?)
+- unsolved problems
+- common languages and idioms
+- integration challenges and solutions
+- improving communications between writers-site designers-Dev-ops
+
+##'##
+
+Global IDs are a way of unambiguously referencing specific pieces of content in an entire documentation set. 
+
+In an simple world, a content creator should be able to reference a piece of content without knowing where it is located in the documentation.
+
+In a great world, a content author should be able to restructure a document and move content around without worrying about breaking cross-references. 
+
+In an amazing world, cross-references should be able to work the same way across an entire library of content. 
+
+## How does it work today?
+
+In AsciiDoc, these are the IDs associated with a block element. They looks like this:
+
+'''
+[[id-text]]
+'''
+
+There is a different, but related construction in other markups, such as DocBook. 
+
+Global IDs make it easy to maintain cross-references ('xref's) in documentation because the source of the cross-reference doesn't need to know where the destination is actually located. 
+
+Today, as I understand it, AsciiDoc supports two forms of syntax that is related to 'xref's. The forms are:
+
+'''
+xref:
+'''
+And
+'''
+<<id-text>>
+'''
+
+Note: it is possible to specify specific link text in both forms. I have omitted this from these examples. I do address it later. 
+
+These 'xref's are processed by asciidoctor without validation. This means that dead links are easy to create. 
+
+The 'xref's are treated as references to other pieces of content found in the *same* file. This works until you have content large enough to be split into multiple files. This is also problematic for processors like AsciiBinder which encourage chunking of content. 
+
+The solution in AsciiDoc is add a location to the 'xref' like this:
+
+'''
+xref:
+'''
+And
+'''
+<<id-text>>
+'''
+
+While this works in most cases it requires the author of one piece of content to know about the structure of the entire content set. It is also not validated.
+
+## How could it work?
+
+I've been experimenting with preprocessing repositories before handing them off to AsciiBinder. This preprocessing experimentation gives me a few ideas. 
+
+Note: I think any solution should not break Asciidoc. However, any solution will potentially cause Asciidoctor to produce broken output. So let's try to minimize this. 
+
+### Option 1: Preprocessed Linking
+
+In this option, a 2 pass preprocessor  would perform the following steps:
+
+First Pass: Scan all AsciiDoc files for IDs and record the path to the file, file name, and the link text that would automatically be used of the reference was resolvable in Asciidoctor. footnote::[Included files represent a potential edge case. If included files are only included once the IDs are unambiguous, but need to be tied to the including file. If they are included multiple times they should probably be ignored. Macros can also affect this. Neither is insurmountable, however it either means further processing or looking to just resolve includes and macros prior to processing ... hmm.]
+
+Second Pass: Rewrite all references to include a path and file name. Additionally, if link text is not provided, provide the default. 

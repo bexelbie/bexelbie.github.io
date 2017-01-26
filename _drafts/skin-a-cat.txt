@@ -1,0 +1,13 @@
+There's More than One Way to Skin a Cat[^0]
+
+How do you handle no docs no commit across separate docs repos
+
+4 types of org
+- all in one repo (docs only)
+- multiple docs only repos
+- docs in one code repo
+- docs in mult. code repo
+
+
+
+[^0]: No cats were harmed in the writing of this post or this software
