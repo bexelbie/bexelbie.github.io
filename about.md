@@ -26,6 +26,18 @@ More details can be found in my [LinkedIn profile](https://www.linkedin.com/in/b
 
 If anyone actually reads this page and sends me a question, I'll make this description better.
 
+## Bios
+
+Bios are hard to write and worst to have to come up with on short notice.  I keep a few here as notes.
+
+### Short Bio (139 Chars)
+
+Brian Exelbierd works is the Fedora Community Coordinator and has a background in Higher Education and IT/Engineering. Follow him @bexelbie
+
+### Medium Bio (1023 Chars)
+
+Brian (bex) Exelbierd is the Fedora Community Action and Impact Coordinator on behalf of the Open Source and Standards team at Red Hat. At Red Hat, Brian has worked as a technical writer, software engineer, content strategist and now as an Open Source community manager.  Brian spends his day enabling the Fedora community by clearing road blocks and easing the way for the community to do great things.  Before Red Hat, Brian worked with the University of Delaware as the Director of Graduate and Executive Programs in the Alfred Lerner College of Business and Economics and as a Budget Analyst.  Brian's background in software engineering stretches back years before his university work and includes stints at small, medium, large and governemental organizations.  "Glue Code" is how a lot of Brian's projects could be described.  These are projects that fill in the interstitial spaces between large systems and provide continuity and ease of use.  Follow him on Twitter @bexelbie or via his blog at www.winglemeyer.org.
+
 ## Barbarism
 
 I engage in one habit that a friend has described as "barbarism."  I put two spaces after periods. \*gasp\*  I also tend to hardwrap non-email text. \*shock\*  Finally, I have currently set my tab to be 4 spaces and not 8. \*fainting noise\*

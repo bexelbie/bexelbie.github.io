@@ -1,15 +1,15 @@
-Theme notes:
-https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll - chosen
-https://github.com/brianmaierjr/long-haul - alternative
-
-Do a cname: https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/
-
-# Must be run from base dir
-
-Mac:
-docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll/jekyll:pages jekyll s --force_polling --unpublished --future
+#Theme notes:
+#https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll - chosen
+#https://github.com/brianmaierjr/long-haul - alternative
+#
+#Do a cname: https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/
+#
+## Must be run from base dir
+#
+#Mac:
+#docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll/jekyll:pages jekyll s --force_polling --unpublished --future
 #docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll/jekyll jekyll s --force_polling --unpublished --future
 #docker run -e ENABLE_CACHE=1 --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll/jekyll jekyll s --force_polling --unpublished --future
-
-Linux:
+#
+#Linux:
 docker run -e BUNDLE_CACHE=1 --privileged --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll/jekyll jekyll s --force_polling --unpublished --future
