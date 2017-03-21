@@ -1,8 +1,8 @@
 ---
 layout:   post
-title:   "Slice of Cake #1"
-#subtitle:  "because I got pwned"
-date:    2017-03-13 09:10:00 +0100
+title:   "Slice of Cake #2"
+#subtitle:  ""
+date:    2017-03-21 16:35:00 -0400
 author:   "Brian Exelbierd"
 #header-img: ""
 published: true
@@ -27,4 +27,4 @@ I also made some personal progress doing:
 
 I'll be traveling to:
 
-- 19-25 March: I'll be traveling to Boston, MA for a staff meeting. If you're around, ping me.
+- 
