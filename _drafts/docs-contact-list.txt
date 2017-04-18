@@ -1,0 +1,1 @@
+eonatan Jäderberg <jonatan.jaderberg@neotechnology.com> - follow up with regards to semantic asciidoc and tooling

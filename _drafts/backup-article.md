@@ -80,3 +80,18 @@ but not being able to restored because I messed up the options to `rsync` isn't 
 4a. What about versioning hot data
 
 5. Bonus: What about my phone or my cloud data?
+
+
+Backups
+
+Cold storage
+Working data
+Configs
+Keys and passwords
+
+Privacy
+
+VPN + TOR
+Encryption
+Passwords not fingerprints
+Social media
