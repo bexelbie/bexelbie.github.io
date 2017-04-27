@@ -1,0 +1,73 @@
+---
+layout:   post
+title:   "FCAIC in the House, part III"
+subtitle:  "posted on the Fedora Magazine"
+date:    2017-04-27 14:25:00 +0200
+author:   "Brian Exelbierd"
+header-img: "img/2016/communty-945x400.png"
+published: true
+category: Ramblings
+tags:
+  - Fedora
+---
+
+<p><a href="https://play.google.com/music/preview/Tq7imsrjsxoxeudqgwf5l7rghmi?lyrics=1&amp;utm_source=google&amp;utm_medium=search&amp;utm_campaign=lyrics&amp;pcampaignid=kp-lyrics&amp;u=0#">Hello, it’s me.</a></p>
+<p>Ok, not that &#8220;Hello&#8221;. I’ve been writing <a href="https://fedoramagazine.org/fcaic-house-part-ii/">quarterly updates</a> on what I’m working on to help the Fedora Community. If you’re new to the party, welcome. I have the privilege of being the current <a href="https://fedoraproject.org/wiki/Community_Leader" target="_blank" rel="noopener noreferrer">Fedora Community Action and Impact Coordinator</a>. I wrote last week on the <a href="http://community.redhat.com/">Red Hat Community blog</a> about <a href="http://community.redhat.com/blog/2017/04/community-managers-sit-everywhere-should-they/">what this role means</a> and how it interacts with the world.</p>
+<p>So, without further ado, let me update you on what I’ve been working on relative to my goals.</p>
+
+<p>Read more over at the <a href="https://fedoramagazine.org/fcaic-house-part-iii/">Fedora Magazine</a> where this was originally posted.</p>
+
+<!--
+<h1 id="howd-i-do">How’d I do?</h1>
+<p>I listed these goals in <a href="https://fedoramagazine.org/fcaic-house-part-ii/">my last update</a>:</p>
+<ul class="incremental">
+<li>Get to know the community</li>
+<li><a href="https://fedoraproject.org/wiki/Budget.next">Budget.Next</a></li>
+<li>FAmSCo and FOSCo</li>
+<li>Fedora Docs Publishing</li>
+<li>Events</li>
+<li>Packaging</li>
+</ul>
+<h2 id="get-to-know-the-community">Get to know the community</h2>
+<p>As I keep saying, this is a never-ending goal. I keep meeting amazing, passionate, intelligent and helpful contributors to the Fedora Project.  As part of this goal I attended both <a href="https://fudcon.fedoraproject.org/LATAM/" target="_blank" rel="noopener noreferrer">DevConf.cz</a> and <a href="https://fosdem.org/2017/">FOSDEM</a>. At DevConf.cz I got to focus on one area of the project by participating in the <a href="https://communityblog.fedoraproject.org/fedora-diversity-fad-2017/">Diversity FAD</a>.  <a href="https://communityblog.fedoraproject.org/fedora-speakers-at-fosdem-2017/">FOSDEM</a> was its usual glory and I got to interact with the EMEA Ambassadors there.</p>
+<p>I&#8217;ve started publishing my conference and travel schedule in my weekly <a href="http://www.winglemeyer.org/ramblings/2017/04/24/slice-of-cake/">Slice of Cake updates</a>. If we’re going to be near each other, let me know so we can meet and say “hello.”</p>
+<p>Speaking of my weekly updates, they are designed to be quick takes on the highlights of the actual things I did and not a high-level summary like this post.  Are these (or this post) useful to you?  Let me know in the comments, by email, on IRC, or via whatever other communication method you like.  Help me with your motivational comments and constructive feedback please!</p>
+<h2 id="budget.next"><a href="https://fedoraproject.org/wiki/Budget.next">Budget.Next</a></h2>
+<p>As you know, Budget.Next is the project to change the way Fedora manages money.  A new fiscal year for Fedora began on March 1, 2017.  The <a href="https://communityblog.fedoraproject.org/fedora-council-fad-2017-report/">budget has been updated by the council</a> to get us through the end of Quarter 1.  There is a lot of <a href="https://lists.fedoraproject.org/archives/list/council-discuss@lists.fedoraproject.org/message/RJQWWPGDVBXPNHP6KGISKYY74CZH47UQ/">conversation going on about the mission statement</a> right now, so the council hasn&#8217;t fully allocated the budget for the year.</p>
+<p>However, allocations are policy decisions.  The budget process is a mechanical one designed to keep our spending and income open and transparent.  To that end, the regional treasurers and credit card holders (<a href="https://fedoraproject.org/wiki/User:Yn1v">Neville Cross (Yn1v)</a>, <a href="https://fedoraproject.org/wiki/User:Izhar">Mohd Izhar Firdaus Ismail (izhar)</a>, <a href="https://fedoraproject.org/wiki/User:Potty">Abdel G. Martinez L. (potty)</a>, <a href="https://fedoraproject.org/wiki/User:Mitzie">Zacharias Mitzelos (mitzie)</a>, <a href="https://fedoraproject.org/wiki/User:Jsimon">Joerg Simon (jsimon)</a>, and <a href="https://fedoraproject.org/wiki/User:Award3535">Andrew Ward (award3535)</a>) and I have been putting our transactions into a <a href="https://pagure.io/fedora-budget/">Pagure repository</a> and now we have a <a href="https://budget.fedoraproject.org/">website</a> to view the results on.  The site is currently being manually built, but is usually current.  I haven&#8217;t published the <a href="https://communityblog.fedoraproject.org" target="_blank" rel="noopener noreferrer">Fedora Community Blog</a> post announcing the site that I promised last time, yet.  I am sorry about that.  It is still a goal of mine to get it out soon.  The highlights are:</p>
+<ol class="incremental" style="list-style-type: decimal;">
+<li>Built a data storage system using <a href="http://ledger-cli.org/">ledger</a>, a plain text accounting system that has been <a href="https://admin.fedoraproject.org/pkgdb/package/rpms/ledger/">packaged</a> in Fedora for a while.</li>
+<li>Began storing transaction data in a <a href="https://pagure.io/fedora-budget/">Pagure repository</a>.</li>
+<li>Wrote some basic reports to show the overall data and position for our project and the regions.</li>
+<li>This quarter we began publishing the new <a href="https://budget.fedoraproject.org/">budget website</a>.</li>
+</ol>
+<p>My work on updated reimbursement policies and proposals for more formalized methods of using sponsored travel are stalled right now as I have too much to do.  I hope that I can get to these in the upcoming quarter.</p>
+<p>Interested in helping out? Feel free to contact me right now. On the technical side, I’d love some help from folks interested in Ruby, AsciiDoc, Jenkins, testing (CI – Continuous Integration) and automated deployments (CD – Continuous Deployment). On the policy and procedure side, let me know about ideas and help me draft a great way forward for us. This is a great project for new contributors and junior coders or system administrators.</p>
+<h2 id="fosco-and-famsco">FOSCo (and FAmSCo)</h2>
+<p>The <a href="https://fedoraproject.org/wiki/Fedora_Ambassadors_Steering_Committee">Fedora Ambassador Steering Committee</a> (FAmSCo) has been working well and I am seeing great stuff.  I am so happy to see this group of contributors tackling so many tough issues.  The ideas behind FOSCo have been shelved by the council and there is now a new <a href="https://communityblog.fedoraproject.org/fedora-council-fad-2017-report/">Mindshare position</a>.  I am looking forward to seeing where <a href="https://fedoraproject.org/wiki/User:Robyduck">Robert Mayr</a> takes it.  I hope you&#8217;ll join me in helping him succeed.</p>
+<h2 id="fedora-docs-publishing">Fedora Docs publishing</h2>
+<p>Our documentation reboot work continues. The documentation team has decided to move to <a href="http://www.methods.co.nz/asciidoc/">AsciiDoc</a> and modular writing.  The process has been very slow and this is an area where new contributors are definitely welcome.</p>
+<p>I&#8217;ve been working on my <a href="http://www.asciibinder.org/">AsciiBinder</a> based proposal for the new tooling using the Fedora Budget website as a proof of concept.  I&#8217;ll include more details when I write the formal site announcement.</p>
+<p>Interested in helping out? Get involved with the Docs Project or feel free to contact me right now. On the technical side, I’d love some help from folks interested in format conversions (DocBook-&gt;AsciiDoc – think perl, python, bash, etc.), ruby, AsciiDoc, Jenkins, testing (CI – Continuous Integration) and automated deployments (CD – Continuous Deployment). We also need help on the writing side with modular writing and general updates.</p>
+<h2 id="events">Events</h2>
+<p>Planning for Flock 2017 is in progress.  Flock will be held in <a href="https://lists.fedoraproject.org/archives/list/flock-planning@lists.fedoraproject.org/thread/UVPIM4LKVGTP36LEN3W2KCRSFVOXQS2V/">Cape Cod, Maine, USA from 28 August &#8211; 1 September</a>. We are making some changes to the registration and CFP engine before we make the formal announcement.  If you haven&#8217;t already, join the <a href="https://lists.fedoraproject.org/archives/list/flock-planning@lists.fedoraproject.org/">flock-planning mailing list</a> to stay informed and help out.</p>
+<h2 id="packaging">Packaging</h2>
+<p>I successfully packaged <a href="http://www.winglemeyer.org/technology/2017/03/07/packaged-dayjournal/">DayJournal</a> for Fedora.  It was a rewarding and educational experience to have gone through the packaging process.  Even if you don&#8217;t ultimately publish a package, you should try to package something to understand the process.</p>
+<h1 id="whats-next">What’s next?</h1>
+<p>For the next few months, I’d like to focus on the following:</p>
+<ul class="incremental">
+<li>Get to know the community</li>
+<li><a href="https://fedoraproject.org/wiki/Budget.next">Budget.Next</a></li>
+<li>Fedora Docs Publishing</li>
+<li>Events</li>
+</ul>
+<p>I am continuing my work on four of my goals for the new quarter.  I&#8217;ve got a lot of conference related travel as well as some personal holidays coming up so I don&#8217;t know that I can take on much that is new.  These remain critical priorities for me, so this is where I want to invest my energy.</p>
+<p>I&#8217;ve talked a lot about what I hope to accomplish in the future while describing my outcomes above.  Therefore, I will just list summary goal statements for the next quarter below:</p>
+<ul class="incremental">
+<li>Get to know the community: I want to meet you! Where are you? Who are you? Let&#8217;s meet!</li>
+<li><a href="https://fedoraproject.org/wiki/Budget.next">Budget.Next</a>: I&#8217;d like the website to auto-publish after commits to the repository.</li>
+<li>Fedora Docs Publishing: I&#8217;d like the documentation team to have a full proof of concept to test of my proposed workflow.  Ideally, I&#8217;d like us to publish F26 this way.</li>
+<li>Events: Flock will be ready to go.  I&#8217;ll successfully represent Fedora at the events I travel too.  Other events that want my help will have it.</li>
+</ul>
+<p>Let me know if I’ve missed anything. Let me know if you have input into what I’m doing or want to help. And by all means let me know what we can work on together. I can’t do it all alone (and I don’t want too!) and I can’t even help with everything I want to, but I want to make sure my work is helping the community move forward.</p>
+-->
