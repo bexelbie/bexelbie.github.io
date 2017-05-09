@@ -11,6 +11,7 @@ I'd like to be able to say this blog draws its name from the ancient beliefs tha
 
 That first paragraph probably told you more about me than you will ever otherwise find out. Beyond my weird sense of humor and bad taste in music the rest is pretty standard. I wear a bunch of hats professionally and semi-professionally, including:
 
+* Community Manager/Leader
 * Software Engineer/Programmer
 * Writer of Documentation
 * American living in Europe
@@ -20,7 +21,7 @@ These days I am working for [Red Hat](https://community.redhat.com) as the [Fedo
 
 I've written some code and contributed to other code bases.  A lot of this work has been done in [GitHub](https://github.com/bexelbie).
 
-Talks and presentations that I've given are collected in [my talk, presentation and demo archive](https://github.com/bexelbie/bexelbie-talks-demos).
+Talks and presentations that I've given are collected in [my talk, presentation and demo archive](https://github.com/bexelbie/bexelbie-talks-demos).  You can flip te slides easily online using the direct url: [http://www.winglemeyer.org/bexelbie-talks-demos/](http://www.winglemeyer.org/bexelbie-talks-demos/).
 
 More details can be found in my [LinkedIn profile](https://www.linkedin.com/in/bcexelbi), amongst other places.
 
@@ -59,6 +60,6 @@ The site is authored in a combination of [HTML](https://en.wikipedia.org/wiki/HT
 
 The theme is the official [jekyll version](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll) of the [Clean Blog](https://startbootstrap.com/template-overviews/clean-blog/) from [Start Bootstrap](https://startbootstrap.com/).  The theme has been modified by me with several patches and extensions.  They can be reviewed in the site's source repository.  I also maintain a ["stable" branch"](https://github.com/bexelbie/startbootstrap-clean-blog-jekyll) with all my changes, both private and those are are submitted for upstream consideration.
 
-Comments on only occasionally enabled.  I think that most of my writing deserve a response via your own blog/social media and I encourage you to do so.  In a few situations I've enabled comments because they make sense for that particular article.  Comments are powered by [Staticman](https://staticman.net/).
+Comments are only occasionally enabled.  I think that most of my writing deserve a response via your own blog/social media and I encourage you to do so.  In a few situations I've enabled comments because they make sense for that particular article.  Comments are powered by [Staticman](https://staticman.net/).
 
 Reading times are roughly calculated using a reading speed of 180 words per minute.  The code is from [Carlos Alexandro Becker](https://carlosbecker.com/posts/jekyll-reading-time-without-plugins/).
