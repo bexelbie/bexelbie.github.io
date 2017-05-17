@@ -21,7 +21,7 @@ These days I am working for [Red Hat](https://community.redhat.com) as the [Fedo
 
 I've written some code and contributed to other code bases.  A lot of this work has been done in [GitHub](https://github.com/bexelbie).
 
-Talks and presentations that I've given are collected in [my talk, presentation and demo archive](https://github.com/bexelbie/bexelbie-talks-demos).  You can flip te slides easily online using the direct url: [http://www.winglemeyer.org/bexelbie-talks-demos/](http://www.winglemeyer.org/bexelbie-talks-demos/).
+Talks and presentations that I've given are collected in [my talk, presentation and demo archive](https://github.com/bexelbie/bexelbie-talks-demos).  You can flip the slides easily online using the direct url: [http://www.winglemeyer.org/bexelbie-talks-demos/](http://www.winglemeyer.org/bexelbie-talks-demos/).
 
 More details can be found in my [LinkedIn profile](https://www.linkedin.com/in/bcexelbi), amongst other places.
 
