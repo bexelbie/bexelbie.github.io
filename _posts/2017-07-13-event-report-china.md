@@ -8,13 +8,16 @@ author:   "Brian Exelbierd"
 published: true
 category: Technology
 tags:
- - Events
+ - Conferences
  - Fedora
+ - Red Hat
 ---
 
 # Education Day - Red Hat
 
 ## Beijing China
+
+### 16 June 2017
 
 Red Hat's Beijing office held an education day event in conjunction with LinuxCon Beijing.  I attended the event and was glad I did.  I was already in town to work with our Ambassador community in China to help us have a presence at LinuxCon Beijing.  It was great to see this ancillary event happen.
 
@@ -34,6 +37,8 @@ Part three was an education event for the local community, including participant
 # LinuxCon + ContainerCon + CloudOpen China
 
 ## Beijing China
+
+### 19-20 June 2017
 
 This was the first LinuxCon ever in China.  While I have traveled the Tier I cities in China for conference in other jobs, this was my first technical conference in China.  I pursued two goals with my involvement and I think both turned out well.
 
