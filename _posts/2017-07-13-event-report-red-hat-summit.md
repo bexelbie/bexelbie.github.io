@@ -17,7 +17,7 @@ tags:
 
 ## Boston, MA USA
 
-### 2-5 May 2017
+### 2-4 May 2017
 
 Red Hat Summit is a huge conference with a large number of parallel tracks.  This was my first Summit and I was sorry I didn't get to do more.  I can't tell you much about the content as I only got to attend one session, the Fedora Birds-of-a-Feather (BoF) session.  Lots of the sessions have been uploaded to the [Red Hat Summit YouTube Channel](https://www.youtube.com/user/redhatsummit?mkt_tok=eyJpIjoiTVdJeFlXSTFPR1ZrWWpneSIsInQiOiJBZWNYeGZkOFY4ZHNcL1M5cmN6M2xMTlhZZmVBQlRMUmFYWkdqYVVmaFRTK2NqMGF1WHh6TkpUYndCXC9NeGh2VUpXaGFaK0FqcXlRdXg5cWdiZVhWNXVsd1ppME1JMSttQzBqZHp5YnBRUVFXU1lhNm5ZUTdHcXZDOUFoK3BycVBtIn0%3D), so I encourage you to visit it and look around.
 
