@@ -39,6 +39,12 @@ Brian Exelbierd works is the Fedora Community Coordinator and has a background i
 
 Brian (bex) Exelbierd is the Fedora Community Action and Impact Coordinator on behalf of the Open Source and Standards team at Red Hat. At Red Hat, Brian has worked as a technical writer, software engineer, content strategist and now as an Open Source community manager.  Brian spends his day enabling the Fedora community by clearing road blocks and easing the way for the community to do great things.  Before Red Hat, Brian worked with the University of Delaware as the Director of Graduate and Executive Programs in the Alfred Lerner College of Business and Economics and as a Budget Analyst.  Brian's background in software engineering stretches back years before his university work and includes stints at small, medium, large and governemental organizations.  "Glue Code" is how a lot of Brian's projects could be described.  These are projects that fill in the interstitial spaces between large systems and provide continuity and ease of use.  Follow him on Twitter @bexelbie or via his blog at www.winglemeyer.org.
 
+## Headshots
+
+I am placing two headshots here.  I have the photography skills of a &lt;insert unskilled thing here&gt; (I am a terrible picture taker, editor, and model), so be kind :).
+
+![bexelbie](/img/headshots/headshot.jpg){:.inline-image} ![bexelbie in a circle](/img/headshots/bexelbie-headshot.png){:.inline-image}
+
 ## Barbarism
 
 I engage in one habit that a friend has described as "barbarism."  I put two spaces after periods. \*gasp\*  I also tend to hardwrap non-email text. \*shock\*  Finally, I have currently set my tab to be 4 spaces and not 8. \*fainting noise\*
