@@ -11,6 +11,8 @@ tags:
  - Fedora
  - Documentation
  - Conferences
+redirect-from:
+ - /2016/08/15/flock-docs-update/
 ---
 
 At [Flock 2016 in Krakow, Poland](https://flocktofedora.org), I had the

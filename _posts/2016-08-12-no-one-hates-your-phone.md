@@ -9,6 +9,8 @@ published: true
 category: Ramblings
 tags:
  - Gadgets
+redirect-from:
+ - /2016/08/12/no-one-hates-your-phone/
 ---
 
 **tl;dr:** No one cares enough to try and make your phone slow on purpose

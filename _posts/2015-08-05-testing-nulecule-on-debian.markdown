@@ -10,6 +10,8 @@ category: Technology
 tags:
  - Project Atomic
  - Containers
+redirect-from:
+ - /2015/08/18/testing-nulecule-on-debian/
 ---
 
 Unless you've recently returned from a sabbatical year in a remote monastery with no internet, you know that Containers have arrived, and it's a whole new world.

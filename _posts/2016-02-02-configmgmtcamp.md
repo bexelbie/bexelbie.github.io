@@ -11,6 +11,8 @@ tags:
  - Containers
  - Conferences
  - Project Atomic
+redirect-from:
+ - /2016/02/02/configmgmtcamp/
 ---
 
 ![Config Management Camp EU Logo](/img/2016/configmgmtcampeu2016-logo.png)

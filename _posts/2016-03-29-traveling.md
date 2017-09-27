@@ -9,6 +9,8 @@ published:  true
 category: Travel
 tags:
  - Process
+redirect-from:
+ - /future_posts/2016-01-12-traveling/
 ---
 
 During the Easter holiday my travel included segments on trains by

@@ -9,6 +9,8 @@ published: true
 category: Ramblings
 tags:
  - Identity
+redirect-from:
+ - /2016/07/20/twitter-verified-users/
 ---
 
 Twitter recently decided to ban a user for inciting harassment. I am

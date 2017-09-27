@@ -9,6 +9,8 @@ published:  true
 category: Ramblings
 tags:
  - Politics
+redirect-from:
+ - /2016/06/24/the-sky-is-falling/
 ---
 
 Today makes me wonder how UK citizens and residents plan anything. A two year out possibility from a non-binding referendum whose proponents have already started walking it back has everyone panicked.  Guess what, two years from now was never guaranteed.
