@@ -9,7 +9,7 @@ published: true
 category: Ramblings
 tags:
  - Identity
-redirect-from:
+redirect_from:
  - /2016/07/20/twitter-verified-users/
 ---
 

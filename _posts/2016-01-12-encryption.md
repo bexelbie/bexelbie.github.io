@@ -9,7 +9,7 @@ published:  true
 category: Ramblings
 tags:
  - Encryption
-redirect-from:
+redirect_from:
  - /2016/01/12/encryption/
 ---
 

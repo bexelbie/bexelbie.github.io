@@ -9,7 +9,7 @@ published:  true
 category: Technology
 tags:
  - Documentation
-redirect-from:
+redirect_from:
  - /2016/01/26/no-docs-no-commit/
 ---
 

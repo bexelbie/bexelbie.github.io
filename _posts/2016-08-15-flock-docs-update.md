@@ -11,7 +11,7 @@ tags:
  - Fedora
  - Documentation
  - Conferences
-redirect-from:
+redirect_from:
  - /2016/08/15/flock-docs-update/
 ---
 

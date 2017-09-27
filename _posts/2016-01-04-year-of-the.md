@@ -9,7 +9,7 @@ published:  true
 category: Ramblings
 tags:
  - Random
-redirect-from:
+redirect_from:
  - /2016/01/04/year-of-the/
 ---
 

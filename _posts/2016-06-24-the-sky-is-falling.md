@@ -9,7 +9,7 @@ published:  true
 category: Ramblings
 tags:
  - Politics
-redirect-from:
+redirect_from:
  - /2016/06/24/the-sky-is-falling/
 ---
 

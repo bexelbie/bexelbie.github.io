@@ -9,7 +9,7 @@ published:  true
 category: Travel
 tags:
   - Vatican
-redirect-from:
+redirect_from:
  - /2015/09/27/Vatican-Museum/
 ---
 

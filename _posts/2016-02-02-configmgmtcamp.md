@@ -11,7 +11,7 @@ tags:
  - Containers
  - Conferences
  - Project Atomic
-redirect-from:
+redirect_from:
  - /2016/02/02/configmgmtcamp/
 ---
 

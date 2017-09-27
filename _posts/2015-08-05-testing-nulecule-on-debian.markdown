@@ -10,7 +10,7 @@ category: Technology
 tags:
  - Project Atomic
  - Containers
-redirect-from:
+redirect_from:
  - /2015/08/18/testing-nulecule-on-debian/
 ---
 

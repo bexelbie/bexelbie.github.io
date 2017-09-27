@@ -9,7 +9,7 @@ published:  true
 category: Travel
 tags:
  - Process
-redirect-from:
+redirect_from:
  - /future_posts/2016-01-12-traveling/
 ---
 
