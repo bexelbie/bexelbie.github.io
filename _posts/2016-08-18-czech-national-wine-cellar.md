@@ -10,6 +10,8 @@ category: Travel
 tags:
  - Czech Republic
  - Wine
+redirect_from:
+ - /2016/08/18/czech-national-wine-cellar/
 ---
 
 ![The Wine Cellar](/img/2016/wine/cellar.jpg)

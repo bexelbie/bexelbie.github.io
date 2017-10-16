@@ -9,6 +9,8 @@ published: true
 category: Technology
 tags:
   - Fedora
+redirect_from:
+ - /2016/08/11/flock-recap/
 ---
 
 [Flock](https://flocktofedora.org/), the Fedora Contributors conference

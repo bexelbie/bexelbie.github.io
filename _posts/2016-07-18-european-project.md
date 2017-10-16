@@ -9,6 +9,8 @@ published:  true
 category: Ramblings
 tags:
  - Politics
+redirect_from:
+ - /2016/07/18/european-project/
 ---
 
 This entire rant may get invalidated by a single comment from

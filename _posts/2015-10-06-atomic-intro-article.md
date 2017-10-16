@@ -9,6 +9,8 @@ published:  true
 category: Technology
 tags:
  - Project Atomic
+redirect_from:
+ - /2015/10/06/atomic-intro-article/
 ---
 
 # Project Atomic or: How I Learned to Stop Worrying and Love Containers

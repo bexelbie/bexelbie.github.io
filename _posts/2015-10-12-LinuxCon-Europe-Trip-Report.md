@@ -11,6 +11,8 @@ tags:
  - Conferences
  - Project Atomic
  - Containers
+redirect_from:
+ - /2015/10/12/LinuxCon-Europe-Trip-Report/
 ---
 
 I recently attended [LinuxCon Europe 2015](http://events.linuxfoundation.org/events/linuxcon-europe) from 5-7 October, 2015 in Dublin, Ireland. I came with high expectations and goals and I am pleased to be able to say they were met.

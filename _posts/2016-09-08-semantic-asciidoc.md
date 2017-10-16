@@ -10,6 +10,8 @@ category: Technology
 tags:
   - Fedora
   - Documentation
+redirect_from:
+ - /2016/09/08/semantic-asciidoc/
 ---
 
 This is a bit long, but I hope it is worth it.

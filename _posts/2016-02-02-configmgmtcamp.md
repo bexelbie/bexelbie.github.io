@@ -13,6 +13,7 @@ tags:
  - Project Atomic
 redirect_from:
  - /2016/02/02/configmgmtcamp/
+ - /2016/03/11/Nulecule-talk/
 ---
 
 ![Config Management Camp EU Logo](/img/2016/configmgmtcampeu2016-logo.png)
