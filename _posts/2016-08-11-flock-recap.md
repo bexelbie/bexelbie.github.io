@@ -117,7 +117,7 @@ key for the ADB.
 
 On Wednesday I partnered with [Dusty Mabe](https://twitter.com/dustymabe)
 to present [*Bringing Developers into the
-Flock.*](http://www.winglemeyer.org/bexelbie-talks-demos/Flock.2016.developers/#/)
+Flock.*](/talks/Flock.2016.developers/#/)
 The talk had two parts.  In part 1 we introduced and demo'ed the ADB.
 In part 2 we discussed how the ADB fits the Fedora Foundations and
 provides opportunity for growth.

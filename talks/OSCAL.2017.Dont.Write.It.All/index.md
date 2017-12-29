@@ -8,7 +8,7 @@ tags: no-navigation
 
 #  Building Applications Doesn't Mean Writing It All From Scratch
 
-## Presented at [OSCAL 2017, Tirana, Albania](ihttps://oscal.openlabs.cc/) on 13 May 2017 - [talk link](https://eventyay.com/e/ecc2001a/sessions/)
+## Presented at [OSCAL 2017, Tirana, Albania](https://oscal.openlabs.cc/) on 13 May 2017 - [talk link](https://eventyay.com/e/ecc2001a/sessions/)
 
 This repo contains the slides and files used for the talk.
 

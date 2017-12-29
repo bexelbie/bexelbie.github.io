@@ -3,6 +3,7 @@ layout: page
 title: "Talks and Demos"
 description: "Talks and Demos I've done"
 header-img: "img/about-bg.jpg"
+tags: navigation
 ---
 
 Talks and demos I've given, my work with the Fosdem Distributions DevRoom and various submissions to CFPs that I've made are are collected below.  When a talk includes extensive demo or code material, it is typically hosted in my in [my talk, presentation and demo archive](https://github.com/bexelbie/bexelbie-talks-demos) and only linked to below.
@@ -44,7 +45,7 @@ Talks and demos I've given, my work with the Fosdem Distributions DevRoom and va
   * [Slides and Demo Code](https://github.com/navidshaikh/centos_dojo_brussels_2016) in Navid's repository
   * [Local Backup Copy](CentOS.Dojo.Brussels.2016/)
 
-* Getting to DevOps with Docker @ [DevStars](devstars.cz) - 19 Oct 2015
+* Getting to DevOps with Docker @ [DevStars](https://devstars.cz) - 19 Oct 2015
   * [Details](DevStars.cz.20151019/)
   * [Slides](DevStars.cz.20151019/slides.pdf)
 
@@ -58,5 +59,4 @@ This repository also contains [CFP
 submissions](cfp-submissions) I have made and remembered to keep.
 Some were successful, some were learning experiences.
 
-Some slides were prepared using my own configuration of [reveal.js](tools/README.md).
-[vim-reveal](vim-reveal.md).
+Some slides were prepared using my own configuration of [reveal.js](https://github.com/bexelbie/bexelbie-talks-demos/tree/master/tools).

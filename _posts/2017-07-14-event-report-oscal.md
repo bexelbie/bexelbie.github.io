@@ -22,7 +22,7 @@ This was my first time going to Open Source Conference Albania (OSCAL).  OSCAL i
 
 The vast majority of the attendees seemed to be young professionals or students.  The presentations ranged from a presentation on the current concerns of the FSFE to a detailed discussion of the Rust programming language.  Audience sizes varied a lot with the preference seeming to be for skill-oriented (and often introductory) content over theoretical or informational content.  My views are based on my observations so I encourage you to check with the organizers for more detailed information.
 
-I presented a talk titled [Building Applications Doesn't Mean Writing It All From Scratch](http://www.winglemeyer.org/bexelbie-talks-demos/OSCAL.2017.Dont.Write.It.All/).  My goal was to talk about writing glue code to bind together larger open source projects to accomplish a goal.  I used the example of the new Fedora Docs Infrastructure.  I believe I was successful in conveying my message, however the audience was small.
+I presented a talk titled [Building Applications Doesn't Mean Writing It All From Scratch](/talks/OSCAL.2017.Dont.Write.It.All/).  My goal was to talk about writing glue code to bind together larger open source projects to accomplish a goal.  I used the example of the new Fedora Docs Infrastructure.  I believe I was successful in conveying my message, however the audience was small.
 
 ![This isn't me :)](/img/2017/oscal-jwf.jpg){:.center-image}
 Who am I? I'm not me :) I didn't have a picture of my talk, so I am using this one of Justin Flory instead.

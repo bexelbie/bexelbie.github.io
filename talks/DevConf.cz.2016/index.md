@@ -35,6 +35,6 @@ to use it, how we built it, and how you can make it better.
 
 ## Demo Files
 
-- ["Command Line Carla"](carla)
-- ["IDE Igor"](igor)
-- ["My Environment Mike"](mike)
+- ["Command Line Carla"](carla/README.md.txt)
+- ["IDE Igor"](igor/README.md.txt)
+- ["My Environment Mike"](mike/README.md.txt)

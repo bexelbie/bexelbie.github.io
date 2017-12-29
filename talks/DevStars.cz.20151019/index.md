@@ -7,7 +7,7 @@ tags: no-navigation
 ---
 
 # Getting to DevOps with Docker
-## Presented At: [DevStars](devstars.cz) on 19 Oct 2015
+## Presented At: [DevStars](http://devstars.cz) on 19 Oct 2015
 
 ## Slides and Source Files
 

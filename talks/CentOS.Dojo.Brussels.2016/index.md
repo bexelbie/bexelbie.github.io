@@ -36,9 +36,9 @@ and how you can make it better.
 
 ## Demo Files
 
-- ["Command Line Carl"](carl)
-- ["IDE Igor"](igor)
-- ["My Environment Mike"](mike)
+- ["Command Line Carl"](carl/README.md.txt)
+- ["IDE Igor"](igor/README.md.txt)
+- ["My Environment Mike"](mike/README.md.txt)
 
 ## Speaker Bios
 
