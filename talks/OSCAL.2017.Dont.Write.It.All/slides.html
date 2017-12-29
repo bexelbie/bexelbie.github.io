@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>oscal-dont-write</title>
+        <meta name="description" content="'Building Applications Doesn't Mean Writing It All From Scratch'">
+        <meta name="author" content="'Brian (bex) Exelbierd'">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="../tools/reveal.js/css/reveal.css">
+        <link rel="stylesheet" href="../tools/reveal.js/css/theme/black.css" id="theme">
+        <link rel="stylesheet" href="../tools/reveal.js/lib/css/zenburn.css">
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+            document.write( '<link rel="stylesheet" href="../tools/reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+        </script>
+        <!--[if lt IE 9]>
+        <script src="../tools/reveal.js/lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <div class="reveal">
+            <div class="slides">
+
+<section data-markdown >
+<script type="text/template">
+### OSCAL 2017, Tirana, Albania - 13 May 2017
+![Oscal 2017](oscal-2017-banner.jpg)
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+## Building Applications Doesn't Mean Writing It All From Scratch
+
+OSCAL 2017, Tirana, Albania - 13 May 2017
+
+Brian (bex) Exelbierd (@bexelbie)
+
+github.com/bexelbie/bexelbie-talks-demos/OSCAL.2017.Dont.Write.It.All
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+# Who is this talk for?
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+## Why this talk?
+
+Not all IT engineering jobs are 40 hour coding jobs or systems administration
+
+1. We don't tend to tell people <!-- .element: class="fragment" -->
+1. We lose great problem solvers to other professions <!-- .element: class="fragment" -->
+1. We lose diversity <!-- .element: class="fragment" -->
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+<!-- Problem Statement -->
+### In school we learn to write it all
+
+Note: We study how to make everything from the input/output routines to encryption libaries.  These lesson are important but also don't directly translate into the kind of work most working engineers do.  The importance of these lessons is that they allow us to learn to think and to understand the massive amount of code that already exists.
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+## Typical School Project:
+
+Write code to publish documentation to a website. Your output should publish multiple documents to a single site. You should provide navigation between the documents and have a method of updating the site when the documentation changes.  Your project must be browsable from the instructor's computer (you need a server).  You should work in teams of 3-4 people. You may use only standard libraries in the language of your choice. <!-- .element: align="left" -->
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+## Divide and Conquer
+
+1. (Person 1) Convert Documentation format to HTML
+2. (Person 2) Combine the HTML from multiple documents into a single site
+3. (Person 3) Serve the site to a remote web browser
+4. (Everybody) Rebuild the website when the documentation changes
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+1\. (Person 1) Convert Documentation format to HTML
+```
+# Title of the Document
+
+## Introduction
+
+This is a sample document section that describes this document.
+```
+Becomes
+
+```
+<html>
+<head>
+<title>Title of the Document</title>
+</head>
+<body>
+<h1>Title of the Document</h1>
+<h2>Introduction</h2>
+<p>This is a sample document section that describes this document.</p>
+</body>
+</html>
+```
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+```
+#!/usr/bin/perl
+
+while (<>) {
+    chomp;
+    if ($_ eq "") {
+        next;
+    } elsif (s/^# //) {
+        # Found the Title
+        $title = $_;
+        $body .= "<h1>".$_."</h1>\n";
+    } elsif (s/^## //) {
+        $body .= "<h2>".$_."</h2>\n";
+    } else {
+        $body .= "<p>".$_."</p>\n";
+    }
+}
+
+print <<EOF;
+<html>
+<head>
+<title>$title</title>
+</head>
+<body>
+$body
+</body>
+</html>
+EOF
+```
+```
+$ format2html.pl doc1.format > doc1.html
+$ format2html.pl doc2.format > doc2.html
+```
+* [doc1.format](school/person1/doc1.format) -> [doc1.html](school/person1/doc1.html)
+* [doc2.format](school/person1/doc2.format) -> [doc2.html](school/person1/doc2.html)
+
+Note: Needs error checking, unicode handling - but it is basically done
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+2\. (Person 2) Combine the HTML from multiple documents into a single site
+
+### Build a left hand navigation for the site
+
+Define a configuration file:
+```
+Title<tab>filename
+```
+They start with:
+```
+Installing Foobar   doc1.html
+Using Foobar   doc2.html
+```
+
+Note: They are going to output to an output directory so they can avoid name management
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+```
+#!/usr/bin/python3
+
+import csv
+import os
+
+menu = ""
+with open('config') as tsv:
+    for line in csv.reader(tsv, delimiter='\t'):
+        if not menu:
+            menu = "<a href=\"index.html\">"+line[0]+"</a>\n"
+            files = [line[1]]
+        else:
+            menu += "<a href=\""+line[1]+"\">"+line[0]+"</a>\n"
+            files.append(line[1])
+
+# CSS
+def getCSS():
+    return("""<style>
+...
+</style>
+""")
+
+# CSS
+def getMenu():
+    return("<div id=\"mySidenav\" class=\"sidenav\">\n" + menu + "</div>\n")
+
+for index, filename in enumerate(files):
+    with open(filename) as file_input:
+        if index == 0:
+            filename = "index.html"
+        with open("output/"+filename, "w") as file_output:
+            for line in file_input:
+                if line == "</head>\n":
+                    file_output.write(getCSS())
+                file_output.write(line)
+                if line == "<body>\n":
+                    file_output.write(getMenu())
+                    file_output.write("<div id=\"main\">")
+                if line == "</body>\n":
+                    file_output.write("</div")
+```
+
+output: [index.html](school/person2/output/index.html)
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+3\. (Person 3) Serve the site to a remote web browser
+```
+package main
+
+// Adapted from https://gist.github.com/superbrothers/0a8b6390c6315916aeb8
+
+import (
+	"fmt"
+	"io/ioutil"
+	"log"
+	"net/http"
+)
+
+func rootHandler(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "text/html")
+	w.WriteHeader(http.StatusOK)
+
+    var filename string
+    if r.URL.Path == "/" {
+        filename = "index.html"
+    } else {
+        filename = r.URL.Path[1:]
+    }
+
+    data, err := ioutil.ReadFile(filename)
+	if err != nil {
+		panic(err)
+	}
+	w.Header().Set("Content-Length", fmt.Sprint(len(data)))
+	fmt.Fprint(w, string(data))
+}
+
+func main() {
+	http.HandleFunc("/", rootHandler)
+	log.Fatal(http.ListenAndServe(":8080", nil))
+}
+```
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+4\. (Everybody) Rebuild the website when the documentation changes
+```
+#!/bin/bash
+
+if [ ! -d "output" ]; then
+    mkdir output;
+fi
+
+basename -s .format `ls *.format` | \
+    xargs -I FILE sh -c "./format2html.pl FILE.format > FILE.html"
+./sitebuild.py
+cd output
+echo "open http://localhost:8080"
+../server
+```
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+## That was pretty simple ...
+## and it is based on a real problem ... <!-- .element: class="fragment" -->
+## but this code won't be accepted. <!-- .element: class="fragment" -->
+## Why? <!-- .element: class="fragment" -->
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+## The Actual Project:
+
+Build a system/application to publish multiple *AsciiDoc* documentation sets to a website. Your output should publish multiple document sets to a single site. You should provide navigation between the documents and have a method of updating the site when the documentation changes.  Your project must be browsable from the internet (you need a server).  You should work in the open. **You may use almost anything you want.**
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+## Divide and Conquer
+
+1. (Person 1) Convert Documentation format to HTML --> [AsciiDoctor](http://asciidoctor.org/)
+2. (Person 2) Combine the HTML from multiple documents into a single site --> [AsciiBinder](http://www.asciibinder.org/)
+3. (Person 3) Serve the site to a remote web browser --> [nginx](https://nginx.org/en/)
+4. (Everybody) Rebuild the website when the documentation changes --> script + [moby](https://mobyproject.org/)
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+1\. (Person 1) Convert Documentation format to HTML --> [AsciiDoctor](http://asciidoctor.org/)
+
+## Shell Demo
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+2\. (Person 2) Combine the HTML from multiple documents into a single site --> [AsciiBinder](http://www.asciibinder.org/)
+
+## Shell Demo
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+3\. (Person 3) Serve the site to a remote web browser --> [nginx](https://nginx.org/en/)
+
+## Shell Demo
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+4\. (Everybody) Rebuild the website when the documentation changes --> script + [moby](https://mobyproject.org/)
+
+## Shell Demo
+
+Note: no longer talking about openshift and Jenkins
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+We eliminated most of the coding and replaced it with configuration.
+
+But we aren't done yet ... <!-- .element: class="fragment" -->
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+Several Components Still Need to be Done:
+
+1. The real documentation lives in multiple git repositories.  Code needs to be written to assemble all of these repositories into a single `asciibinder` repository. (proof of concept in bash; started in ruby)
+
+2. We need to load and build localized versions (po4a + zanata; po4a perl fixes + ...)
+
+3. Web Design (CSS + JS)
+
+4. Writing and Translation (out of scope of this talk)
+
+#### Contributors Welcome and Wanted
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+# Summary
+
+1. Engineering doesn't have to mean writing code all the time
+1. Lots of people and projects have solved parts of your problem space <!-- .element: class="fragment" -->
+1. This method means you have to understand the full problem space from the beginning <!-- .element: class="fragment" -->
+1. More code to monitor for breaking changes <!-- .element: class="fragment" -->
+1. Contributing your fixes upstream leads to use case conversations <!-- .element: class="fragment" -->
+1. There is a temptation to "vendorize" <!-- .element: class="fragment" -->
+1. Remember that this doesn't directly create "value" and so you need to still have your "differentiation" <!-- .element: class="fragment" -->
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+With great power comes great responsibility.
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+~~With great power comes great responsibility.~~
+
+With less coding comes greater planning responsibility.
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+# Thank you
+
+- Brian (bex) Exelbierd (@bexelbie - bex@pobox.com)
+- Slides: github.com/bexelbie/bexelbie-talks-demos/OSCAL.2017.Dont.Write.It.All
+
+</script>
+</section>
+<section data-markdown >
+<script type="text/template">
+- Image Credit
+  - OSCAL Banner: https://oscal.openlabs.cc/
+- The Legal Bits
+  - All images in this presentation are copyright their respective owners and are used under a Creative Commons License or considered fair use.
+  - This presentation is licensed CC BY-SA 4.0. Please use, remix and share widely!  For license information, see https://creativecommons.org/licenses/by-sa/4.0/
+</script>
+</section>
+            </div>
+        </div>
+        <script src="../tools/reveal.js/lib/js/head.min.js"></script>
+        <script src="../tools/reveal.js/js/reveal.js"></script>
+        <script>
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                keyboard: true,
+                touch: true,
+                center: true,
+                loop: false,
+                rtl: false,
+                mouseWheel: false,
+                margin: 0.1,
+                minScale: 0.2,
+                maxScale: 1.0,
+                autoSlide: 0,
+                width: 1280,
+                height: 800,
+                theme: 'black',
+                transition: 'default',
+                transitionSpeed: 'default',
+                backgroundTransition: 'default',
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: '../tools/reveal.js/plugin/menu/menu.js' },
+                    { src: '../tools/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: '../tools/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: '../tools/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: '../tools/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: '../tools/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: '../tools/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: '../tools/reveal.js/plugin/math/math.js', async: true }
+                ]
+            });
+        </script>
+    </body>
+</html>
