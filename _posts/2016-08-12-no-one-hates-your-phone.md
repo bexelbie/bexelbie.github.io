@@ -24,17 +24,6 @@ was designed solely to force users to buy new phones every three or
 four years.  They think this is wasteful and that a phone should last
 a lot longer.
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-7804987008700578"
-     data-ad-slot="7535901093"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 A lot of "ink" has been spilled on this topic before, but for some reason
 it crawled under my skin today.  Here is my take on this:
 
@@ -167,7 +156,7 @@ was useful.
 Note: This post was edited for grammar, typos and phrasing.  A full history is available in the git repository.
 {:.footnotes}
 
-Note: As an experiment an ad has been placed on this page.  I am genuinely curious to see how it will be handled.  This is apparently the most popular page on my site ... weird.
+Note: As an experiment an ad had been placed on this page.  I was genuinely curious to see how it will be handled.  This is apparently the most popular page on my site ... weird.  The ad was just floating around and didn't get engaged.  This was a likely outcome.  The ad has been deleted.
 {:.footnotes}
 
 [^0]: Companies and people are generally not evil and out to get you.

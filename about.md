@@ -83,4 +83,4 @@ Comments are only occasionally enabled.  I think that most of my writing deserve
 
 Reading times are roughly calculated using a reading speed of 180 words per minute.  The code is from [Carlos Alexandro Becker](https://carlosbecker.com/posts/jekyll-reading-time-without-plugins/).
 
-This site is instrumented with Google Analytics to allow me to see some basic statistics information and catch broken links.  There is no other, known tracking, on this site except on one [article](http://www.winglemeyer.org/ramblings/2016/08/12/no-one-hates-your-phone/) where I have enabled a single Google Ad as an experiment. I am genuinely curious to see how it will be handled/perform. This is apparently the most popular page on my site … weird.
+This site is instrumented with Google Analytics to allow me to see some basic statistics information and catch broken links.
