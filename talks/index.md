@@ -51,7 +51,7 @@ Talks and demos I've given, my work with the Fosdem Distributions DevRoom and va
 
 # Fosdem Distributions DevRoom
 
-For several years I have worked with the [Fosdem](https://fosdem.org) Distributions Devroom.  I keep all of my materials related to CFP submissions and devrooms in my talks repo in the [fosdem](https://github.com/bexelbie/bexelbie-talks-demos/tree/master/fosdem) directory.
+For several years I have worked with the [Fosdem](https://fosdem.org) Distributions Devroom.  I keep all of my materials related to CFP submissions and devrooms in my talks repo in the [fosdem](fosdem/) directory.
 
 # CFP Submissions
 
