@@ -8,7 +8,7 @@ tags: no-navigation
 
 This directory contains CFP submissions that were for presentations that had no slides or which were unsuccessful.
 
-* [Fedora, CentOS and EPEL BoF @ Open Source Summit Europe 2018 - Edinburgh](oss-EU-2018-BoF.md)
+* [Fedora, CentOS and EPEL BoF @ Open Source Summit Europe 2018 - Edinburgh](oss-EU-2018-BoF)
 
     A BoF proposal
 
@@ -16,7 +16,7 @@ This directory contains CFP submissions that were for presentations that had no 
 
     A BoF proposal
 
-* [Fedora, CentOS and EPEL BoF @ Open Source Summit Japan 2018 - Tokyo](oss-Japan-2018-BoF.md)
+* [Fedora, CentOS and EPEL BoF @ Open Source Summit Japan 2018 - Tokyo](oss-Japan-2018-BoF)
 
     A BoF proposal
 
