@@ -69,7 +69,7 @@ Brian (bex) Exelbierd is the Fedora Community Action and Impact Coordinator on b
 
 I am placing two headshots here.  I have the photography skills of a &lt;insert unskilled thing here&gt; (I am a terrible picture taker, editor, and model), so be kind :).  I've also noticed that someone keeps running a real world shading effect on me so I appear to have more gray in my beard than these photos from 2013 show.  I am not sure why they are not auto-updating ...
 
-![bexelbie](/img/headshots/headshot.jpg){:.inline-image} ![bexelbie in a circle](/img/headshots/bexelbie-headshot.png){:.inline-image}
+![bexelbie](/img/headshots/bex-ocean-thumb.jpg){:.inline-image} ![bexelbie](/img/headshots/headshot.jpg){:.inline-image} ![bexelbie in a circle](/img/headshots/bexelbie-headshot.png){:.inline-image}
 
 # About This Site
 
