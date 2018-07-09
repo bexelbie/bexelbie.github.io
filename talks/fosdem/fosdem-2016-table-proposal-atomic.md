@@ -3,7 +3,6 @@ layout: page
 title: "FOSDEM 2016"
 description: "Project Atomic Table Proposal"
 #header-img: "img/about-bg.jpg"
-tags: navigation
 ---
 
 # Project details

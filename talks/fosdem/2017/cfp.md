@@ -3,7 +3,6 @@ layout: page
 title: "Distributions Devroom 2017"
 description: "CfP Email v1"
 #header-img: "img/about-bg.jpg"
-tags: navigation
 ---
 
 FOSDEM 2017 - Distributions Devroom Call for Participation (new deadline)

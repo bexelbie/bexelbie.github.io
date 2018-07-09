@@ -3,7 +3,6 @@ layout: page
 title: "Distributions Devroom 2017"
 description: "Proposal"
 #header-img: "img/about-bg.jpg"
-tags: navigation
 ---
 
 # Title of Devroom: Distributions

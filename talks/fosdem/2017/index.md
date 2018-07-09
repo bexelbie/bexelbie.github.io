@@ -3,7 +3,6 @@ layout: page
 title: "FOSDEM 2017"
 #description: "Talks and Demos I've done"
 #header-img: "img/about-bg.jpg"
-tags: navigation
 ---
 
 FOSDEM 2017 Files
