@@ -42,3 +42,4 @@ I'll be traveling some and hope you'll ping me for coffee if you're nearby.  If 
 - Open Source Summit Europe (OSS Europe) from 22-24 October in Edinburgh, United Kingdom
 
 Note: My attendance at a few of the events is still tenative, but I expect most will happen.
+
