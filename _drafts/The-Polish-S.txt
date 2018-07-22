@@ -24,6 +24,6 @@ to get you to buy a new one.[^0] This has probably been said before, but
 it got under my skin today.
 
 Note: This post was edited for grammar, typos and phrasing.  A full history is available in the git repository.
-{:.footnotes}
+{: .notice}
 
 [^0]: Companies and people are generally not evil and out to get you.

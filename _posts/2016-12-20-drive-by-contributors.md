@@ -1,15 +1,15 @@
 ---
-layout:   post
 title:   "When Do Drive-By Documentation Contributors Start to Matter?"
-subtitle:  "a/k/a When do you build it?"
+excerpt:  "a/k/a When do you build it?"
 date:    2016-12-19 13:03:00 +0100
-author:   "Brian Exelbierd"
-#header-img: ""
-published: true
-category: Technology
+categories:
+  - Technology
 tags:
- - Fedora
- - Documentation
+  - Fedora
+  - Documentation
+classes: wide
+header:
+  overlay_color: "#333"
 ---
 
 # We should be using a Wiki

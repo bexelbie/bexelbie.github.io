@@ -1,15 +1,15 @@
 ---
-layout:   post
 title:   "The Fedora Diversity FAD"
-#subtitle:  ""
+excerpt:  "Event Report"
 date:    2017-02-07 09:30:00 +0100
-author:   "Brian Exelbierd"
-#header-img: ""
-published: true
-category: Technology
+categories:
+  - Technology
 tags:
- - Community
- - Fedora
+  - Community
+  - Fedora
+classes: wide
+header:
+  overlay_color: "#333"
 ---
 
 DevConf.cz featured many great talks and a fantastic hallway track.  It also hosted the Fedora Activity Day for the Fedora Diversity team.

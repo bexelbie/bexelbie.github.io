@@ -1,14 +1,12 @@
 ---
-layout:     post
 title:      "I Want A World Phone"
-subtitle:   ""
 date:       2016-01-20 08:00:00
-author:     "Brian Exelbierd"
-#header-img: ""
-published:  true
-category: Travel
+excerpt:  ""
+categories:
+  - Travel
 tags:
- - Gadgets
+  - Gadgets
+classes: wide
 ---
 
 I want worldwide phone and data service.  And I think the only way to get it is to build a better phone.

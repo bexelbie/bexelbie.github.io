@@ -1,15 +1,15 @@
 ---
-layout:   post
 title:   "OSCAL (Open Source Conference Albania)"
-subtitle:  "Event Report"
+excerpt:  "Event Report"
 date:    2017-07-14 11:15:00 -0500
-author:   "Brian Exelbierd"
-#header-img: ""
-published: true
-category: Technology
+categories:
+  - Technology
 tags:
- - Conferences
- - Fedora
+  - Conferences
+  - Fedora
+classes: wide
+header:
+  overlay_color: "#333"
 ---
 
 # OSCAL (Open Source Conference Albania)
@@ -24,9 +24,9 @@ The vast majority of the attendees seemed to be young professionals or students.
 
 I presented a talk titled [Building Applications Doesn't Mean Writing It All From Scratch](/talks/OSCAL.2017.Dont.Write.It.All/).  My goal was to talk about writing glue code to bind together larger open source projects to accomplish a goal.  I used the example of the new Fedora Docs Infrastructure.  I believe I was successful in conveying my message, however the audience was small.
 
-![This isn't me :)](/img/2017/oscal-jwf.jpg){:.center-image}
+![This isn't me :)](/img/2017/oscal-jwf.jpg){: .align-center}
 Who am I? I'm not me :) I didn't have a picture of my talk, so I am using this one of Justin Flory instead.
-{:.caption}
+{: .text-center}
 
 I spent some time at the Fedora Booth and I encourage you to read the event report by the ambassadors directly.  Many of the questions I heard were focused on the gaming that was on display or on how to use Fedora productively as a student.  These are two audiences that are typically further out on the adoption curve than Fedora targets.  They are great people and we should think about what the best way to serve these audiences.  It seems that a SIG or other working group would allow those interested in these audiences best organize and serve them.  It would also feed nicely into the structure suggested by the new mission statement.
 
@@ -36,4 +36,4 @@ This event also showed that we need to think about talks that use Fedora as the 
 
 Overall, our representatives did a great job.
 
-![The Booth](/img/2017/oscal-booth.jpg){:.center-image}
+![The Booth](/img/2017/oscal-booth.jpg){: .align-center}

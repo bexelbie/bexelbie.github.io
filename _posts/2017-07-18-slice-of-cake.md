@@ -1,14 +1,19 @@
 ---
-layout:   post
 title:   "Slice of Cake #14"
-#subtitle:  ""
+excerpt: ""
 date:    2017-07-18 13:54:00 +0200
-author:   "Brian Exelbierd"
-#header-img: ""
-published: true
-category: Ramblings
+categories:
+  - Ramblings
 tags:
- - Fedora
+  - Slice of Cake
+  - Fedora
+header:
+  overlay_image: "/img/cake-with-the-fcaic.png"
+  og_image: "/img/cake-with-the-fcaic.png"
+  teaser: "/img/cake-with-the-fcaic.png"
+  caption: "Photo credit: [**Fedora Badges**](https://badges.fedoraproject.org/badge/its-a-cake-thing)"
+  overlay_filter: 0.3
+classes: wide
 ---
 
 # A slice of cake

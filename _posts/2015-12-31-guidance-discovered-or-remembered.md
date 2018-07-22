@@ -1,14 +1,18 @@
 ---
-layout:     post
 title:      "Guidance Discovered or Remembered"
-subtitle:   ""
+excerpt: ""
 date:       2015-12-31 08:00:00
-author:     "Brian Exelbierd"
-header-img: "img/2015/wedding-shot.jpg"
-published:  true
-category: Ramblings
+categories:
+  - Ramblings
 tags:
- - Life Lessons
+  - Life Lessons
+header:
+  overlay_image: "/img/2015/wedding-shot.jpg"
+  og_image: "/img/2015/wedding-shot.jpg"
+  teaser: "/img/2015/wedding-shot.jpg"
+  caption: "Photo credit: author"
+  overlay_filter: 0.3
+classes: wide
 redirect_from:
  - 2015/12/31/guidance-discovered-or-remembered/
 ---

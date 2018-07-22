@@ -1,16 +1,16 @@
 ---
-layout:   post
 title:   "Education Day & LinuxCon + ContainerCon + CloudOpen China"
-subtitle:  "Event Report"
+excerpt:  "Event Report"
 date:    2017-07-13 12:40:00 -0500
-author:   "Brian Exelbierd"
-#header-img: ""
-published: true
-category: Technology
+categories:
+  - Technology
 tags:
- - Conferences
- - Fedora
- - Red Hat
+  - Conferences
+  - Fedora
+  - Red Hat
+classes: wide
+header:
+  overlay_color: "#333"
 ---
 
 # Education Day - Red Hat

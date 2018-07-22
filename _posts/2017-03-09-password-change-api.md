@@ -1,14 +1,14 @@
 ---
-layout:   post
 title:   "We Need a Password Change API"
-subtitle:  "because I got pwned"
+excerpt:  "because I got pwned"
 date:    2017-03-09 12:10:00 +0100
-author:   "Brian Exelbierd"
-#header-img: ""
-published: true
-category: Ramblings
+categories:
+  - Ramblings
 tags:
- - Security
+  - Security
+classes: wide
+header:
+  overlay_color: "#333"
 ---
 
 This morning I got an email from [haveibeenpwned.com](https://haveibeenpwned.com/) informing me that one of my email addresses showed up in a data dump.  I've been using [`pass`](https://www.passwordstore.org/) to manage my passwords for a while (and [1Password](https://1password.com/) before that) so most of my passwords are unique, not easily guessable, and not directly known by me.  Additionally, I have set up 2FA in most places where it is available.

@@ -1,15 +1,18 @@
 ---
-layout:     post
 title:      "Testing Nulecule on Debian"
-subtitle:   "posted at ProjectAtomic.io"
+excerpt:   "posted at ProjectAtomic.io"
 date:       2015-08-18 16:52:32
-author:     "Brian Exelbierd"
-header-img: "img/2015/nulecule-debian.jpg"
-published:  true
-category: Technology
+categories:
+  - Technology
 tags:
- - Project Atomic
- - Containers
+  - Project Atomic
+  - Containers
+header:
+  overlay_image: "/img/2015/nulecule-debian.jpg"
+  og_image: "/img/2015/nulecule-debian.jpg"
+  teaser: "/img/2015/nulecule-debian.jpg"
+  overlay_filter: 0.3
+classes: wide
 redirect_from:
  - /2015/08/18/testing-nulecule-on-debian/
 ---

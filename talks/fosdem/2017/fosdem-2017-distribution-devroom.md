@@ -1,8 +1,13 @@
 ---
-layout: page
 title: "Distributions Devroom 2017"
-description: "Proposal"
-#header-img: "img/about-bg.jpg"
+excerpt: "Proposal"
+header:
+  overlay_image: "/img/about-bg.jpg"
+  og_image: "/img/about-bg.jpg"
+  teaser: "/img/about-bg.jpg"
+  caption: "Photo credit: author"
+  overlay_filter: 0.5
+classes: wide
 ---
 
 # Title of Devroom: Distributions

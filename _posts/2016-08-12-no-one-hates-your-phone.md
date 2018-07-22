@@ -1,14 +1,14 @@
 ---
-layout:   post
 title:   "Your Phone isn't a Victim of Planned Obsolescence"
-subtitle:  "Apple and Android Don't Hate You"
+excerpt:  "Apple and Android Don't Hate You"
 date:    2016-08-12 12:18:00 +0200
-author:   "Brian Exelbierd"
-#header-img: "img/2016/flock.png"
-published: true
-category: Ramblings
+categories:
+  - Ramblings
 tags:
- - Gadgets
+  - Gadgets
+classes: wide
+header:
+  overlay_color: "#333"
 redirect_from:
  - /2016/08/12/no-one-hates-your-phone/
 ---
@@ -98,11 +98,9 @@ Two interesting examples that show this behavior in action are:
   but only Apple has enough controls in place to be able to afford to
   distribute them.[^7]
 
-It's all about those Apps, no phone calls.
-{:.quote}
-
-Said by no one, ever.
-{:.quote-author}
+> It's all about those Apps, no phone calls.
+>
+> <cite>Said by no one, ever.</cite>
 
 The petition and poster also missed the contributions apps make towards
 a bad old phone experience.
@@ -154,10 +152,10 @@ Wow, that turned out to be much longer than I expected.  I hope it
 was useful.
 
 Note: This post was edited for grammar, typos and phrasing.  A full history is available in the git repository.
-{:.footnotes}
+{: .notice}
 
 Note: As an experiment an ad had been placed on this page.  I was genuinely curious to see how it will be handled.  This is apparently the most popular page on my site ... weird.  The ad was just floating around and didn't get engaged.  This was a likely outcome.  The ad has been deleted.
-{:.footnotes}
+{: .notice}
 
 [^0]: Companies and people are generally not evil and out to get you.
       Companies and people often act in their own best interest, but

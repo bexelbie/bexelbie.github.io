@@ -1,14 +1,14 @@
 ---
-layout:     post
 title:      "The Sky is Falling"
-subtitle:   "BRExit Edition"
+excerpt:   "BRExit Edition"
 date:       2016-06-24 23:30:00
-author:     "Brian Exelbierd"
-#header-img: ""
-published:  true
-category: Ramblings
+categories:
+  - Ramblings
 tags:
- - Politics
+  - Politics
+classes: wide
+header:
+  overlay_color: "#333"
 redirect_from:
  - /2016/06/24/the-sky-is-falling/
 ---

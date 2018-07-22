@@ -1,14 +1,14 @@
 ---
-layout:   post
 title:   "LATAM Organizational FAD"
-subtitle:  "Event Report"
+excerpt:  "Event Report"
 date:    2017-07-18 14:23:00 +0200
-author:   "Brian Exelbierd"
-#header-img: ""
-published: true
-category: Technology
+categories:
+  - Technology
 tags:
- - Fedora
+  - Fedora
+classes: wide
+header:
+  overlay_color: "#333"
 ---
 
 # LATAM Organizational FAD
@@ -27,9 +27,9 @@ Ambassadors from six (or seven depending on how you count) countries came togeth
 - Samuel José Gutiérrez Avilés (searchsam), Nicaragua
 - Tonet Jallo (tonet666p), Peru
 
-![LATAM Ambassadors](/img/2017/latam-fad-1.jpg){:.center-image}
+![LATAM Ambassadors](/img/2017/latam-fad-1.jpg){: .align-center}
 The LATAM Ambassadors and some student assistants hard at work on Day 1.
-{:.caption}
+{: .text-center}
 
 I am always impressed by the backgrounds and skills of our contributors.  This group is no exception and was filled with students, system administrators, programmers and project managers working with a variety of environments and language stacks.
 
@@ -48,9 +48,9 @@ A very productive discussion was held around event management and publicity.  Th
 
 One of my roles as the council representative was to answer questions about how budgeting works and to present the council's goals and the new mission statement.  In this area we have two major changes that need to be explained clearly.  The first is how the new mission statement represents the goal for a lot (but not all) activity the project undertakes.  For ambassadors this means that the council would like to see that most events support the goals of the mission statement.  From a budget perspective the council is trying to accomplish two things with the new budget structure.  First we are trying to eliminate the idea that we have to do certain things solely because they have been done in the past.  We are at an point where we can safely evaluate all of our resource usage and make sure we aren't on auto-pilot toward an outdated goal.  Secondly, we are reserving some money for good ideas that can come from anywhere.  What we have learned in the past was that it is hard to move money from a region that isn't spending it but has it allocated to them to support an idea from another group.  So we are asking the regions to request additional funds as they have new ideas.  This way non-Ambassador groups in the project also have a pool of money they can make requests against.
 
-![LATAM Ambassadors](/img/2017/latam-fad-2.jpg){:.center-image}
+![LATAM Ambassadors](/img/2017/latam-fad-2.jpg){: .align-center}
 Stepping away from the laptops and using the whiteboard is a key productivity enhancer.
-{:.caption}
+{: .text-center}
 
 The LATAM team is very concerned about the state of documentation.  I used some of my time sharing what has been going on in the docs project with them.  Their ideas for how to energize contribution once we can work with topics has me very excited.  There may also be some coding contributions coming out of LATAM to help make this all happen.
 

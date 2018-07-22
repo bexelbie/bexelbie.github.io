@@ -1,0 +1,9 @@
+Should I get a 'syndicated' header image?
+what are the rules about teasers?
+When does og_image get used?
+resize image serving? https://alistapart.com/article/responsive-images-in-practice
+So what is a collection for? https://mmistakes.github.io/minimal-mistakes/docs/collections/
+
+comments broken for: bexelbie.github.io/_posts/2017-01-09-international-taxes.md
+
+docker run --privileged --rm --label=jekyll --volume=$(pwd):/srv/jekyll --volume="$PWD/node_modules:/usr/local/bundle" -it -p 4000:4000 jekyll/jekyll jekyll s --force_polling  --incremental --unpublished --future

@@ -1,14 +1,18 @@
 ---
-layout:   post
 title:   "Controlling Your Timeline Through User Verification"
-subtitle:  ""
 date:    2016-07-20 18:23:00 +0200
-author:   "Brian Exelbierd"
-header-img: "img/2016/twitter.png"
-published: true
-category: Ramblings
+excerpt: ""
+categories:
+  - Ramblings
 tags:
- - Identity
+  - Identity
+header:
+  overlay_image: "/img/2016/twitter.png"
+  og_image: "/img/2016/twitter.png"
+  teaser: "/img/2016/twitter.png"
+  caption: "Photo credit: author"
+  overlay_filter: 0.3
+classes: wide
 redirect_from:
  - /2016/07/20/twitter-verified-users/
 ---

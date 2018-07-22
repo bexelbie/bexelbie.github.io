@@ -1,9 +1,13 @@
 ---
-layout: page
 title: "SFSCon, Bozen, South Tyrol, Italy"
-description: "The Secret to Keeping Your Community Strong for Decades"
-header-img: "img/about-bg.jpg"
-tags: no-navigation
+excerpt: "The Secret to Keeping Your Community Strong for Decades"
+header:
+  overlay_image: "/img/about-bg.jpg"
+  og_image: "/img/about-bg.jpg"
+  teaser: "/img/about-bg.jpg"
+  caption: "Photo credit: author"
+  overlay_filter: 0.5
+classes: wide
 ---
 
 # The Secret to Keeping Your Community Strong for Decades

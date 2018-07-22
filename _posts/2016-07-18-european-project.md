@@ -1,14 +1,14 @@
 ---
-layout:     post
 title:      "The European Project"
-subtitle:   "Could you be less committed?"
+excerpt:   "Could you be less committed?"
 date:       2016-07-18 12:00:00 +0200
-author:     "Brian Exelbierd"
-#header-img: ""
-published:  true
-category: Ramblings
+categories:
+  - Ramblings
 tags:
- - Politics
+  - Politics
+classes: wide
+header:
+  overlay_color: "#333"
 redirect_from:
  - /2016/07/18/european-project/
 ---
@@ -22,10 +22,9 @@ campaign"](http://www.theguardian.com/politics/2016/jul/05/how-remain-failed-ins
 by Rafael Behr in The Guardian.  I am told that The Guardian was not in
 favor of leaving the European Union.  This quote struck me:
 
-"Polls showed that many voters were unaware that a remain vote was the
+> "Polls showed that many voters were unaware that a remain vote was the
 party’s official position, a confusion exacerbated by Jeremy Corbyn’s
 manifest ambivalence about the entire **European project**."
-{:.quote}
 
 I've bolded the words "European project."
 

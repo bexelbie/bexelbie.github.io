@@ -1,14 +1,14 @@
 ---
-layout:   post
 title:   "New Life Happenings"
-subtitle:  "Some days you can have your cake and eat it too."
+excerpt:  "Some days you can have your cake and eat it too."
 date:    2016-09-02 13:30:00 +0200
-author:   "Brian Exelbierd"
-#header-img: ""
-published: true
-category: Ramblings
+categories:
+  - Ramblings
 tags:
- - Personal
+  - Personal
+classes: wide
+header:
+  overlay_color: "#333"
 ---
 
 Yes, the rumors are true. Something new has come into my life. Frankly,
@@ -28,16 +28,18 @@ lower my bill by 50 CZK[^1] a few days ago. I succeeded and on
 top of that got a new modem with... wait for it... WIFI!  Boo-yah and
 welcome to the big leagues, baby!
 
-![No, it isn't a cheese grater.](/img/2016/newhotness/modem.jpg) No, I didn't get a fly new speaker.
-{:.caption}
+![No, it isn't a cheese grater.](/img/2016/newhotness/modem.jpg){: .align-center}
+No, I didn't get a fly new speaker.
+{: .text-center}
 
 As an added bonus, the modem comes with a weird form of old-timey media
 that is doubly-unreadable. As you may know, I don't really speak Czech,
 therefore, reading the label is right out. But I also no longer own an
 optical reader, therefore reading the content is also right out.
 
-![Worst. Gift. Evar.](/img/2016/newhotness/cd.jpg) Save 10 CZK and stop distributing this!
-{:.caption}
+![Worst. Gift. Evar.](/img/2016/newhotness/cd.jpg){: .align-center}
+Save 10 CZK and stop distributing this!
+{: .text-center}
 
 In other news, you may also have heard that I am going to be the next
 [Fedora Community Action and Impact
@@ -47,7 +49,7 @@ to get started on 3 October. I'll write more about it later. If you're
 going to be around LinuxCon EU in Berlin, stop and say 'hi.'
 
 What about the cake?
-{:.quote}
+{: .text-center}
 
 Oh yeah, about the cake. The new role's title is quite a mouthful.
 I don't really know what to do about it other than to abbreviate it.
@@ -58,6 +60,8 @@ and eat it too!
 PS: If you're wondering why these pictures are rotated, you're not
 alone. Something in the CSS seems to be doing it, so perhaps one day
 I'll go find it. PRs are welcome :).
+
+PPS: It wasn't the CSS! It turns out that [images can be rotated in two different ways.](https://www.howtogeek.com/254830/why-your-photos-dont-always-appear-correctly-rotated/) The web browsers want one way and the program did the other.  **sigh** (added 26 July 2018)
 
 [^0]: For very specific definitions of 'explode.'
 

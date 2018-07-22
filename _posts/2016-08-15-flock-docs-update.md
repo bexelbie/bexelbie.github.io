@@ -1,16 +1,17 @@
 ---
-layout:   post
 title:   "Docs Project update from Flock 2016"
-subtitle:  "posted on the Fedora Community Blog"
+excerpt:  "posted on the Fedora Community Blog"
 date:    2016-08-15 08:15:00 +0000
-author:   "Brian Exelbierd"
-header-img: "img/2016/docs-update-flock-2016.jpg"
-published: true
-category: Technology
+categories:
+  - Technology
 tags:
- - Fedora
- - Documentation
- - Conferences
+  - Fedora
+header:
+  overlay_image: "/img/2016/docs-update-flock-2016.jpg"
+  og_image: "/img/2016/docs-update-flock-2016.jpg"
+  teaser: "/img/2016/docs-update-flock-2016.jpg"
+  overlay_filter: 0.3
+classes: wide
 redirect_from:
  - /2016/08/15/flock-docs-update/
 ---
@@ -31,11 +32,7 @@ Read more over at the [Fedora Community
 Blog](https://communityblog.fedoraproject.org/docs-project-update-flock-2016/)
 where this was originally posted.
 
-*Image courtesy [João Silas](https://unsplash.com/@joaosilas) –
-originally posted to [Unsplash](https://unsplash.com/) as
-[Untitled](https://unsplash.com/@joaosilas?photo=UGQoo2nznz8), modified
-by [Justin W. Flory](https://fedoraproject.org/wiki/User:Jflory7).\
-*
+*Image courtesy [João Silas](https://unsplash.com/@joaosilas) – originally posted to [Unsplash](https://unsplash.com/) as [Untitled](https://unsplash.com/@joaosilas?photo=UGQoo2nznz8), modified by [Justin W. Flory](https://fedoraproject.org/wiki/User:Jflory7).*
 
 <!--
 The presentation

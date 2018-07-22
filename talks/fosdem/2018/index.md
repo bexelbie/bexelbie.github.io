@@ -1,8 +1,13 @@
 ---
-layout: page
 title: "FOSDEM 2018"
-#description: "Talks and Demos I've done"
-#header-img: "img/about-bg.jpg"
+description: "FOSDEM cfps and the Distribution Devroom"
+header:
+  overlay_image: "/img/about-bg.jpg"
+  og_image: "/img/about-bg.jpg"
+  teaser: "/img/about-bg.jpg"
+  caption: "Photo credit: author"
+  overlay_filter: 0.5
+classes: wide
 ---
 
 FOSDEM 2018 Files

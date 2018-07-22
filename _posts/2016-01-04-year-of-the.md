@@ -1,14 +1,12 @@
 ---
-layout:     post
 title:      "Happy New Year"
-subtitle:   "It's the year of ..."
+excerpt:   "It's the year of ..."
 date:       2016-01-04 15:30:00
-author:     "Brian Exelbierd"
-#header-img: ""
-published:  true
-category: Ramblings
+categories:
+  - Ramblings
 tags:
- - Random
+  - Random
+classes: wide
 redirect_from:
  - /2016/01/04/year-of-the/
 ---

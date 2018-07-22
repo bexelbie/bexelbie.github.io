@@ -1,9 +1,13 @@
 ---
-layout: page
 title: "Config Management Camp EU 2016"
-description: "Nulecule: Packaging, Distributing & Deploying Container Applications the Cloud Way"
-header-img: "img/about-bg.jpg"
-tags: no-navigation
+excerpt: "Nulecule: Packaging, Distributing & Deploying Container Applications the Cloud Way"
+header:
+  overlay_image: "/img/about-bg.jpg"
+  og_image: "/img/about-bg.jpg"
+  teaser: "/img/about-bg.jpg"
+  caption: "Photo credit: author"
+  overlay_filter: 0.5
+classes: wide
 ---
 
 # [Nulecule: Packaging, Distributing & Deploying Container Applications the Cloud Way](http://lanyrd.com/2016/cfgmgmtcamp/sdxytt/)

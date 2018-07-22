@@ -1,12 +1,16 @@
 ---
-layout: page
 title: "CFP Submissions"
-description: "Lessons Learned"
-header-img: "img/about-bg.jpg"
-tags: no-navigation
+excerpt: "Lessons Learned"
+header:
+  overlay_image: "/img/about-bg.jpg"
+  og_image: "/img/about-bg.jpg"
+  teaser: "/img/about-bg.jpg"
+  caption: "Photo credit: author"
+  overlay_filter: 0.5
+classes: wide
 ---
 
-This directory contains CFP submissions that were for presentations that had no slides or which were unsuccessful.
+This directory contains CFP submissions, some were successful some were not.
 
 * [Fedora, CentOS and EPEL BoF @ Open Source Summit Europe 2018 - Edinburgh](oss-EU-2018-BoF)
 

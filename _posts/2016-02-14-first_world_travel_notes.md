@@ -1,14 +1,18 @@
 ---
-layout:     post
 title:      "Travel as a study in #FirstWorldProblems"
-subtitle:   ""
+excerpt:   ""
 date:       2016-02-14 08:00:00
-author:     "Brian Exelbierd"
-header-img: "img/2016/2016-02-14-Dragon.jpg"
-published:  true
-category: Travel
+categories:
+  - Travel
 tags:
- - Process
+  - Process
+header:
+  overlay_image: "/img/2016/2016-02-14-Dragon.jpg"
+  og_image: "/img/2016/2016-02-14-Dragon.jpg"
+  teaser: "/img/2016/2016-02-14-Dragon.jpg"
+  caption: "Photo credit: Dominika Bula"
+  overlay_filter: 0.3
+classes: wide
 ---
 
 Traveling, especially alone, gives you lots of time to observe the
@@ -53,9 +57,9 @@ orderly.  However, this is also a BAD idea.
 The usual rants about bad airport signage, extra BS security screening and security theater, lack of free wifi or BS limits on it, and unprepared people have been deliberately omitted.
 
 Photo by Dominika Bula: Dragon Lantern at the "Magical Lantern Festival" at the Chiswick House and Gardens in London on 14 February 2016.
-{:.footnotes}
-
-[^1]: This particular thought struck me after helping a domestic passenger in China understand how his seat belt operated ... with sign language and demos.
+{: .notice}
 
 Note: This post was edited for grammar, typos and phrasing.  A full history is available in the git repository.
-{:.footnotes}
+{: .notice}
+
+[^1]: This particular thought struck me after helping a domestic passenger in China understand how his seat belt operated ... with sign language and demos.

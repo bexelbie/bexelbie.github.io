@@ -1,14 +1,14 @@
 ---
-layout:     post
 title:      "Project Atomic or: How I Learned to Stop Worrying and Love Containers"
-subtitle:   "posted at Linux.com"
+excerpt:   "posted at Linux.com"
 date:       2015-10-06 12:32:00
-author:     "Brian Exelbierd"
-#header-img: ""
-published:  true
-category: Technology
+categories:
+  - Technology
 tags:
- - Project Atomic
+  - Project Atomic
+classes: wide
+header:
+  overlay_color: "#333"
 redirect_from:
  - /2015/10/06/atomic-intro-article/
 ---

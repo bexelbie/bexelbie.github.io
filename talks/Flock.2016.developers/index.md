@@ -1,12 +1,17 @@
 ---
-layout: page
 title: "Flock 2016, Kraków Poland"
-description: "Bringing Developers into the Flock"
-header-img: "img/about-bg.jpg"
-tags: no-navigation
+excerpt: "Bringing Developers into the Flock"
+header:
+  overlay_image: "/img/about-bg.jpg"
+  og_image: "/img/about-bg.jpg"
+  teaser: "/img/about-bg.jpg"
+  caption: "Photo credit: author"
+  overlay_filter: 0.5
+classes: wide
 ---
 
 # [Bringing Developers into the Flock](https://flock2016.sched.org/event/3bb106c028feddc9a0e92a53a0ee5288)
+
 ## Presented at [Flock 2016, Kraków Poland](https://flocktofedora.org) on 3 August 2016
 
 This repo contains the slides and files used for the talk and demo Dusty

@@ -1,8 +1,13 @@
 ---
-layout: page
 title: "FOSDEM"
 description: "FOSDEM cfps and the Distribution Devroom"
-#header-img: "img/about-bg.jpg"
+header:
+  overlay_image: "/img/about-bg.jpg"
+  og_image: "/img/about-bg.jpg"
+  teaser: "/img/about-bg.jpg"
+  caption: "Photo credit: author"
+  overlay_filter: 0.5
+classes: wide
 ---
 
 For several years I have worked with various efforts at [Fosdem](https://fosdem.org).  I keep all of my materials related to CFP submissions and devrooms here.

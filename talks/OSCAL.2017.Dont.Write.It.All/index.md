@@ -1,9 +1,13 @@
 ---
-layout: page
 title: "OSCAL 2017, Tirana, Albania"
-description: "Building Applications Doesn't Mean Writing It All From Scratch"
-header-img: "img/about-bg.jpg"
-tags: no-navigation
+excerpt: "Building Applications Doesn't Mean Writing It All From Scratch"
+header:
+  overlay_image: "/img/about-bg.jpg"
+  og_image: "/img/about-bg.jpg"
+  teaser: "/img/about-bg.jpg"
+  caption: "Photo credit: author"
+  overlay_filter: 0.5
+classes: wide
 ---
 
 #  Building Applications Doesn't Mean Writing It All From Scratch

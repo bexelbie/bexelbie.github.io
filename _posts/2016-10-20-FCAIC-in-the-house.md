@@ -1,14 +1,18 @@
 ---
-layout:   post
 title:   "FCAIC in the House"
-subtitle:  "posted on the Fedora Magazine"
+excerpt:  "posted on the Fedora Magazine"
 date:    2016-10-20 00:00:00
-author:   "Brian Exelbierd"
-header-img: "img/2016/communty-945x400.png"
-published: true
-category: Ramblings
+categories:
+  - Ramblings
 tags:
-  - Fedora
+  - Fedora 
+header:
+  overlay_image: "/img/2016/communty-945x400.png"
+  og_image: "/img/2016/communty-945x400.png"
+  teaser: "/img/2016/communty-945x400.png"
+  caption: "Photo credit: Fedora Magazine"
+  overlay_filter: 0.3
+classes: wide
 ---
 
 # The who in the where?

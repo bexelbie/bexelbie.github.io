@@ -1,19 +1,24 @@
 ---
-layout:   post
-title:   "Slice of Cake #26"
-#subtitle:  ""
 date:    2018-07-12 18:00:00 +0200
-author:   "Brian Exelbierd"
-header-img: "img/cake-with-the-fcaic.png"
-published: true
-category: Ramblings
+title:   "Slice of Cake #26"
+excerpt: ""
+categories:
+  - Ramblings
 tags:
- - Fedora
+  - Slice of Cake
+  - Fedora
+header:
+  overlay_image: "/img/cake-with-the-fcaic.png"
+  og_image: "/img/cake-with-the-fcaic.png"
+  teaser: "/img/cake-with-the-fcaic.png"
+  caption: "Photo credit: [**Fedora Badges**](https://badges.fedoraproject.org/badge/its-a-cake-thing)"
+  overlay_filter: 0.3
+classes: wide
 ---
 
 # A slice of cake
 
-<img alt="Cake Badge" width="200" height="200" src="/img/cake-with-the-fcaic.png" align="left" valign="middle" vspace="5" hspace="5"/>Last week as the FCAIC I ... ok, let's get real.  I haven't written since February.  Thanks to the amazing team of [Community Leaders](https://community.redhat.com/) and pushed on by [Stormy Peters](https://twitter.com/storming), I bring you this out of sync, return to the cake updates.
+![Cake Badge](/img/cake-with-the-fcaic.png){: .align-right}Last week as the FCAIC I ... ok, let's get real.  I haven't written since February.  Thanks to the amazing team of [Community Leaders](https://community.redhat.com/) and pushed on by [Stormy Peters](https://twitter.com/storming), I bring you this out of sync, return to the cake updates.
 
 - Processed the last of the 45 funding requests received for Flock.  This resulted in 28 hotel room bookings (most shared) and 33 plane tickets being booked centrally.  Train tickets will come in later via reimbursements.  The plane tickets were booked by an agent in all but 3 cases and the hotels were managed by me directly with the property.  I’ve got a note to do a follow up post on this process so you can consider it for your next meeting.
 - The Flock team met to validate that we were still on track (we are!) including our evening activity (and associated transportation) and evening meal (and associated transportation).  I need to kick the CfP to schedule party off ASAP!

@@ -1,20 +1,24 @@
 ---
-layout:   post
 title:   "The National Wine Cellar of the Czech Republic"
-#subtitle:  ""
+excerpt: ""
 date:    2016-08-18 09:00:00 +0200
-author:   "Brian Exelbierd"
-header-img: "img/2016/wine/labels.jpg"
-published: true
-category: Travel
+categories:
+  - Travel
 tags:
- - Czech Republic
- - Wine
+  - Czech Republic
+  - Wine
+header:
+  overlay_image: "/img/2016/wine/labels.jpg"
+  og_image: "/img/2016/wine/labels.jpg"
+  teaser: "/img/2016/wine/labels.jpg"
+  caption: "Photo credit: author"
+  overlay_filter: 0.3
+classes: wide
 redirect_from:
  - /2016/08/18/czech-national-wine-cellar/
 ---
 
-![The Wine Cellar](/img/2016/wine/cellar.jpg)
+![The Wine Cellar](/img/2016/wine/cellar.jpg){: .align-center}
 
 This past weekend I had the opportunity to
 visit the [National Wine Cellar of the Czech
@@ -50,8 +54,9 @@ the cellar and there are containers to dispose of unneeded wine.
 At least I assume that is what they are for.
 
 ![Take this cup and this bread and go
-nuts!](/img/2016/wine/bread-glass.jpg) These boys are serious.
-{:.caption}
+nuts!](/img/2016/wine/bread-glass.jpg){: .align-center}
+These boys are serious.
+{: .text-center}
 
 Let me be very clear on this next point.  If you are reading this and
 thinking you will get some specific wine guidance, stop reading now.
@@ -67,9 +72,9 @@ visit, and I highly recommend that you do, prepare and have a game plan.
 To help you, the cellar has free wifi and an online application to track
 your tasting notes.
 
-![Taster vs Drinker](/img/2016/wine/taster-drinker.jpg)
+![Taster vs Drinker](/img/2016/wine/taster-drinker.jpg){: .align-center}
 I am more of a pijan (drinker) than a degustátor (taster).
-{:.caption}
+{: .text-center}
 
 When I first started drinking wine, I fell in love with Rieslings.
 I have since expanded my tastes, however, these days I tend to drink
@@ -108,9 +113,9 @@ to overshadow other tastes.  The level of oak also differs ... hmm.
 Four of the five us liked 75 much more than 74.  The fifth person was
 probably drunk.
 
-![Wines for Sampling](/img/2016/wine/wines.jpg)
+![Wines for Sampling](/img/2016/wine/wines.jpg){: .align-center}
 Reds and whites ready for sampling.
-{:.caption}
+{: .text-center}
 
 While I wouldn't have minded having some guidance during the journey,
 there was some fun to be had in being very free-spirited.  There was a
@@ -123,7 +128,7 @@ I regret now that I didn't look for the least expensive.  If I have the
 opportunity to return, I plan to try and stick to a single variety and
 see if I can determine what drives my tastes in wine.
 
-![The cellar, again](/img/2016/wine/cellar-2.jpg)
+![The cellar, again](/img/2016/wine/cellar-2.jpg){: .align-center}
 
 It was great to see the quality wines available in the Czech Republic
 on display.  Wine making is an old art here, but it was [nearly lost under
@@ -138,18 +143,17 @@ of four bottles.  The bottles are pictured below.  The only thing I know
 for sure about them is that one of them is still in my home.[^0]  I am sorry.
 I failed at wine tasting while having fun doing it.
 
-![The Prizes of the Day](/img/2016/wine/4-wines.jpg)
+![The Prizes of the Day](/img/2016/wine/4-wines.jpg){: .align-center}
 The prizes of the day.
-{:.caption}
+{: .text-center}
 
 And one final gift ...
 
-![It's Electric](/img/2016/wine/electric.jpg)
-No trip into an old chateau cellar is complete without some scary
-electrical wiring.
-{:.caption}
+![It's Electric](/img/2016/wine/electric.jpg){: .align-center}
+No trip into an old chateau cellar is complete without some scary electrical wiring.
+{: .text-center}
 
 Note: This post was edited for grammar, typos and phrasing.  A full history is available in the git repository.
-{:.footnotes}
+{: .notice}
 
 [^0]: The other bottles went home with the rest of the group.

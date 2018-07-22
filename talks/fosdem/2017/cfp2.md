@@ -1,8 +1,13 @@
 ---
-layout: page
 title: "Distributions Devroom 2017"
-description: "CfP Email v2"
-#header-img: "img/about-bg.jpg"
+excerpt: "CfP Email v2"
+header:
+  overlay_image: "/img/about-bg.jpg"
+  og_image: "/img/about-bg.jpg"
+  teaser: "/img/about-bg.jpg"
+  caption: "Photo credit: author"
+  overlay_filter: 0.5
+classes: wide
 ---
 
 [FOSDEM] [CFP] FOSDEM 2017 - Distributions Devroom - Extended

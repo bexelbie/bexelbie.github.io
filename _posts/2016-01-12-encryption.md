@@ -1,14 +1,18 @@
 ---
-layout:     post
 title:      "Follow the Money to save Encryption"
-subtitle:   ""
+excerpt:   ""
 date:       2016-01-12 08:00:00
-author:     "Brian Exelbierd"
-header-img: "img/2016/New100front.jpg"
-published:  true
-category: Ramblings
+categories:
+  - Ramblings
 tags:
- - Encryption
+  - Encryption
+header:
+  overlay_image: "/img/2016/New100front.jpg"
+  og_image: "/img/2016/New100front.jpg"
+  teaser: "/img/2016/New100front.jpg"
+  caption: "Photo credit: [US Mint via Wikipedia](https://en.wikipedia.org/wiki/United_States_dollar#/media/File:New100front.jpg)"
+  overlay_filter: 0.3
+classes: wide
 redirect_from:
  - /2016/01/12/encryption/
 ---
@@ -21,11 +25,9 @@ The public has made it clear that fears about safety trump everything, even the 
 
 To convince the public, we need bigger "guns." We need Puff Daddy. 
 
-"It's All About The Benjamins"
-{:.quote}
-
-Puff Daddy
-{:.quote-author}
+> "It's All About The Benjamins"
+>
+> <cite>Puff Daddy</cite>
 
 I believe there are two money-based arguments to make.
 
@@ -55,12 +57,9 @@ Even if this approach to the conversation works, it probably isn't enough to end
 
 My credit card agreement gives me effectively 100% protection from fraudulent charges. To have this freedom from liability I only need to abide by this condition:
 
-"[I] must take reasonable steps to prevent the unauthorized use of [my] Card, Access Checks and Account."
-{:.quote}
-
-Capital One
-{:.quote-author}
-{:.caption}
+> "[I] must take reasonable steps to prevent the unauthorized use of [my] Card, Access Checks and Account."
+>
+> <cite>Capital One</cite>
 
 Credit card companies should fully understand that mandatory encryption back doors mean that SSL and other encryption tools used in the pipeline to process in-person, telephone, and internet card transactions are inherently insecure. *This opens them up for virtually unlimited liability.*
 
@@ -77,7 +76,7 @@ When lobbying groups are threatened they fix the laws. In this case we all win.
 [^2]: Don't forget why the U.S. has chip-and-signature cards and not chip-and-pin cards. "U.S. bank executives said they are choosing the signature version so customers won’t be burdened at the checkout line to remember a new four-digit code." - http://www.wsj.com/articles/why-new-credit-cards-may-fall-short-on-fraud-control-1420423917  Additionally, there is no US Bank implementing [3-D Secure](https://en.wikipedia.org/wiki/3-D_Secure) for domestic transactions that I am aware of.  I read, but cannot find the link, that US Banks had dismissed SMS verifications as "flaky" despite them being highly reliable in many other parts of the world.
 
 Image: Public Domain from US Mint via [Wikipedia](https://en.wikipedia.org/wiki/United_States_dollar#/media/File:New100front.jpg)
-{:.footnotes}
+{: .notice}
 
 Note: This post was edited for grammar, typos and phrasing.  A full history is available in the git repository.
-{:.footnotes}
+{: .notice}

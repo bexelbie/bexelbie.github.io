@@ -1,23 +1,21 @@
 ---
-layout:     post
 title:      "Nulecule: Packaging, Distributing & Deploying Container Applications the Cloud Way"
-subtitle:   "Delivered at Config Management Camp EU 2016"
+excerpt:   "Delivered at Config Management Camp EU 2016"
 date:       2016-02-02 14:00:00
-author:     "Brian Exelbierd"
-#header-img: ""
-published:  true
-category: Technology
+categories:
+  - Technology
 tags:
- - Containers
- - Conferences
- - Project Atomic
+  - Containers
+  - Project Atomic
+classes: wide
+header:
+  overlay_color: "#333"
 redirect_from:
  - /2016/02/02/configmgmtcamp/
  - /2016/03/11/Nulecule-talk/
 ---
 
-![Config Management Camp EU Logo](/img/2016/configmgmtcampeu2016-logo.png)
-
+![Config Management Camp EU Logo](/img/2016/configmgmtcampeu2016-logo.png){: .align-left}
 I had the privilege of speaking at [Config Management Camp EU
 2016](http://cfgmgmtcamp.eu/schedule/speakers/BrianExelbierd.html)
 ([lanyrd.com](http://lanyrd.com/2016/cfgmgmtcamp/sdxytt/)) in

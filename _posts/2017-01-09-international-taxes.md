@@ -1,15 +1,19 @@
 ---
-layout:     post
 title:      "Avoiding Double Taxation with Tax Treaties"
-subtitle:   "It's about way more than the FEIE"
+excerpt:   "It's about way more than the FEIE"
 date:       2017-01-09 08:00:00
-author:     "Brian Exelbierd"
-header-img: "img/2017/tax/header.png"
-published:  true
-comments:   true
-category: Ramblings
+categories:
+  - Ramblings
 tags:
- - Tax
+  - Tax
+header:
+  overlay_image: "/img/2017/tax/header.png"
+  og_image: "/img/2017/tax/header.png"
+  teaser: "/img/2017/tax/header.png"
+  caption: "Photo credit: author"
+  overlay_filter: 0.5
+classes: wide
+comments:   true
 ---
 
 As an American living in Europe I have to deal with some international tax issues.  Lots and lots has been written about American taxation for non-resident Americans.  However, most of it is repetitive and simplistic.  I see almost no fully worked examples and nothing with what I consider even basic levels of "complexity." 
@@ -101,25 +105,25 @@ Let's explore these last three for treatment and then we will follow up with app
 
 The tax treaty discusses interest in Article 11.  Paragraphs 1 and 5 seem to be the only ones relevant for Bob:
 
-    1. Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State.
-
-    5. Interest shall be deemed to arise in a Contracting State when the payer is a resident of that State. Where, however, the person paying the interest, whether he is a resident of a Contracting State or not, has in a Contracting State a permanent establishment or fixed base, and such interest is borne by such permanent establishment or fixed base, then such interest shall be deemed to arise in the State in which the permanent establishment or fixed base is situated.
+> 1. Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State.
+> 
+> 5. Interest shall be deemed to arise in a Contracting State when the payer is a resident of that State. Where, however, the person paying the interest, whether he is a resident of a Contracting State or not, has in a Contracting State a permanent establishment or fixed base, and such interest is borne by such permanent establishment or fixed base, then such interest shall be deemed to arise in the State in which the permanent establishment or fixed base is situated.
 
 This would seem to indicate that a resident of the Czech Republic having interest received from sources in the United States shall only be taxed on that interest in the Czech Republic.  Further that interest shall be considered to be Czech source income.
 
 The technical notes seem to support this conclusion.
 
-    Paragraph 1 grants to each Contracting State the exclusive right (subject to paragraphs 2 and 4) to tax interest beneficially owned by a resident of that Contracting State and arising in the other Contracting State.
-
-    Paragraph 5 provides a source rule for interest. Under this paragraph, interest is deemed to arise in a Contracting State when the payer is a resident of that State. Where, however, the payer (whether or not a resident of a Contracting State) has in a Contracting State a permanent establishment or fixed base, and such interest is borne by such permanent establishment or fixed base, then such interest shall be deemed to arise in the State in which the permanent establishment or fixed base is situated.
+> Paragraph 1 grants to each Contracting State the exclusive right (subject to paragraphs 2 and 4) to tax interest beneficially owned by a resident of that Contracting State and arising in the other Contracting State.
+> 
+> Paragraph 5 provides a source rule for interest. Under this paragraph, interest is deemed to arise in a Contracting State when the payer is a resident of that State. Where, however, the payer (whether or not a resident of a Contracting State) has in a Contracting State a permanent establishment or fixed base, and such interest is borne by such permanent establishment or fixed base, then such interest shall be deemed to arise in the State in which the permanent establishment or fixed base is situated.
 
 ## Dividends
 
 The tax treaty discusses dividends in Article 10.  Paragraphs 1 and 2 seem to be the only ones relevant for Bob:
 
-    1. Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State may be taxed in that other State.
-
-    2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed: ... b) 15 percent of the gross amount of the dividends in all other cases.
+> 1. Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State may be taxed in that other State.
+> 
+> 2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed: ... b) 15 percent of the gross amount of the dividends in all other cases.
 
 Paragraph 1 seems to mean that US source dividends paid to a resident of the Czech Republic are able to be taxed by the Czech Republic.  This has happened.
 
@@ -127,11 +131,11 @@ Paragraph 2 limits the US to a 15 percent maximum tax rate.
 
 Again, the technical notes seem to support these conclusions.
 
-    This Article provides rules for the taxation of dividends and similar amounts paid by a company resident in one Contracting State to a resident of the other Contracting State. The article permits full residence State taxation of such dividends and limited source State taxation.  Article 10 also provides rules for the imposition of a tax on branch profits by the State of source.
-
-    Paragraph 1 preserves the residence State's general right to tax its residents on dividends paid by a company that is a resident of the other Contracting State. The same result is achieved by the "saving" clause of paragraph 3 of Article 1 (General Scope).
-
-    Paragraph 2 grants the source State the right to tax dividends paid by a company that is a resident of that State to a resident of the other Contracting State. If the beneficial owner of the dividend is a company that owns at least 10 percent of the voting shares of the company paying the dividend, the tax that may be imposed by the source State is limited to 5 percent of the gross amount of the dividend. In all other cases, the source State tax is limited to 15 percent of the gross amount of the dividend. Indirect ownership of voting shares (e.g., through tiers of corporations) and direct or indirect ownership of nonvoting shares are not considered for purposes of determining eligibility for the 5 percent direct investment dividend rate.
+> This Article provides rules for the taxation of dividends and similar amounts paid by a company resident in one Contracting State to a resident of the other Contracting State. The article permits full residence State taxation of such dividends and limited source State taxation.  Article 10 also provides rules for the imposition of a tax on branch profits by the State of source.
+> 
+> Paragraph 1 preserves the residence State's general right to tax its residents on dividends paid by a company that is a resident of the other Contracting State. The same result is achieved by the "saving" clause of paragraph 3 of Article 1 (General Scope).
+>
+> Paragraph 2 grants the source State the right to tax dividends paid by a company that is a resident of that State to a resident of the other Contracting State. If the beneficial owner of the dividend is a company that owns at least 10 percent of the voting shares of the company paying the dividend, the tax that may be imposed by the source State is limited to 5 percent of the gross amount of the dividend. In all other cases, the source State tax is limited to 15 percent of the gross amount of the dividend. Indirect ownership of voting shares (e.g., through tiers of corporations) and direct or indirect ownership of nonvoting shares are not considered for purposes of determining eligibility for the 5 percent direct investment dividend rate.
 
 The explanation for paragraph 1 mentions the "saving" clause.  We will explore that more in two sections.
 
@@ -139,51 +143,51 @@ The explanation for paragraph 1 mentions the "saving" clause.  We will explore t
 
 The tax treaty discusses gains in Article 13.  Paragraph 6 seem to be the only one relevant for Bob as most of the section is taken up by the discussion of gains from real property.  Bob's stock is not real property in this situation.
 
-    6. Gains from the alienation of any property other than property referred to in paragraphs 1 through 5 shall be taxable only in the Contracting State of which the alienator is a resident.
+> 6. Gains from the alienation of any property other than property referred to in paragraphs 1 through 5 shall be taxable only in the Contracting State of which the alienator is a resident.
 
 This would seem to indicate that a resident of the Czech Republic having gains received from sources in the United States shall only be taxed on that interest in the Czech Republic.
 
 Again, the technical notes seem to support this conclusion.
 
-    This Article provides rules for source and residence State taxation of gains from the alienation of property.
-
-    Paragraph 6 grants to the residence State the exclusive right to tax gains from the alienation of property other than property referred to in paragraphs 1 through 5.
+> This Article provides rules for source and residence State taxation of gains from the alienation of property.
+> 
+> Paragraph 6 grants to the residence State the exclusive right to tax gains from the alienation of property other than property referred to in paragraphs 1 through 5.
 
 ## The "Saving" Clause
 
 Reading the above, you'd think Bob would be mostly on easy street.  His interest and gains aren't taxable by the United States and his dividends are taxable at a maximum rate of 15%.  Unfortunately for Bob he is about to meet the "saving" clause.  Article 1, paragraph 3 of the tax treaty says:
 
-    3. A Contracting State may tax its residents (as determined under Article 4 (Resident)) and its citizens, including former citizens, according to the laws of that State as if the Convention had not come into effect.
+> 3. A Contracting State may tax its residents (as determined under Article 4 (Resident)) and its citizens, including former citizens, according to the laws of that State as if the Convention had not come into effect.
 
 **Boom** The US has the right to tax Bob any way it wants to as Bob is a citizen.  This preserves the right of the US to tax it's citizens on worldwide income without regard to residency.
 
 Unfortunately, again, the technical notes seem to support this conclusion.
 
-    Paragraph 3 contains the traditional "saving" clause found in all U.S. treaties. Under this paragraph, each of the Contracting States may tax its own residents, citizens and former citizens, in accordance with its domestic law, notwithstanding any Convention provision to the contrary.  If, for example, a Czech resident performs independent personal services in the United States and the income from the services is not attributable to a fixed base in the United States, Article 14 (Independent Personal Services) would normally prevent the United States from taxing the income. If, however, the Czech resident is also a citizen of the United States, the "saving" clause permits the United States to include the remuneration in the worldwide income of the citizen and subject it to tax under normal Code rules (i.e., without regard to Code section 894(a)). Special foreign tax credit rules applicable to U.S. taxation of certain U.S. income of U.S. citizens resident in the Czech Republic are provided in paragraph 3 of Article 24 (Relief from Double Taxation).
+> Paragraph 3 contains the traditional "saving" clause found in all U.S. treaties. Under this paragraph, each of the Contracting States may tax its own residents, citizens and former citizens, in accordance with its domestic law, notwithstanding any Convention provision to the contrary.  If, for example, a Czech resident performs independent personal services in the United States and the income from the services is not attributable to a fixed base in the United States, Article 14 (Independent Personal Services) would normally prevent the United States from taxing the income. If, however, the Czech resident is also a citizen of the United States, the "saving" clause permits the United States to include the remuneration in the worldwide income of the citizen and subject it to tax under normal Code rules (i.e., without regard to Code section 894(a)). Special foreign tax credit rules applicable to U.S. taxation of certain U.S. income of U.S. citizens resident in the Czech Republic are provided in paragraph 3 of Article 24 (Relief from Double Taxation).
 
 ## Relief from Double Taxation
 
 This leads us to Article 24 of the treaty about double taxation.  The entire section is:
 
-    1. In accordance with the provisions and subject to the limitations of the law of the United States (as it may be amended from time to time without changing the general principle hereof), the United States shall allow to a resident or citizen of the United States as a credit against the United States tax on income the income tax paid to the Czech Republic by or on behalf of such resident or citizen.
-
-    2. In the Czech Republic, double taxation will be avoided in the following manner: The Czech Republic, when imposing taxes on its residents, may include in the tax base upon which such taxes are imposed the items of income which according to the provisions of this Convention may also be taxed in the United States, but shall allow as a deduction from the amount of tax computed on such a base an amount equal to the tax paid in the United States (other than solely on the basis of citizenship). Such deduction shall not, however, exceed that part of the Czech tax, as computed before the deduction is given, which is appropriate to the income which, in accordance with the provisions of this Convention, may be taxed in the United States (other than solely on the basis of citizenship).
-
-    3. In the case of an individual who is a citizen of the United States and a resident of the Czech Republic, income which may be taxed by the United States solely by reason of citizenship in accordance with paragraph 3 of Article 1 (General Scope) shall be deemed to arise in the Czech Republic to the extent necessary to avoid double taxation, provided that in no event will the tax paid to the United States be less than the tax that would be paid if the individual were not a citizen of the United States.
+> 1. In accordance with the provisions and subject to the limitations of the law of the United States (as it may be amended from time to time without changing the general principle hereof), the United States shall allow to a resident or citizen of the United States as a credit against the United States tax on income the income tax paid to the Czech Republic by or on behalf of such resident or citizen.
+>
+> 2. In the Czech Republic, double taxation will be avoided in the following manner: The Czech Republic, when imposing taxes on its residents, may include in the tax base upon which such taxes are imposed the items of income which according to the provisions of this Convention may also be taxed in the United States, but shall allow as a deduction from the amount of tax computed on such a base an amount equal to the tax paid in the United States (other than solely on the basis of citizenship). Such deduction shall not, however, exceed that part of the Czech tax, as computed before the deduction is given, which is appropriate to the income which, in accordance with the provisions of this Convention, may be taxed in the United States (other than solely on the basis of citizenship).
+>
+> 3. In the case of an individual who is a citizen of the United States and a resident of the Czech Republic, income which may be taxed by the United States solely by reason of citizenship in accordance with paragraph 3 of Article 1 (General Scope) shall be deemed to arise in the Czech Republic to the extent necessary to avoid double taxation, provided that in no event will the tax paid to the United States be less than the tax that would be paid if the individual were not a citizen of the United States.
 
 The technical notes for this article are:
 
-    In this Article, each Contracting State undertakes to relieve double taxation by granting a foreign tax credit against its income tax for the income tax paid to the other country. Under paragraph 1, the credit granted by the United States is allowed in accordance with the provisions and subject to the limitations of U.S. law, as that law my be amended over time, so long as the general principle of this Article (the allowance of a credit) is retained. Thus, although the Convention provides for a foreign tax credit, the terms of the credit are determined by the provisions of the U.S. statutory credit, at the time the credit is given.
-
-    The U.S. foreign tax credit is generally limited under the Code to the amount of U.S. tax due with respect to net foreign source income within the relevant foreign tax credit limitation category (see Code section 904(a)). Nothing in the Convention prevents the limitation of the U.S.  credit from being applied on a per-country or overall basis or some variation thereof. In general, where source rules are provided in the Convention for purposes of determining the taxing rights of the Contracting States, these are consistent with the Code source rules for foreign tax credit and other purposes. Where, however, there is an inconsistency between Convention and Code source rules, the Code source rules (e.g., Code section 904(g)) will be used to determine the limits for the allowance of a credit under the Convention. (Paragraph 3 of the Article provides an exception to this general rule with respect to certain U.S. source income of U.S. citizens resident in the Czech Republic.)
-
-    Paragraph 2 provides that the Czech Republic may include in the income tax base of its residents items of income that, under the Convention, are also taxable by the United States. The Czech Republic will credit the U.S. tax paid on such income to the extent that such tax does not exceed the amount of Czech tax that is appropriate to the income.
-
-    Paragraph 3 provides a special rule for the tax treatment of U.S. citizens resident in the Czech Republic. Under this paragraph, income that may be taxed by the United States solely by reason of citizenship in accordance with the "saving" clause of paragraph 3 of Article 1 (General Scope) shall be treated as having its source in the Czech Republic to the extent necessary to avoid double taxation. This provision overrides U.S. law source rules only in those cases where U.S. law would operate to deny a foreign tax credit for taxes imposed by the Czech Republic under the provisions of the Convention on U.S. citizens resident in the Czech Republic. In no case, however, is this provision to reduce the taxes paid to the United States below the amount that would be paid if the individual were not a citizen of the United States, i.e., the U.S. tax imposed on a nonresident, non-citizen with respect to income arising in the United States.
-
-    As an example of the application of paragraph 3, consider a U.S. citizen resident in the Czech Republic who receives $200 of portfolio dividend income from United States sources and is subject to U.S. tax at 28 percent ($56) on that income. Under the provisions of Article 10 (Dividends), the United States tax on portfolio dividends paid to residents of the Czech Republic who are not U.S. citizens is limited to 15 percent ($30 in this case). Suppose the Czech Republic taxes that income of its resident at 40 percent, or $80, and grants, in accordance with the provisions of paragraph 2 of this Article, a credit for the $30 of U.S. tax imposed on the basis of source only. The net Czech tax will be $50 and the total tax $106. Thus, the total tax is higher than either of the two countries' taxes, indicating some double taxation. The United States agrees to resource enough of that dividend income to avoid double taxation, but in no case, to reduce the U.S. tax paid below the $30 it is entitled to tax at source. In this example, the U.S. will resource enough of the dividend to permit a credit of $26, thus reducing its net tax from $56 to $30. The total tax becomes $80 ($50 + 30), the higher of the two taxes, and double taxation is eliminated. (The need for such a resourcing provision arises only if the Czech tax exceeds the applicable U.S. tax and the Czech credit permitted under its law and the treaty is limited to the U.S. tax imposed under the treaty on residents of the Czech Republic who are not U.S. citizens.)
-
-    By reason of paragraph 4(a) of Article 1 (General Scope), Article 24 is not subject to the provisions of the "saving" clause of paragraph 3 of Article 1. Thus, the "saving" clause cannot be used to deny a Czech resident the benefit of the credits provided for in paragraph 1 or to deny a U.S. citizen or resident the benefit of the credits provided for in paragraphs 2 and 3.
+> In this Article, each Contracting State undertakes to relieve double taxation by granting a foreign tax credit against its income tax for the income tax paid to the other country. Under paragraph 1, the credit granted by the United States is allowed in accordance with the provisions and subject to the limitations of U.S. law, as that law my be amended over time, so long as the general principle of this Article (the allowance of a credit) is retained. Thus, although the Convention provides for a foreign tax credit, the terms of the credit are determined by the provisions of the U.S. statutory credit, at the time the credit is given.
+>
+> The U.S. foreign tax credit is generally limited under the Code to the amount of U.S. tax due with respect to net foreign source income within the relevant foreign tax credit limitation category (see Code section 904(a)). Nothing in the Convention prevents the limitation of the U.S.  credit from being applied on a per-country or overall basis or some variation thereof. In general, where source rules are provided in the Convention for purposes of determining the taxing rights of the Contracting States, these are consistent with the Code source rules for foreign tax credit and other purposes. Where, however, there is an inconsistency between Convention and Code source rules, the Code source rules (e.g., Code section 904(g)) will be used to determine the limits for the allowance of a credit under the Convention. (Paragraph 3 of the Article provides an exception to this general rule with respect to certain U.S. source income of U.S. citizens resident in the Czech Republic.)
+>
+> Paragraph 2 provides that the Czech Republic may include in the income tax base of its residents items of income that, under the Convention, are also taxable by the United States. The Czech Republic will credit the U.S. tax paid on such income to the extent that such tax does not exceed the amount of Czech tax that is appropriate to the income.
+>
+> Paragraph 3 provides a special rule for the tax treatment of U.S. citizens resident in the Czech Republic. Under this paragraph, income that may be taxed by the United States solely by reason of citizenship in accordance with the "saving" clause of paragraph 3 of Article 1 (General Scope) shall be treated as having its source in the Czech Republic to the extent necessary to avoid double taxation. This provision overrides U.S. law source rules only in those cases where U.S. law would operate to deny a foreign tax credit for taxes imposed by the Czech Republic under the provisions of the Convention on U.S. citizens resident in the Czech Republic. In no case, however, is this provision to reduce the taxes paid to the United States below the amount that would be paid if the individual were not a citizen of the United States, i.e., the U.S. tax imposed on a nonresident, non-citizen with respect to income arising in the United States.
+>
+> As an example of the application of paragraph 3, consider a U.S. citizen resident in the Czech Republic who receives $200 of portfolio dividend income from United States sources and is subject to U.S. tax at 28 percent ($56) on that income. Under the provisions of Article 10 (Dividends), the United States tax on portfolio dividends paid to residents of the Czech Republic who are not U.S. citizens is limited to 15 percent ($30 in this case). Suppose the Czech Republic taxes that income of its resident at 40 percent, or $80, and grants, in accordance with the provisions of paragraph 2 of this Article, a credit for the $30 of U.S. tax imposed on the basis of source only. The net Czech tax will be $50 and the total tax $106. Thus, the total tax is higher than either of the two countries' taxes, indicating some double taxation. The United States agrees to resource enough of that dividend income to avoid double taxation, but in no case, to reduce the U.S. tax paid below the $30 it is entitled to tax at source. In this example, the U.S. will resource enough of the dividend to permit a credit of $26, thus reducing its net tax from $56 to $30. The total tax becomes $80 ($50 + 30), the higher of the two taxes, and double taxation is eliminated. (The need for such a resourcing provision arises only if the Czech tax exceeds the applicable U.S. tax and the Czech credit permitted under its law and the treaty is limited to the U.S. tax imposed under the treaty on residents of the Czech Republic who are not U.S. citizens.)
+>
+> By reason of paragraph 4(a) of Article 1 (General Scope), Article 24 is not subject to the provisions of the "saving" clause of paragraph 3 of Article 1. Thus, the "saving" clause cannot be used to deny a Czech resident the benefit of the credits provided for in paragraph 1 or to deny a U.S. citizen or resident the benefit of the credits provided for in paragraphs 2 and 3.
 
 That is a giant wall of text.  The most important part is in the technical explanation of paragraph 3.  Basically, the US has to give a tax credit for taxes paid to the Czech Republic against taxes it is charging a citizen solely by virtue of their citizenship.  This is subject to the requirement that at no time may the tax paid to the US be less than the tax that would have been paid by a non-US citizen in the same situation.  Because the US tax code doesn't allow for foreign tax credits on US source income, the treaty provides that the income may be "resourced" to be considered foreign source income to the extent required to provide the tax credit.  There is even an example!  It'd be great if the example included forms and showed multiple situations, however, it doesn't.
 
@@ -244,11 +248,11 @@ Gains are more complicated.  [IRC 865(a)](https://www.law.cornell.edu/uscode/tex
 
 Further reading, reveals that [IRC 301.6114-1(b)](https://www.law.cornell.edu/cfr/text/26/301.6114-1#b_6) needs to be examined to see if we have to disclose.  Paragraph 6 would seem to require it as it says:
 
-    (6) Except as provided in paragraph (c)(1)(iv) of this section, that a treaty alters the source of any item of income or deduction; 
+> (6) Except as provided in paragraph (c)(1)(iv) of this section, that a treaty alters the source of any item of income or deduction; 
 
 However, continuing to read the law, you will discover [IRC 301.6114-2](https://www.law.cornell.edu/cfr/text/26/301.6114-1#c_2) which eliminates the forms because our amounts are below $10,000 in total.
 
-    (2) Reporting is waived for an individual if payments or income items otherwise reportable under this section (other than by reason of paragraph (b)(8) of this section), received by the individual during the course of the taxable year do not exceed $10,000 in the aggregate or, in the case of payments or income items reportable only by reason of paragraph (b)(8) of this section, do not exceed $100,000 in the aggregate. 
+> (2) Reporting is waived for an individual if payments or income items otherwise reportable under this section (other than by reason of paragraph (b)(8) of this section), received by the individual during the course of the taxable year do not exceed $10,000 in the aggregate or, in the case of payments or income items reportable only by reason of paragraph (b)(8) of this section, do not exceed $100,000 in the aggregate. 
 
 So no form 8833.
 

@@ -1,15 +1,15 @@
 ---
-layout:   post
 title:   "AsciiBind all the things!"
-subtitle:  "A Fedora Docs Toolchain Proposal"
+excerpt:  "A Fedora Docs Toolchain Proposal"
 date:    2016-09-20 09:00:00 +0200
-author:   "Brian Exelbierd"
-#header-img: ""
-published: true
-category: Technology
+categories:
+  - Technology
 tags:
   - Fedora
   - Documentation
+classes: wide
+header:
+  overlay_color: "#333"
 ---
 
 I have finally finished a, probably way too long,

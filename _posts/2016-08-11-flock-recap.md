@@ -1,14 +1,18 @@
 ---
-layout:   post
 title:   "Flock to Fedora: Krakow, PL Edition"
-subtitle:  "Community Means Hanging with Your Friends"
+excerpt:  "Community Means Hanging with Your Friends"
 date:    2016-08-11 18:23:00 +0200
-author:   "Brian Exelbierd"
-header-img: "img/2016/flock.png"
-published: true
-category: Technology
+categories:
+  - Technology
 tags:
+  - Conferences
   - Fedora
+header:
+  overlay_image: "/img/2016/flock.png"
+  og_image: "/img/2016/flock.png"
+  teaser: "/img/2016/flock.png"
+  overlay_filter: 0.3
+classes: wide
 redirect_from:
  - /2016/08/11/flock-recap/
 ---
@@ -45,8 +49,7 @@ One interesting statistic from the talk is that almost two-thirds of
 contributors to the Fedora project are not Red Hat employees.  It merits
 constant repeating: Fedora is a community directed and produced effort.
 
-The core of Fedora contributors is roughly 2 non-Red Hatters for every Red Hatter.
-{:.quote}
+> The core of Fedora contributors is roughly 2 non-Red Hatters for every Red Hatter.
 
 I followed this up with two talks, *A year managing the Italian
 Fedora Community* and *I contributed! but, what now?*.  Both [Fabio
@@ -221,6 +224,6 @@ and computer), a dinner cruise on the Vistula, and an evening in Browar
 
 Photo Credit: [Mary Shakshober](https://marygraphicdesigns.wordpress.com/)
 and the [Fedora Design Team](https://fedoraproject.org/wiki/Design)
-{:.footnotes}
+{: .notice}
 
 [^0]: There is a people reason to wait.  A core contributor is away unexpectedly.

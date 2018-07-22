@@ -1,9 +1,13 @@
 ---
-layout: page
 title: "Talks and Demos"
-description: "Talks and Demos I've done"
-header-img: "img/about-bg.jpg"
-tags: navigation
+excerpt: "Talks and Demos I've done"
+header:
+  overlay_image: "/img/about-bg.jpg"
+  og_image: "/img/about-bg.jpg"
+  teaser: "/img/about-bg.jpg"
+  caption: "Photo credit: author"
+  overlay_filter: 0.5
+classes: wide
 ---
 
 Talks and demos I've given, my work with the Fosdem Distributions DevRoom and various submissions to CFPs that I've made are are collected below.  When a talk includes extensive demo or code material, it is typically hosted in my in [my talk, presentation and demo archive](https://github.com/bexelbie/bexelbie-talks-demos) and only linked to below.
@@ -59,4 +63,4 @@ This repository also contains [CFP
 submissions](cfp-submissions) I have made and remembered to keep.
 Some were successful, some were learning experiences.
 
-Some slides were prepared using my own configuration of [reveal.js](https://github.com/bexelbie/bexelbie-talks-demos/tree/master/tools).
+Some slides were prepared using my own configuration of [reveal.js](tools).

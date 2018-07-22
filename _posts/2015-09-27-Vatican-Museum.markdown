@@ -1,14 +1,18 @@
 ---
-layout:     post
 title:      "The Vatican Museum"
-subtitle:   ""
+excerpt: ""
 date:       2015-09-27 16:52:32
-author:     "Brian Exelbierd"
-header-img: "img/2015/vatican-carriage.jpg"
-published:  true
-category: Travel
+categories:
+  - Travel
 tags:
   - Vatican
+header:
+  overlay_image: "/img/2015/vatican-carriage.jpg"
+  og_image: "/img/2015/vatican-carriage.jpg"
+  teaser: "/img/2015/vatican-carriage.jpg"
+  caption: "Photo credit: author"
+  overlay_filter: 0.3
+classes: wide
 redirect_from:
  - /2015/09/27/Vatican-Museum/
 ---
@@ -27,11 +31,14 @@ Wikipedia says, ["*The Creation of Adam* is the best known, having an iconic sta
 
 We continued on and our last major stop was the Padiglione deile Carrozze, the Popemobile room[^1]. Starting from sedan chairs and moving on to carriages (Berlins and Landaus) then to cars (Popemobiles, Limos, and gifts) this exhibit traces the history of Papal transportation. This is the good stuff and I highly recommend it. I only wish we could have spent an extra half-hour here. 
 
+![A Vatican Carriage](/img/2015/vatican-carriage.jpg){: .align-center}
+
 On another day we hope to get back to St. Peter's Cathedral, which we had to skip due to the length of the line. 
 
 Now about that [Pope shaped ice cream](http://www.disneyfoodblog.com/2010/11/15/snack-series-the-mickey-premium-bar/) ...
+{: .notice}
 
 Note: This post was edited for grammar, typos and phrasing.  A full history is available in the git repository.
-{:.footnotes}
+{: .notice}
 
 [^1]: Regretabbly that is not the proper translation from Italian for that phrase.

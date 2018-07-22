@@ -1,8 +1,13 @@
 ---
-layout: page
 title: "Distributions Devroom 2018"
-description: "CfP Email"
-#header-img: "img/about-bg.jpg"
+excerpt: "CfP Email"
+header:
+  overlay_image: "/img/about-bg.jpg"
+  og_image: "/img/about-bg.jpg"
+  teaser: "/img/about-bg.jpg"
+  caption: "Photo credit: author"
+  overlay_filter: 0.5
+classes: wide
 ---
 
 FOSDEM 2018 - Distributions Devroom Call for Participation

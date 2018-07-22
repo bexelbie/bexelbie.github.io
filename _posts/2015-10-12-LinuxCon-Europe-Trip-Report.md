@@ -1,16 +1,16 @@
 ---
-layout:     post
 title:      "A Containers-Eye View of LinuxCon EU"
-subtitle:   "posted on the Red Hat Community Blog"
+excerpt:   "posted on the Red Hat Community Blog"
 date:       2015-10-12 12:32:00
-author:     "Brian Exelbierd"
-#header-img: ""
-published:  true
-category: Technology
+categories:
+  - Technology
 tags:
- - Conferences
- - Project Atomic
- - Containers
+  - Conferences
+  - Project Atomic
+  - Containers
+classes: wide
+header:
+  overlay_color: "#333"
 redirect_from:
  - /2015/10/12/LinuxCon-Europe-Trip-Report/
 ---

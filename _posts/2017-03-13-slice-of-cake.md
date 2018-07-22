@@ -1,14 +1,19 @@
 ---
-layout:   post
-title:   "Slice of Cake #1"
-#subtitle:  "because I got pwned"
 date:    2017-03-13 10:50:00 +0100
-author:   "Brian Exelbierd"
-#header-img: ""
-published: true
-category: Ramblings
+title:   "Slice of Cake #1"
+excerpt: ""
+categories:
+  - Ramblings
 tags:
- - Fedora
+  - Slice of Cake
+  - Fedora
+header:
+  overlay_image: "/img/cake-with-the-fcaic.png"
+  og_image: "/img/cake-with-the-fcaic.png"
+  teaser: "/img/cake-with-the-fcaic.png"
+  caption: "Photo credit: [**Fedora Badges**](https://badges.fedoraproject.org/badge/its-a-cake-thing)"
+  overlay_filter: 0.3
+classes: wide
 ---
 
 The great [Stormy Peters](https://twitter.com/storming), who is also my boss, told me that she used to publish a weekly round up of what she did. People who didn't work directly with her didn't know what she actually worked on until it became finalized and published.  I think the same can be said for my role as Fedora Community Action and Impact Coordinate (FCAIC / F-CAKE), so I've decided to steal a page from her playbook.

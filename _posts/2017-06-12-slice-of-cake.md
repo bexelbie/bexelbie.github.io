@@ -1,14 +1,19 @@
 ---
-layout:   post
-title:   "Slice of Cake #10"
-#subtitle:  ""
 date:    2017-06-12 10:26:00 +0200
-author:   "Brian Exelbierd"
-#header-img: ""
-published: true
-category: Ramblings
+title:   "Slice of Cake #10"
+excerpt: ""
+categories:
+  - Ramblings
 tags:
- - Fedora
+  - Slice of Cake
+  - Fedora
+header:
+  overlay_image: "/img/cake-with-the-fcaic.png"
+  og_image: "/img/cake-with-the-fcaic.png"
+  teaser: "/img/cake-with-the-fcaic.png"
+  caption: "Photo credit: [**Fedora Badges**](https://badges.fedoraproject.org/badge/its-a-cake-thing)"
+  overlay_filter: 0.3
+classes: wide
 ---
 
 Is this cake number 10 (decimal) or number 2 (binary)? This never gets old!
@@ -31,10 +36,10 @@ I'll be traveling some and hope you'll ping me for coffee if you're nearby.
 - Working from Gdansk, Poland from 3-4 July.
 - Flock on Cape Cod, Massachusetts, USA from 29 August - 1 September.
 
-![It's not as big as you think it is.](/img/2017/fuji-chop.jpg)
+![It's not as big as you think it is.](/img/2017/fuji-chop.jpg){: .align-center}
 It's much smaller in real life.
-{:.quote}
+{: .text-center}
 
-![Bus window Fuji-san.](/img/2017/fuji-san.jpg)
+![Bus window Fuji-san.](/img/2017/fuji-san.jpg){: .align-center}
 Fuji-san appeared suddenly during the bus ride back to the train station.
-{:.quote}
+{: .text-center}

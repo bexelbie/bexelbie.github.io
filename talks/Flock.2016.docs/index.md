@@ -1,9 +1,13 @@
 ---
-layout: page
 title: "Flock 2016, Kraków Poland"
-description: "Hackfest: Fedora Docs Learn and Hack"
-header-img: "img/about-bg.jpg"
-tags: no-navigation
+excerpt: "Hackfest: Fedora Docs Learn and Hack"
+header:
+  overlay_image: "/img/about-bg.jpg"
+  og_image: "/img/about-bg.jpg"
+  teaser: "/img/about-bg.jpg"
+  caption: "Photo credit: author"
+  overlay_filter: 0.5
+classes: wide
 ---
 
 # [Hackfest: Fedora Docs Learn and Hack](https://flock2016.sched.org/event/ed4a9f29526b5befe6a86635050cd958)

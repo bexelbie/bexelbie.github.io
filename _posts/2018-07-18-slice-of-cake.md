@@ -1,19 +1,24 @@
 ---
-layout:   post
-title:   "Slice of Cake #27"
-#subtitle:  ""
 date:    2018-07-18 11:10:00 +0200
-author:   "Brian Exelbierd"
-header-img: "img/cake-with-the-fcaic.png"
-published: true
-category: Ramblings
+title:   "Slice of Cake #27"
+excerpt: ""
+categories:
+  - Ramblings
 tags:
- - Fedora
+  - Slice of Cake
+  - Fedora
+header:
+  overlay_image: "/img/cake-with-the-fcaic.png"
+  og_image: "/img/cake-with-the-fcaic.png"
+  teaser: "/img/cake-with-the-fcaic.png"
+  caption: "Photo credit: [**Fedora Badges**](https://badges.fedoraproject.org/badge/its-a-cake-thing)"
+  overlay_filter: 0.3
+classes: wide
 ---
 
 # A slice of cake
 
-<img alt="Cake Badge" width="200" height="200" src="/img/cake-with-the-fcaic.png" align="left" valign="middle" vspace="5" hspace="5"/>Last week as the FCAIC I:
+![Cake Badge](/img/cake-with-the-fcaic.png){: .align-right}Last week as the FCAIC I:
 
 - Handed off the driving work behind the migration of [Fedora Docs](https://docs.fedoraproject.org) to [Antora](https://antora.org) to [Adam Samalik](https://twitter.com/adsamalik).  I am super excited to be helping on this project and no longer trying to lead it (and becoming a blocker/cookie licker).  He has a plan in place to be live by 1 August, 2018 which is way sooner than I could have gotten there.  This is gonna be awesome.  If you're a docs contributor or a provider of docs published on the docs site, look for his email coming soon.  I plan to continue to help drive the localization effort until it is at a place where I can hand that off too.
 - Lots of Flock things got done:

@@ -1,9 +1,13 @@
 ---
-layout: page
 title: "CentOS Dojo, Brussels, 2016"
-description: "Atomic Developer Bundle"
-header-img: "img/about-bg.jpg"
-tags: no-navigation
+excerpt: "Atomic Developer Bundle"
+header:
+  overlay_image: "/img/about-bg.jpg"
+  og_image: "/img/about-bg.jpg"
+  teaser: "/img/about-bg.jpg"
+  caption: "Photo credit: author"
+  overlay_filter: 0.5
+classes: wide
 ---
 
 # [Atomic Developer Bundle](https://github.com/projectatomic/adb-atomic-developer-bundle/): Containerized Development Made Easy

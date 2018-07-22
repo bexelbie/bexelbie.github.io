@@ -1,16 +1,21 @@
 ---
-layout:     post
 title:      "First Docker Meetup in Brno, Czech Republic"
-subtitle:   "posted at ProjectAtomic.io"
+excerpt:   "posted at ProjectAtomic.io"
 date:       2015-05-18 16:52:32
-author:     "Brian Exelbierd"
-header-img: "img/2015/docker-brno-meetup-1-jfolta.jpg"
-published:  true
-category: Technology
+categories:
+  - Technology
 tags:
- - Project Atomic
- - Meetup
- - Containers
+  - Project Atomic
+  - Meetup
+  - Containers
+  - Conferences
+header:
+  overlay_image: "/img/2015/docker-brno-meetup-1-jfolta.jpg"
+  og_image: "/img/2015/docker-brno-meetup-1-jfolta.jpg"
+  teaser: "/img/2015/docker-brno-meetup-1-jfolta.jpg"
+  caption: "Photo credit: [Jiri Folta](https://plus.google.com/111655466984621162361/about)"
+  overlay_filter: 0.3
+classes: wide
 ---
 
 Last Thursday night, we held the first-ever Docker meetup in Brno. Approximately  100 people gathered to hear speakers from four different organizations on container technology and its use. The space, video recordings (links coming soon) and catering were provided through support from [Red Hat's Open Source and Standards Team](http://community.redhat.com), [Impact Hub](http://www.hubbrno.cz/en/), [Good Data](http://www.gooddata.com/), and [Seznam.cz](http://seznam.cz).

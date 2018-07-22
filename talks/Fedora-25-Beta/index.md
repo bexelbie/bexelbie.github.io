@@ -1,9 +1,13 @@
 ---
-layout: page
 title: "FUDCon LATAM 2016, Puno, Peru"
-description: "What's New in Fedora 25 Beta"
-header-img: "img/about-bg.jpg"
-tags: no-navigation
+excerpt: "What's New in Fedora 25 Beta"
+header:
+  overlay_image: "/img/about-bg.jpg"
+  og_image: "/img/about-bg.jpg"
+  teaser: "/img/about-bg.jpg"
+  caption: "Photo credit: author"
+  overlay_filter: 0.5
+classes: wide
 ---
 
 # What's New in Fedora 25 Beta

@@ -11,6 +11,8 @@ tags:
  - Fedora
 ---
 
+**Fix links with ...**
+
 I estimate that I receive about XXX emails each working day.  This is just the email I receive related to my contributions to [Fedora](https://getfedora.org), a few projects I monitor for personal reasons, and my work at [Red Hat](https://community.redhat.com) as the [Fedora Community Action and Impact Coordinator](https://docs.fedoraproject.org/..../fcaic.html).  It's a lot of email.  It's less than some people, I know and compares to the average (best guess) 800 emails a day my colleagues receive.
 
 I read all of this email and figure out how to handle it using a 3 step system to filter incoming email for further processing.  Before I continue, I should define "read."  I consider an email "read" when it has received the amount of attention it deserves.  This doesn't mean I read every word of every email.  This sounds like cheating to some of you, but I know no one who I believe can claim they read every word of every email at these volumes.
@@ -64,11 +66,11 @@ To capture these, I've created a series a filters that label email based on cond
 
     (from:notifications@github.com OR from:git@pagure.io OR from:bugzilla@redhat.com OR from:bugs@centos.org OR from:pagure@pagure.io) AND NOT has:userlabels
 
-The label again serves as a way to debug if there is an error and to ultimately land things where I will read them.  There is an interesting element to this filter, the `has:nouserlabels` condition.  This conditoin (and the corresponding `has:userlabels`) allows you to make decisions based on the presence of any labels on the email (or thread).  In this case, the presence of other labels mean I decided the email was trash (see Step 1).  Because of this, I am using `has:nouserlabels` as a way of not processing the email further.
+The label again serves as a way to debug if there is an error and to ultimately land things where I will read them.  There is an interesting element to this filter, the `has:nouserlabels` condition.  This condition (and the corresponding `has:userlabels`) allows you to make decisions based on the presence of any labels on the email (or thread).  In this case, the presence of other labels mean I decided the email was trash (see Step 1).  Because of this, I am using `has:nouserlabels` as a way of not processing the email further.
 
 ## Email from my boss or important colleagues
 
-In contrast to the first example, here we definitely want to flag these emails, no matter what.  For this I have a filter that labels the email based on a set of email addresses.  With the addresses ommitted, it looks like this:
+In contrast to the first example, here we definitely want to flag these emails, no matter what.  For this I have a filter that labels the email based on a set of email addresses.  With the addresses omitted, it looks like this:
 
     from:a@example.com OR from:b@example.com OR from:c@example.com
 
@@ -76,17 +78,17 @@ These emails all get labeled with the 'from-people' label so they can be sorted 
 
 ## Email from a mailing list that is usually "interesting"
 
-Many filtering systems, including Gmail allow you to filter on List-ID.  As you saw above, I am not advocating just creating a label for each list.  You can do this if you want, but I find it very unncessary.  First, later on when we go to sort the email you're going to wind up with very long filter conditions and may run up against length limitations.  Second, I find it useful to consider lists as a group based on the likelihood of my reading an email from them.  More on this in a bit.
+Many filtering systems, including Gmail allow you to filter on List-ID.  As you saw above, I am not advocating just creating a label for each list.  You can do this if you want, but I find it very unnecessary.  First, later on when we go to sort the email you're going to wind up with very long filter conditions and may run up against length limitations.  Second, I find it useful to consider lists as a group based on the likelihood of my reading an email from them.  More on this in a bit.
 
 To label the lists in Gmail I use a filter like this: 
 
     list:(a.example.com) OR list:(b.example.com) OR list:(c.example.org)
 
-Notice that the value being tested for is the List-ID, not the from address.  Find it by looing at the message headers.  I label these by category, i.e, `interesting-lists` or `tier2-lists`.
+Notice that the value being tested for is the List-ID, not the from address.  Find it by looking at the message headers.  I label these by category, i.e, `interesting-lists` or `tier2-lists`.
 
 ## Email about a particular project or technology
 
-One last example.  I have a few filters that just look for keywords.  For me, one of them is around keywords related to documenation.  I've been doing a lot of work on the tooling for [Fedora Docs](https://docs.fedoraproject.org) so these technologies and projects are worth flagging to me.
+One last example.  I have a few filters that just look for keywords.  For me, one of them is around keywords related to documentation.  I've been doing a lot of work on the tooling for [Fedora Docs](https://docs.fedoraproject.org) so these technologies and projects are worth flagging to me.
 
 To do this, I am labeling each category of technology/projects using a filter like this:
 
@@ -99,7 +101,7 @@ This grabs all the things related to docs and labels them with the `docs` label.
 At this point you need to divide your email so you can later conquer it.  As I mentioned at the start, I use 4 inboxes.  You should use as many as you need, but I believe the fewer the better.  My inboxes are:
 
 * INBOX: This is for email that is highly likely to be important and need my attention.
-* Tier-2: This is for email that is potentially intersting and may want to be read.
+* Tier-2: This is for email that is potentially interesting and may want to be read.
 * Tier-3: This is for email that is unlikely to want to be read, but can't be eliminated by the bots.
 * Tier-git: This is for email from various systems that may require action or monitoring.
 

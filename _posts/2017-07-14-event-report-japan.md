@@ -1,16 +1,16 @@
 ---
-layout:   post
 title:   "Open Source Summit Japan"
-subtitle:  "Event Report"
 date:    2017-07-14 11:51:00 -0500
-author:   "Brian Exelbierd"
-#header-img: ""
-published: true
-category: Technology
+excerpt:  "Event Report"
+categories:
+  - Technology
 tags:
- - Conferences
- - Fedora
- - Red Hat
+  - Conferences
+  - Fedora
+  - Red Hat
+classes: wide
+header:
+  overlay_color: "#333"
 ---
 
 # Open Source Summit
@@ -29,4 +29,4 @@ A big take away for me was that we need to do a better job of figuring out how t
 
 By sharing a booth with Red Hat we had no direct conference costs.  Even the stickers we handed out were provided directly by Red Hat.  This allowed us to participate in this conference without spending any Fedora public budget.
 
-![Swag!](/img/2017/oss-japan.jpg){:.center-image}
+![Swag!](/img/2017/oss-japan.jpg){: .align-center}

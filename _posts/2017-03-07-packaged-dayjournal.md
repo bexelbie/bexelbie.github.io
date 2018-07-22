@@ -1,14 +1,14 @@
 ---
-layout:   post
 title:   "I Packaged DayJournal"
-subtitle:  "with apologies to Jill Sobule"
+excerpt:  "with apologies to Jill Sobule"
 date:    2017-03-07 08:50:00 +0100
-author:   "Brian Exelbierd"
-#header-img: ""
-published: true
-category: Technology
+categories:
+  - Technology
 tags:
- - Fedora
+  - Fedora
+classes: wide
+header:
+  overlay_color: "#333"
 ---
 
 Roughly to the tune of [I Kissed a Girl](http://jillsobule.com/2012/01/i-kissed-a-girl/) by [Jill Sobule](https://twitter.com/jillsobule).

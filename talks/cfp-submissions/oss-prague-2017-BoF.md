@@ -1,9 +1,13 @@
 ---
-layout: page
 title: "CFP Submissions"
-description: "Lessons Learned"
-header-img: "img/about-bg.jpg"
-tags: no-navigation
+excerpt: "Lessons Learned"
+header:
+  overlay_image: "/img/about-bg.jpg"
+  og_image: "/img/about-bg.jpg"
+  teaser: "/img/about-bg.jpg"
+  caption: "Photo credit: author"
+  overlay_filter: 0.5
+classes: wide
 ---
 
 # Fedora, CentOS and EPEL BoF

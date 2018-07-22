@@ -1,9 +1,13 @@
 ---
-layout: page
 title: "DEVCONF Brno 2016"
-description: "Atomic Developer Bundle: Containerized Development Made Easy"
-header-img: "img/about-bg.jpg"
-tags: no-navigation
+excerpt: "Atomic Developer Bundle: Containerized Development Made Easy"
+header:
+  overlay_image: "/img/about-bg.jpg"
+  og_image: "/img/about-bg.jpg"
+  teaser: "/img/about-bg.jpg"
+  caption: "Photo credit: author"
+  overlay_filter: 0.5
+classes: wide
 ---
 
 # [Atomic Developer Bundle: Containerized Development Made Easy](https://devconfcz2016.sched.org/event/53556807a38c5eb825ebdfdebccd1def)

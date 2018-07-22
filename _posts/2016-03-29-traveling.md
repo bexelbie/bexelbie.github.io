@@ -1,14 +1,18 @@
 ---
-layout:     post
 title:      "A Study in Process"
-subtitle:   "Adventures in an Indian Airport"
+excerpt:   "Adventures in an Indian Airport"
 date:       2016-03-29 08:00:00
-author:     "Brian Exelbierd"
-header-img: "img/2016/India-customs-form.jpg"
-published:  true
-category: Travel
+categories:
+  - Travel
 tags:
- - Process
+  - Process
+header:
+  overlay_image: "/img/2016/India-customs-form.jpg"
+  og_image: "/img/2016/India-customs-form.jpg"
+  teaser: "/img/2016/India-customs-form.jpg"
+  caption: "Photo credit: author"
+  overlay_filter: 0.3
+classes: wide
 redirect_from:
  - /future_posts/2016-01-12-traveling/
 ---
@@ -99,4 +103,4 @@ and takes a long time to dry.  Perhaps this inconvenience would be
 enough to satisfy the American flying public.
 
 Note: This post was edited for grammar, typos and phrasing.  A full history is available in the git repository.
-{:.footnotes}
+{: .notice}

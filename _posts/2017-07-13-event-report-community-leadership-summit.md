@@ -1,16 +1,17 @@
 ---
-layout:   post
 title:   "Community Leadership Summit"
-subtitle:  "Event Report"
+excerpt:  "Event Report"
 date:    2017-07-13 15:45:00 -0500
-author:   "Brian Exelbierd"
-#header-img: ""
-published: true
-category: Technology
+categories:
+  - Technology
 tags:
- - Conferences
- - Fedora
+  - Conferences
+  - Fedora
+classes: wide
+header:
+  overlay_color: "#333"
 ---
+
 # Community Leadership Summit
 
 ## Austin, TX USA

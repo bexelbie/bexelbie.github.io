@@ -1,14 +1,18 @@
 ---
-layout:     post
 title:      "No Docs, No Commit"
-subtitle:   "Playing with travis-ci.org"
+excerpt:   "Playing with travis-ci.org"
 date:       2016-01-26 14:00:00
-author:     "Brian Exelbierd"
-header-img: "img/2016/crack-team.png"
-published:  true
-category: Technology
+categories:
+  - Technology
 tags:
- - Documentation
+  - Documentation
+header:
+  overlay_image: "/img/2016/crack-team.png"
+  og_image: "/img/2016/crack-team.png"
+  teaser: "/img/2016/crack-team.png"
+  caption: "Photo credit: author"
+  overlay_filter: 0.3
+classes: wide
 redirect_from:
  - /2016/01/26/no-docs-no-commit/
 ---
@@ -66,9 +70,9 @@ me to play with travis-ci.org.
 So remember, if you propose a PR/Commit with no docs, my "CI team"
 will be standing by to tell you, "No."
 
-![IRC log](/img/2016/crack-team.png)
+![IRC log](/img/2016/crack-team.png){: .align-center}
 IRC log courtesy of #taskwarrior.
-{:.footnotes}
+{: .text-center}
 
 Note: This post was edited for grammar, typos and phrasing.  A full history is available in the git repository.
-{:.footnotes}
+{: .notice}

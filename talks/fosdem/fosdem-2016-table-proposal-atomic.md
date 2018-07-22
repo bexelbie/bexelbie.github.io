@@ -1,8 +1,13 @@
 ---
-layout: page
 title: "FOSDEM 2016"
-description: "Project Atomic Table Proposal"
-#header-img: "img/about-bg.jpg"
+excerpt: "Project Atomic Table Proposal"
+header:
+  overlay_image: "/img/about-bg.jpg"
+  og_image: "/img/about-bg.jpg"
+  teaser: "/img/about-bg.jpg"
+  caption: "Photo credit: author"
+  overlay_filter: 0.5
+classes: wide
 ---
 
 # Project details

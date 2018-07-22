@@ -1,16 +1,16 @@
 ---
-layout:   post
 title:   "Red Hat Summit"
-subtitle:  "Event Report"
+excerpt:  "Event Report"
 date:    2017-07-13 14:45:00 -0500
-author:   "Brian Exelbierd"
-#header-img: ""
-published: true
-category: Technology
+categories:
+  - Technology
 tags:
- - Conferences
- - Fedora
- - Red Hat
+  - Conferences
+  - Fedora
+  - Red Hat
+classes: wide
+header:
+  overlay_color: "#333"
 ---
 
 # Red Hat Summit
@@ -31,12 +31,12 @@ Across from the Fedora booth, Aleph Objects had a small table to demo 3D printin
 
 Our other big display piece was a Raspberry Pi running Fedora Workstation.  The power of community was on display here as we had a "patch" submitted and "merged" during the conference.  Mo Duffy came by and saw the amateur backdrop I had put up on the display and went and created a professional image, and brought it in for us to use.  It was fantastic to see the community come together like that.
 
-![Before - so sad](/img/2017/pi-before.jpg){:.center-image}
+![Before - so sad](/img/2017/pi-before.jpg){: .align-center}
 A quick hack to prove the concept becomes ...
-{:.caption}
-![After - so polished](/img/2017/pi-after.jpg){:.center-image}
+{: .text-center}
+![After - so polished](/img/2017/pi-after.jpg){: .align-center}
 ... a polished final product built by the power of community.
-{:.caption}
+{: .text-center}
 
 We didn't hand out a lot of swag at the conference and confined ourselves to Fedora stickers.  Matthew discovered some Fedora badge hangers in his backpack and we realized that we need to print those in future years to allow supporters to easily identify themselves during the conference.  We specifically did not prepare Fedora DVDs and had only a few requests for media at all.  One person wanted a DVD to do an install on the trade show floor of a failing demo machine that was actually old enough to have a DVD drive.  The other requesters either were looking for free flash drives (for other reasons) or wanted a souvenir.  We discussed printing either updated Fedora cheatcubes that could include the download URL or business cards to hand out with the download URL for future years.
 
