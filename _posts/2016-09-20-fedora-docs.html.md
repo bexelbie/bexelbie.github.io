@@ -13,7 +13,7 @@ header:
 ---
 
 I have finally finished a, probably way too long,
-[proposal](http://www.winglemeyer.org/fedora_docs_proposal/latest/proposal/overview.html
+[proposal](https://www.winglemeyer.org/fedora_docs_proposal/latest/proposal/overview.html
 ) for implementing a new Fedora Docs publishing toolchain using
 [AsciiBinder](http://www.asciibinder.org/).
 
@@ -26,4 +26,4 @@ The proposal tries to summarize the current state of affairs, define
 the problems being solved and provides instructions for using a proof
 of concept technology build to play with the tools.
 
-Please take a read on the full proposal here: [http://www.winglemeyer.org/fedora_docs_proposal/latest/proposal/overview.html](http://www.winglemeyer.org/fedora_docs_proposal/latest/proposal/overview.html)
+Please take a read on the full proposal here: [https://www.winglemeyer.org/fedora_docs_proposal/latest/proposal/overview.html](https://www.winglemeyer.org/fedora_docs_proposal/latest/proposal/overview.html)

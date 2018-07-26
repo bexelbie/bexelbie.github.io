@@ -36,7 +36,7 @@ can become a tool for expanding the Fedora community. #TheFedoraADB
 ## Slides and Source Files
 
 * [Slides](slides.html)
-* [slides.revealjs](slides.revealjs.txt) prepared using my own configuration of [reveal.js](../tools/README.md).
+* [slides.revealjs](slides.revealjs.txt) prepared using my own configuration of [reveal.js]({% link talks/tools/index.md %}).
 * [demo files](https://github.com/bexelbie/bexelbie-talks-demos/tree/master/Flock.2016.developers)
 
 ## Speaker Bios

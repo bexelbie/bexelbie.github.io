@@ -25,7 +25,7 @@ Open source software communities, as well as the individuals and the companies t
 ## Slides and Source Files
 
 * [slides](slides.html)
-* [slides.revealjs](slides.revealjs.txt) prepared using my own configuration of [reveal.js](../tools/README.md).
+* [slides.revealjs](slides.revealjs.txt) prepared using my own configuration of [reveal.js]({% link talks/tools/index.md %}).
 
 ## Speaker Bios
 
