@@ -7,7 +7,7 @@ title                    : "even the horse knew"
 title_separator          : "!"
 name                     : 'Brian "bex" Exelbierd'
 description              : "The personal ramblings of Brian Exelbierd and not his employers."
-url                      : "http://www.winglemeyer.org"
+url                      : "https://www.winglemeyer.org"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "bexelbie/bexelbie.github.io"
 teaser                   : "img/header.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
