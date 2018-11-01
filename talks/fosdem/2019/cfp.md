@@ -1,5 +1,5 @@
 ---
-title: "Distributions Devroom 2018"
+title: "Distributions Devroom 2019"
 excerpt: "CfP Email"
 header:
   overlay_image: "/img/about-bg.jpg"
@@ -10,19 +10,50 @@ header:
 classes: wide
 ---
 
-FOSDEM 2018 - Distributions Devroom Call for Participation
+Note: My "playbook" of specific contacts, etc. is not public, but I can share the concepts if there is interest.  Just contact me.
 
-The Distributions devroom will take place Sunday 4 February 2018 at
+Note To Self: If anyone asks, you keep the playbook with your secret notes :).
+
+FOSDEM 2019 - Distributions Devroom Call for Participation
+
+The Distributions devroom will take place Sunday 3 February 2019 at
 FOSDEM, in Brussels, Belgium at the Université Libre de Bruxelles.
 
-For this year's distributions devroom, we want to focus on the ways that
-distribution technologies can be leveraged to allow for easier
-creation of a multi-verse of artifacts from single source trees. We also
-want to continue to highlight the huge efforts being made in shared
-environments around Build/Test/Release cycles.
+As more and more workloads are being considered for containerization in
+the future and are finally landing in virtualized environments today,
+distributions remain a critical success factor and are more important
+than ever. Containers, like virtual machines, are not magical and
+rely on piles of software being assembled in a way that is repeatable,
+reliable, and functional. This is at the very heart of the problem that
+distributions have always solved.
+
+Each distribution is responsible for building, testing, and releasing
+software as well as managing the lifecycle of each application in the
+collection. Additionally, distributions do very important work in ensuring
+that various versions of upstream software work well together and can
+co-exist. Distributions are also, often responsible, for "de-vendoring"
+upstream software so that security fixes can be applied more quickly.
 
 We welcome submissions targeted at contributors interested in issues
 unique to distributions, especially in the following topics:
+
+# Topics and Areas of Focus
+
+## Focus Areas
+
+- The ways that distribution technologies can be leveraged to allow
+  for easier creation of a multi-verse of artifacts from single source
+  trees. This includes the increasing move toward self-contained
+  applications and providing multiple non-parallel installed versions
+  of software.
+
+- Efforts being made in shared environments around Build/Test/Release
+  cycles.
+
+- Topics related to the delivery problem as it impacts updates in
+  terms of both size and rollback/reliability are expected to be featured.
+
+## Additional Topic Ideas
 
 - Distribution and Community collaborations, eg: how does code flow from
   developers to end users across communities, ensuring trust and code
@@ -65,13 +96,13 @@ discussions, or Birds of a Feather (BoF) sessions.
 
 Dates
 ------
-Submission Deadline: 03-Dec-2017 @ 2359 GMT
-Acceptance Notification: 8-Dec-2017
-Final Schedule Posted: 15-Dec-2017
+Submission Deadline: 02-Dec-2018 @ 2359 GMT
+Acceptance Notification: 7-Dec-2018
+Final Schedule Posted: 14-Dec-2018
 
 How to submit
 --------------
-Visit https://penta.fosdem.org/submission/FOSDEM18
+Visit https://penta.fosdem.org/submission/FOSDEM19
 
 1.) If you do not have an account, create one here
 2.) Click 'Create Event'
