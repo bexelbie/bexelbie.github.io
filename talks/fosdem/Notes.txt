@@ -1,0 +1,5 @@
+General FOSDEM Notes:
+
+To fix the Devroom descriptions, submit a PR here: https://github.com/FOSDEM/website/tree/master/content/schedule/devrooms
+
+To export data, either request at devrooms@ or use https://github.com/meyskens/penta-export

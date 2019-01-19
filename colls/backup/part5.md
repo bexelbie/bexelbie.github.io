@@ -11,6 +11,11 @@ tags:
  - Fedora
 ---
 
+https://www.palkeo.com/sys/perfect-password-manager.html
+https://opensource.com/article/17/10/backing-your-machines-borg
+https://opensource.com/life/14/7/managing-passwords-open-source-way
+https://opensource.com/article/18/4/3-password-managers-linux-command-line
+
 5. How do I do implement all of this?
 
 should I implement at all
