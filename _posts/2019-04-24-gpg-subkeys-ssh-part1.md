@@ -19,7 +19,6 @@ header:
 
 <p>Read more over at the <a href="https://opensource.com/article/19/4/gpg-subkeys-ssh">opensource.com</a> where this was originally posted.</p>
 
-
 <!--
 
 <p>By having SSH authenticated by your GPG key, you will reduce the number of key files you need to secure and back up. This means that your key management hygiene still has to be good, which means choosing good passphrases and using appropriate key preservation strategies. Remember, you shouldn't back your private key up to the cloud!</p>
