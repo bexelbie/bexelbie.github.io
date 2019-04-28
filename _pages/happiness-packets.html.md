@@ -6,6 +6,8 @@ header:
   caption: "Photo credit: author"
   overlay_filter: 0.3
 permalink: /happiness-packets/
+redirect_from:
+ - /happiness-packets.html
 ---
 
 I've received some [happiness packets](https://www.happinesspackets.io/).  The folks over at Happiness Packets don't choose to make user/archive pages as it doesn't fit with their goals.

@@ -15,6 +15,7 @@ header:
 classes: wide
 redirect_from:
  - /2016/01/26/no-docs-no-commit/
+ - /technology/2016/01/26/no-docs-no-commit/
 ---
 
 My fantastic colleagues who work for [Red Hat's Customer Content

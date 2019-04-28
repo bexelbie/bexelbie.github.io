@@ -14,6 +14,8 @@ header:
   caption: "Photo credit: [**Fedora Badges**](https://badges.fedoraproject.org/badge/its-a-cake-thing)"
   overlay_filter: 0.3
 classes: wide
+redirect_from:
+ - /ramblings/2018/01/12/slice-of-cake/
 ---
 
 # A slice of cake

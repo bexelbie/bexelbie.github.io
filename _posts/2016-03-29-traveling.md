@@ -15,6 +15,7 @@ header:
 classes: wide
 redirect_from:
  - /future_posts/2016-01-12-traveling/
+ - /travel/2016/03/29/traveling/
 ---
 
 During the Easter holiday my travel included segments on trains by

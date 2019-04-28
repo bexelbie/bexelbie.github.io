@@ -9,6 +9,8 @@ tags:
 classes: wide
 header:
   overlay_color: "#333"
+redirect_from:
+ - /technology/2017/03/07/packaged-dayjournal/
 ---
 
 Roughly to the tune of [I Kissed a Girl](http://jillsobule.com/2012/01/i-kissed-a-girl/) by [Jill Sobule](https://twitter.com/jillsobule).

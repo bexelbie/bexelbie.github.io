@@ -11,6 +11,7 @@ header:
   overlay_color: "#333"
 redirect_from:
  - /2016/08/12/no-one-hates-your-phone/
+ - /ramblings/2016/08/12/no-one-hates-your-phone/
 ---
 
 **tl;dr:** No one cares enough to try and make your phone slow on purpose

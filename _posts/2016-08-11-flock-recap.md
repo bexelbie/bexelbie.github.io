@@ -15,6 +15,7 @@ header:
 classes: wide
 redirect_from:
  - /2016/08/11/flock-recap/
+ - /technology/2016/08/11/flock-recap/
 ---
 
 [Flock](https://flocktofedora.org/), the Fedora Contributors conference

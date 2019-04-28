@@ -9,6 +9,8 @@ tags:
 classes: wide
 header:
   overlay_color: "#333"
+redirect_from:
+ - /ramblings/2016/09/02/new-hotness/
 ---
 
 Yes, the rumors are true. Something new has come into my life. Frankly,

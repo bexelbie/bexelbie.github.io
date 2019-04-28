@@ -15,6 +15,7 @@ header:
 classes: wide
 redirect_from:
  - /2015/09/27/Vatican-Museum/
+ - /travel/2015/09/27/Vatican-Museum/
 ---
 
 Today we visited the Vatican Museum. I'm not sure what I was expecting, but it wasn't quite what I initially got. I knew there wouldn't be dancing cardinals to entertain us while we waited in the one and a half hour line to get in (we got there only 30 minutes before opening). I also knew that 8:30 am was to early to eat pope shaped ice cream bars, even if they could be found. 

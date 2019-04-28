@@ -16,6 +16,9 @@ header:
   caption: "Photo credit: [Jiri Folta](https://plus.google.com/111655466984621162361/about)"
   overlay_filter: 0.3
 classes: wide
+redirect_from:
+ - /2015/05/18/docker-brno-meetup/
+ - /technology/2015/05/18/docker-brno-meetup/
 ---
 
 Last Thursday night, we held the first-ever Docker meetup in Brno. Approximately  100 people gathered to hear speakers from four different organizations on container technology and its use. The space, video recordings (links coming soon) and catering were provided through support from [Red Hat's Open Source and Standards Team](http://community.redhat.com), [Impact Hub](http://www.hubbrno.cz/en/), [Good Data](http://www.gooddata.com/), and [Seznam.cz](http://seznam.cz).

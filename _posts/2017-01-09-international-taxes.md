@@ -14,6 +14,8 @@ header:
   overlay_filter: 0.5
 classes: wide
 comments:   true
+redirect_from:
+ - /ramblings/2017/01/09/international-taxes/
 ---
 
 As an American living in Europe I have to deal with some international tax issues.  Lots and lots has been written about American taxation for non-resident Americans.  However, most of it is repetitive and simplistic.  I see almost no fully worked examples and nothing with what I consider even basic levels of "complexity." 

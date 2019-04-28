@@ -9,6 +9,8 @@ tags:
 classes: wide
 header:
   overlay_color: "#333"
+redirect_from:
+ - /ramblings/2017/03/09/password-change-api/
 ---
 
 This morning I got an email from [haveibeenpwned.com](https://haveibeenpwned.com/) informing me that one of my email addresses showed up in a data dump.  I've been using [`pass`](https://www.passwordstore.org/) to manage my passwords for a while (and [1Password](https://1password.com/) before that) so most of my passwords are unique, not easily guessable, and not directly known by me.  Additionally, I have set up 2FA in most places where it is available.

@@ -16,7 +16,7 @@ header:
 classes: wide
 ---
 
-I recently got three Asus MB169B+ USB Monitors to help with showing of Fedora and other projects at conferences.  I was inspired by [Rich Bowen](XXX) of the CentOS project to do this (and CentOS helped pay for these units).
+I recently got three Asus MB169B+ USB Monitors to help with showing of Fedora and other projects at conferences.  I was inspired by [Rich Bowen](https://twitter.com/rbowen) of the CentOS project to do this (and CentOS helped pay for these units).
 
 ![Monitor on a desk](/img/2018/displaylink-desk.jpg)
 

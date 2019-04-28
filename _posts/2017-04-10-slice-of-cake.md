@@ -14,6 +14,8 @@ header:
   caption: "Photo credit: [**Fedora Badges**](https://badges.fedoraproject.org/badge/its-a-cake-thing)"
   overlay_filter: 0.3
 classes: wide
+redirect_from:
+ - /ramblings/2017/04/10/slice-of-cake/
 ---
 
 If this was any fresher off the press, it'd be a [flatcake](http://starwars.wikia.com/wiki/Flatcake).

@@ -13,6 +13,9 @@ header:
   caption: "Photo credit: Dominika Bula"
   overlay_filter: 0.3
 classes: wide
+redirect_from:
+ - /travel/2016/02/14/first_world_travel_notes/
+ - /future_posts/2016-01-05-first_world_travel_notes
 ---
 
 Traveling, especially alone, gives you lots of time to observe the

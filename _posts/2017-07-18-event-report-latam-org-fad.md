@@ -9,6 +9,8 @@ tags:
 classes: wide
 header:
   overlay_color: "#333"
+redirect_from:
+ - /technology/2017/07/18/event-report-latam-org-fad/
 ---
 
 # LATAM Organizational FAD

@@ -9,6 +9,8 @@ tags:
 header:
   overlay_color: "#333"
 classes: wide
+redirect_from:
+ - /ramblings/2017/12/26/family-history-saver/
 ---
 
 Technology has solved many of challenges, first world and not, but it has often left a large class of users behind.  These are our elderly relatives, many of whom are the current the matriarchs and patriarchs of our families. They are the people who keep our history and know our legends.  It is hard for them to easily capture their stories or for their to easily help them do so.  Especially in cases where a family has undergone a schism or has had a tragic event resulting in lots of loss (World War II, etc.) we are on constantly seeing history lost to time.

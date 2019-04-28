@@ -8,6 +8,8 @@ header:
   caption: "Photo credit: author"
   overlay_filter: 0.5
 classes: wide
+redirect_from:
+ - /bexelbie-talks-demos/OSCAL.2017.Dont.Write.It.All/
 ---
 
 #  Building Applications Doesn't Mean Writing It All From Scratch

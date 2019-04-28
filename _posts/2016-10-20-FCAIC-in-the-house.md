@@ -13,6 +13,8 @@ header:
   caption: "Photo credit: Fedora Magazine"
   overlay_filter: 0.3
 classes: wide
+redirect_from:
+ - /ramblings/2016/10/20/FCAIC-in-the-house/
 ---
 
 # The who in the where?

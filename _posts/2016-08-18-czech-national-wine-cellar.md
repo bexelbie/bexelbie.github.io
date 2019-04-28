@@ -16,6 +16,7 @@ header:
 classes: wide
 redirect_from:
  - /2016/08/18/czech-national-wine-cellar/
+ - /travel/2016/08/18/czech-national-wine-cellar/
 ---
 
 ![The Wine Cellar](/img/2016/wine/cellar.jpg){: .align-center}
