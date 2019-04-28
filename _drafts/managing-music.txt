@@ -1,0 +1,38 @@
+I’m on a Boat
+Organizing Music Files
+
+<Lonely Island Photo>
+
+Well, not yet, technically that won’t happen until next week. The group I’m going to be with has made the supreme mistake of asking me to organize music for our trip. If you know me well, you know I have a very, let’s call it, “eclectic,” taste in music. Leaving aside the actual content, preparing for this adventure had been a challenge. 
+
+Warning: This post will discuss some ideas that some people will be bothered by. Don’t read if you don’t want to hear about:
+  - Mass tagging of audio files without verification
+  - Conversion from proprietary file management to Open Source
+  - The use of proprietary phone operating systems and their associates management software
+
+# Since the dawn of man ...
+
+Since sometime in the 1990s I’ve maintained an ever growing[^1] collection of audio files. As it had moved from machine to machine over the years it has mostly wound up as MP3 and M4A (AAC) formatted files with file names they often relate very well to the contents. 
+
+In 2008 I bought and iPhone 3G and took advantage of the iTunes software to start to bring some order to chaos. At times I have updated parts of the collection with tags, often by hand, pulled from the then new and amazing CDDB information. 
+
+Between file types that don’t support metadata and metadata being stored in the iTunes library and not in the file itself the collection has become better than average, but still kinda junky around the edges. 
+
+# Death of a ruling clan ...
+
+iTunes has never supported all media formats, so I’ve always had “side-caches” of extra files. This isn’t a huge problem, just psychic weight[^2]. 
+
+Two events led to chaos and the downfall. First, 
+
+
+The ability to play music without having the files[^3] became a real thing. The death of files began with the early music stores from companies like Amazon that at first let you stream your purchases and later let you upload your own files to stream back to you[^4] was furthered by YouTube starting to have actual quality music copies that were not constantly being deleted and has pretty much been guaranteed by the next generation of streaming services like Spotify. Despite all of these, I’ve been religiously keeping copies of everything I buy to preserve my freedom and make sure a license chance doesn’t rob me of music I loved 20 years ago and haven’t listened to since.
+
+This, by itself, wouldn’t have been a huge problem. An occasionally maintained collection is not inherently chaotic. It will definitely grow some rough edges and laziness will result in a few folders called “sort me” or “sort me for realz — please,” but these aren’t terminal issues. No, the second event was a more direct strike against the heart of the collection. 
+
+^1: At times the collection has occasionally rapidly shrunk as well. I’m looking at you disk failure and accidental deletions. 
+
+^2: That feeling that you know you need to clean or worry about something, often associated with possessions. Despite the appearance of my desk most days, I actually am bothered by just owning “stuff.”
+
+^3: “Look Ma, no wires!”
+
+^4: Amazon literally just cancelled this service. 
