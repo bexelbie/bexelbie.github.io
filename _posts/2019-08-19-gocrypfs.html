@@ -1,0 +1,122 @@
+---
+title:      "How to encrypt files with gocryptfs on Linux"
+excerpt:    "posted on opensource.com"
+date:       2019-08-19 11:00:00 +0100
+categories:
+  - Technology
+tags:
+  - Encryption
+  - Fedora
+classes: wide
+header:
+  overlay_color: "#333"
+---
+
+<p><a href="https://nuetzlich.net/gocryptfs/" target="_blank">Gocryptfs</a> is a Filesystem in Userspace (FUSE)-mounted file-level encryption program. FUSE-mounted means that the encrypted files are stored in a single directory tree that is mounted, like a USB key, using the <a href="https://en.wikipedia.org/wiki/Filesystem_in_Userspace" target="_blank">FUSE</a> interface. This allows any user to do the mount—you don't need to be root. Because gocryptfs encrypts at the file level, synchronization operations that copy your files can work efficiently on each file. This contrasts with disk-level encryption, where the whole disk is encrypted as a single, large binary blob.</p>
+
+<p>When you use gocryptfs in its normal mode, your files are stored on your disk in an encrypted format. However, when you mount the encrypted files, you get unencrypted access to your files, just like any other file on your computer. This means all your regular tools and programs can use your unencrypted files. Changes, new files, and deletions are reflected in real-time in the encrypted version of the files stored on your disk.</p>
+
+<p>Read more over at <a href="https://opensource.com/article/19/8/how-encrypt-files-gocryptfs">opensource.com</a> where this was originally posted.</p>
+
+<!--
+
+<h2 id="install-gocryptfs">Install gocryptfs</h2>
+
+<p>Installing gocryptfs is easy on <a href="https://getfedora.org" target="_blank">Fedora</a> because it is packaged for Fedora 30 and Rawhide. Therefore, <strong>sudo dnf install gocryptfs</strong> does all the required installation work. If you're not using Fedora, you can find details on installing from source, on Debian, or via Homebrew in the <a href="https://nuetzlich.net/gocryptfs/quickstart/" target="_blank">Quickstart</a>.</p>
+
+<h2 id="initialize-your-encrypted-filesystem">Initialize your encrypted filesystem</h2>
+
+<p>[OS_EMBEDDED_MENU_RIGHT:]To get started, you need to decide where you want to store your encrypted files. This example will keep the files in <strong>~/.sekrit_files</strong> so that they don't show up when doing a normal <strong>ls</strong>.</p>
+
+<p>Start by initializing the filesystem. This will require you to choose a password. You are strongly encouraged to use a unique password you've never used anywhere else, as this is your key to unlocking your files. The project's authors recommend a password with between 64 and 128 bits of entropy. Assuming you use upper and lower case letters and numbers, this means your password should be between <a href="https://github.com/rfjakob/gocryptfs/wiki/Password-Strength" target="_blank">11 and 22 characters long</a>. If you're using a password manager, this should be easy to accomplish with a generated password.</p>
+
+<p>When you initialize the filesystem, you will see a unique key. Store this key somewhere securely, as it will allow you to access your files if you need to recover your files but have forgotten your password. The key works without your password, so keep it private!</p>
+
+<p>The initialization routine looks like this:</p>
+
+<pre><code class="language-bash">$ mkdir ~/.sekrit_files
+$ gocryptfs -init ~/.sekrit_files
+Choose a password for protecting your files.
+Password: 
+Repeat: 
+
+Your master key is:
+
+    XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXXXXX-
+    XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXXXXX
+
+If the gocryptfs.conf file becomes corrupted or you ever forget your password,
+there is only one hope for recovery: The master key. Print it to a piece of
+paper and store it in a drawer. This message is only printed once.
+The gocryptfs filesystem has been created successfully.
+You can now mount it using: gocryptfs .sekrit_files MOUNTPOINT</code></pre>
+
+<p>If you look in the <strong>~/.sekrit_files</strong> directory, you will see two files: a configuration file and a unique directory-level initialization vector. You will not need to edit these two files by hand. Make sure you do not delete these files.</p>
+
+<h2 id="use-your-encrypted-filesystem">Use your encrypted filesystem</h2>
+
+<p>To use your encrypted filesystem, you need to mount it. This requires an empty directory where you can mount the filesystem. For example, use the <strong>~/my_files</strong> directory. As you can see from the initialization, mounting is easy:</p>
+
+<pre><code class="language-bash">$ gocryptfs ~/.sekrit_files ~/my_files
+Password: 
+Decrypting master key
+Filesystem mounted and ready.</code></pre>
+
+<p>If you check out the <strong>~/my_files</strong> directory, you'll see it is empty. The configuration and initialization vector files aren't data, so they don't show up. Let's put some data in the filesystem and see what happens:</p>
+
+<pre><code class="language-bash">$ cp /usr/share/dict/words ~/my_files/
+$ ls -la ~/my_files/ ~/.sekrit_files/
+~/my_files/:
+.rw-r--r-- 5.0M bexelbie 19 Jul 17:48 words
+
+~/.sekrit_files/:
+.r--------@  402 bexelbie 19 Jul 17:39 gocryptfs.conf
+.r--------@   16 bexelbie 19 Jul 17:39 gocryptfs.diriv
+.rw-r--r--@ 5.0M bexelbie 19 Jul 17:48 xAQrtlyYSFeCN5w7O3-9zg</code></pre>
+
+<p>Notice that there is a new file in the <strong>~/.sekrit_files</strong> directory. This is the encrypted copy of the dictionary you copied in (the file name will vary). Feel free to use <strong>cat</strong> and other tools to examine these files and experiment with adding, deleting, and modifying files. Make sure to test with a few applications, such as LibreOffice.</p>
+
+<p>Remember, this a filesystem mount, so the contents of <strong>~/my_files</strong> aren't saved to disk. You can verify this by running <strong>mount | grep my_files</strong> and observing the output. Only the encrypted files are written to your disk. The FUSE interface is doing real-time encryption and decryption of the files and presenting them to your applications and shell as a filesystem.</p>
+
+<h2 id="unmount-the-filesystem">Unmount the filesystem</h2>
+
+<p>When you're done with your files, you can unmount them. This causes the unencrypted filesystem to no longer be available. The encrypted files in <strong>~/.sekrit_files</strong> are unaffected. Unmount the filesystem using the FUSE mounter program with <strong>fusermount -u ~/my_files</strong> .</p>
+
+<h2 id="back-up-your-data">Back up your data</h2>
+
+<p>One of the cool benefits of gocryptfs using file-level encryption is that it makes backing up your encrypted data easier. The files are safe to store on a synchronizing system, such as OwnCloud or Dropbox. The standard disclaimer about not modifying the same file at the same time applies. However, the files can be backed up even if they are mounted. You can also save your data any other way you would typically back up files. You don't need anything special.</p>
+
+<p>When you do backups, make sure to include the <strong>gocryptfs.diriv</strong> file. This file is not a secret and can be saved with the backup. However, your <strong>gocryptfs.conf</strong> is a secret. When you control the entirety of the backup chain, such as with tape, you can back it up with the rest of the files. However, when the files are backed up to the cloud or publicly, you may wish to omit this file. In theory, if someone gets this file, the only thing protecting your files is the strength of your password. If you have chosen a <a href="https://github.com/rfjakob/gocryptfs/wiki/Password-Strength" target="_blank">strong password</a>, that may be enough; however, you need to consider your situation carefully. More details are in this gocryptfs <a href="https://github.com/rfjakob/gocryptfs/issues/50" target="_blank">upstream issue</a>.</p>
+
+<h2 id="bonus-reverse-mode">Bonus: Reverse mode</h2>
+
+<p>A neat feature of gocryptfs is the reverse mode function. In reverse mode, point gocryptfs at your unencrypted data, and it will create a mount point with an encrypted view of this data. This is useful for things such as creating encrypted backups. This is easy to do:</p>
+
+<pre><code class="language-bash">$ gocryptfs -reverse -init my_files
+Choose a password for protecting your files.
+Password: 
+Repeat: 
+
+Your master key is:
+
+    XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXXXXX-
+    XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXXXXX
+
+If the gocryptfs.conf file becomes corrupted or you ever forget your password,
+there is only one hope for recovery: The master key. Print it to a piece of
+paper and store it in a drawer. This message is only printed once.
+The gocryptfs-reverse filesystem has been created successfully.
+You can now mount it using: gocryptfs -reverse my_files MOUNTPOINT
+
+$ gocryptfs -reverse my_files sekrit_files
+Password: 
+Decrypting master key
+Filesystem mounted and ready.</code></pre>
+
+<p>Now <strong>sekrit_files</strong> contains an encrypted view of your unencrypted data from <strong>my_files</strong>. This can be backed up, shared, or handled as needed. The directory is read-only, as there is nothing useful you can do with those files except back them up.</p>
+
+<p>A new file, <strong>.gocryptfs.reverse.conf</strong>, has been added to <strong>my_files</strong> to provide a stable encrypted view. This configuration file will ensure that each reverse mount will use the same encryption key. This way you could, for example, back up only changed files.</p>
+
+<p>Gocryptfs is a flexible file encryption tool that allows you to store your data in an encrypted manner without changing your workflow or processes significantly. The design has undergone a security audit, and the developers have experience with other systems, such as <strong>encfs</strong>. I encourage you to add gocryptfs to your system today and start protecting your data.</p>
+
+-->
