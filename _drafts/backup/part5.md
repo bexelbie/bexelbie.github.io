@@ -11,6 +11,8 @@ tags:
  - Fedora
 ---
 
+While doing this notice if you have only a little data in a particular rule.  One trade-off you may want to make early is forcing a data rule "upgrade" to avoid having to develop a solution for a small amount of data.
+
 https://www.palkeo.com/sys/perfect-password-manager.html
 https://opensource.com/article/17/10/backing-your-machines-borg
 https://opensource.com/life/14/7/managing-passwords-open-source-way
