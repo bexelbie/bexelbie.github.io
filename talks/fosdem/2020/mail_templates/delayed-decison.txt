@@ -1,0 +1,23 @@
+TO: {{Email}}
+SUBJECT: Distributions Devroom Delayed Notifications
+FROM: Brian Exelbierd <bex@pobox.com>
+
+Hi,
+
+We apologize for the delay in getting selected speakers notified for the
+Distributions Devroom.  We had schedule conflicts with members of our
+committee and hope to have notifications out this Friday, December 13.
+
+At that time you will receive a notice if your talk is selected.
+This email is just to let you know that we haven't forgotten about you
+or your submission.
+
+While this should not constitute an emergency on your part, your rapid
+response to any notification will be helpful.  Please watch your email
+on Friday.
+
+We appreciate your patience and understanding.
+
+regards,
+
+Brian Exelbierd for and on behalf of The Distributions Devroom Program Committee

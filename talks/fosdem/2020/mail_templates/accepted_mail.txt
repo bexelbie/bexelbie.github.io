@@ -1,0 +1,25 @@
+TO: {{Email}}
+SUBJECT: Distributions Devroom Acceptance - FOSDEM 2020
+FROM: Brian Exelbierd <bex@pobox.com>
+
+Greetings! 
+
+Your talk titled  “{{talk_title}}”  has been accepted for the Distributions Devroom at FOSDEM 2020. You are scheduled to speak at the following time: 
+
+Day: 2019-02-03
+Start Time: {{start_time}}
+Duration: {{end_time}}
+Room: K.3.201
+
+{{note}}
+
+Could you please respond to this email confirming your attendance at FOSDEM by Thursday December 19?
+
+If your travel plans change or if you otherwise cannot give your talk at the scheduled time, please let us know immediately.
+
+regards,
+
+bex
+–
+Brian Exelbierd
+On Behalf of the FOSDEM Distributions Devroom Program Team
