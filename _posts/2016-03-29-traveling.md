@@ -12,7 +12,6 @@ header:
   teaser: "/img/2016/India-customs-form.jpg"
   caption: "Photo credit: author"
   overlay_filter: 0.3
-classes: wide
 redirect_from:
  - /future_posts/2016-01-12-traveling/
  - /travel/2016/03/29/traveling/

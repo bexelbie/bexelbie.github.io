@@ -12,7 +12,6 @@ header:
   teaser: "/img/2015/wedding-shot.jpg"
   caption: "Photo credit: author"
   overlay_filter: 0.3
-classes: wide
 redirect_from:
  - 2015/12/31/guidance-discovered-or-remembered/
 ---

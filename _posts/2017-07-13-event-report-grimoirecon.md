@@ -7,7 +7,6 @@ categories:
 tags:
   - Conferences
   - Fedora
-classes: wide
 header:
   overlay_color: "#333"
 redirect_from:

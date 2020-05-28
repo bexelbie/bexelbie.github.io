@@ -6,7 +6,6 @@ categories:
   - Ramblings
 tags:
   - Gadgets
-classes: wide
 header:
   overlay_color: "#333"
 redirect_from:

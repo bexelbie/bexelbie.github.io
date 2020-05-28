@@ -8,7 +8,6 @@ tags:
   - Encryption
   - Security
   - Fedora
-classes: wide
 header:
   overlay_color: "#333"
 ---

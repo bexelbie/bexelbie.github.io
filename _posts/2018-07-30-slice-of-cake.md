@@ -13,7 +13,6 @@ header:
   teaser: "/img/cake-with-the-fcaic.png"
   caption: "Photo credit: [**Fedora Badges**](https://badges.fedoraproject.org/badge/its-a-cake-thing)"
   overlay_filter: 0.3
-classes: wide
  - /ramblings/2017/08/07/slice-of-cake/
 ---
 

@@ -15,7 +15,6 @@ header:
   teaser: "/img/2015/docker-brno-meetup-2-jfolta.jpg"
   caption: "Photo credit: [Jiri Folta](https://plus.google.com/111655466984621162361/about)"
   overlay_filter: 0.3
-classes: wide
 redirect_from:
  - /2015/11/03/docker-brno-meetup-2/
 ---

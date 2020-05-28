@@ -12,7 +12,6 @@ header:
   teaser: "/img/2015/vatican-carriage.jpg"
   caption: "Photo credit: author"
   overlay_filter: 0.3
-classes: wide
 redirect_from:
  - /2015/09/27/Vatican-Museum/
  - /travel/2015/09/27/Vatican-Museum/

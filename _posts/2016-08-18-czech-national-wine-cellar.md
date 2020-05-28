@@ -13,7 +13,6 @@ header:
   teaser: "/img/2016/wine/labels.jpg"
   caption: "Photo credit: author"
   overlay_filter: 0.3
-classes: wide
 redirect_from:
  - /2016/08/18/czech-national-wine-cellar/
  - /travel/2016/08/18/czech-national-wine-cellar/

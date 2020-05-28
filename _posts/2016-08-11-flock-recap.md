@@ -12,7 +12,6 @@ header:
   og_image: "/img/2016/flock.png"
   teaser: "/img/2016/flock.png"
   overlay_filter: 0.3
-classes: wide
 redirect_from:
  - /2016/08/11/flock-recap/
  - /technology/2016/08/11/flock-recap/

@@ -12,7 +12,6 @@ header:
   teaser: "/img/2016/New100front.jpg"
   caption: "Photo credit: [US Mint via Wikipedia](https://en.wikipedia.org/wiki/United_States_dollar#/media/File:New100front.jpg)"
   overlay_filter: 0.3
-classes: wide
 redirect_from:
  - /2016/01/12/encryption/
  - /ramblings/2016/01/12/encryption/

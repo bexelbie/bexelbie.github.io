@@ -6,7 +6,6 @@ categories:
   - Ramblings
 tags:
   - Community
-classes: wide
 ---
 
 A lot of people think [New Years Resolutions are doomed to failure](https://duckduckgo.com/?q=do+new+year%27s+resolutions+don%27t+work&t=h_&ia=web), so instead of going down that path, lets do something that will create the opportunity for progress.  Let's all [stop licking cookies](https://community.redhat.com/blog/2018/09/dont-lick-the-cookie/).  To paraphrase my colleague, [Dave Neary](https://twitter.com/nearyd), cookie licking is when you volunteer to do something and underestimate the commitment required.  Then, instead of stepping back so someone else can do the work, you keep the task marked as yours, preventing someone with time from taking it.  This can also manifest as staying on as part of a leadership group you don't have time for, thereby creating a block on consensus and decision making when you don't have time to show up.

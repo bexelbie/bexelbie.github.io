@@ -96,7 +96,7 @@ analytics:
 author:
   name             : 'Brian "bex" Exelbierd'
   avatar           : /img/headshots/bexelbie-headshot.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "The ramblings of one person into the wind about life, Fedora, containers and other randomness."
+  bio              : "My ramblings about tech, security, productivity, finance, taxes and life in general."
   location         : "Brno, Czech Republic"
   email            : "bex@pobox.com"
   uri              : "https://www.winglemeyer.org"
@@ -265,8 +265,9 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: # true
+      share: true
       related: true
+      classes: wide
   # _pages
   - scope:
       path: "_pages"

@@ -8,7 +8,6 @@ tags:
   - Life Lessons
 header:
   overlay_color: "#333"
-classes: wide
 redirect_from:
  - /ramblings/2017/12/26/family-history-saver/
 ---

@@ -6,7 +6,6 @@ categories:
   - Ramblings
 tags:
   - Random
-classes: wide
 redirect_from:
  - /2016/01/04/year-of-the/
 ---

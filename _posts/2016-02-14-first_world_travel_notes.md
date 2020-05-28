@@ -12,7 +12,6 @@ header:
   teaser: "/img/2016/2016-02-14-Dragon.jpg"
   caption: "Photo credit: Dominika Bula"
   overlay_filter: 0.3
-classes: wide
 redirect_from:
  - /travel/2016/02/14/first_world_travel_notes/
  - /future_posts/2016-01-05-first_world_travel_notes

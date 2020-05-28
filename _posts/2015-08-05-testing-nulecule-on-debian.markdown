@@ -12,7 +12,6 @@ header:
   og_image: "/img/2015/nulecule-debian.jpg"
   teaser: "/img/2015/nulecule-debian.jpg"
   overlay_filter: 0.3
-classes: wide
 redirect_from:
  - /2015/08/18/testing-nulecule-on-debian/
 ---

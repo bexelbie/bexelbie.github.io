@@ -12,7 +12,6 @@ header:
   teaser: "/img/2016/crack-team.png"
   caption: "Photo credit: author"
   overlay_filter: 0.3
-classes: wide
 redirect_from:
  - /2016/01/26/no-docs-no-commit/
  - /technology/2016/01/26/no-docs-no-commit/

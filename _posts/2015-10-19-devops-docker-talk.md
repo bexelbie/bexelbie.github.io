@@ -13,7 +13,6 @@ header:
   og_image: "/img/2015/dev-stars.jpg"
   teaser: "/img/2015/dev-stars.jpg"
   overlay_filter: 0.3
-classes: wide
 redirect_from:
  - /2015/10/19/devops-docker-talk/
  - /technology/2015/10/19/devops-docker-talk/

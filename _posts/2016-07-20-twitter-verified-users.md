@@ -12,7 +12,6 @@ header:
   teaser: "/img/2016/twitter.png"
   caption: "Photo credit: author"
   overlay_filter: 0.3
-classes: wide
 redirect_from:
  - /2016/07/20/twitter-verified-users/
 ---

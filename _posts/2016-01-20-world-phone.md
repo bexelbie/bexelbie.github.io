@@ -6,7 +6,6 @@ categories:
   - Travel
 tags:
   - Gadgets
-classes: wide
 redirect_from:
  - /travel/2016/01/20/world-phone/
 ---

@@ -11,7 +11,6 @@ header:
   og_image: "/img/2016/docs-update-flock-2016.jpg"
   teaser: "/img/2016/docs-update-flock-2016.jpg"
   overlay_filter: 0.3
-classes: wide
 redirect_from:
  - /2016/08/15/flock-docs-update/
  - /technology/2016/08/15/flock-docs-update/

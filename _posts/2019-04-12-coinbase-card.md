@@ -6,7 +6,6 @@ categories:
   - Ramblings
 tags:
   - Finance
-classes: wide
 header:
   overlay_color: "#333"
 ---
