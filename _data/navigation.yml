@@ -6,6 +6,6 @@ main:
     - title: "About"
       url: /about
     - title: "Archive"
-      url: /navigation
+      url: /navigation/tags
     - title: "Home"
       url: /
