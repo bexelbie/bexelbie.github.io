@@ -124,6 +124,10 @@ author:
   weibo            :
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  links:
+    - label: "Fractal FM Podcast"
+      icon: "fas fa-podcast"
+      url: "https://fractal.fm"
 
 
 # Reading Files
