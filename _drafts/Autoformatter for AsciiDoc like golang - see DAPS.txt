@@ -1,2 +1,0 @@
-Autoformatter for AsciiDoc like golang - see DAPS
-Git-flow-avh 
