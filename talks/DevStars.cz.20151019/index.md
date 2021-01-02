@@ -12,7 +12,7 @@ classes: wide
 
 # Getting to DevOps with Docker
 
-## Presented At: [DevStars](http://devstars.cz) on 19 Oct 2015
+## Presented At: [DevStars](https://devstars.cz) on 19 Oct 2015
 
 ## Slides and Source Files
 

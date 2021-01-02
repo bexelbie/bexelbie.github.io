@@ -22,7 +22,7 @@ redirect_from:
 Last week as the FCAIC I:
 
 - Attended part of the APAC virtual FAD for Ambassador Planning.  The call started at 2am my time, and I was regretably an hour late.  I made it until 7am :).  I think the call was great! There are some concerns and ideas were discussed around them.  Hopefully we will see more action in APAC in the coming year.  It also looks like we are going to try to shift some of the swag planning to unblock people's time.
-- While not directly part of my role as FCAIC, [AsciiBinder](http://asciibinder.org/) which we use for our docs tool had its first maintainers meeting.  More cool stuff is happening and Fedora is part of it.
+- While not directly part of my role as FCAIC, [AsciiBinder](https://asciibinder.org/) which we use for our docs tool had its first maintainers meeting.  More cool stuff is happening and Fedora is part of it.
 - This week was mostly filled with meeting and last minute administrivia as I have 2 weeks of conferences, FAD, and annual meetings coming up.
 
 # À la mode

@@ -176,7 +176,7 @@ Travel Budget: 1000
 
 <h2 id="send-complex-emails">Send complex emails</h2>
 
-<p>You can really see the power of Mailmerge when you take advantage of <a href="http://jinja.pocoo.org/docs/latest/templates/" target="_blank">Jinja2 templating</a>. I've found it useful for including conditional text and sending attachments. Here is a complex template and the corresponding database:</p>
+<p>You can really see the power of Mailmerge when you take advantage of <a href="https://jinja.pocoo.org/docs/latest/templates/" target="_blank">Jinja2 templating</a>. I've found it useful for including conditional text and sending attachments. Here is a complex template and the corresponding database:</p>
 
 <pre><code class="language-text">$ cat mailmerge_template.txt
 TO: {{Email}}
@@ -212,7 +212,7 @@ PèrsonB,personb@fedoraproject.org,500,Yes,visa_person_b.pdf</code></pre>
 Lodging: Lodging in the hotel Wednesday-Sunday (4 nights)
 {%- endif %}</code></pre>
 
-<p>This works just like an <strong>if</strong> in most programming languages. Jinja2 is very expressive and can do multi-level conditions. Experiment with making your life easier by including database elements that control the contents of the email. Using whitespace is important for email readability. The minus (<strong>-</strong>) symbols in <strong>if</strong> and <strong>endif</strong> are part of how Jinja2 controls <a href="http://jinja.pocoo.org/docs/2.10/templates/#whitespace-control" target="_blank">whitespace</a>. There are lots of options, so experiment to see what looks best for you.</p>
+<p>This works just like an <strong>if</strong> in most programming languages. Jinja2 is very expressive and can do multi-level conditions. Experiment with making your life easier by including database elements that control the contents of the email. Using whitespace is important for email readability. The minus (<strong>-</strong>) symbols in <strong>if</strong> and <strong>endif</strong> are part of how Jinja2 controls <a href="https://jinja.pocoo.org/docs/2.10/templates/#whitespace-control" target="_blank">whitespace</a>. There are lots of options, so experiment to see what looks best for you.</p>
 
 <p>Also note that I extended the database with two fields, <strong>Hotel</strong> and <strong>File</strong>. These are the values that control the inclusion of the hotel text and provide the name of the attachment. In my example, PèrsonB and I got hotel funding, while PersonA didn't.</p>
 

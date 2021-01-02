@@ -18,14 +18,14 @@ redirect_from:
 
 Unless you've recently returned from a sabbatical year in a remote monastery with no internet, you know that Containers have arrived, and it's a whole new world.
 
-I'll save you five minutes of reading, and 90 minutes of watching Disney's Alladin and assume you know about containers.  If not, take a look at [Docker](https://github.com/docker), [rkt](https://github.com/coreos/rkt) and the [Open Container Project](http://www.opencontainers.org/).  For bonus points, watch [How Docker Didn't Invent Containers](http://www.motivp.com/shop/video/How_Docker_did_not_invent_the_containers) from the [First Docker Meetup](http://www.projectatomic.io/blog/2015/05/docker-meetup-brno/) in my adopted hometown of Brno, Czech Republic.  When you're done singing the fantastic Disney songs, come back.  I'll wait.
+I'll save you five minutes of reading, and 90 minutes of watching Disney's Alladin and assume you know about containers.  If not, take a look at [Docker](https://github.com/docker), [rkt](https://github.com/coreos/rkt) and the [Open Container Project](https://www.opencontainers.org/).  For bonus points, watch [How Docker Didn't Invent Containers](https://www.motivp.com/shop/video/How_Docker_did_not_invent_the_containers) from the [First Docker Meetup](https://www.projectatomic.io/blog/2015/05/docker-meetup-brno/) in my adopted hometown of Brno, Czech Republic.  When you're done singing the fantastic Disney songs, come back.  I'll wait.
 
-Read more over at [projectatomic.io](http://www.projectatomic.io/blog/2015/08/testing-nulecule-on-debian/) where this was originally posted.
+Read more over at [projectatomic.io](https://www.projectatomic.io/blog/2015/08/testing-nulecule-on-debian/) where this was originally posted.
 
 <!--
 While there is a lot of "shaking out" still going on around containers, one thing is for sure.  Applications are definitely starting to be delivered this way.  Currently, honestly, most folks are not using containers in production, and most deliverables are for internal use only.  Even in these few cases though, the applications being delivered are typically simple.  Maybe 2-3 containers. i.e. a web server container, a database container, and a caching server container. But something like [OpenStack on Docker](https://www.youtube.com/watch?v=NGOnG8czBk0)  is 12 containers.  12 containers that need to be linked, networked, and  orchestrated with various configuration changes for your environment. 
 
-Complex applications are ... complex, in the sense that they require multiple processes to interact. No significant ISVs or OpenSource projects have delivered complex applications using containers.  The [Nulecule Specification](http://www.projectatomic.io/blog/2015/05/announcing-the-nulecule-specification-for-composite-applications/) was created to solve the problem of complex application delivery.
+Complex applications are ... complex, in the sense that they require multiple processes to interact. No significant ISVs or OpenSource projects have delivered complex applications using containers.  The [Nulecule Specification](https://www.projectatomic.io/blog/2015/05/announcing-the-nulecule-specification-for-composite-applications/) was created to solve the problem of complex application delivery.
 
 But does it work?  Well yes, it does.  There are a bunch of great [examples](https://github.com/projectatomic/nulecule/tree/master/examples) in the specification and a reference implementation that uses [atomicapp](https://github.com/projectatomic/atomicapp) for driving the packaging and parameterization, and the fancy [atomic](https://github.com/projectatomic/atomic) command to make launching those 12 containers in a fully orchestrated environment a one-command operation.
 
@@ -55,8 +55,8 @@ If you are interested in packaging some of these tools for Debian, let me know i
   - reboot
 
 ## Install Docker
-  - From: http://docs.docker.com/installation/debian/
-    - Add 'deb http://http.debian.net/debian jessie-backports main' to /etc/apt/sources.list
+  - From: https://docs.docker.com/installation/debian/
+    - Add 'deb https://http.debian.net/debian jessie-backports main' to /etc/apt/sources.list
     - sudo apt-get update
     - sudo apt-get -t jessie-backports install docker.io
     - sudo usermod -a -G docker bexelbie
@@ -70,8 +70,8 @@ If you are interested in packaging some of these tools for Debian, let me know i
   - From: https://github.com/GoogleCloudPlatform/kubernetes/blob/master/docs/getting-started-guides/docker.md
     - Run the three docker commands to get things running - get kubectl below
     - docker run --net=host -d gcr.io/google_containers/etcd:2.0.9 /usr/local/bin/etcd --addr=127.0.0.1:4001 --bind-addr=0.0.0.0:4001 --data-dir=/var/etcd/data
-    - docker run --net=host -d -v /var/run/docker.sock:/var/run/docker.sock  gcr.io/google_containers/hyperkube:v0.18.2 /hyperkube kubelet --api_servers=http://localhost:8080 --v=2 --address=0.0.0.0 --enable_server --hostname_override=127.0.0.1 --config=/etc/kubernetes/manifests
-    - docker run -d --net=host --privileged gcr.io/google_containers/hyperkube:v0.18.2 /hyperkube proxy --master=http://127.0.0.1:8080 --v=2
+    - docker run --net=host -d -v /var/run/docker.sock:/var/run/docker.sock  gcr.io/google_containers/hyperkube:v0.18.2 /hyperkube kubelet --api_servers=https://localhost:8080 --v=2 --address=0.0.0.0 --enable_server --hostname_override=127.0.0.1 --config=/etc/kubernetes/manifests
+    - docker run -d --net=host --privileged gcr.io/google_containers/hyperkube:v0.18.2 /hyperkube proxy --master=https://127.0.0.1:8080 --v=2
   - Get kubectl from the same release (0.18.2): https://github.com/GoogleCloudPlatform/kubernetes/releases
     - wget https://github.com/GoogleCloudPlatform/kubernetes/releases/download/v0.18.2/kubernetes.tar.gz
     - tar -xvf kubernetes.tar.gz

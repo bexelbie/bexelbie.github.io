@@ -227,7 +227,7 @@ basename -s .format `ls *.format` | \
     xargs -I FILE sh -c "./format2html.pl FILE.format > FILE.html"
 ./sitebuild.py
 cd output
-echo "open http://localhost:8080"
+echo "open https://localhost:8080"
 ../server
 ```
 <!--sec-->
@@ -244,18 +244,18 @@ Build a system/application to publish multiple *AsciiDoc* documentation sets to 
 <!--sec-->
 ## Divide and Conquer
 
-1. (Person 1) Convert Documentation format to HTML --> [AsciiDoctor](http://asciidoctor.org/)
-2. (Person 2) Combine the HTML from multiple documents into a single site --> [AsciiBinder](http://www.asciibinder.org/)
+1. (Person 1) Convert Documentation format to HTML --> [AsciiDoctor](https://asciidoctor.org/)
+2. (Person 2) Combine the HTML from multiple documents into a single site --> [AsciiBinder](https://www.asciibinder.org/)
 3. (Person 3) Serve the site to a remote web browser --> [nginx](https://nginx.org/en/)
 4. (Everybody) Rebuild the website when the documentation changes --> script + [moby](https://mobyproject.org/)
 
 <!--sec-->
-1\. (Person 1) Convert Documentation format to HTML --> [AsciiDoctor](http://asciidoctor.org/)
+1\. (Person 1) Convert Documentation format to HTML --> [AsciiDoctor](https://asciidoctor.org/)
 
 ## Shell Demo
 
 <!--sec-->
-2\. (Person 2) Combine the HTML from multiple documents into a single site --> [AsciiBinder](http://www.asciibinder.org/)
+2\. (Person 2) Combine the HTML from multiple documents into a single site --> [AsciiBinder](https://www.asciibinder.org/)
 
 ## Shell Demo
 

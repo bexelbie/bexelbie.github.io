@@ -17,7 +17,7 @@ redirect_from:
  - /ramblings/2016/01/12/encryption/
 ---
 
-[Several governments](http://www.wsj.com/articles/fbi-seeks-to-reframe-encryption-debate-1451417252) want to put [back doors](https://www.eff.org/deeplinks/2015/12/encryption-balance-2015-review) into encryption systems.  The goal is to be able to provide safety by being able to read messages sent by "terrorists".  They promise to safeguard the back doors so that only they can use them. They also promise not misuse the access.
+[Several governments](https://www.wsj.com/articles/fbi-seeks-to-reframe-encryption-debate-1451417252) want to put [back doors](https://www.eff.org/deeplinks/2015/12/encryption-balance-2015-review) into encryption systems.  The goal is to be able to provide safety by being able to read messages sent by "terrorists".  They promise to safeguard the back doors so that only they can use them. They also promise not misuse the access.
 
 Lots of folks don't believe them.  Lots of folks know that an encryption system with a backdoor is inherently insecure.  Lots of folks know that a backdoor can be used by the bad guys as well as the good guys.  Lots of folks are trying to convince the public this is important.  Lots of folks are doing this by providing reasoned logical arguments and education. **This is the wrong approach.**
 
@@ -73,7 +73,7 @@ When lobbying groups are threatened they fix the laws. In this case we all win.
 
 [^1]: Yes, this is a simplification of what a back-door is, but I believe it will suffice for this purpose.
 
-[^2]: Don't forget why the U.S. has chip-and-signature cards and not chip-and-pin cards. "U.S. bank executives said they are choosing the signature version so customers won’t be burdened at the checkout line to remember a new four-digit code." - http://www.wsj.com/articles/why-new-credit-cards-may-fall-short-on-fraud-control-1420423917  Additionally, there is no US Bank implementing [3-D Secure](https://en.wikipedia.org/wiki/3-D_Secure) for domestic transactions that I am aware of.  I read, but cannot find the link, that US Banks had dismissed SMS verifications as "flaky" despite them being highly reliable in many other parts of the world.
+[^2]: Don't forget why the U.S. has chip-and-signature cards and not chip-and-pin cards. "U.S. bank executives said they are choosing the signature version so customers won’t be burdened at the checkout line to remember a new four-digit code." - https://www.wsj.com/articles/why-new-credit-cards-may-fall-short-on-fraud-control-1420423917  Additionally, there is no US Bank implementing [3-D Secure](https://en.wikipedia.org/wiki/3-D_Secure) for domestic transactions that I am aware of.  I read, but cannot find the link, that US Banks had dismissed SMS verifications as "flaky" despite them being highly reliable in many other parts of the world.
 
 Image: Public Domain from US Mint via [Wikipedia](https://en.wikipedia.org/wiki/United_States_dollar#/media/File:New100front.jpg)
 {: .notice}

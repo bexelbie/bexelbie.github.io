@@ -12,7 +12,7 @@ redirect_from:
  - /technology/2017/03/07/packaged-dayjournal/
 ---
 
-Roughly to the tune of [I Kissed a Girl](http://jillsobule.com/2012/01/i-kissed-a-girl/) by [Jill Sobule](https://twitter.com/jillsobule).
+Roughly to the tune of [I Kissed a Girl](https://jillsobule.com/2012/01/i-kissed-a-girl/) by [Jill Sobule](https://twitter.com/jillsobule).
 
 [Matthew](https://mattdm.org/) came over, and told me 'bout [RPM](https://en.wikipedia.org/wiki/RPM_Package_Manager)<br/>
 It is a packaging format he said<br/>

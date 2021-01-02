@@ -18,7 +18,7 @@ redirect_from:
  - /technology/2015/10/19/devops-docker-talk/
 ---
 
-I gave a talk on docker and DevOps at [DevStars.cz](http://devstars.cz), a new user group, in Brno, Czech Republic.  The slides are available [here](/talks/DevStars.cz.20151019/).
+I gave a talk on docker and DevOps at [DevStars.cz](https://devstars.cz), a new user group, in Brno, Czech Republic.  The slides are available [here](/talks/DevStars.cz.20151019/).
 
 Image Courtesy [DevStars FB Group](https://www.facebook.com/devstarscz/), photographer unknown.
 {: .notice}

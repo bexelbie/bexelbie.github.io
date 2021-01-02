@@ -5,7 +5,7 @@ terms.
 
 ## Use Case Goal
 
-Demonstrate [Eclipse Docker Tooling](http://www.eclipse.org/community/eclipse_newsletter/2015/june/article3.php) Integration.
+Demonstrate [Eclipse Docker Tooling](https://www.eclipse.org/community/eclipse_newsletter/2015/june/article3.php) Integration.
 
 ## Script
 

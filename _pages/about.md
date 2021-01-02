@@ -15,7 +15,7 @@ permalink: /about/
 
 I'd like to be able to say this blog draws its name from the ancient beliefs that the horse is an all knowing messenger from powerful beings.
 However, that simply isn't true.
-It is inspired, like many things, by a [Dilbert Cartoon](http://dilbert.com/strip/2015-06-10/).
+It is inspired, like many things, by a [Dilbert Cartoon](https://dilbert.com/strip/2015-06-10/).
 It's funny.
 I am not sure why.
 
@@ -114,7 +114,7 @@ I am not sure why they are not auto-updating ...
 
 This web site is hosted on [GitHub Pages](https://pages.github.com/) from my [bexelbie.github.io](https://github.com/bexelbie/bexelbie.github.io) repository.
 
-The site is authored in a combination of [HTML](https://en.wikipedia.org/wiki/HTML) and [Markdown](https://daringfireball.net/projects/markdown/) which is built by [Jekyll](http://jekyllrb.com/).
+The site is authored in a combination of [HTML](https://en.wikipedia.org/wiki/HTML) and [Markdown](https://daringfireball.net/projects/markdown/) which is built by [Jekyll](https://jekyllrb.com/).
 
 The theme is [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/).
 

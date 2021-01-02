@@ -35,7 +35,7 @@ We continued on and our last major stop was the Padiglione deile Carrozze, the P
 
 On another day we hope to get back to St. Peter's Cathedral, which we had to skip due to the length of the line. 
 
-Now about that [Pope shaped ice cream](http://www.disneyfoodblog.com/2010/11/15/snack-series-the-mickey-premium-bar/) ...
+Now about that [Pope shaped ice cream](https://www.disneyfoodblog.com/2010/11/15/snack-series-the-mickey-premium-bar/) ...
 {: .notice}
 
 Note: This post was edited for grammar, typos and phrasing.  A full history is available in the git repository.

@@ -2,11 +2,11 @@
 layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
       <title>{{ site.title }}</title>
       <description>{{ site.description }}</description>
-      <atom:link href="http://www.winglemeyer.org/fedora.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="https://www.winglemeyer.org/fedora.xml" rel="self" type="application/rss+xml" />
     <link>{{ site.url }}</link>
     {% for post in site.posts %}
       {% if post.tags contains 'Fedora' %}

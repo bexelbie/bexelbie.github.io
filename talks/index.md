@@ -35,12 +35,12 @@ Talks and demos I've given, my work with the Fosdem Distributions DevRoom and va
   * [Details](Flock.2016.developers/)
   * [Slides](Flock.2016.developers/slides.html)
 
-* [Atomic Developer Bundle: Containerized Development Made Easy](https://devconfcz2016.sched.org/event/53556807a38c5eb825ebdfdebccd1def) @ [DEVCONF Brno 2016](http://devconf.cz/) - 6 Feb 2016
+* [Atomic Developer Bundle: Containerized Development Made Easy](https://devconfcz2016.sched.org/event/53556807a38c5eb825ebdfdebccd1def) @ [DEVCONF Brno 2016](https://devconf.cz/) - 6 Feb 2016
   * Co-Presenter: [Navid Shaikh](https://twitter.com/SwordPhilic)
   * [Slides and Demo Code](https://github.com/navidshaikh/adb_devconf_2016) in Navid's repository
   * [Local Backup Copy](DevConf.cz.2016/)
 
-* [Nulecule: Packaging, Distributing & Deploying Container Applications the Cloud Way](http://lanyrd.com/2016/cfgmgmtcamp/sdxytt/) @ [Config Management Camp EU 2016](http://cfgmgmtcamp.eu/) - 2 Feb 2016
+* [Nulecule: Packaging, Distributing & Deploying Container Applications the Cloud Way](https://lanyrd.com/2016/cfgmgmtcamp/sdxytt/) @ [Config Management Camp EU 2016](https://cfgmgmtcamp.eu/) - 2 Feb 2016
   * [Details, Script, and Demo Files](CfgMgmtCamp.eu.2016/)
   * [Slides](CfgMgmtCamp.eu.2016/slides.pdf)
 

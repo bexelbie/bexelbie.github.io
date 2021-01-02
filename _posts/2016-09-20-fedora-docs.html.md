@@ -16,7 +16,7 @@ redirect_from:
 I have finally finished a, probably way too long,
 [proposal](https://www.winglemeyer.org/fedora_docs_proposal/latest/proposal/overview.html
 ) for implementing a new Fedora Docs publishing toolchain using
-[AsciiBinder](http://www.asciibinder.org/).
+[AsciiBinder](https://www.asciibinder.org/).
 
 The proposal, also published using AsciiBinder, suggests that we
 definitively adopt AsciiDoc and convert our DocBook sources to it

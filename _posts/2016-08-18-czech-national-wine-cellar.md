@@ -22,23 +22,23 @@ redirect_from:
 
 This past weekend I had the opportunity to
 visit the [National Wine Cellar of the Czech
-Republic](http://www.vinarskecentrum.cz/en/salon-vin/salon-vin-ceske-republiky/).
+Republic](https://www.vinarskecentrum.cz/en/salon-vin/salon-vin-ceske-republiky/).
 
 The cellar is located in the basement of [Chateau
-Valtice](http://www.czechtourism.com/c/valtice-chateau/),
+Valtice](https://www.czechtourism.com/c/valtice-chateau/),
 part of the UNESCO listed [Lednice-Valtice
-Complex](http://www.czechtourism.com/c/lednice-valtice-area-unesco/).
+Complex](https://www.czechtourism.com/c/lednice-valtice-area-unesco/).
 It is a beautiful chateau style "castle" complete with gardens,
 ponds, and horse-drawn carriage rides.  Honestly, the [Lednice
-Chateau](http://www.czechtourism.com/c/lednice-chateau/)
+Chateau](https://www.czechtourism.com/c/lednice-chateau/)
 appears to be in better physical shape as Valtice has
 opted to go heavy on vino-tourism.  They have produced a nice
-[brochure](http://www.vinarskecentrum.cz/download/nvc-brozura-salon-vin-150x150mm_en-aktualizace%202016.pdf)
+[brochure](https://www.vinarskecentrum.cz/download/nvc-brozura-salon-vin-150x150mm_en-aktualizace%202016.pdf)
 that summarizes the various wine regions of South Moravia and the cellar.
 
 The cellar, created as part of the [National Wine
-Centre](http://www.vinarskecentrum.cz/en/), has over [100 wines on
-site](http://www.vinarskecentrum.cz/en/salon-vin/vina-v-salonu/) for
+Centre](https://www.vinarskecentrum.cz/en/), has over [100 wines on
+site](https://www.vinarskecentrum.cz/en/salon-vin/vina-v-salonu/) for
 tasting and purchase.
 
 Yes, for tasting.  The cellar offers several tasting experiences.  Some
@@ -94,9 +94,9 @@ or hate of oak.
 
 Comparing oakiness was fascinating.  This
 caused me to find wines [74 - Zweigeltrebe barrique
-2012](http://www.vinarskecentrum.cz/en/salon-vin/vina-v-salonu/?idV=6074)
+2012](https://www.vinarskecentrum.cz/en/salon-vin/vina-v-salonu/?idV=6074)
 and [75 - Zweigeltrebe barrique
-2012](http://www.vinarskecentrum.cz/en/salon-vin/vina-v-salonu/?idV=6075).
+2012](https://www.vinarskecentrum.cz/en/salon-vin/vina-v-salonu/?idV=6075).
 No, that is not a typo.  Yes, they have the same name.  No, I don't
 know why.  They vary in three things, as far as I can tell:
 
@@ -132,7 +132,7 @@ see if I can determine what drives my tastes in wine.
 
 It was great to see the quality wines available in the Czech Republic
 on display.  Wine making is an old art here, but it was [nearly lost under
-Communism](http://mobile.nytimes.com/2016/08/16/world/europe/czech-wine-moravia.html?_r=0).
+Communism](https://mobile.nytimes.com/2016/08/16/world/europe/czech-wine-moravia.html?_r=0).
 This may also explain why a lot of the wines I find in the store are
 not raved about.  The wine makers are really rediscovering the
 art and we haven't seen it trickle all the way down to the Tesco yet.

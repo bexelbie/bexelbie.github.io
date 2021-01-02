@@ -13,11 +13,11 @@ redirect_from:
  - /technology/2015/10/14/container-roundtable-linuxcon-eu/
 ---
 
-At [LinuxCon Europe 2015](http://events.linuxfoundation.org/events/linuxcon-europe) from 5-7 October, 2015 in Dublin, Ireland. Project Atomic's Joe Brockmeier [moderated a panel discussion](http://sched.co/3xqB) between Tom Barlow from Docker, Sebastien Goasguen of Citrix, and Brandon Philips from CoreOS about containers.  
+At [LinuxCon Europe 2015](https://events.linuxfoundation.org/events/linuxcon-europe) from 5-7 October, 2015 in Dublin, Ireland. Project Atomic's Joe Brockmeier [moderated a panel discussion](https://sched.co/3xqB) between Tom Barlow from Docker, Sebastien Goasguen of Citrix, and Brandon Philips from CoreOS about containers.  
 
 As you may know, the technology underlying containers is not new and that a big part of the innovation provided by Docker and others is essentially an easier way to package and access this technology. However, there are key questions ahead as the technology continues to mature and transcend the "it's just packaging" idea.  I didn't transcribe the entire session, but I wanted to call out a few of the exchanges and how they affect various roles.
 
-Read more over at [projectatomic.io](http://www.projectatomic.io/blog/2015/10/container-roundtable-linuxcon-eu/) where this was originally posted.
+Read more over at [projectatomic.io](https://www.projectatomic.io/blog/2015/10/container-roundtable-linuxcon-eu/) where this was originally posted.
 
 <!--
 First the difference between application containers and system containers was stressed by Brandon from CoreOS and agreed with by the panel.  System containers are characterized by the use of an init system and typically contain multiple pieces of an application and supporting services like ssh.  This is treating containers as lightweight virtual machines.  This was the original pattern that many users adopted, but it is now seen as sub-optimal.  
@@ -33,7 +33,7 @@ Wearing my operations hat, I particularly liked an exchange that started with a 
 As a developer, the discussion about service discovery was very interesting to me.
 
   * Brandon noted that time has been spent on high-availability and fail-over and that they work fine on a small scale.  However, containers really should be using service discovery because we can do heterogeneous service composition (i.e. 80% stable build, 10% beta build, 10% experimental) in the same application.  This is a new enablement opportunity.
-  * Tom offered that service discovery is more of a spectrum.  Some applications will use traditional methods, like DNS, and will be unaware they are in a container, others will use a platform or orchestration provided service discovery mechanisms, like SkyDNS, and be more "container native."  We need more documentation on this and we need to [make things like SkyDNS easier to use](http://www.projectatomic.io/blog/2015/10/setting-up-skydns/).
+  * Tom offered that service discovery is more of a spectrum.  Some applications will use traditional methods, like DNS, and will be unaware they are in a container, others will use a platform or orchestration provided service discovery mechanisms, like SkyDNS, and be more "container native."  We need more documentation on this and we need to [make things like SkyDNS easier to use](https://www.projectatomic.io/blog/2015/10/setting-up-skydns/).
   * Sebastien added that IBM had an Autonomic Computing Initiative that provided self-discovery, healing, etc.  Containers are getting there.  Today you can you use something like Registrator to rewrite an HAProxy/Nginx configuration and you are on your way.  This needs scale, but it works.  Before containers all of this was much harder.
 
 A common question in my mind, and put to the panel, is "What do existing deployments look like?"

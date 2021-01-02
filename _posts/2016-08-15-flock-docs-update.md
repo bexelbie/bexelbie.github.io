@@ -36,7 +36,7 @@ where this was originally posted.
 
 <!--
 The presentation
-[slides](http://www.winglemeyer.org/bexelbie-talks-demos/Flock.2016.docs/#/)
+[slides](https://www.winglemeyer.org/bexelbie-talks-demos/Flock.2016.docs/#/)
 are online. Unfortunately, the session wasn’t recorded or transcribed,
 so I wanted to try and present the conversation here. I am not
 attributing any comments in order to avoid mistakes. Additionally, I am
@@ -58,7 +58,7 @@ out how to fit their contribution into the narrative flow of a large
 book. Lastly, it is easier to consume this more directed and
 self-contained writing and it will score better in search.
 
-Second, tools were debated. [DocBook](http://www.docbook.org/) and
+Second, tools were debated. [DocBook](https://www.docbook.org/) and
 [publican](https://fedorahosted.org/publican/) seem to have led to
 problems with contributions, lots of friction in the project, and longer
 on-boarding. Additionally, there are the problems associated with a
@@ -84,7 +84,7 @@ pointed out several reasons, including efficiency, for why they rewrote
 their materials when shifting from books to topics. Another benefit of
 starting from scratch is that new material can be written in a priority
 order, possibly based on [search
-keywords](http://paste.fedoraproject.org/392172/84893614/).
+keywords](https://paste.fedoraproject.org/392172/84893614/).
 
 One challenge is right now is that we have no place to put and publish
 these new topics. It was quickly pointed out that this is the “tools

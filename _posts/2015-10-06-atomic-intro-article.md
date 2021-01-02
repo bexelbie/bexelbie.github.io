@@ -19,12 +19,12 @@ Project Atomic is a set of technologies that make containers easier to develop, 
 
 Many of these projects include the word 'atomic' in their name.  Therefore, discussions turn into conversations about 'atomics' and people get confused.  In this post, you will be introduced to the main 'atomics' and a few of their friends.
 
-Read more over at [linux.com](http://www.linux.com/news/enterprise/storage/858082-project-atomic-or-how-i-learned-to-stop-worrying-and-love-containers) where this was originally posted.
+Read more over at [linux.com](https://www.linux.com/news/enterprise/storage/858082-project-atomic-or-how-i-learned-to-stop-worrying-and-love-containers) where this was originally posted.
 
 <!--
 ## Atomic Host
 
-Containers need a operating system to run on, and that's Atomic Host.  [Atomic Host](http://www.projectatomic.io/download/) represents a design pattern for distributions to build an environment that is  optimized for running Linux containers.  This pattern can be implemented by existing distributions, which is critical.  This eliminates the need to wrap your head around building a new operating system while developing a container deployment environment at the same time. 
+Containers need a operating system to run on, and that's Atomic Host.  [Atomic Host](https://www.projectatomic.io/download/) represents a design pattern for distributions to build an environment that is  optimized for running Linux containers.  This pattern can be implemented by existing distributions, which is critical.  This eliminates the need to wrap your head around building a new operating system while developing a container deployment environment at the same time. 
 
 Some key advantage of an Atomic Host are:
 
@@ -49,20 +49,20 @@ Some key advantage of an Atomic Host are:
     A Streamlined package set that only includes what is required to build a docker and kubernetes environment.
 
 
-You can find Atomic Host variants of [Fedora](https://getfedora.org/en/cloud/), [CentOS](http://seven.centos.org/2015/09/announcing-a-new-release-of-centos-atomic-host/) and [Red Hat Enterprise Linux](https://access.redhat.com/products/red-hat-enterprise-linux/#atomic-host).  These distrubtions use [rpm-ostree](https://github.com/projectatomic/rpm-ostree) to implement the Atomic Host pattern.  It allows existing and trusted RPMs to be leveraged to construct the OSTrees.  It is also optimized for delivering the tree because it implements what is essentially git for the operating system.
+You can find Atomic Host variants of [Fedora](https://getfedora.org/en/cloud/), [CentOS](https://seven.centos.org/2015/09/announcing-a-new-release-of-centos-atomic-host/) and [Red Hat Enterprise Linux](https://access.redhat.com/products/red-hat-enterprise-linux/#atomic-host).  These distrubtions use [rpm-ostree](https://github.com/projectatomic/rpm-ostree) to implement the Atomic Host pattern.  It allows existing and trusted RPMs to be leveraged to construct the OSTrees.  It is also optimized for delivering the tree because it implements what is essentially git for the operating system.
 
 # Nulecule and Atomic App
 
 Question: What do you call a containerized application?
 Answer: A mess of images, containers, READMEs and configuration files pretending to be easily deployable. 1990 called and wants its install process back!
 
-Most applications are made of multiple containers.  Even a simple web application will typically require a web-frontend and a database.  Different container environments  will connect those applications in different ways.The [Nulecule Specification](http://www.projectatomic.io/docs/nulecule/) allows a multi-container application to be specified and configured once and then deployed and  run in many  execution environments. Today there is support for Docker, Kubernetes and OpenShift and more are welcome. It's worth noting, that Nulecule is a made up word derived from molecule by fictional nuclear plant operator Homer Simpson.  Even the specification name has something to with atomic!
+Most applications are made of multiple containers.  Even a simple web application will typically require a web-frontend and a database.  Different container environments  will connect those applications in different ways.The [Nulecule Specification](https://www.projectatomic.io/docs/nulecule/) allows a multi-container application to be specified and configured once and then deployed and  run in many  execution environments. Today there is support for Docker, Kubernetes and OpenShift and more are welcome. It's worth noting, that Nulecule is a made up word derived from molecule by fictional nuclear plant operator Homer Simpson.  Even the specification name has something to with atomic!
 
-A specification is great, but an implemenation is needed for it to be useful. [Atomic App](http://www.projectatomic.io/docs/atomicapp/) is a python based implementation of the Nulecule specification. It lives inside a container that is run by the application user.  The user never runs atomic app directly, but benefits from the configuration that atomic app provides.
+A specification is great, but an implemenation is needed for it to be useful. [Atomic App](https://www.projectatomic.io/docs/atomicapp/) is a python based implementation of the Nulecule specification. It lives inside a container that is run by the application user.  The user never runs atomic app directly, but benefits from the configuration that atomic app provides.
 
 # Atomic Command
 
-In contrast to Atomic App, the [Atomic Command](http://www.projectatomic.io/docs/usr-bin-atomic/) is a tool to make running containers easier. It provides additional functionality and adds syntactic sugar.  For example, using [special labels](https://github.com/projectatomic/ContainerApplicationGenericLabels) atomic can install, start and stop containers easily by turning long `docker` commands into short commands like `atomic run projectatomic/helloapache`.  Atomic Command is available for many distributions and has been tested on Fedora, CentOS, Debian and Red Hat Enterprise Linux in both standard and Atomic Host (where available) variants.
+In contrast to Atomic App, the [Atomic Command](https://www.projectatomic.io/docs/usr-bin-atomic/) is a tool to make running containers easier. It provides additional functionality and adds syntactic sugar.  For example, using [special labels](https://github.com/projectatomic/ContainerApplicationGenericLabels) atomic can install, start and stop containers easily by turning long `docker` commands into short commands like `atomic run projectatomic/helloapache`.  Atomic Command is available for many distributions and has been tested on Fedora, CentOS, Debian and Red Hat Enterprise Linux in both standard and Atomic Host (where available) variants.
 
 If you're using an Atomic Host, the atomic command does double-duty and provides access to host-specific administration, including upgrades.
 

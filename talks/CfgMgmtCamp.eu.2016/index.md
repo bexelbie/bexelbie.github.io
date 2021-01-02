@@ -10,8 +10,8 @@ header:
 classes: wide
 ---
 
-# [Nulecule: Packaging, Distributing & Deploying Container Applications the Cloud Way](http://lanyrd.com/2016/cfgmgmtcamp/sdxytt/)
-## Presented at [Config Management Camp EU 2016](http://cfgmgmtcamp.eu/schedule/speakers/BrianExelbierd.html) on 2 Feb 2016
+# [Nulecule: Packaging, Distributing & Deploying Container Applications the Cloud Way](https://lanyrd.com/2016/cfgmgmtcamp/sdxytt/)
+## Presented at [Config Management Camp EU 2016](https://cfgmgmtcamp.eu/schedule/speakers/BrianExelbierd.html) on 2 Feb 2016
 
 This repo contains the slides slides and files used for the talk and demo
 I presented about [Nulecule](https://github.com/projectatomic/nulecule).

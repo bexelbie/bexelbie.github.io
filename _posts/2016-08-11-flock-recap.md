@@ -57,7 +57,7 @@ Locati](https://twitter.com/f4l3) and [Bee
 Padalkar](https://twitter.com/BeePadalkar) talked about
 communities and patterns of interaction.  In my $dayjob part of
 our goal is to grow the community of users and contributors
-for [Project Atomic](http://www.projectatomic.io/)
+for [Project Atomic](https://www.projectatomic.io/)
 and more specifically the [Atomic Developer
 Bundle](https://github.com/projectatomic/adb-atomic-developer-bundle).
 
@@ -183,7 +183,7 @@ Dusty's talk, *Don't Destroy Your Machine with Development,*
 which provided a lot of information about Vagrant and the Fedora
 Vagrant virtual machines and [Ratnadeep
 Debnath's](https://twitter.com/rtnpro) talk about
-[Nulecule](http://www.projectatomic.io/docs/nulecule/) in a session
+[Nulecule](https://www.projectatomic.io/docs/nulecule/) in a session
 called *Nulecule - Packaging multi container applications.*
 
 Bright and early at the crack of 9am on Thursday

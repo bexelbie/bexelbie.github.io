@@ -23,7 +23,7 @@ Better late cake than no cake!
 
 This week as FCAIC I:
 
-- Lots of work toward the new Fedora Budget website.  I need to still send some emails to the fedora-website group, but we are doing budget-level internal reviews.  Want to see a sneak peek, visit [here](http://209.132.179.16:3000/).  And, yes, I know there are some CSS issues.  Want to help out?
+- Lots of work toward the new Fedora Budget website.  I need to still send some emails to the fedora-website group, but we are doing budget-level internal reviews.  Want to see a sneak peek, visit [here](https://209.132.179.16:3000/).  And, yes, I know there are some CSS issues.  Want to help out?
 - Preparing for my US trip (see below) which involved lots of triaging.
 
 # A la Mode

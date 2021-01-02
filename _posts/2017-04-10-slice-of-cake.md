@@ -17,7 +17,7 @@ redirect_from:
  - /ramblings/2017/04/10/slice-of-cake/
 ---
 
-If this was any fresher off the press, it'd be a [flatcake](http://starwars.wikia.com/wiki/Flatcake).
+If this was any fresher off the press, it'd be a [flatcake](https://starwars.wikia.com/wiki/Flatcake).
 
 # A slice of cake
 
@@ -32,7 +32,7 @@ Last week as FCAIC I:
 
 I also made some personal progress doing:
 
-- I learned that the [České dráhý](http://www.cd.cz), the Czech rail company, has an online store that won't sell group tickets for more than 6 people directly.  You also can't buy more than 5 people on a group ticket at the window.  WEIRD!
+- I learned that the [České dráhý](https://www.cd.cz), the Czech rail company, has an online store that won't sell group tickets for more than 6 people directly.  You also can't buy more than 5 people on a group ticket at the window.  WEIRD!
 - I was able to find a taxi company in [Zaječí](https://en.wikipedia.org/wiki/Zaje%C4%8D%C3%AD) online despite not being able to spell Zaječí twice in a row the same way.
 
 # Cake Around the World

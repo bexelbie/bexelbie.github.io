@@ -21,7 +21,7 @@ redirect_from:
 
 Last week as FCAIC I:
 
-- [Participated](http://community.redhat.com/blog/2017/04/community-managers-sit-everywhere-should-they/) in the second week of the opensource.com blogging challenge.  If you missed the first week post it is [here](http://community.redhat.com/blog/2017/04/onboarding-new-contributors-in-the-fedora-project/).  You should definitely participate in the future weeks!
+- [Participated](https://community.redhat.com/blog/2017/04/community-managers-sit-everywhere-should-they/) in the second week of the opensource.com blogging challenge.  If you missed the first week post it is [here](https://community.redhat.com/blog/2017/04/onboarding-new-contributors-in-the-fedora-project/).  You should definitely participate in the future weeks!
 - The new [budget](https://budget.fedoraproject.org/) website for Fedora is live!  I need to write an announcement.  I also need to work with Fedora-Infrastructure to get more of the building automated.  If you want to help, ping me.
 - An amazing [meeting](https://meetbot.fedoraproject.org/fedora-flock/2017-04-19/regcfp_flock_2017.2017-04-19-14.09.html) with [mizmo](https://fedoraproject.org/wiki/User:Duffy), [puiterwijk](https://fedoraproject.org/wiki/User:Puiterwijk), and [stickster](https://fedoraproject.org/wiki/User:Pfrields?rd=User:Stickster) to plan the changes needed to [regcfp](https://github.com/puiterwijk/regcfp) and other details for Flock.
 - Finalized the GSoC Fedora selections for 2017 (due a bit after this post goes live).  Students get notified in May, not before - thems the rules from the Googles!

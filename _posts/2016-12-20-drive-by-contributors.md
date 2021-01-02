@@ -146,7 +146,7 @@ page-views your project has to have before you get a drive-by contributor?
 
 Wikipedia provides page-view traffic.  In May 2015 Wikipedia changed
 their data reporting for page-views to eliminate bot traffic.  I also
-didn't find any [data](http://reportcard.wmflabs.org/) for months after
+didn't find any [data](https://reportcard.wmflabs.org/) for months after
 August 2016.  Therefore, I restricted my analysis to just the months
 between May 2015 and August 2016.  I calculated the number of pages-views
 per drive-by contributor[^7].  I then averaged the value for those months.
@@ -187,7 +187,7 @@ Let me know.  You can contact me using the links below.
 
 [^1]: and probably not for a long time.  Go read some [Tyler Tringas](https://tylertringas.com/shipping-a-saas-minimum-viable-product/)!
 
-[^2]: How's that for a fancy term for "assumptions I pulled out of the [MIASS](http://www.c4vct.com/kym/humor/miass.htm) database."
+[^2]: How's that for a fancy term for "assumptions I pulled out of the [MIASS](https://www.c4vct.com/kym/humor/miass.htm) database."
 
 [^3]: You know what the problem with "contextual decisions" is .. it makes a condec out of you and me ... or something like that.
 

@@ -21,7 +21,7 @@ projects. We can do it in AsciiDoc.  Here is how.
 
 # Why AsciiDoc?
 
-[AsciiDoc](http://www.methods.co.nz/asciidoc) is a light-weight markup
+[AsciiDoc](https://www.methods.co.nz/asciidoc) is a light-weight markup
 language that is being adopted at a fast-pace by projects.  The Fedora
 Documentation Project, for example, has decided to migrate its books
 to AsciiDoc.  AsciiDoc excels at being very easy to write with as it
@@ -130,7 +130,7 @@ Guide](https://pagure.io/install-guide/blob/master/f/en-US/After_Installation.xm
 
 ```
                     <para>
-                        Devices necessary to complete the installation can have driver updates provided before the installation begins. If a device is missing a driver, but it is not essential during the installation, it is recommended to wait until after the installation completes, and install additional drivers afterwards. For instructions on installing and enabling additional drivers on the installed system using <application>RPM</application> and <application>DNF</application>, see the <citetitle>&PRODUCT; System Administrator's Guide</citetitle>, available at <ulink url="http://docs.fedoraproject.org/" />.
+                        Devices necessary to complete the installation can have driver updates provided before the installation begins. If a device is missing a driver, but it is not essential during the installation, it is recommended to wait until after the installation completes, and install additional drivers afterwards. For instructions on installing and enabling additional drivers on the installed system using <application>RPM</application> and <application>DNF</application>, see the <citetitle>&PRODUCT; System Administrator's Guide</citetitle>, available at <ulink url="https://docs.fedoraproject.org/" />.
                     </para>
 ```
 Note: &amp;PRODUCT; is an entity reference.
@@ -138,13 +138,13 @@ Note: &amp;PRODUCT; is an entity reference.
 First let's just translate it to AsciiDoc:
 
 ```
-Devices necessary to complete the installation can have driver updates provided before the installation begins. If a device is missing a driver, but it is not essential during the installation, it is recommended to wait until after the installation completes, and install additional drivers afterwards. For instructions on installing and enabling additional drivers on the installed system using RPM and DNF, see the {PRODUCT} System Administrator's Guide, available at http://docs.fedoraproject.org.
+Devices necessary to complete the installation can have driver updates provided before the installation begins. If a device is missing a driver, but it is not essential during the installation, it is recommended to wait until after the installation completes, and install additional drivers afterwards. For instructions on installing and enabling additional drivers on the installed system using RPM and DNF, see the {PRODUCT} System Administrator's Guide, available at https://docs.fedoraproject.org.
 ```
 
 This yields the following HTML:
 
 ```
-<p>Devices necessary to complete the installation can have driver updates provided before the installation begins. If a device is missing a driver, but it is not essential during the installation, it is recommended to wait until after the installation completes, and install additional drivers afterwards. For instructions on installing and enabling additional drivers on the installed system using RPM and DNF, see the Fedora 24 System Administrator&#8217;s Guide, available at <a href="http://docs.fedoraproject.org" class="bare">http://docs.fedoraproject.org</a>.</p>
+<p>Devices necessary to complete the installation can have driver updates provided before the installation begins. If a device is missing a driver, but it is not essential during the installation, it is recommended to wait until after the installation completes, and install additional drivers afterwards. For instructions on installing and enabling additional drivers on the installed system using RPM and DNF, see the Fedora 24 System Administrator&#8217;s Guide, available at <a href="https://docs.fedoraproject.org" class="bare">https://docs.fedoraproject.org</a>.</p>
 ```
 
 Note: I have substituted in "Fedora 24" for the PRODUCT entity.
@@ -162,13 +162,13 @@ So, let's define some styling and add that:
 And modify our AsciiDoc as follows:
 
 ```
-Devices necessary to complete the installation can have driver updates provided before the installation begins. If a device is missing a driver, but it is not essential during the installation, it is recommended to wait until after the installation completes, and install additional drivers afterwards. For instructions on installing and enabling additional drivers on the installed system using `RPM` and `DNF`, see the _{PRODUCT} System Administrator's Guide_, available at http://docs.fedoraproject.org. 
+Devices necessary to complete the installation can have driver updates provided before the installation begins. If a device is missing a driver, but it is not essential during the installation, it is recommended to wait until after the installation completes, and install additional drivers afterwards. For instructions on installing and enabling additional drivers on the installed system using `RPM` and `DNF`, see the _{PRODUCT} System Administrator's Guide_, available at https://docs.fedoraproject.org. 
 ```
 
 This yields the following HTML:
 
 ```
-<p>Devices necessary to complete the installation can have driver updates provided before the installation begins. If a device is missing a driver, but it is not essential during the installation, it is recommended to wait until after the installation completes, and install additional drivers afterwards. For instructions on installing and enabling additional drivers on the installed system using <code>RPM</code> and <code>DNF</code>, see the <em>Fedora 24 System Administrator&#8217;s Guide</em>, available at <a href="http://docs.fedoraproject.org" class="bare">http://docs.fedoraproject.org</a>.</p>
+<p>Devices necessary to complete the installation can have driver updates provided before the installation begins. If a device is missing a driver, but it is not essential during the installation, it is recommended to wait until after the installation completes, and install additional drivers afterwards. For instructions on installing and enabling additional drivers on the installed system using <code>RPM</code> and <code>DNF</code>, see the <em>Fedora 24 System Administrator&#8217;s Guide</em>, available at <a href="https://docs.fedoraproject.org" class="bare">https://docs.fedoraproject.org</a>.</p>
 ```
 
 We have more perfectly acceptable HTML and we have presentation that
@@ -176,7 +176,7 @@ meets our style guide.  However, we don't have the three benefits of
 semantic markup mentioned above.
 
 So let's create that.  We will use the [custom styling with
-attributes](http://asciidoctor.org/docs/user-manual/#custom-styling-with-attributes)
+attributes](https://asciidoctor.org/docs/user-manual/#custom-styling-with-attributes)
 markup of AsciiDoc.  This means that we will wrap the content in an
 attribute block, for example:
 
@@ -191,13 +191,13 @@ attribute block, for example:
 And, again, modify our AsciiDoc as follows:
 
 ```
-Devices necessary to complete the installation can have driver updates provided before the installation begins. If a device is missing a driver, but it is not essential during the installation, it is recommended to wait until after the installation completes, and install additional drivers afterwards. For instructions on installing and enabling additional drivers on the installed system using [App]#RPM# and [App]#DNF#, see the [Title]#{PRODUCT} System Administrator's Guide#, available at http://docs.fedoraproject.org. 
+Devices necessary to complete the installation can have driver updates provided before the installation begins. If a device is missing a driver, but it is not essential during the installation, it is recommended to wait until after the installation completes, and install additional drivers afterwards. For instructions on installing and enabling additional drivers on the installed system using [App]#RPM# and [App]#DNF#, see the [Title]#{PRODUCT} System Administrator's Guide#, available at https://docs.fedoraproject.org. 
 ```
 
 This yields the following HTML:
 
 ```
-<p>Devices necessary to complete the installation can have driver updates provided before the installation begins. If a device is missing a driver, but it is not essential during the installation, it is recommended to wait until after the installation completes, and install additional drivers afterwards. For instructions on installing and enabling additional drivers on the installed system using <span class="App">RPM</span> and <span class="App">DNF</span>, see the <span class="Title">Fedora 24 System Administrator&#8217;s Guide</span>, available at <a href="http://docs.fedoraproject.org" class="bare">http://docs.fedoraproject.org</a>.</p>
+<p>Devices necessary to complete the installation can have driver updates provided before the installation begins. If a device is missing a driver, but it is not essential during the installation, it is recommended to wait until after the installation completes, and install additional drivers afterwards. For instructions on installing and enabling additional drivers on the installed system using <span class="App">RPM</span> and <span class="App">DNF</span>, see the <span class="Title">Fedora 24 System Administrator&#8217;s Guide</span>, available at <a href="https://docs.fedoraproject.org" class="bare">https://docs.fedoraproject.org</a>.</p>
 ```
 
 This meets our requirements:

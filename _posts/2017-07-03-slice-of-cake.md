@@ -24,7 +24,7 @@ Last week as FCAIC I:
 - Worked with the Flock CfP committee to get the first round of accepts for submissions sent out.  If you haven't gotten an accept, you're on the waiting list.  We will process some rejects and shorten the list once funding decisions are made.
 - Sent out Flock visa letter information.
 - Worked with the Flock funding committee to begin allocating travel support.  Those decisions should be coming out soon.
-- Continued to refine the Flock budget and do general budget maintenance at [budget.fedoraproject.org](http://budget.fedoraproject.org)
+- Continued to refine the Flock budget and do general budget maintenance at [budget.fedoraproject.org](https://budget.fedoraproject.org)
 - Worked on my event reports going back to May (ACK!).  If I can get everything else quieted down, those will go out this week.
 - Worked with the LATAM FAD group to get travel and organizational details nailed down.
 - Had a fantastic conversation with a leader in another large open source project about their community goals.  They are looking to emulate some of the successes Fedora has had.  We are leaders in a lot of areas, let's keep going!

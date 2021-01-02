@@ -11,7 +11,7 @@ classes: wide
 ---
 
 # [Atomic Developer Bundle: Containerized Development Made Easy](https://devconfcz2016.sched.org/event/53556807a38c5eb825ebdfdebccd1def)
-## Presented at [DEVCONF Brno 2016](http://devconf.cz/) on 6 Feb 2016
+## Presented at [DEVCONF Brno 2016](https://devconf.cz/) on 6 Feb 2016
 
 Speakers: 
 - [Brian Exelbierd @bexelbie](https://twitter.com/bexelbie) - bex@pobox.com or bexelbie@redhat.com

@@ -20,7 +20,7 @@ redirect_from:
 My fantastic colleagues who work for [Red Hat's Customer Content
 Services](https://access.redhat.com/documentation/en/) in Brno have
 been developing a play about "No Docs, No Commit."  I hope to see
-it for the first time during [DevConf.cz](http://devconf.cz/) in
+it for the first time during [DevConf.cz](https://devconf.cz/) in
 February.
 
 For those not familiar with this idea, it is about not allowing

@@ -63,7 +63,7 @@ chance to work full-time with the Fedora community when my predecessor
 left to work on Hillary Clinton's presidential campaign.
 
 I am super excited to be in this new role. You can out find more about
-me on [my website](http://www.winglemeyer.org/). You'll also find my
+me on [my website](https://www.winglemeyer.org/). You'll also find my
 blog and more examples of my sense of humor.
 
 # Goals

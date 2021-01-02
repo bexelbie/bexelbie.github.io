@@ -28,7 +28,7 @@ In the last week as FCAIC I:
 
 # À la mode
 
-- Visited the Slovak Paradise, [Slovenský Raj](http://www.slovenskyraj.eu/).  While there I hiked through the meandering paths of 2.5 books, waded through three bowls of garlic soup, and forded 2 plates of Bryndzové halušky.  I was also forced to drink iced coffee with caramel on top, like an animal.  Others in the party went hiking.  I understand it was nice and without caramel on top.
+- Visited the Slovak Paradise, [Slovenský Raj](https://www.slovenskyraj.eu/).  While there I hiked through the meandering paths of 2.5 books, waded through three bowls of garlic soup, and forded 2 plates of Bryndzové halušky.  I was also forced to drink iced coffee with caramel on top, like an animal.  Others in the party went hiking.  I understand it was nice and without caramel on top.
 
 # Cake Around the World
 

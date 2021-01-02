@@ -17,7 +17,7 @@ an English friend, however, I suspect it won't.
 
 I was recently reading an article,
 ["How remain failed: the inside story of a doomed
-campaign"](http://www.theguardian.com/politics/2016/jul/05/how-remain-failed-inside-story-doomed-campaign)
+campaign"](https://www.theguardian.com/politics/2016/jul/05/how-remain-failed-inside-story-doomed-campaign)
 by Rafael Behr in The Guardian.  I am told that The Guardian was not in
 favor of leaving the European Union.  This quote struck me:
 
@@ -27,7 +27,7 @@ manifest ambivalence about the entire **European project**."
 
 I've bolded the words "European project."
 
-[Merriam-Webster](http://www.merriam-webster.com/dictionary/project)
+[Merriam-Webster](https://www.merriam-webster.com/dictionary/project)
 defines the noun form of project as:
 
 1. a specific plan or design :  scheme

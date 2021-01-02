@@ -189,7 +189,7 @@ Note: As an experiment an ad had been placed on this page.  I was genuinely curi
       to a trickle.  I do find myself missing some the features that are
       turned off like many push notifications and animation prettiness.
 
-[^6]: http://www.macworld.com/article/1131991/ipodtouch.html This wasn't
+[^6]: https://www.macworld.com/article/1131991/ipodtouch.html This wasn't
       the example I was thinking of at first.  I remembered something
       about a network driver or something similar for Mac OS X that cost
       $3 because of a similar accounting issue.

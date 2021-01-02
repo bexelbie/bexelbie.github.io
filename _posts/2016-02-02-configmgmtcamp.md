@@ -16,8 +16,8 @@ redirect_from:
 
 ![Config Management Camp EU Logo](/img/2016/configmgmtcampeu2016-logo.png){: .align-left}
 I had the privilege of speaking at [Config Management Camp EU
-2016](http://cfgmgmtcamp.eu/schedule/speakers/BrianExelbierd.html)
-([lanyrd.com](http://lanyrd.com/2016/cfgmgmtcamp/sdxytt/)) in
+2016](https://cfgmgmtcamp.eu/schedule/speakers/BrianExelbierd.html)
+([lanyrd.com](https://lanyrd.com/2016/cfgmgmtcamp/sdxytt/)) in
 beautiful Ghent, Belgium on 2 February 2016.  At the last moment I
 was asked by [Vaclav Pavlin](https://twitter.com/vpavlin) to do the
 talk for him when he couldn't attend.  I am grateful to him for the
@@ -27,7 +27,7 @@ speak.
 
 The talk was on
 [Nulecule](https://github.com/projectatomic/nulecule/blob/master/docs/getting-started.md)
-a sub-project of [Project Atomic](http://www.projectatomic.io)
+a sub-project of [Project Atomic](https://www.projectatomic.io)
 focused on multi-container application lifecycle management.
 
 Nulecule is just a specification that is tool agnostic.  Thankfully
@@ -39,7 +39,7 @@ I started with Vaclav's slides and made them my own, including
 adding the demo.  The demo shows how to use a Nulecule for multiple
 orchestrator and includes a demo of launching the entire process via
 configuration management.  Specifically an
-[Ansible](http://www.ansible.com) playbook is used to deploy a
+[Ansible](https://www.ansible.com) playbook is used to deploy a
 [Etherpad Nulecule
 Application](https://github.com/kadel/nulecule-library/tree/cfgmntcmp-etherpad/etherpad-centos7-atomicapp)
 on a [Mesos-Marathon](https://mesosphere.github.io/marathon/)

@@ -22,7 +22,7 @@ Therefore, I not so humbly submit this small list of years.
 
 2017 - The year of great conference Wi-Fi
 
-201X - [Great Recurring Task rewrite](https://bug.tasktools.org/browse/TW-235) of [taskwarrior](http://taskwarrior.org)
+201X - [Great Recurring Task rewrite](https://bug.tasktools.org/browse/TW-235) of [taskwarrior](https://taskwarrior.org)
 
 202X - The year of the Containerized Desktop
 
