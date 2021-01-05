@@ -1,10 +1,16 @@
 ---
 date:    2021-01-05 15:00:00 +0100
 title:   "Less is More: New Year’s Resolution"
+excerpt:   ""
 categories:
   - Ramblings
 tags:
   - Life Lessons
+header:
+  overlay_image: "/img/2021/LessIsMore.jpg"
+  og_image: "/img/2021/LessIsMore.jpg"
+  teaser: "/img/2021/LessIsMore.jpg"
+  caption: "Photo credit: Brian Exelbierd"
 ---
 
 Many of the New Year’s resolutions I hear about are focused on doing more.  Weight loss, exercise, saving money, eating healthy, or whatever - the focus is on doing something more than you used to do.
