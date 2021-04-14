@@ -9,8 +9,6 @@ tags:
   - Project Atomic
 header:
   overlay_color: "#333"
-redirect_from:
- - /technology/2015/10/14/container-roundtable-linuxcon-eu/
 ---
 
 At [LinuxCon Europe 2015](https://events.linuxfoundation.org/events/linuxcon-europe) from 5-7 October, 2015 in Dublin, Ireland. Project Atomic's Joe Brockmeier [moderated a panel discussion](https://sched.co/3xqB) between Tom Barlow from Docker, Sebastien Goasguen of Citrix, and Brandon Philips from CoreOS about containers.  

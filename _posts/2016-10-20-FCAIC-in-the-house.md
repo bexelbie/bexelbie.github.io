@@ -12,8 +12,6 @@ header:
   teaser: "/img/2016/communty-945x400.png"
   caption: "Photo credit: Fedora Magazine"
   overlay_filter: 0.3
-redirect_from:
- - /ramblings/2016/10/20/FCAIC-in-the-house/
 ---
 
 # The who in the where?

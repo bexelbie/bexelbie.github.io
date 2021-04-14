@@ -9,8 +9,6 @@ tags:
   - Fedora
 header:
   overlay_color: "#333"
-redirect_from:
- - /technology/2017/07/13/event-report-community-leadership-summit/
 ---
 
 # Community Leadership Summit

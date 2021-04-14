@@ -9,8 +9,6 @@ tags:
   - Documentation
 header:
   overlay_color: "#333"
-redirect_from:
- - /technology/2016/12/19/drive-by-contributors/
 ---
 
 # We should be using a Wiki

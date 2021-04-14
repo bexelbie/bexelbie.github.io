@@ -6,8 +6,6 @@ categories:
   - Travel
 tags:
   - Gadgets
-redirect_from:
- - /travel/2016/01/20/world-phone/
 ---
 
 I want worldwide phone and data service.  And I think the only way to get it is to build a better phone.

@@ -8,8 +8,6 @@ tags:
   - Personal
 header:
   overlay_color: "#333"
-redirect_from:
- - /ramblings/2017/04/20/fixing-ERP/
 ---
 
 Enterprise Resource Planning (ERP) systems, as you may know, are inherently horrible.  They have to serve many types of users all at once from the same interface.  Breaking them down leads to incompatibilities and they are already such huge hydras that developing custom interfaces for each user type is a lost cause.  Therefore these systems are universally terrible.

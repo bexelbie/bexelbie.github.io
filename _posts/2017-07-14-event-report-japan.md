@@ -10,8 +10,6 @@ tags:
   - Red Hat
 header:
   overlay_color: "#333"
-redirect_from:
- - /technology/2017/07/14/event-report-japan/
 ---
 
 # Open Source Summit

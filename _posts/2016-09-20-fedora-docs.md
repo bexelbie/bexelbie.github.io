@@ -9,8 +9,6 @@ tags:
   - Documentation
 header:
   overlay_color: "#333"
-redirect_from:
- - /technology/2016/09/20/fedora-docs.html.html
 ---
 
 I have finally finished a, probably way too long,

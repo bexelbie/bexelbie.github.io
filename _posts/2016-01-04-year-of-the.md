@@ -6,8 +6,6 @@ categories:
   - Ramblings
 tags:
   - Random
-redirect_from:
- - /2016/01/04/year-of-the/
 ---
 
 A friend, [Liam Proven](https://twitter.com/lproven), retweeted [John Cleese](https://twitter.com/JohnCleese/status/683681888687538177).

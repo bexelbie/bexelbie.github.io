@@ -9,9 +9,6 @@ tags:
   - Documentation
 header:
   overlay_color: "#333"
-redirect_from:
- - /2016/09/08/semantic-asciidoc/
- - /technology/2016/09/08/semantic-asciidoc/
 ---
 
 This is a bit long, but I hope it is worth it.

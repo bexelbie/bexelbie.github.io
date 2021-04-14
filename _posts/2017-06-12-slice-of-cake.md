@@ -13,8 +13,6 @@ header:
   teaser: "/img/cake-with-the-fcaic.png"
   caption: "Photo credit: [**Fedora Badges**](https://badges.fedoraproject.org/badge/its-a-cake-thing)"
   overlay_filter: 0.3
-redirect_from:
- - /ramblings/2017/06/12/slice-of-cake/
 ---
 
 Is this cake number 10 (decimal) or number 2 (binary)? This never gets old!

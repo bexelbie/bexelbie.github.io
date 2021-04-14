@@ -8,8 +8,6 @@ tags:
   - Politics
 header:
   overlay_color: "#333"
-redirect_from:
- - /2016/07/18/european-project/
 ---
 
 This entire rant may get invalidated by a single comment from

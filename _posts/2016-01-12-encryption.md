@@ -12,9 +12,6 @@ header:
   teaser: "/img/2016/New100front.jpg"
   caption: "Photo credit: [US Mint via Wikipedia](https://en.wikipedia.org/wiki/United_States_dollar#/media/File:New100front.jpg)"
   overlay_filter: 0.3
-redirect_from:
- - /2016/01/12/encryption/
- - /ramblings/2016/01/12/encryption/
 ---
 
 [Several governments](https://www.wsj.com/articles/fbi-seeks-to-reframe-encryption-debate-1451417252) want to put [back doors](https://www.eff.org/deeplinks/2015/12/encryption-balance-2015-review) into encryption systems.  The goal is to be able to provide safety by being able to read messages sent by "terrorists".  They promise to safeguard the back doors so that only they can use them. They also promise not misuse the access.

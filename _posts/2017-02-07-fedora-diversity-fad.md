@@ -9,8 +9,6 @@ tags:
   - Fedora
 header:
   overlay_color: "#333"
-redirect_from:
- - /technology/2017/02/07/fedora-diversity-fad/
 ---
 
 DevConf.cz featured many great talks and a fantastic hallway track.  It also hosted the Fedora Activity Day for the Fedora Diversity team.

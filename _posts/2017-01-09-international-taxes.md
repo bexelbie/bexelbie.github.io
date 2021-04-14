@@ -13,8 +13,6 @@ header:
   caption: "Photo credit: author"
   overlay_filter: 0.5
 comments:   true
-redirect_from:
- - /ramblings/2017/01/09/international-taxes/
 classes: none
 toc: true
 ---

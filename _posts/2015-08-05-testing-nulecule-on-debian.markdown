@@ -12,8 +12,6 @@ header:
   og_image: "/img/2015/nulecule-debian.jpg"
   teaser: "/img/2015/nulecule-debian.jpg"
   overlay_filter: 0.3
-redirect_from:
- - /2015/08/18/testing-nulecule-on-debian/
 ---
 
 Unless you've recently returned from a sabbatical year in a remote monastery with no internet, you know that Containers have arrived, and it's a whole new world.

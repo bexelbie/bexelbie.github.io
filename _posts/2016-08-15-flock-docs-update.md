@@ -11,9 +11,6 @@ header:
   og_image: "/img/2016/docs-update-flock-2016.jpg"
   teaser: "/img/2016/docs-update-flock-2016.jpg"
   overlay_filter: 0.3
-redirect_from:
- - /2016/08/15/flock-docs-update/
- - /technology/2016/08/15/flock-docs-update/
 ---
 
 At [Flock 2016 in Krakow, Poland](https://flocktofedora.org), I had the
