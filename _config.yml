@@ -7,7 +7,7 @@ title                    : "even the horse knew"
 title_separator          : "!"
 name                     : 'Brian "bex" Exelbierd'
 description              : "The personal ramblings of Brian Exelbierd and not his employers."
-url                      : "https://www.winglemeyer.org"
+url                      : "https://bexelbie-github-io.pages.dev"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "bexelbie/bexelbie.github.io"
 teaser                   : "img/header.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -99,7 +99,7 @@ author:
   bio              : "My ramblings about tech, security, productivity, finance, taxes and life in general."
   location         : "Brno, Czech Republic"
   email            : "bex@pobox.com"
-  uri              : "https://www.winglemeyer.org"
+  uri              : "https://bexelbie-github-io.pages.dev"
   home             : "about" # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
