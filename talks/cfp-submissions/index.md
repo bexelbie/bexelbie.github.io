@@ -32,7 +32,7 @@ This directory contains CFP submissions, some were successful some were not.
 
     A successful BoF proposal
 
-* [3 Orchestrators, 1 Dev Environment @ Container Con EU 2016](containercon.eu)
+* [3 Orchestrators, 1 Dev Environment @ Container Con EU 2016](containercon-eu)
 
     An unsuccessful talk proposed for Container Con EU 2016
 
