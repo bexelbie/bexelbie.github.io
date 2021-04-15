@@ -82,7 +82,11 @@ I keep a few here for use.
 Brian Exelbierd works as part of the RHEL Product Management team at Red Hat and has a background in Higher Education and IT/Engineering.
 Follow him @bexelbie
 
-### Medium Bio (151 Words / 960 Chars)
+### Medium Bio 1 (99 Words / 607 Chars)
+
+Brian “bex” Exelbierd is the Red Hat Enterprise Linux Community Business Owner and works to ensure that community efforts inform the Red Hat Enterprise Linux roadmap. He also helps operating system communities by easing the way for Red Hat Enterprise Linux to support the great things they do. At Red Hat, Exelbierd has also worked as a technical writer, software engineer, content strategist, and community architect. Prior to Red Hat, he worked at the University of Delaware as the Director of Graduate and Executive Programs in the Alfred Lerner College of Business and Economics and as a Budget Analyst.
+
+### Medium Bio 2 (151 Words / 960 Chars)
 
 Brian "bex" Exelbierd is the RHEL Community Business Owner and works to inform the RHEL roadmap with community efforts and to support Operating System communities.
 At Red Hat, Brian has worked as a technical writer, software engineer, content strategist, community architect and now as a product manager.
