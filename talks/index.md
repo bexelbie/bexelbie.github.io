@@ -16,24 +16,18 @@ Talks and demos I've given, my work with the Fosdem Distributions DevRoom and va
 
 * The Secret to Keeping Your Community Strong for Decades @ [SFScon, Bolzen, South Tyrol, Italy](https://www.sfscon.it/) - 10 November 2017
   * [Details](SFS-Bozen-Italy-2017/)
-  * [Slides](SFS-Bozen-Italy-2017/slides.html)
 
 * Building Applications Doesn't Mean Writing It All From Scratch @ [OSCAL 2017, Tirana, Albania](https://oscal.openlabs.cc/) - 14 May 2017
   * [Details](OSCAL.2017.Dont.Write.It.All/)
-  * [Slides](OSCAL.2017.Dont.Write.It.All/slides.html)
-
 * What's New in Fedora 25 Beta @ [FUDCon LATAM 2016, Puno, Peru](https://flockcon-latam.org) - 12 October 2016
   * [Details](Fedora-25-Beta/)
-  * [Slides](Fedora-25-Beta/slides.html)
 
 * [Hackfest: Fedora Docs Learn and Hack](https://flock2016.sched.org/event/ed4a9f29526b5befe6a86635050cd958) @ [Flock 2016, Kraków Poland](https://flocktofedora.org) - 4 August 2016
   * [Details](Flock.2016.docs/)
-  * [Slides](Flock.2016.docs/slides.html)
 
 * [Bringing Developers into the Flock](https://flock2016.sched.org/event/3bb106c028feddc9a0e92a53a0ee5288) @ [Flock 2016, Kraków Poland](https://flocktofedora.org) - 3 August 2016
   * Co-Presenter: Dusty Mabe
   * [Details](Flock.2016.developers/)
-  * [Slides](Flock.2016.developers/slides.html)
 
 * [Atomic Developer Bundle: Containerized Development Made Easy](https://devconfcz2016.sched.org/event/53556807a38c5eb825ebdfdebccd1def) @ [DEVCONF Brno 2016](https://devconf.cz/) - 6 Feb 2016
   * Co-Presenter: [Navid Shaikh](https://twitter.com/SwordPhilic)
