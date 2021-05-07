@@ -24,8 +24,7 @@ Open source software communities, as well as the individuals and the companies t
 
 ## Slides and Source Files
 
-* [slides](slides.html)
-* [slides.revealjs](slides.revealjs.txt) prepared using my own configuration of [reveal.js]({% link talks/tools/index.md %}).
+* [slides.revealjs](slides.revealjs.txt) - this used reveal-js which I no longer use.  As of 7 May 2020 you can only review the input file.
 
 ## Speaker Bios
 

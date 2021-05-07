@@ -32,8 +32,7 @@ interests you Presenters: Pete Travis (randomuser) & Brian Exelbierd (bex)
 
 ## Slides and Source Files
 
-* [Slides](slides.html)
-* [slides.revealjs](slides.revealjs.txt) prepared using my own configuration of [reveal.js]({% link talks/tools/index.md %}).
+* [slides.revealjs](slides.revealjs.txt) - this used reveal-js which I no longer use.  As of 7 May 2020 you can only review the input file.
 
 ## Speaker Bio
 
