@@ -12,6 +12,10 @@ classes: wide
 
 This directory contains CFP submissions, some were successful some were not.
 
+* [Look Up, Not Down when Commercializing Open Source](sfscon-2020)
+
+    An, as yet undecided, talk submission
+
 * [Fedora, CentOS and EPEL BoF @ Open Source Summit Europe 2018 - Edinburgh](oss-EU-2018-BoF)
 
     A BoF proposal
