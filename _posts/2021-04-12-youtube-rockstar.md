@@ -5,7 +5,7 @@ excerpt:   "Narrator: Not Really"
 categories:
   - Ramblings
 tags:
-  - Gadges
+  - Gadgets
 ---
 
 Many people wonder why I haven't been blogging recently[^1].  It's because I have become a star of Youtube[^2].
