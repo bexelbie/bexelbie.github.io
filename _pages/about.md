@@ -102,7 +102,7 @@ Follow him on twitter @bexelbie and read his sporadic blog pieces at www.winglem
 
 My sister-in-law, who is a great photographer, agreed to risk her reputation and take a new headshot for me.  I remain a terrible model, so be kind.  But here is me, circa July 2022.
 
-![bexelbie](/img/headshots/20220713-headshot small.heic) [Full Size Image](/img/headshots/20220713-headshot.heic)
+![bexelbie](/img/headshots/20220713-headshot small.png) Full Size Image: [heic](/img/headshots/20220713-headshot.heic)/[jpg](/img/headshots/20220713-headshot.jpg)
 
 ## About This Site
 
