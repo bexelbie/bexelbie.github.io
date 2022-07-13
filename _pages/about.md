@@ -100,12 +100,9 @@ Follow him on twitter @bexelbie and read his sporadic blog pieces at www.winglem
 
 ### Headshots
 
-I am placing two headshots here.
-I have the photography skills of a &lt;insert unskilled thing here&gt; (I am a terrible picture taker, editor, and model), so be kind :).
-I've also noticed that someone keeps running a real world shading effect on me so I appear to have more gray in my beard than these photos from 2013 show.
-I am not sure why they are not auto-updating ...
+My sister-in-law, who is a great photographer, agreed to risk her reputation and take a new headshot for me.  I remain a terrible model, so be kind.  But here is me, circa July 2022.
 
-![bexelbie](/img/headshots/bex-ocean-thumb.jpg) ![bexelbie](/img/headshots/headshot.jpg) ![bexelbie in a circle](/img/headshots/bexelbie-headshot.png)
+![bexelbie](/img/headshots/20220713-headshot small.heic) [Full Size Image](/img/headshots/20220713-headshot.heic)
 
 ## About This Site
 
