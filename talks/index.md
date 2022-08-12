@@ -2,10 +2,10 @@
 title: "Talks and Demos"
 excerpt: "Talks and Demos I've done"
 header:
-  overlay_image: "/img/about-bg.jpg"
-  og_image: "/img/about-bg.jpg"
-  teaser: "/img/about-bg.jpg"
-  caption: "Photo credit: author"
+  overlay_image: "/img/bex-speaking.jpg"
+  og_image: "/img/bex-speaking.jpg"
+  teaser: "/img/bex-speaking.jpg"
+  caption: "Photo credit: Unknown - Likely Write the Docs Prague"
   overlay_filter: 0.5
 classes: wide
 ---
