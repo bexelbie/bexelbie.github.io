@@ -1,5 +1,5 @@
 ---
-date:    2022-06-08 10:00:00 +0200
+date:    2023-04-24 19:43:00 +0200
 title:   "Both/And Thinking"
 excerpt:   "Smith, Wendy; Lewis, Marianne. Harvard Business Review Press"
 categories:
