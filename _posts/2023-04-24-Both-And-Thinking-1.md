@@ -9,7 +9,7 @@ tags:
   - Both-And-Thinking
 ---
 
-I've started reading [Both/And Thinking](https://bothandthinking.net) for professional development reasons.  It happens to be written by a professor at the University of Delaware, Wendy Smith, who like me then, is in the Alfred Lerner College of Business and Economics.  I'm challenging myself to write about the book as I read it, and I (re)started readng it today.  
+I've started reading [Both/And Thinking](https://bothandthinking.net) for professional development reasons.  It happens to be written by a professor at the University of Delaware, Wendy Smith, who like me then, is in the Alfred Lerner College of Business and Economics.  I'm challenging myself to write about the book as I read it, and I (re)started reading it today.  
 
 The book is focused on providing guidance for resolving the tensions that arise in decision making that are typically caused by either dilemmas or paradoxes.
 
