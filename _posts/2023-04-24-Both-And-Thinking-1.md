@@ -1,6 +1,6 @@
 ---
 date:    2023-04-24 19:43:00 +0200
-title:   "Both/And Thinking"
+title:   "Both/And Thinking - Introduction"
 excerpt:   "Smith, Wendy; Lewis, Marianne. Harvard Business Review Press"
 categories:
   - Ramblings
