@@ -10,7 +10,7 @@ tags:
 
 Many people wonder why I haven't been blogging recently[^1].  It's because I have become a star of Youtube[^2].
 
-When I moved across town my new flat didn't have good wifi signal in one of the rooms.  So I decided to give our old friend, powerline ethernet a try.  Yeah, seriously, ethernet over an active power line.  What will they think of next, trains on streets[^3]?
+When I moved across town my new flat didn't have good wifi signal in one of the rooms.  So I decided to give our old friend, power line ethernet a try.  Yeah, seriously, ethernet over an active power line.  What will they think of next, trains on streets[^3]?
 
 I wound up not keeping the unit because I figured out a better place to sit my wifi router, but, you can watch my debut on Youtube on my fancy channel:
 
