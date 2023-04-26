@@ -1,6 +1,6 @@
 ---
-date:    2023-04-25 17:20:00 +0200
-title:   "Both/And Thinking - First 2 Paradox Types"
+date:    2023-04-26 17:50:00 +0200
+title:   "Both/And Thinking - Last 2 Paradox Types"
 excerpt:   "Smith, Wendy; Lewis, Marianne. Harvard Business Review Press"
 categories:
   - Ramblings
@@ -9,45 +9,56 @@ tags:
   - Both-And-Thinking
 ---
 
-I've started reading [Both/And Thinking](https://bothandthinking.net) and am capturing my thoughts here as I go.  You may find it interesting to start with the [first post](https://www.winglemeyer.org/ramblings/2023/04/24/Both-And-Thinking-1) in this series or to [read them all](https://www.winglemeyer.org/navigation/tags/#Both-And-Thinking).
+I've started reading [Both/And Thinking](https://bothandthinking.net) and am capturing my thoughts here as I go.  Right now these are mostly the raw notes as synthesis comes later.  You may find it interesting to start with the [first post](https://www.winglemeyer.org/ramblings/2023/04/24/Both-And-Thinking-1) in this series or to [read them all](https://www.winglemeyer.org/navigation/tags/#Both-And-Thinking).
 
-Today's reading focused on defining paradoxes which they render as, "contradictory, yet interdependent elements that exist simultaneously and persist over time."  These can be imagined using the Yin-yang symbol.  The sides are seeded by each other, and persistently in flow.
+Today's reading continued defining paradoxes which they render as, "contradictory, yet interdependent elements that exist simultaneously and persist over time."  These can be imagined using the Yin-yang symbol.  The sides are seeded by each other, and persistently in flow.
 
-The authors also give an example of how paradoxes define our groups and teams.
+## Belonging Paradoxes
 
-> Kenwyn Smith and David Berg point to these tensions in their book Paradoxes of Group Life. For example, as they note, high-performing teams need individuals to give their best and distinctive efforts. Doing so often fosters competition between team members, but it also requires collaboration to prioritize the collective.
+These appear as 'Who?' questions and expose competing identities and roles.  e.g. Who am I, a leader or a follower?
 
+Tensions in identity are a cause of cognitive dissonance.
 
-The paradoxes at this level go further.  It has been shown by Dorothy Leonard that as organizations get better at their technical capability, shared values and with their current products they can see a fly wheel effect.  However, this ultimately can create a rigid structure that inhibits innovation. "[P]aradoxically that what fuels an organization’s success often leads to its failure."
+> When subjects spent an hour engaging in a boring task for little financial pay, they had to figure out how to justify their time spent. So, when asked, they said that they thought the experiment was interesting and exciting. Festinger and Carlsmith labeled this phenomenon cognitive dissonance, suggesting that we will change our sense of self to be consistent with the objective reality.
 
-Their research has led them to identify 4 types of paradoxes.  There is no need to categorize every paradox into one of these categories though, the toolset (which is later in the book) works well with all of them.  However, the categories help us surface them.  I read about two of them today, the rest for tomorrow
+This form of paradox can also show up in questions of time allocation across personal and organizational levels.  Resolving these can result in having to make major cultural shifts.
 
-## Performing Paradoxes
+> I (Wendy) recently worked with an insurance company with more than a hundred years of history and traditions. The new CEO recognized that to survive the next century, the company needed to be more innovative and agile. Doing so involved moving from its disciplined, methodical, and risk-averse identity to include a more experimental and accountable approach to the bottom line. The greatest challenge was helping the employees see the value of a new culture and identity, and appreciate that it could build from the existing one.
 
-These appear as 'Why?' questions and expose competing demands.  e.g. Why invest in this initiative?
+## Organizing Paradoxes
 
-Marianne and Wendy show that corporate social responsibility is a classic example of a performing paradox.  It pits the pursuit of shareholder profits against other potential objectives.  While discussing this, they point out that "organizational scholars Ed Freeman, Kirsten Martin, and Bidhan Parmar, in their book "The Power of And" find that leaders develop more impactful, profitable and sustainable business solutions by building on five core ideas: 
+These appear as 'How?' questions and expose issues in structure.  e.g. How do I get something done?
 
-1. the importance of purpose, values and ethics as well as profits
-2. the centrality of creating value for stakeholders, as well as shareholders
-3. seeing business as a societal institution as well as a market institution
-4. recognizing the full humanity of people, as well as their economic interests
-5. integrating “business” and “ethics” into more holistic business models"
+> These paradoxes include tensions such as those between spontaneity and planning, risk taking and risk avoidance, control and flexibility.
 
-## Learning Paradoxes
+These are the challenges present when there is a reorganization or there is believed to be a need for one.  This gets to the heart of levels of control and autonomy and whether authority should be distributed or not.
 
-These appear as 'When?' questions and expose challenges across time.  e.g. When do we shift strategies?
+While not related to my professional interests, this comment about the gig economy and "fake autonomy" resonated with me:
 
-These paradoxes appear with rising expectations for agility.  They show up when companies have grown large and can no longer be nimble.
+> The same question emerges as we see more workers moving toward the gig economy. Employees gravitate to that work, allured in part by the high levels of personal decision making, yet they often find even more subtle forms of control in use in the gig world.
 
-> The late James March, an organizational scholar, has articulated the challenge: innovating takes different skills, approaches and perspectives than managing the core business. He describes these two modes as exploring new opportunities and exploiting the current realities.
+And this conversation has almost verbatim gone through my head:
 
-A focus with these is to figure out how to find synergies.  "How could today’s successes support tomorrow’s growth? How could tomorrow’s innovation reenergize today’s successes?"
+> I (Wendy) just experienced this struggle the other night as my husband and I debated how to navigate the expectation of doing the dishes. Our daughter hates doing the dishes, yet it’s part of her chore rotation every three weeks. How much autonomy do we give her? Does she get to decide when she does the dishes? Does that mean that the plates and cups can stack up for days until she feels like getting them done? Until we have to eat off paper plates? Until we start to see flies? How much control do we assert? The questions are endless when it comes to parenting and other issues in our personal lives. How flexible are we with our own boundaries? How disciplined?
 
-## Coming Soon
+## Knotted and Nested Paradoxes
 
-Today's reading period ended before I got to the next two types, Organizing and Belonging.
+Paradoxes, like *Inception* are multi-leveled and entangled.  They are "knotted paradoxes" when "attempts to address one paradox would introduce others."
 
-On a more meta level, keep in mind that my goal here is to capture raw ideas.  There will be less synthesis at this stage and more raw quoting to capture the thoughts.  Over time synthesis will come though.
+Paradoxes can also be "nested paradoxes" when "the same paradoxes show up at different levels—from the individual to the group, organization and society."
 
-Also, while reading today I felt very self-aware/self-conscious.  I was reading and thinking, "ooo, I better highlight something."  It was kind of surreal.  I think it is part of being intentional about this reading, as I am normally not a highlighter or note taker.
+## The Paradox System
+
+As a prelude for the next chapter, the system of tools call the paradox system was introduced.  The goal is to "shift how we think (assumptions) and how we feel (comfort) when navigating paradoxes. They further address how we approach situations by building static structures (boundaries) while enabling adaptive practices (dynamics)."
+
+The system can be described as two axis crossing in the traditional manner.  The People Axis moves from Assumptions to Comfort and the Context Axis moving from Boundaries to Dynamics.
+
+## Chapter Takeaways
+
+For completeness and my future reference, the authors suggest these takeaways
+
+> - **Tensions pull us in opposing directions.**  Beneath the presenting dilemmas lurk paradoxes. We tend to adopt an either/or approach to choose between alternatives. Yet coping with our most challenging problems depends on understanding the messy, complex paradoxes that fuel them. 
+> - **Paradoxes—contradictory yet interdependent elements that exist simultaneously and persist over time—are everywhere.**  We can differentiate between four types of paradoxes—performing, learning, belonging, and organizing.
+>- **Paradoxes are often knotted such that multiple tensions reinforce one another, and are nested, with similar tensions emerging at different levels.**
+> - **Paradoxes have been studied for millennia.**  Yet we experience tensions increasingly in our world today, as paradoxes become more salient in situations marked by greater change, plurality, and scarcity. 
+> - **Navigating paradoxes is paradoxical.**  The tools that we use to take advantage of a paradox are themselves opposing and interwoven.
