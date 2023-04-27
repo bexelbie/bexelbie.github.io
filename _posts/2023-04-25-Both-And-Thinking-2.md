@@ -9,7 +9,7 @@ tags:
   - Both-And-Thinking
 ---
 
-I've started reading [Both/And Thinking](https://bothandthinking.net) and am capturing my thoughts here as I go.  You may find it interesting to start with the [first post](https://www.winglemeyer.org/ramblings/2023/04/24/Both-And-Thinking-1) in this series or to [read them all](https://www.winglemeyer.org/navigation/tags/#Both-And-Thinking).
+I've started reading [Both/And Thinking](https://bothandthinking.net) and am capturing my thoughts here as I go.  Right now these are mostly the raw notes as synthesis comes later.  You may find it interesting to start with the [first post](https://www.winglemeyer.org/ramblings/2023/04/24/Both-And-Thinking-1) in this series or to [read them all](https://www.winglemeyer.org/navigation/tags/#Both-And-Thinking).
 
 Today's reading focused on defining paradoxes which they render as, "contradictory, yet interdependent elements that exist simultaneously and persist over time."  These can be imagined using the Yin-yang symbol.  The sides are seeded by each other, and persistently in flow.
 
