@@ -1,5 +1,5 @@
 ---
-date:    2023-05-11 19:20:00 +0200
+date:    2023-05-11 17:50:00 +0200
 title:   "Both/And Thinking - Paradox System (Chapter 3)"
 excerpt:   "Smith, Wendy; Lewis, Marianne. Harvard Business Review Press"
 categories:
