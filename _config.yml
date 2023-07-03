@@ -159,8 +159,9 @@ exclude:
   - README
   - README.md
   - tmp
-  - docs # ignore Minimal Mistakes /docs
-  - test # ignore Minimal Mistakes /test
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+  - jekyll-remote-theme* # Cloudflare builder picks this up it seems
 keep_files:
   - .git
   - .svn
