@@ -69,7 +69,7 @@ Travel Budget: {{Travel_Budget}}
 
 &lt;&lt;snip&gt;&gt;</code></pre>
 
-<p>The top of the template specifies the recipient, sender, and subject. After the blank line, there's the body of the email. This email needs the recipients' <strong>Email</strong>, <strong>Name</strong>, and <strong>Travel_Budget</strong> from the <strong>database.csv</strong> file. Notice that those fields are surrounded by double curly braces (<strong>{{</strong> and <strong>}}</strong>). The corresponding <strong>mailmerge_database.csv</strong> looks like this:</p>
+<p>The top of the template specifies the recipient, sender, and subject. After the blank line, there's the body of the email. This email needs the recipients' <strong>Email</strong>, <strong>Name</strong>, and <strong>Travel_Budget</strong> from the <strong>database.csv</strong> file. Notice that those fields are surrounded by double curly braces (<strong>&#123;&#123;</strong> and <strong>&#125;&#125;</strong>). The corresponding <strong>mailmerge_database.csv</strong> looks like this:</p>
 
 <pre><code class="language-text">$ cat mailmerge_database.csv
 Name,Email,Travel_Budget
