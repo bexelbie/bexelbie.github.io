@@ -14,7 +14,7 @@ The gist of it is this.  When you put a file in your iCloud Folder, it gets copi
 
 Where this whole concept falls apart is backups.  Nobody's backup programs, including Apple's own Time Machine, can backup evicted files.  This means that when you back up your system you aren't really backing up all of your files.
 
-![[/img/2023/adam-rsync.png]]
+![Adam reminding us that sync is not backup in an iMessage comment](/img/2023/adam-rsync.png)
 
 As my friend Adam points out, synchronization is not the same as backup.  I want both.  Therefore I wrote a song:
 
