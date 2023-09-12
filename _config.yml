@@ -68,7 +68,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "bexelbie"
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -80,9 +80,8 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : 'Brian "bex" Exelbierd' # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://twitter.com/bexelbie"
     - "https://github.com/bexelbie"
-    - "https://linkedin.com/in/bcexelbi"
+    - "https://linkedin.com/in/bexelbie"
 
 # Analytics
 analytics:
@@ -113,13 +112,13 @@ author:
   keybase          : # "bexelbie"
   instagram        :
   lastfm           :
-  linkedin         : "bcexelbi" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "bexelbie" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : "bexelbie"
+  twitter          : 
   vine             :
   weibo            :
   xing             :

@@ -1,6 +1,5 @@
 ---
 title: "About"
-excerpt: "Even the horse knew what?"
 header:
   overlay_image: "/img/about-bg.jpg"
   caption: "Photo credit: author"
@@ -15,8 +14,10 @@ permalink: /about/
 
 I'd like to be able to say this blog draws its name from the ancient beliefs that the horse is an all knowing messenger from powerful beings.
 However, that simply isn't true.
-It is inspired, like many things, by a [Dilbert Cartoon](https://dilbert.com/strip/2015-06-10/).
-It's funny.
+It was inspired by a Dilbert Cartoon from 2015 and now no longer online.
+In the cartoon Dilbert's boss tell's Dilbert to "stop being such a pessimist," to which Dilbert replies, "said General Custer to his horse."
+When pressed for an explanation as to, "why would he talk to his horse," Dilbert points out that "even the horse knew something was wrong."
+It's funny, at least to me.
 I am not sure why.
 
 That first paragraph probably told you more about me than you will ever otherwise find out.
@@ -28,7 +29,8 @@ I wear a bunch of hats professionally and semi-professionally, including:
 * "Student" of International Taxation
 
 These days I am working for [Red Hat](https://community.redhat.com) as a Business Strategist in the Red Hat Enteprise Linux Business Unit.
-I focus on helping Red Hat's strategy work well with our Community OS projects, [Fedora](https://www.fedoraproject.org) and [CentOS](https://www.centos.org) and Developers in general.
+I focus on helping Red Hat's strategy work well with our Community OS projects, [Fedora](https://www.fedoraproject.org) and [CentOS](https://www.centos.org), and Developers in general.
+I also spend quite a bit of time thinking about the unpaid Linux market overall.
 
 I've written some code and contributed to other code bases.
 A lot of this work has been done on [GitHub](https://github.com/bexelbie).
@@ -49,8 +51,9 @@ Finally, I have currently set my tab to be 4 spaces and not 8.  \*fainting noise
 ### GPG Key / Encrypted Communications
 
 For those of you who need to send me something super sekrit, please think carefully.
-While I have had a GPG key, I believe that email is [effectively not reasonable to secure with GPG](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html).
-Therefore I encourage you to consider alternative methods, such as [Signal](https://signal.org/).
+While I used to have a GPG key, I no longer do.
+I believe that email is [effectively not reasonable to secure with GPG](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html).
+Therefore I encourage you to consider alternative methods, such as [Signal](https://signal.me/#p/+19194148915).
 
 ### Happiness
 
@@ -106,15 +109,13 @@ My sister-in-law, who is a great photographer, agreed to risk her reputation and
 
 ## About This Site
 
-This web site is hosted on [GitHub Pages](https://pages.github.com/) from my [bexelbie.github.io](https://github.com/bexelbie/bexelbie.github.io) repository.
+This web site is hosted on [Cloudflare Pages](https://pages.cloudflare.com/) from my [bexelbie.github.io](https://github.com/bexelbie/bexelbie.github.io) repository.
 
 The site is authored in a combination of [HTML](https://en.wikipedia.org/wiki/HTML) and [Markdown](https://daringfireball.net/projects/markdown/) which is built by [Jekyll](https://jekyllrb.com/).
 
 The theme is [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/).
 
-Comments are only occasionally enabled.
+Comments are rarely enabled.
 I think that most of my writing deserve a response via your own blog/social media and I encourage you to do so.
 In a few situations I've enabled comments because they make sense for that particular article.
 Comments are powered by [Staticman](https://staticman.net/).
-
-This site is instrumented with Google Analytics to allow me to see some basic statistics information and catch broken links.
