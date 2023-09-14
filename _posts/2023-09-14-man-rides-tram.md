@@ -46,7 +46,7 @@ I am not really worried I am “ruining” his English, but I do wonder if he to
 
 Since you made it this far, here is a bonus 4 year old quote:
 
-> Daughter and daddy discuss a child walking buy in a spider man suit complete with hood mask.  
+> Daughter and daddy discuss another child walking by in a spider man suit complete with a full hood mask.  
 > Daddy: Well maybe he is Spider Man.  
 > Daughter: No, he has shoes.
 
