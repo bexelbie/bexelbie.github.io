@@ -46,10 +46,8 @@ I am not really worried I am “ruining” his English, but I do wonder if he to
 
 Since you made it this far, here is a bonus 4 year old quote:
 
-> Daughter and daddy discuss a child walking buy in a spider man suit complete with hood mask
-
-> Daddy: Well maybe he is Spider Man.
-
+> Daughter and daddy discuss a child walking buy in a spider man suit complete with hood mask.  
+> Daddy: Well maybe he is Spider Man.  
 > Daughter: No, he has shoes.
 
 [^1]: Another cool one is jahoda in Czech and jagoda in Polish[^2].  The Czech word means strawberry, the Polish one means blueberry.  Hilarity with pies ensues.
