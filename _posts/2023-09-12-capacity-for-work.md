@@ -8,7 +8,7 @@ tags:
 categories:
   - Ramblings
 redirect_from:
- - /life%20lessons/personal/process/2023/09/12/capacity-for-work/
+ - /life lessons/personal/process/2023/09/12/capacity-for-work
 ---
 
 While sharing some advice with a friend, the concept of capacity for work to come up.  I wanted to preserve these thoughts and share them with you.
