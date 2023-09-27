@@ -18,6 +18,6 @@ At work we use Google Calendar and I have always been frustrated that my choices
 
 But friends, there is now a better way!
 
-![[/img/2023/show-declined-events.png]]
+![Google Calendar menu to show declined events](/img/2023/show-declined-events.png)
 
 That's right.  Some kind soul at Google added this to the display menu in the top-right of the calendar.  I found it by accident so you don't have too.
