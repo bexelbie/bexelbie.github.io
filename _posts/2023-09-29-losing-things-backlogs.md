@@ -14,7 +14,7 @@ categories:
 
 I’ve started to use more systems where “losing things is a feature not a bug”.  For example, I take almost all of my notes in [Obsidian](https://obsidian.md/).  Because the notes are all in one system they are findable again if they are important.  They’ll tend to surface themselves when I write about related topics as I often start by searching for the note I have a vague memory of making (real or not).  Critically though, I can write things down to get them out of my mind and not worry about them.  I wasn’t going to take any real action today and I may never take any real action and that is OK!
 
-<img src="https://giphy.com/embed/l1J3Psr9HDSvRThsY)" alt="James Corden looking for something">
+<iframe src="https://giphy.com/embed/l1J3Psr9HDSvRThsY" width="480" height="290" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/latelateshow-james-corden-late-show-l1J3Psr9HDSvRThsY">via GIPHY</a></p>
 
 Using Archive and not Delete in email gets to the same place.  Archive lets me safely lose email when there is no defined next step.  Search is really good these days and the future being created by LLMs and other AI projects promise to make it better.  Besides, at least for email, if it was important someone will bring it up in a conversation, reply to the thread, or forward it to you again to helpfully "bump it to the top of your Inbox."
 
