@@ -86,7 +86,7 @@ Read his sporadic blog pieces at www.winglemeyer.org.
 Brian “bex” Exelbierd is the Business Strategist for Communities and Developers in the Red Hat Enterprise Linux Business Unit.
 He helps operating system communities by easing the way for Red Hat Enterprise Linux to support the great things they do.
 At Red Hat, Brian has worked as a technical writer, software engineer, content strategist, community architect and now as a product manager.
-Brian spends his day working on the three year strategy that helps Red Hat Operating System communities the larger developer community have the best interactions with Red Hat Enterprise Linux.
+Brian spends his day working on the three year strategy that helps Red Hat Operating System communities and the larger developer community have the best interactions with Red Hat Enterprise Linux.
 Before Red Hat, Brian worked with the University of Delaware as the Director of Graduate and Executive Programs in the Alfred Lerner College of Business and Economics and as a Budget Analyst.
 Brian's background in software engineering stretches back years before his university work and includes stints in both business and government.
 Many of his projects are the "glue code" or interstitial pieces that fill the spaces between systems, providing continuity and ease of use.
