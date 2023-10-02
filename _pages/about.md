@@ -69,19 +69,19 @@ For vanity reasons, I maintain a list.
 Bios are hard to write and terrible to have to come up with on short notice.
 I keep a few here for use.
 
-### Short Bio (26 Words / 163 Chars)
+### Short Bio
 
 Brian Exelbierd is a Business Strategist for Red Hat Enterprise Linux at Red Hat and has a background in Higher Education and IT/Engineering.
-Follow him @bexelbie
+Read his sporadic blog pieces at www.winglemeyer.org.
 
-### Medium Bio 1 (73 Words / 466 Chars)
+### Medium Bio 1
 
 Brian “bex” Exelbierd is the Business Strategist for Communities and Developers in the Red Hat Enterprise Linux Business Unit.
 At Red Hat, Exelbierd has also worked as a technical writer, software engineer, content strategist, and community architect.
 Prior to Red Hat, he worked at the University of Delaware as the Director of Graduate and Executive Programs in the Alfred Lerner College of Business and Economics and as a Budget Analyst.
-Follow him @bexelbie
+Read his sporadic blog pieces at www.winglemeyer.org.
 
-### Medium Bio 2 (170 Words / 1084 Chars)
+### Medium Bio 2
 
 Brian “bex” Exelbierd is the Business Strategist for Communities and Developers in the Red Hat Enterprise Linux Business Unit.
 He helps operating system communities by easing the way for Red Hat Enterprise Linux to support the great things they do.
@@ -90,7 +90,7 @@ Brian spends his day working on the three year strategy that helps Red Hat Opera
 Before Red Hat, Brian worked with the University of Delaware as the Director of Graduate and Executive Programs in the Alfred Lerner College of Business and Economics and as a Budget Analyst.
 Brian's background in software engineering stretches back years before his university work and includes stints in both business and government.
 Many of his projects are the "glue code" or interstitial pieces that fill the spaces between systems, providing continuity and ease of use.
-Follow him @bexelbie
+Read his sporadic blog pieces at www.winglemeyer.org.
 
 ### Quirky Bio
 
@@ -99,7 +99,7 @@ Born in the USA, he now lives with his partner and daughter in Brno, Czech Repub
 His focus is on his family, walks for artisinal bread, and reading long form articles.
 By night, he tinkers with this thousands of spreadsheets and occasionally works on projects that are often "glue code" or the interstitial pieces that fill the spaces between systems.
 By day he is the RHEL Business Strategist for Communities and Developers at Red Hat.
-Follow him on twitter @bexelbie and read his sporadic blog pieces at www.winglemeyer.org.
+Read his sporadic blog pieces at www.winglemeyer.org.
 
 ### Headshots
 
