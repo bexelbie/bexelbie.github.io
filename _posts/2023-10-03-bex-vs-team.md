@@ -5,13 +5,13 @@ excerpt:
 categories:
   - Ramblings
 tags:
-  - Life
-  - Lessons
+  - Life Lessons
   - Random
 ---
 As I have been trying to re-learn how to write more frequently and consistently my stupid brain has been comparing me to others.
 
 > Brain: [Paul Graham](http://paulgraham.com/index.html) writes great stuff, why can't you?
+
 > Me: Maybe he's just better than ... wait.  In his [last post](http://paulgraham.com/greatwork.html) he thanked 19 people for help.
 
 A lesson I am having to learn again, for the umpteenth time, is that there is often a team hidden in the background.  Paul Graham is definitely bright.  However, I am sure his first draft looked nothing like his third draft.  I am sure everyone one of those 19 people influenced his work in a way that resulted in material improvement.  It may have been a new angle, a forgotten fact, an additional anecdote or grammatical and phrasing clean up.  And while it doesn't detract from his work, it is important to remember he didn't do it all alone.
