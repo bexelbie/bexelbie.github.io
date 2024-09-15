@@ -12,7 +12,17 @@ classes: wide
 
 Talks and demos I've given, my work with the Fosdem Distributions DevRoom and various submissions to CFPs that I've made are are collected below.  When a talk includes extensive demo or code material, it is typically hosted in my in [my talk, presentation and demo archive](https://github.com/bexelbie/bexelbie-talks-demos) and only linked to below.
 
+I've given a bunch of talks on behalf of Red Hat at Fedora's Flock and Nest conferences as well as at CentOS Dojo's and other places.  As these were me representing Red Hat strategy I have not listed them in detail below.
+
 # Talks and Demos
+
+* How Linux became the enterprise's bedrock - An article in honor of Linux's 30th year published 6 June 2022
+  * English: [TheChannelCo Computing](https://www.computing.co.uk/opinion/4050689/linux-enterprise-bedrock)
+  * French: [informatique News](https://www.informatiquenews.fr/comment-linux-est-il-devenu-le-socle-de-l-entreprise-89370)
+  * Note: I had an uncredited co-writer who turned my initial thoughts and a conversation into the first draft.  I include this because I think most people don't realize how much that they read with a single by-line is really a team effort.
+
+* Look Up, Not Down when Commercializing Free Open Source @ [SFScon, Bolzen, South Tyrol, Italy](https://www.sfscon.it/) - 12 November 2021
+  * [Recording](https://www.sfscon.it/talks/look-up-not-down-when-commercializing-free-open-source/)
 
 * The Secret to Keeping Your Community Strong for Decades @ [SFScon, Bolzen, South Tyrol, Italy](https://www.sfscon.it/) - 10 November 2017
   * [Details](SFS-Bozen-Italy-2017/)
