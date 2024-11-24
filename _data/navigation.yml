@@ -1,8 +1,6 @@
 main:
     - title: "Talks & Demos"
       url: /talks
-    - title: "Conference Notes"
-      url: /conference-notes
     - title: "About"
       url: /about
     - title: "Archive"
