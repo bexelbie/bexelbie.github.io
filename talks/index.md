@@ -21,6 +21,9 @@ I've given a bunch of talks on behalf of Red Hat at Fedora's Flock and Nest conf
   * French: [informatique News](https://www.informatiquenews.fr/comment-linux-est-il-devenu-le-socle-de-l-entreprise-89370)
   * Note: I had an uncredited co-writer who turned my initial thoughts and a conversation into the first draft.  I include this because I think most people don't realize how much that they read with a single by-line is really a team effort.
 
+* The CentOS Project Changes: And how it's better for production kernels @ [Lund Linux Con, Lund, Sweden](https://www.lundlinuxcon.org/) - 12 May 2022
+  * [Slides](/img/2022/Lund Linux Conference - 12 May 2022.pdf)
+
 * Look Up, Not Down when Commercializing Free Open Source @ [SFScon, Bolzen, South Tyrol, Italy](https://www.sfscon.it/) - 12 November 2021
   * [Recording](https://www.sfscon.it/talks/look-up-not-down-when-commercializing-free-open-source/)
 
