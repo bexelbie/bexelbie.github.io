@@ -8,66 +8,101 @@ header:
   caption: "Photo credit: Unknown - Likely Write the Docs Prague"
   overlay_filter: 0.5
 classes: wide
+redirect_from:
+ - /cfp-submissions/
 ---
 
-Talks and demos I've given, my work with the Fosdem Distributions DevRoom and various submissions to CFPs that I've made are are collected below.  When a talk includes extensive demo or code material, it is typically hosted in my in [my talk, presentation and demo archive](https://github.com/bexelbie/bexelbie-talks-demos) and only linked to below.
+## Overview
 
-I've given a bunch of talks on behalf of Red Hat at Fedora's Flock and Nest conferences as well as at CentOS Dojo's and other places.  As these were me representing Red Hat strategy I have not listed them in detail below.
+Welcome to my archive of talks, demos, and community engagements. Here, you'll find highlights from my work, including conference presentations, workshops, and contributions to the FOSDEM Distributions DevRoom. For materials like demo scripts, slides, or code, I host a comprehensive [archive on GitHub](https://github.com/bexelbie/bexelbie-talks-demos), linked as appropriate.
 
-# Talks and Demos
+## Selected Talks
 
-* How Linux became the enterprise's bedrock - An article in honor of Linux's 30th year published 6 June 2022
-  * English: [TheChannelCo Computing](https://www.computing.co.uk/opinion/4050689/linux-enterprise-bedrock)
-  * French: [informatique News](https://www.informatiquenews.fr/comment-linux-est-il-devenu-le-socle-de-l-entreprise-89370)
-  * Note: I had an uncredited co-writer who turned my initial thoughts and a conversation into the first draft.  I include this because I think most people don't realize how much that they read with a single by-line is really a team effort.
+- **The CentOS Project Changes: And How It's Better for Production Kernels**
+  **Event:** [Lund Linux Con](https://www.lundlinuxcon.org/) – Lund, Sweden  
+  **Date:** May 12, 2022  
+  - [Slides (PDF)](/img/2022/Lund%20Linux%20Conference%20-%2012%20May%202022.pdf)
 
-* The CentOS Project Changes: And how it's better for production kernels @ [Lund Linux Con, Lund, Sweden](https://www.lundlinuxcon.org/) - 12 May 2022
-  * [Slides](/img/2022/Lund Linux Conference - 12 May 2022.pdf)
+- **Look Up, Not Down When Commercializing Free Open Source**
+  **Event:** [SFScon](https://www.sfscon.it/) – Bolzano, Italy  
+  **Date:** November 12, 2021  
+  - [Recording](https://www.sfscon.it/talks/look-up-not-down-when-commercializing-free-open-source/)
 
-* Look Up, Not Down when Commercializing Free Open Source @ [SFScon, Bolzen, South Tyrol, Italy](https://www.sfscon.it/) - 12 November 2021
-  * [Recording](https://www.sfscon.it/talks/look-up-not-down-when-commercializing-free-open-source/)
+- **The Secret to Keeping Your Community Strong for Decades**
+  **Event:** [SFScon](https://www.sfscon.it/) – Bolzano, Italy  
+  **Date:** November 10, 2017  
+  - [Details](SFS-Bozen-Italy-2017/)
 
-* The Secret to Keeping Your Community Strong for Decades @ [SFScon, Bolzen, South Tyrol, Italy](https://www.sfscon.it/) - 10 November 2017
-  * [Details](SFS-Bozen-Italy-2017/)
+## Featured External Article
 
-* Building Applications Doesn't Mean Writing It All From Scratch @ [OSCAL 2017, Tirana, Albania](https://oscal.openlabs.cc/) - 14 May 2017
-  * [Details](OSCAL.2017.Dont.Write.It.All/)
-* What's New in Fedora 25 Beta @ [FUDCon LATAM 2016, Puno, Peru](https://flockcon-latam.org) - 12 October 2016
-  * [Details](Fedora-25-Beta/)
+- **How Linux Became the Enterprise's Bedrock**
+  **Date:** June 6, 2022  
+  **English Version:** [TheChannelCo Computing](https://www.computing.co.uk/opinion/4050689/linux-enterprise-bedrock)  
+  **French Version:** [Informatique News](https://www.informatiquenews.fr/comment-linux-est-il-devenu-le-socle-de-l-entreprise-89370)  
 
-* [Hackfest: Fedora Docs Learn and Hack](https://flock2016.sched.org/event/ed4a9f29526b5befe6a86635050cd958) @ [Flock 2016, Kraków Poland](https://flocktofedora.org) - 4 August 2016
-  * [Details](Flock.2016.docs/)
+  *Note: This piece reflects collaborative writing efforts, underscoring how most published work is a team endeavor.*
 
-* [Bringing Developers into the Flock](https://flock2016.sched.org/event/3bb106c028feddc9a0e92a53a0ee5288) @ [Flock 2016, Kraków Poland](https://flocktofedora.org) - 3 August 2016
-  * Co-Presenter: Dusty Mabe
-  * [Details](Flock.2016.developers/)
+## Additional Highlights
 
-* [Atomic Developer Bundle: Containerized Development Made Easy](https://devconfcz2016.sched.org/event/53556807a38c5eb825ebdfdebccd1def) @ [DEVCONF Brno 2016](https://devconf.cz/) - 6 Feb 2016
-  * Co-Presenter: [Navid Shaikh](https://twitter.com/SwordPhilic)
-  * [Slides and Demo Code](https://github.com/navidshaikh/adb_devconf_2016) in Navid's repository
-  * [Local Backup Copy](DevConf.cz.2016/)
+- **Building Applications Doesn’t Mean Writing It All From Scratch**
+  [OSCAL 2017](https://oscal.openlabs.cc/) – Tirana, Albania | May 14, 2017  
+  [Details](OSCAL.2017.Dont.Write.It.All/)
 
-* [Nulecule: Packaging, Distributing & Deploying Container Applications the Cloud Way](https://lanyrd.com/2016/cfgmgmtcamp/sdxytt/) @ [Config Management Camp EU 2016](https://cfgmgmtcamp.eu/) - 2 Feb 2016
-  * [Details, Script, and Demo Files](CfgMgmtCamp.eu.2016/)
-  * [Slides](CfgMgmtCamp.eu.2016/slides.pdf)
+- **What’s New in Fedora 25 Beta**  
+  [FUDCon LATAM 2016](https://flockcon-latam.org) – Puno, Peru | October 12, 2016  
+  [Details](Fedora-25-Beta/)
 
-* Atomic Developer Bundle: Containerized Development Made Easy @ [CentOS Dojo, Brussels 2016](https://wiki.centos.org/Events/Dojo/Brussels2016) - 29 Jan 2016
-  * Co-Presenter: [Navid Shaikh](https://twitter.com/SwordPhilic)
-  * [Slides and Demo Code](https://github.com/navidshaikh/centos_dojo_brussels_2016) in Navid's repository
-  * [Local Backup Copy](CentOS.Dojo.Brussels.2016/)
+- **Hackfest: Fedora Docs Learn and Hack**  
+  [Flock 2016](https://flocktofedora.org) – Kraków, Poland | August 4, 2016  
+  [Details](Flock.2016.docs/)
 
-* Getting to DevOps with Docker @ [DevStars](https://devstars.cz) - 19 Oct 2015
-  * [Details](DevStars.cz.20151019/)
-  * [Slides](DevStars.cz.20151019/slides.pdf)
+- **Bringing Developers into the Flock**  
+  [Flock 2016](https://flocktofedora.org) – Kraków, Poland | August 3, 2016  
+  *Co-presenter: Dusty Mabe*  
+  [Details](Flock.2016.developers/)
 
-# Fosdem Distributions DevRoom
+- **Atomic Developer Bundle: Containerized Development Made Easy**  
+  [DEVCONF Brno 2016](https://devconf.cz/) – Brno, Czech Republic | February 6, 2016  
+  *Co-presenter: [Navid Shaikh](https://twitter.com/SwordPhilic)*  
+  [Demo and Slides](https://github.com/navidshaikh/adb_devconf_2016)  
+  [Backup Copy](DevConf.cz.2016/)
 
-For several years I have worked with the [Fosdem](https://fosdem.org) Distributions Devroom.  I keep all of my materials related to CFP submissions and devrooms in my talks repo in the [fosdem](fosdem/) directory.
+- **Nulecule: Packaging, Distributing & Deploying Container Applications the Cloud Way**  
+  [Config Management Camp EU 2016](https://cfgmgmtcamp.eu) – 2 February 2016  
+  [Details, Script, and Demo Files](CfgMgmtCamp.eu.2016/)  
+  [Slides](CfgMgmtCamp.eu.2016/slides.pdf)
 
-# CFP Submissions
+- **Atomic Developer Bundle: Containerized Development Made Easy**  
+  [CentOS Dojo, Brussels 2016](https://wiki.centos.org/Events/Dojo/Brussels2016) – 29 January 2016  
+  *Co-presenter: [Navid Shaikh](https://twitter.com/SwordPhilic)*  
+  [Slides and Demo Code](https://github.com/navidshaikh/centos_dojo_brussels_2016) (in Navid's repository)  
+  [Local Backup Copy](CentOS.Dojo.Brussels.2016/)
 
-This repository also contains [CFP
-submissions](cfp-submissions) I have made and remembered to keep.
-Some were successful, some were learning experiences.
+- **Getting to DevOps with Docker**  
+  [DevStars](https://devstars.cz) – 19 October 2015  
+  [Details](DevStars.cz.20151019/)  
+  [Slides](DevStars.cz.20151019/slides.pdf)
 
-Some slides were prepared using my own configuration of [reveal.js](tools).
+
+## Community Contributions
+
+- **FOSDEM Distributions DevRoom**
+  For several years, I contributed to organizing the [FOSDEM Distributions DevRoom](https://fosdem.org), helping to coordinate CFP submissions and manage sessions. Materials and CFP details can be found in the [FOSDEM directory](fosdem/) of my GitHub repository.
+
+## CFP Submissions
+
+I've saved community booth and table requests along with unsuccessful talk CFPs for use as as templates or refactoring later.
+
+### Booth and Panel/Group Meetings
+
+- [FOSDEM Project Atomic Table @ FOSDEM 2016](fosdem-2016-table-proposal-atomic)
+- Fedora, CentOS and EPEL BoFs
+  - [Open Source Summit Europe 2018 - Edinburgh](oss-EU-2018-BoF)
+  - [LinuxCon China 2018 - Beijing](linux-con-China-2018-BoF)
+  - [Open Source Summit Japan 2018 - Tokyo](oss-Japan-2018-BoF)
+  - [Open Source Summit Europe 2017 - Prague](oss-prague-2017-BoF)
+  - [LinuxCon China 2017 - Beijing](linux-con-China-2017-BoF)
+
+### Talks
+
+* [3 Orchestrators, 1 Dev Environment @ Container Con EU 2016](containercon.eu)
