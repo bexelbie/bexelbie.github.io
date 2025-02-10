@@ -1,5 +1,5 @@
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -8,9 +8,9 @@ title_separator          : "!"
 name                     : 'Brian "bex" Exelbierd'
 description              : "The personal ramblings of Brian Exelbierd and not his employers."
 url                      : "https://www.winglemeyer.org"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bexelbie/bexelbie.github.io"
-teaser                   : "img/header.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "" # "img/header.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 180 # 200 default
 comments:
@@ -101,7 +101,7 @@ author:
   bio              : "My ramblings about tech, security, productivity, finance, taxes and life in general."
   location         : "Brno, Czech Republic"
   email            : "bex@bexelbie.com"
-  uri              : "https://www.winglemeyer.org"
+  uri              : null # "https://www.winglemeyer.org"
   home             : "about" # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
@@ -133,7 +133,6 @@ author:
 #   - label: "Fractal FM Podcast"
 #     icon: "fas fa-podcast"
 #     url: "https://fractal.fm"
-
 
 # Reading Files
 include:
@@ -204,7 +203,7 @@ sass:
 permalink: #/:categories/:title/
 paginate: 10 # 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "Europe/Prague" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -267,7 +266,7 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+# _posts
   - scope:
       path: ""
       type: posts
@@ -280,7 +279,7 @@ defaults:
       share: # true
       related: true
       classes: wide
-  # _pages
+# _pages
   - scope:
       path: "_pages"
       type: pages
