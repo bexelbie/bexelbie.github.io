@@ -1,0 +1,133 @@
+---
+title: "Books I've Read or am Reading"
+header:
+  overlay_image: "/img/about-bg.jpg"
+  caption: "Photo credit: author"
+  overlay_filter: 0.3
+permalink: /reading/
+---
+
+{% assign reading = site.data.reading.books | where_exp: "book", "book.started and book.finished == nil or book.finished == blank" %}
+{% assign reading = reading | sort: "title" %}
+{% assign reading = reading | sort: "started" %}
+
+{% assign finished = site.data.reading.books | where_exp: "book", "book.finished != nil" %}
+{% assign finished = finished | sort: "title" %}
+{% assign finished = finished | sort: "started" | reverse %}
+{% assign finished = finished | sort: "finished" | reverse %}
+
+{% if reading.size > 0 %}
+<h1>Currently Reading</h1>
+  {% for book in reading %}
+      {% if book.cover %}
+        <img src="{{ book.cover | escape }}" alt="Cover of {{ book.title }}" style="width: 96px; height: auto; margin-right: 10px;">
+      {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if finished.size > 0 %}
+<h1 class="finished-books-header">Finished Books</h1>
+
+<p>Note: Spoiler text is hidden by black bars you can click to dismiss.</p>
+
+<ul class="finished-books">
+  {% for book in finished %}
+    <li class="book-item">
+      <div class="book-details">
+        {% if book.cover %}
+          <div class="book-cover">
+            <img src="{{ book.cover }}" alt="Cover of {{ book.title }}" width="120" style="height: auto;">
+          </div>
+        {% endif %}
+        <div class="book-info">
+          <a href="{{ book.url }}" class="book-title">{{ book.title }}</a>
+          <p class="book-finished-date">{{ book.finished | date: "%B %Y" }}</p>
+        </div>
+      </div>
+      {% if book.comment %}
+        <div class="book-comment">
+          <div class="book-comment-text">
+            {{ book.comment | markdownify }}
+          </div>
+        </div>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+<style>
+.finished-books {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.book-item {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.book-details {
+  display: flex;
+  align-items: center;
+}
+
+.book-cover {
+  margin-right: 20px;
+}
+
+.book-info {
+  flex: 1;
+}
+
+.book-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.book-title:hover {
+  text-decoration: underline;
+}
+
+.book-finished-date {
+  font-size: 1.1em;
+  color: #777;
+  margin-top: 5px;
+}
+
+.book-comment {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #008CBA;  /* Adds some visual interest */
+}
+
+.book-comment-text {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.spoiler {
+  background: #444;
+  color: #444;
+  padding: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.spoiler.revealed {
+  background: none;
+  color: inherit;
+}
+
+h1.finished-books-header {
+  margin-top: 30px;  /* Adjust as needed */
+}
+
+</style>
