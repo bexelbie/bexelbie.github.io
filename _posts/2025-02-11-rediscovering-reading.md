@@ -7,6 +7,8 @@ tags:
   - Random
 categories:
   - Ramblings
+redirect_from:
+ - /ramblings/2025/02/07/rediscovering-reading/
 ---
 
 One January morning I relaxed on my couch in the mid-morning light of a slow-starting day. The kid had been delivered to school and I was back home. It was a cold winter morning so the city was quiet. I read with a coffee at hand. It was a relaxing experience and a sense of basic serenity I’d not felt in a long time.  The pleasure of this moment made me realize how much I had drifted away from spending significant time reading for pleasure.  The journey to get here started, strangely enough, at work.
