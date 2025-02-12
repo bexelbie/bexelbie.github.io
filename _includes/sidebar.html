@@ -21,11 +21,13 @@
   {% assign reading = reading | sort: "title" %}
 
   {% if reading.size > 0 %}
-  <h4>Books I'm reading</h4>
+  <h4>What I'm reading</h4>
     {% for book in reading %}
     <p>
       {% if book.cover %}
-        <img src="{{ book.cover }}" alt="Cover of {{ book.title }}" style="width: 96px; height: auto; margin-right: 10px;">
+        <a href="{{ book.url }}" class="book-title">
+          <img src="{{ book.cover }}" alt="Cover of {{ book.title }}" style="width: 96px; height: auto; margin-right: 10px;">
+        </a>
       {% endif %}
     </p>
     {% endfor %}

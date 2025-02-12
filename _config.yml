@@ -128,8 +128,11 @@ author:
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
   links:
     - label: "Mastodon"
-      icon: "fab fa-mastodon"
+      icon: "fab fa-fw fa-mastodon"
       url: "https://toot.io/@bexelbie"
+    - label: "RSS Feed"
+      icon: "fa-solid fa-fw fa-rss"
+      url: "/feed.xml"
 #   - label: "Fractal FM Podcast"
 #     icon: "fas fa-podcast"
 #     url: "https://fractal.fm"
