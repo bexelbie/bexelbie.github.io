@@ -70,3 +70,8 @@ books:
     url: "https://app.thestorygraph.com/books/05100118-f298-4e5f-a2e2-77dfd1924fdf"
     cover: "https://cdn.thestorygraph.com/n27e9j6vb18vqdqqnbumqowumlw6"
     started: 2025-01-07
+
+  - title: "Death's End"
+    url: "https://app.thestorygraph.com/books/8432c134-4564-4f8c-8422-edcf63778e58"
+    cover: "https://cdn.thestorygraph.com/7rjyz7eq1k08nzt4iy5kkmwpfzxv"
+    started: 2025-02-15
