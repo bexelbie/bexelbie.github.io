@@ -80,7 +80,12 @@ books:
     cover: "https://cdn.thestorygraph.com/n27e9j6vb18vqdqqnbumqowumlw6"
     started: 2025-01-07
 
+  - title: "Exit Strategy"
+    url: "https://app.thestorygraph.com/books/c3127cac-54ba-4e44-992e-1906a5672c82"
+    cover: "https://cdn.thestorygraph.com/i55wzy613lj5d0trb33fq9yuc8mm"
+    started: 2025-02-20
+
   - title: "Brave New Words: How AI Will Revolutionize Education (and Why That's a Good Thing)"
     url: "https://app.thestorygraph.com/books/b85b017b-575e-4c67-8ed4-d6a05dade2af"
     cover: "https://cdn.thestorygraph.com/eizvl16knztnzv515leuvey0j9k8"
-    started: 2025-02-20
+    started: 2025-02-10
