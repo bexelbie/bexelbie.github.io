@@ -66,12 +66,21 @@ books:
       The book started a bit slow as I felt like we abruptly changed gears. It was worth reading, but definitely had places where it seemed to drag.  It isn't clear to me what the third book will pick up from that is relevant.
       <span class="spoiler" onclick="this.classList.add('revealed')">The abandonment of basically all of the original characters, less one I think the author likes because they're a trope, combined with Chinese names that make it hard for me to remember them all was tough.  to settle in.  To be clear, I don't want the characters to have Western names.  I love the setting and the ability to see China and concepts like a political cadre from a new perspective.  I also really like the multi-generational force ideas allowed for by the introduction of hibernation, however making them exclusively the heroes feels a bit heavy handed.</span>
 
+  - title: "Death's End"
+    url: "https://app.thestorygraph.com/books/8432c134-4564-4f8c-8422-edcf63778e58"
+    cover: "https://cdn.thestorygraph.com/7rjyz7eq1k08nzt4iy5kkmwpfzxv"
+    started: 2025-02-15
+    finished: 2025-02-19
+    comment: |
+      When finishing the second book I'd noted, that "It isn't clear to me what the third book will pick up from that is relevant."  This was born out as this book surprised me by where in the timeline it started, but it made sense.  This book also covers the most time, which is interesting because it felt like the longest read in terms of the time I felt like was going by as read it.
+      <span class="spoiler" onclick="this.classList.add('revealed')">Adding a new "hero's" story arc feels like an interesting way to refresh, again, with a new cast of characters.  That Luo Ji was around until near the end of the book makes me feel like there were other ways the story could be told.  There were also a ton of places that could have been explored in more depth.  This isn't a bad thing is well within the author's rights, it is an interesting one.  I think part of the lack of exploration and change of cast comes from the use of the memoir as a vehicle of story telling.  It's clever, but also makes the book feel like Cheng Xin's life of only about 10 years outside of hibernation over such a long period of time.  She doesn't do a grea job explaining all of her thinking and we are expected to take it for granted, despite us ostensibly reading her memoir.  That said, I still think the book was great.</span>
+
   - title: "Wicked Problems: How to Engineer a Better World"
     url: "https://app.thestorygraph.com/books/05100118-f298-4e5f-a2e2-77dfd1924fdf"
     cover: "https://cdn.thestorygraph.com/n27e9j6vb18vqdqqnbumqowumlw6"
     started: 2025-01-07
 
-  - title: "Death's End"
-    url: "https://app.thestorygraph.com/books/8432c134-4564-4f8c-8422-edcf63778e58"
-    cover: "https://cdn.thestorygraph.com/7rjyz7eq1k08nzt4iy5kkmwpfzxv"
-    started: 2025-02-15
+  - title: "Brave New Words: How AI Will Revolutionize Education (and Why That's a Good Thing)"
+    url: "https://app.thestorygraph.com/books/b85b017b-575e-4c67-8ed4-d6a05dade2af"
+    cover: "https://cdn.thestorygraph.com/eizvl16knztnzv515leuvey0j9k8"
+    started: 2025-02-20
