@@ -23,7 +23,7 @@ books:
     started: 2024-11-11
     finished: 2025-01-04
     comment: |
-      This was a slow read, I started it in October 2024. The book was tough to feel super engaged with and felt like it drifted around a bit laconically and was a bit repetitive feeling. I can’t help but wonder if this was heavily edited or had a lot of ghost assistant writers who stuck to their chapter and didn’t consider the whole book. It may also represent the output of a distractedly busy executive. Either way, it was good to hear what Satya thought (thinks?) Microsoft can be. It puts the internal conversations around Diversity and Inclusivity in context. And, despite being dated, shows how strong the company has been at executing on a Cloud and AI strategy.
+      This was a slow read, I started it in November 2024. I had trouble engaging with the book. It felt like it drifted around without a clear focus and became repetitive.  I can’t help but wonder if this was heavily edited or had a lot of ghost assistant writers who stuck to their chapter and didn’t consider the whole book. It may also represent the quality of writing that a busy, distracted executive is capable of producing. Even with these issues, it was still good to hear what Satya thought (thinks?) Microsoft can be. It puts the internal conversations around Diversity and Inclusivity in context. And, despite being dated, shows how strong the company has been at executing on a Cloud and AI strategy.
 
   - title: "Rogue Protocol"
     url: "https://app.thestorygraph.com/books/cdb671ee-99ce-4c7b-9f6f-fe291b237c71"
@@ -84,8 +84,18 @@ books:
     url: "https://app.thestorygraph.com/books/c3127cac-54ba-4e44-992e-1906a5672c82"
     cover: "https://cdn.thestorygraph.com/i55wzy613lj5d0trb33fq9yuc8mm"
     started: 2025-02-20
+    finished: 2025-02-23
+    comment: |
+      Exit Strategy is a brisk, highly readable novella that packs character-driven moments into an action-packed narrative. In this installment, Martha Wells shifts the focus away from pure "murderbotting" to highlight the subtle evolution of Murderbot’s identity. Even though combat is still in its DNA, <span class="spoiler" onclick="this.classList.add('revealed')">its deliberate acts of self-modification—tweaking its appearance to blend in</span>—underscore a determined bid for independence, <span class="spoiler" onclick="this.classList.add('revealed')">despite there being no legal promise of freedom.</span>
+
+      This was, once again, a crushable read that is hard to put down.It’s interesting that, even when <span class="spoiler" onclick="this.classList.add('revealed')">Murderbot chooses to remain in a fight for revenge even after the client has already been saved, this isn’t so much a conscious act of autonomy as it is an ingrained instinct. Yet these moments, juxtaposed with its more measured decisions to change itself, </span>reveal a heroically defiant journey toward self-definition—a journey that feels both non-linear and compelling.
 
   - title: "Brave New Words: How AI Will Revolutionize Education (and Why That's a Good Thing)"
     url: "https://app.thestorygraph.com/books/b85b017b-575e-4c67-8ed4-d6a05dade2af"
     cover: "https://cdn.thestorygraph.com/eizvl16knztnzv515leuvey0j9k8"
     started: 2025-02-10
+
+  - title: "Co-Intelligence: Living and Working with AI"
+    url: "https://app.thestorygraph.com/books/b6bd7881-c08c-4f6d-9de6-5c7d9b4f69dc"
+    cover: "https://cdn.thestorygraph.com/fvwt0qkbz3j728o7o5qne1kxxme6"
+    started: 2025-02-23
