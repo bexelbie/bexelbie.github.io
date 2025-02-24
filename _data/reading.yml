@@ -88,7 +88,7 @@ books:
     comment: |
       Exit Strategy is a brisk, highly readable novella that packs character-driven moments into an action-packed narrative. In this installment, Martha Wells shifts the focus away from pure "murderbotting" to highlight the subtle evolution of Murderbot’s identity. Even though combat is still in its DNA, <span class="spoiler" onclick="this.classList.add('revealed')">its deliberate acts of self-modification—tweaking its appearance to blend in</span>—underscore a determined bid for independence, <span class="spoiler" onclick="this.classList.add('revealed')">despite there being no legal promise of freedom.</span>
 
-      This was, once again, a crushable read that is hard to put down.It’s interesting that, even when <span class="spoiler" onclick="this.classList.add('revealed')">Murderbot chooses to remain in a fight for revenge even after the client has already been saved, this isn’t so much a conscious act of autonomy as it is an ingrained instinct. Yet these moments, juxtaposed with its more measured decisions to change itself, </span>reveal a heroically defiant journey toward self-definition—a journey that feels both non-linear and compelling.
+      This was, once again, a crushable read that is hard to put down. It’s interesting that, even when <span class="spoiler" onclick="this.classList.add('revealed')">Murderbot chooses to remain in a fight for revenge even after the client has already been saved, this isn’t so much a conscious act of autonomy as it is an ingrained instinct. Yet these moments, juxtaposed with its more measured decisions to change itself, </span>reveal a heroically defiant journey toward self-definition—a journey that feels both non-linear and compelling.
 
   - title: "Brave New Words: How AI Will Revolutionize Education (and Why That's a Good Thing)"
     url: "https://app.thestorygraph.com/books/b85b017b-575e-4c67-8ed4-d6a05dade2af"
@@ -99,3 +99,5 @@ books:
     url: "https://app.thestorygraph.com/books/b6bd7881-c08c-4f6d-9de6-5c7d9b4f69dc"
     cover: "https://cdn.thestorygraph.com/fvwt0qkbz3j728o7o5qne1kxxme6"
     started: 2025-02-23
+    comment: |
+      Comes from Harper Read's Blog, <a href="https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/">My LLM Codegen Workflow ATM</a> which I found in Simon Willison's <a href="https://simonwillison.net/2025/Feb/21/">Feb 21 2025 post</a>."
