@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 gem "jekyll"
+gem "csv" # No longer in the default set from 3.4.0
 group :jekyll_plugins do
   gem "jekyll-remote-theme"
   gem "jekyll-paginate"
