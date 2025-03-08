@@ -1,0 +1,368 @@
+{% assign game_key = include.game_key | default: "westminster_assembly" %}
+{% assign game = site.data.strands_game.games[game_key] %}
+
+<div id="strands-game">
+    <h1>{{ game.title }}</h1>
+    <div class="grid" id="grid"></div>
+    <div class="status" id="status"></div>
+    <button id="share-btn" class="share-btn" style="display: none;">Share Puzzle</button>
+</div>
+
+<script>
+    // Load grid and wordlist from Jekyll data
+    const grid = [
+        {% for row in game.grid %}
+        "{{ row }}",
+        {% endfor %}
+    ];
+
+    const encodedWordlist = "{{ game.wordlist }}";
+    const gameTitle = "{{ game.title }}";
+
+    // Different shades of blue for found words
+    const wordColors = [
+        '#ADD8E6', // Light blue
+        '#87CEEB', // Sky blue
+        '#B0E0E6', // Powder blue
+        '#B0C4DE', // Light Steel Blue
+        '#6495ED', // Cornflower blue
+        '#90EE90', // Light green
+        '#98FB98', // Pale green
+        '#ADFF2F', // Green Yellow
+        '#7CFC00', // Lawn Green
+        '#00FF7F', // Spring Green
+    ];
+
+    // Game state
+    let selectedCells = [];
+    let foundWords = new Set();
+    let wordSolveOrder = [];
+    let wordlist;
+    let nextColorIndex = 0;
+
+    // Initialize the game
+    function init() {
+        // Decode wordlist
+        wordlist = atob(encodedWordlist).split('\n');
+        
+        // Create grid
+        const gridElement = document.getElementById('grid');
+        for (let row = 0; row < grid.length; row++) {
+            for (let col = 0; col < grid[row].length; col++) {
+                const button = document.createElement('button');
+                button.className = 'cell';
+                button.textContent = grid[row][col];
+                button.dataset.row = row;
+                button.dataset.col = col;
+                button.addEventListener('click', handleCellClick);
+                gridElement.appendChild(button);
+            }
+        }
+        
+        // Setup share button
+        const shareBtn = document.getElementById('share-btn');
+        shareBtn.addEventListener('click', copyShareText);
+        
+        updateStatus();
+    }
+
+    // Check if two cells are adjacent
+    function isAdjacent(cell1, cell2) {
+        const rowDiff = Math.abs(parseInt(cell1.dataset.row) - parseInt(cell2.dataset.row));
+        const colDiff = Math.abs(parseInt(cell1.dataset.col) - parseInt(cell2.dataset.col));
+        return rowDiff <= 1 && colDiff <= 1 && !(rowDiff === 0 && colDiff === 0);
+    }
+
+    // Handle cell click
+    function handleCellClick(event) {
+        const cell = event.target;
+        
+        // If cell is already found in a word, ignore click
+        if (cell.classList.contains('found') || cell.classList.contains('special')) {
+            return;
+        }
+
+        // If no cells are selected, start new selection
+        if (selectedCells.length === 0) {
+            selectedCells.push(cell);
+            cell.classList.add('selected');
+            return;
+        }
+
+        // Check if clicking the last selected cell (submitting word)
+        if (cell === selectedCells[selectedCells.length - 1]) {
+            if (selectedCells.length >= 4) {
+                checkWord();
+            }
+            return;
+        }
+
+        // Check if clicking a previously selected cell (trimming selection)
+        const previousIndex = selectedCells.indexOf(cell);
+        if (previousIndex !== -1) {
+            // Remove selections after this point
+            for (let i = selectedCells.length - 1; i > previousIndex; i--) {
+                selectedCells[i].classList.remove('selected');
+            }
+            selectedCells = selectedCells.slice(0, previousIndex + 1);
+            return;
+        }
+
+        // If clicking a non-adjacent cell, clear selection
+        if (!isAdjacent(cell, selectedCells[selectedCells.length - 1])) {
+            clearSelection();
+            selectedCells.push(cell);
+            cell.classList.add('selected');
+            return;
+        }
+
+        // Add new cell to selection
+        selectedCells.push(cell);
+        cell.classList.add('selected');
+    }
+
+    // Clear current selection
+    function clearSelection() {
+        selectedCells.forEach(cell => cell.classList.remove('selected'));
+        selectedCells = [];
+    }
+
+    function checkWord() {
+        // Get word from selected cells
+        const word = selectedCells.map(cell => cell.textContent).join('').toLowerCase();
+        
+        // Check if word is in wordlist
+        const wordIndex = wordlist.findIndex(w => w.toLowerCase() === word);
+        if (wordIndex !== -1) {
+            foundWords.add(word);
+            
+            if (wordIndex === 0) {
+                // Spangram (first word special case)
+                selectedCells.forEach(cell => {
+                    cell.classList.remove('selected');
+                    cell.classList.add('special');
+                    cell.disabled = true;
+                });
+                wordSolveOrder.push('🟡'); // Yellow ball for Spangram
+            } else {
+                // Other words get unique blue shades
+                const currentColor = wordColors[nextColorIndex % wordColors.length];
+                nextColorIndex++;
+                
+                selectedCells.forEach(cell => {
+                    cell.classList.remove('selected');
+                    cell.classList.add('found');
+                    cell.style.setProperty('--word-color', currentColor);
+                    cell.disabled = true;
+                });
+                wordSolveOrder.push('🔵'); // Blue ball for other words
+            }
+            
+            updateStatus();
+            
+            // Check if all words are found
+            if (foundWords.size === wordlist.length) {
+                document.getElementById('share-btn').style.display = 'block';
+            }
+        }
+        
+        clearSelection();
+    }
+
+    // Function to copy share text to clipboard
+    function copyShareText() {
+        // Get current page URL - use a more reliable method
+        const pageUrl = window.location.origin + window.location.pathname;
+        
+        // Create share text
+        const shareText = `I solved "${gameTitle}"
+${wordSolveOrder.join('')}
+Try it now: ${pageUrl}`;
+        
+        // Improved clipboard copy with fallback
+        if (navigator.clipboard) {
+            navigator.clipboard.writeText(shareText).then(() => {
+                showCopiedFeedback();
+            }).catch(err => {
+                fallbackCopyTextToClipboard(shareText);
+            });
+        } else {
+            fallbackCopyTextToClipboard(shareText);
+        }
+    }
+
+    // Update status display
+    function updateStatus() {
+        const status = document.getElementById('status');
+        status.textContent = `${foundWords.size} of ${wordlist.length} words`;
+    }
+
+    // Fallback clipboard copy method
+    function fallbackCopyTextToClipboard(text) {
+        const textArea = document.createElement("textarea");
+        textArea.value = text;
+        
+        // Avoid scrolling to bottom
+        textArea.style.top = "0";
+        textArea.style.left = "0";
+        textArea.style.position = "fixed";
+
+        document.body.appendChild(textArea);
+        textArea.focus();
+        textArea.select();
+
+        try {
+            const successful = document.execCommand('copy');
+            if (successful) {
+                showCopiedFeedback();
+            }
+        } catch (err) {
+            console.error('Fallback copy failed', err);
+        }
+
+        document.body.removeChild(textArea);
+    }
+
+    // Show copied feedback
+    function showCopiedFeedback() {
+        const shareBtn = document.getElementById('share-btn');
+        const originalText = shareBtn.textContent;
+        shareBtn.textContent = 'Copied!';
+        shareBtn.classList.add('copied');
+        setTimeout(() => {
+            shareBtn.textContent = originalText;
+            shareBtn.classList.remove('copied');
+        }, 2000);
+    }
+
+    // Initialize game when page loads
+    window.addEventListener('load', init);
+</script>
+
+<style>
+    /* Minimal CSS for the Strands game */
+    #strands-game {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 20px;
+    }
+
+    #strands-game h1 {
+        color: #1a1a1a;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 8px;
+        margin: 0 auto 20px;
+        max-width: 100%;
+    }
+
+    .cell {
+        width: 100%;
+        aspect-ratio: 1;
+        border: none;
+        background: none;
+        font-size: 20px; /* Default font size */
+        font-weight: bold;
+        cursor: pointer;
+        position: relative;
+        color: #1a1a1a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cell::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+        z-index: -1;
+        transition: background-color 0.2s;
+    }
+
+    .cell.selected::before {
+        background-color: #e0e0e0;
+    }
+
+    .cell.found::before {
+        background-color: var(--word-color, #4a90e2);
+    }
+
+    .cell.special::before {
+        background-color: #ffd700;
+    }
+
+    .cell:disabled {
+        cursor: not-allowed;
+        opacity: 0.8;
+    }
+
+    .status {
+        font-size: 16px;
+        color: #666;
+    }
+
+    /* Responsive adjustments for smaller screens */
+    @media (max-width: 600px) {
+        #strands-game h1 {
+            font-size: 20px;
+        }
+
+        .grid {
+            gap: 6px;
+        }
+
+        .cell {
+            font-size: 16px; /* Smaller font size for mobile */
+        }
+
+        .status {
+            font-size: 14px;
+        }
+    }
+
+    @media (max-width: 400px) {
+        .cell {
+            font-size: 14px; /* Even smaller font size for very small screens */
+        }
+    }
+
+    .share-btn {
+        display: none;
+        margin: 20px auto;
+        padding: 10px 20px;
+        background-color: #4a90e2;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+    }
+
+    .share-btn.copied {
+        background-color: #4CAF50;
+    }
+
+    .share-btn:hover {
+        background-color: #2962ff;
+    }
+
+    /* Responsive adjustments for share button */
+    @media (max-width: 600px) {
+        .share-btn {
+            font-size: 14px;
+            padding: 8px 16px;
+        }
+    }
+</style>
