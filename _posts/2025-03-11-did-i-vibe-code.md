@@ -52,7 +52,7 @@ When it comes to the logic of my app, I can 100% explain it and how the data is 
 However, I don't think I used, as Simon suggests, an LLM as a typing assistant.
 I think I am somewhere in between.
 
-While drafting this post, I had the need to write a small go-lang program that uses an SDK to access 1Password.  It does some Linux effective user manipulation as well.  I understand everything I wanted done in principal, but I am not a go-lang developer and have never used the SDK before.  I haven't written effective user code since college and when I did it was in lower level C.
+While drafting this post, I had the need to write a small Go-lang program that uses an SDK to access 1Password.  It does some Linux effective user manipulation as well.  I understand everything I wanted done in principal, but I am not a go-lang developer and have never used the SDK before.  I haven't written effective user code since college and when I did it was in lower level C.
 
 I wrote a simple spec and rounded up the SDK's sample code and gave the whole thing to Deepseek.  The [result](https://github.com/bexelbie/op-secret-manager) is 100% AI generated down to the README (which needs work!).  I have it running on a server solving a problem I actually have.  It is a simple program for sure.  But, it is also one where I am unprepared to explain the intricacies of every line or the selection of one methodology over another.
 
