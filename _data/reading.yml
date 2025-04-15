@@ -109,3 +109,9 @@ books:
     started: 2025-02-23
     comment: |
       Comes from Harper Read's Blog, <a href="https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/">My LLM Codegen Workflow ATM</a> which I found in Simon Willison's <a href="https://simonwillison.net/2025/Feb/21/">Feb 21 2025 post</a>."
+
+
+- title: "Fugitive Telemetry"
+    url: "https://app.thestorygraph.com/books/51ce5ad2-cea4-4604-83c7-b5b2db29984d"
+    cover: "https://cdn.thestorygraph.com/q4v27bmqfao8zijo0cnmn6bq4bts"
+    started: 2025-04-15
