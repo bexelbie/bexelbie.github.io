@@ -2,7 +2,7 @@
 # Each game should have a unique key (e.g., "westminster_assembly").
 # The wordlist should be Base64 encoded. The first word in the list is the Spangram.
 # To encode/decode the wordlist, use:
-#   Encoding: `cat <newline separated word list> | base64`
+#   Encoding (no trailing new line): `cat <newline separated word list> | base64`
 #   Decoding: `echo <base 64 encoded word list> | base64 -d`
 
 games:
@@ -18,3 +18,15 @@ games:
       - "COHNCK"
       - "LCKCEB"
     wordlist: "UGFsYWNlb2YKTG9yZHMKQ29tbW9ucwpDbG9jawpZZWxsaW5nCkJhY2tiZW5jaApQZWVyYWdl"
+  stella:
+    title: "Magical Horses"
+    grid:
+      - "SAWNRS"
+      - "RTOSOG"
+      - "USNBHN"
+      - "NICIWI"
+      - "NEIOAR"
+      - "TDRRNS"
+      - "ITSFMN"
+      - "LGERAE"
+    wordlist: "VU5JQ09STlMKSE9STgpNQU5FCkdMSVRURVIKUkFJTkJPV1MKRlJJRU5EUwpTVEFSUwpXSU5HUw=="
