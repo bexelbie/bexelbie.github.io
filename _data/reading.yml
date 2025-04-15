@@ -75,11 +75,6 @@ books:
       When finishing the second book I'd noted, that "It isn't clear to me what the third book will pick up from that is relevant."  This was born out as this book surprised me by where in the timeline it started, but it made sense.  This book also covers the most time, which is interesting because it felt like the longest read in terms of the time I felt like was going by as read it.
       <span class="spoiler" onclick="this.classList.add('revealed')">Adding a new "hero's" story arc feels like an interesting way to refresh, again, with a new cast of characters.  That Luo Ji was around until near the end of the book makes me feel like there were other ways the story could be told.  There were also a ton of places that could have been explored in more depth.  This isn't a bad thing is well within the author's rights, it is an interesting one.  I think part of the lack of exploration and change of cast comes from the use of the memoir as a vehicle of story telling.  It's clever, but also makes the book feel like Cheng Xin's life of only about 10 years outside of hibernation over such a long period of time.  She doesn't do a grea job explaining all of her thinking and we are expected to take it for granted, despite us ostensibly reading her memoir.  That said, I still think the book was great.</span>
 
-  - title: "Wicked Problems: How to Engineer a Better World"
-    url: "https://app.thestorygraph.com/books/05100118-f298-4e5f-a2e2-77dfd1924fdf"
-    cover: "https://cdn.thestorygraph.com/n27e9j6vb18vqdqqnbumqowumlw6"
-    started: 2025-01-07
-
   - title: "Exit Strategy"
     url: "https://app.thestorygraph.com/books/c3127cac-54ba-4e44-992e-1906a5672c82"
     cover: "https://cdn.thestorygraph.com/i55wzy613lj5d0trb33fq9yuc8mm"
@@ -90,7 +85,7 @@ books:
 
       This was, once again, a crushable read that is hard to put down. It’s interesting that, even when <span class="spoiler" onclick="this.classList.add('revealed')">Murderbot chooses to remain in a fight for revenge even after the client has already been saved, this isn’t so much a conscious act of autonomy as it is an ingrained instinct. Yet these moments, juxtaposed with its more measured decisions to change itself, </span>reveal a heroically defiant journey toward self-definition—a journey that feels both non-linear and compelling.
 
-- title: "Network Effect"
+  - title: "Network Effect"
     url: "https://app.thestorygraph.com/books/9fcaffe0-7f5b-48a8-96b4-6a741cfdeb23"
     cover: "https://cdn.thestorygraph.com/0lo3rtr3gtwysuzh8duy8bqfcw7g"
     started: 2025-04-10
@@ -110,8 +105,12 @@ books:
     comment: |
       Comes from Harper Read's Blog, <a href="https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/">My LLM Codegen Workflow ATM</a> which I found in Simon Willison's <a href="https://simonwillison.net/2025/Feb/21/">Feb 21 2025 post</a>."
 
-
-- title: "Fugitive Telemetry"
+  - title: "Fugitive Telemetry"
     url: "https://app.thestorygraph.com/books/51ce5ad2-cea4-4604-83c7-b5b2db29984d"
     cover: "https://cdn.thestorygraph.com/q4v27bmqfao8zijo0cnmn6bq4bts"
     started: 2025-04-15
+
+  - title: "Wicked Problems: How to Engineer a Better World"
+    url: "https://app.thestorygraph.com/books/05100118-f298-4e5f-a2e2-77dfd1924fdf"
+    cover: "https://cdn.thestorygraph.com/n27e9j6vb18vqdqqnbumqowumlw6"
+    started: 2025-01-07
