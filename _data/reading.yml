@@ -109,8 +109,15 @@ books:
     url: "https://app.thestorygraph.com/books/51ce5ad2-cea4-4604-83c7-b5b2db29984d"
     cover: "https://cdn.thestorygraph.com/q4v27bmqfao8zijo0cnmn6bq4bts"
     started: 2025-04-15
+    finished: 2025-04-16
 
   - title: "Wicked Problems: How to Engineer a Better World"
     url: "https://app.thestorygraph.com/books/05100118-f298-4e5f-a2e2-77dfd1924fdf"
     cover: "https://cdn.thestorygraph.com/n27e9j6vb18vqdqqnbumqowumlw6"
     started: 2025-01-07
+
+  - title: "System Collapse"
+    url: "https://app.thestorygraph.com/books/33d1b402-3875-4fff-b981-0cdc884d7a7c"
+    cover: "https://cdn.thestorygraph.com/3pd6u1l9kjli5wgd1c6zcia60z4o"
+    started: 2025-04-16
+
