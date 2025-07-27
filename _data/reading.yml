@@ -157,7 +157,7 @@ books:
     started: 2025-07-16
     finished: 2025-07-20
     comment: |
-      Recommended to me by a friend who, after I finished it, rightly pointed out that the <span class="spoiler" onclick="this.classList.add('revealed')">protagonish is almost the same as the one in The Martian</span>.  I enjoyed the book, it was gripping and had a very believable plot.  While the end scene was predictable, it was easy to forget it was likely coming.  I appreciated the effort that went into the *hard science* of the science fiction and strongly recommend it as a fun read.
+      Recommended to me by a friend who, after I finished it, rightly pointed out that the <span class="spoiler" onclick="this.classList.add('revealed')">protagonist is almost the same as the one in The Martian</span>.  I enjoyed the book, it was gripping and had a very believable plot.  While the end scene was predictable, it was easy to forget it was likely coming.  I appreciated the effort that went into the *hard science* of the science fiction and strongly recommend it as a fun read.
 
   - title: "Artemis"
     url: "https://app.thestorygraph.com/books/89ba2335-8865-4534-86a1-be2315090865"
