@@ -16,22 +16,33 @@
     {% endif %}
   {% endif %}
 
-  {% assign reading = site.data.reading.books | where_exp: "book", "book.started" | where_exp: "book", "book.finished == blank" %}
-  {% assign reading = reading | sort: "started" %}
-  {% assign reading = reading | sort: "title" %}
+  {%- assign reading = site.data.reading.books | where_exp: "book", "book.started and book.finished == nil" -%}
+  {%- assign reading = reading | sort: "started" -%}
+  {%- assign reading = reading | sort: "title" -%}
 
   {% if reading.size > 0 %}
-  <h4>What I'm reading</h4>
-    {% for book in reading %}
-    <p>
-      {% if book.cover %}
-        <a href="{{ book.url }}" class="book-title">
-          <img src="{{ book.cover }}" alt="Cover of {{ book.title }}" style="width: 96px; height: auto; margin-right: 10px;">
-        </a>
-      {% endif %}
-    </p>
-    {% endfor %}
+  <div class="sidebar__books">
+    <h4>What I'm reading</h4>
+      {% for book in reading %}
+      <p>
+        {% if book.cover %}
+          <a href="{{ book.url }}" class="book-title">
+            <img src="{{ book.cover }}" alt="Cover of {{ book.title }}" style="width: 96px; height: auto; margin-right: 10px;">
+            {% if book.audiobook %}<span class="fa fa-headphones" title="Audiobook" aria-label="Audiobook" style="margin-left: 5px;"></span>{% endif %}
+          </a>
+        {% endif %}
+      </p>
+      {% endfor %}
+    </div>
   {% endif %}
 
   </div>
 {% endif %}
+
+<style>
+  @media (max-width: 800px) {
+    .sidebar__books {
+      display: none;
+    }
+  }
+</style>

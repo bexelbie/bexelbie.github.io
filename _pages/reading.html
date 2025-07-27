@@ -7,22 +7,27 @@ header:
 permalink: /reading/
 ---
 
-{% assign reading = site.data.reading.books | where_exp: "book", "book.started and book.finished == nil or book.finished == blank" %}
+{% assign reading = site.data.reading.books | where_exp: "book", "book.started and book.finished == nil and book.abandoned == nil" %}
 {% assign reading = reading | sort: "title" %}
 {% assign reading = reading | sort: "started" %}
 
 {% assign finished = site.data.reading.books | where_exp: "book", "book.finished != nil" %}
-{% assign finished = finished | sort: "title" %}
-{% assign finished = finished | sort: "started" | reverse %}
 {% assign finished = finished | sort: "finished" | reverse %}
 
 {% if reading.size > 0 %}
 <h1>Currently Reading</h1>
-  {% for book in reading %}
-      {% if book.cover %}
-        <img src="{{ book.cover | escape }}" alt="Cover of {{ book.title }}" style="width: 96px; height: auto; margin-right: 10px;">
-      {% endif %}
-  {% endfor %}
+  <div class="currently-reading-list" style="display: flex; flex-wrap: wrap; gap: 24px;">
+    {% for book in reading %}
+      <div class="currently-reading-item" style="display: flex; flex-direction: column; align-items: center;">
+        {% if book.cover %}
+          <img src="{{ book.cover | escape }}" alt="Cover of {{ book.title }}" style="width: 96px; height: auto; margin-bottom: 6px;">
+          {% if book.audiobook %}
+            <span class="fa fa-headphones" title="Audiobook" aria-label="Audiobook" style="color: #008CBA; font-size: 1.5em; margin-bottom: 4px;"></span>
+          {% endif %}
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
 {% endif %}
 
 {% if finished.size > 0 %}
@@ -40,15 +45,20 @@ permalink: /reading/
           </div>
         {% endif %}
         <div class="book-info">
-          <a href="{{ book.url }}" class="book-title">{{ book.title }}</a>
-          <p class="book-finished-date">{{ book.finished | date: "%B %Y" }}</p>
+          <a href="{{ book.url }}" class="book-title">{{ book.title }}
+            {% if book.audiobook %}<span class="fa fa-headphones" title="Audiobook" aria-label="Audiobook" style="margin-left: 5px;"></span>{% endif %}
+          </a>
+          <p class="book-finished-date">
+            {{ book.finished | date: "%B %Y" }}
+          </p>
         </div>
       </div>
       {% if book.comment %}
         <div class="book-comment">
-          <div class="book-comment-text">
-            {{ book.comment | markdownify }}
-          </div>
+          {% capture comment_symbols %}{% if book.abandoned %}<span class="fa fa-ban" title="Abandoned{% if book.abandoned != true %} on {{ book.abandoned }}{% endif %}" aria-label="Abandoned" style="color: #d9534f;"></span> {% endif %}{% endcapture %}
+          <p class="book-comment-text">
+            {{ comment_symbols | append: book.comment | markdownify }}
+          </p>
         </div>
       {% endif %}
     </li>
@@ -130,4 +140,11 @@ h1.finished-books-header {
   margin-top: 30px;  /* Adjust as needed */
 }
 
+.fa-headphones {
+  color: #008CBA;
+}
+
+.fa-ban {
+  color: #d9534f;
+}
 </style>
