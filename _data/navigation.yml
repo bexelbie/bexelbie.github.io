@@ -3,8 +3,8 @@ main:
       url: /talks
     - title: "About"
       url: /about
-    - title: "Archive"
-      url: /navigation/tags
+#    - title: "Archive"
+#      url: /navigation/tags
     - title: "Reading"
       url: /reading
     - title: "Home"
