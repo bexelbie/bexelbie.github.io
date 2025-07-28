@@ -20,7 +20,9 @@ permalink: /reading/
     {% for book in reading %}
       <div class="currently-reading-item" style="display: flex; flex-direction: column; align-items: center;">
         {% if book.cover %}
-          <img src="{{ book.cover | escape }}" alt="Cover of {{ book.title }}" style="width: 96px; height: auto; margin-bottom: 6px;">
+          <a href="{{ book.url }}">
+            <img src="{{ book.cover | escape }}" alt="Cover of {{ book.title }}" style="width: 96px; height: auto; margin-bottom: 6px;">
+          </a>
           {% if book.audiobook %}
             <span class="fa fa-headphones" title="Audiobook" aria-label="Audiobook" style="color: #008CBA; font-size: 1.5em; margin-bottom: 4px;"></span>
           {% endif %}
