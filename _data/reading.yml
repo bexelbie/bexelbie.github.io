@@ -1,185 +1,186 @@
 books:
-  - title: "The Three-Body Problem"
-    url: "https://app.thestorygraph.com/books/0d0b38af-11b8-4acb-baf1-e543338a1549"
-    cover: "https://cdn.thestorygraph.com/1povs0fhmmruy9oewgscsmtxhzkb"
-    started: 2025-01-15
-    finished: 2025-01-21
-    comment: |
-      Wow. I really enjoyed the book. I can’t imagine how a tv series does it justice, so I assume it is a related story that is also good. Beyond the premise, the book weaves together elements of Chinese history I am ignorant of. Seeing events which I was aware of cast in a different light.
+- title: "The Three-Body Problem"
+  url: "https://openlibrary.org/works/OL15172337W"
+  cover: "https://covers.openlibrary.org/b/olid/OL7766728M-M.jpg"
+  started: 2025-01-15
+  finished: 2025-01-21
+  comment: |
+    Wow. I really enjoyed the book. I can’t imagine how a tv series does it justice, so I assume it is a related story that is also good. Beyond the premise, the book weaves together elements of Chinese history I am ignorant of. Seeing events which I was aware of cast in a different light.
 
-      This book and the subsequent wait for the hold on the second one to get filled also were significant. Not because the periods were long, it was only a few weeks, but because it finally represented a form of the “slow” movement I could comprehend. I wrote about this more when [I blogged about starting this page](/ramblings/2025/02/11/rediscovering-reading/).
+    This book and the subsequent wait for the hold on the second one to get filled also were significant. Not because the periods were long, it was only a few weeks, but because it finally represented a form of the “slow” movement I could comprehend. I wrote about this more when [I blogged about starting this page](/ramblings/2025/02/11/rediscovering-reading/).
 
-  - title: "Allow Me to Retort: A Black Guy's Guide to the Constitution"
-    url: "https://app.thestorygraph.com/books/27eaa78e-ac76-486f-be1a-a83845f761a3"
-    cover: "https://cdn.thestorygraph.com/g43ymmykhcf6s9byynm3gmy4dcdv"
-    started: 2025-01-04
-    finished: 2025-01-07
-    comment: |
-      Ellie Mystal connects a lot of dots through an African American lens I need a guide for. I found the additional context around things I knew, or blindly accepted, fascinating. This is also a very interesting read when set against the second Trump administration’s horrifying start. I’m putting his second book on my list to read.
+- title: "Allow Me to Retort: A Black Guy's Guide to the Constitution"
+  url: "https://openlibrary.org/works/OL26584779W/Allow_Me_to_Retort?edition=key%3A/books/OL35990704M"
+  cover: "https://covers.openlibrary.org/b/olid/OL35990704M-M.jpg"
+  started: 2025-01-04
+  finished: 2025-01-07
+  comment: |
+    Ellie Mystal connects a lot of dots through an African American lens I need a guide for. I found the additional context around things I knew, or blindly accepted, fascinating. This is also a very interesting read when set against the second Trump administration’s horrifying start. I’m putting his second book on my list to read.
 
-  - title: "Hit Refresh"
-    url: "https://app.thestorygraph.com/books/2e66e21c-f137-44b7-8775-509f3094d872"
-    cover: "https://cdn.thestorygraph.com/y1ixh0rbo0br8rkau0lbht74e2nz"
-    started: 2024-11-11
-    finished: 2025-01-04
-    comment: |
-      This was a slow read, I started it in November 2024. I had trouble engaging with the book. It felt like it drifted around without a clear focus and became repetitive.  I can’t help but wonder if this was heavily edited or had a lot of ghost assistant writers who stuck to their chapter and didn’t consider the whole book. It may also represent the quality of writing that a busy, distracted executive is capable of producing. Even with these issues, it was still good to hear what Satya thought (thinks?) Microsoft can be. It puts the internal conversations around Diversity and Inclusivity in context. And, despite being dated, shows how strong the company has been at executing on a Cloud and AI strategy.
+- title: "Hit Refresh"
+  url: "https://openlibrary.org/works/OL17814342W"
+  cover: "https://covers.openlibrary.org/b/olid/OL28283752M-M.jpg"
+  started: 2024-11-11
+  finished: 2025-01-04
+  comment: |
+    This was a slow read, I started it in November 2024. I had trouble engaging with the book. It felt like it drifted around without a clear focus and became repetitive.  I can’t help but wonder if this was heavily edited or had a lot of ghost assistant writers who stuck to their chapter and didn’t consider the whole book. It may also represent the quality of writing that a busy, distracted executive is capable of producing. Even with these issues, it was still good to hear what Satya thought (thinks?) Microsoft can be. It puts the internal conversations around Diversity and Inclusivity in context. And, despite being dated, shows how strong the company has been at executing on a Cloud and AI strategy.
 
-  - title: "Rogue Protocol"
-    url: "https://app.thestorygraph.com/books/cdb671ee-99ce-4c7b-9f6f-fe291b237c71"
-    cover: "https://cdn.thestorygraph.com/z5gq3ac39pdjieychvtl4oibjp61"
-    started: 2024-12-27
-    finished: 2025-01-02
-    comment: |
-      The third in the MurderBot Diaries, a return to the feelings of the first book. Definitely distracting me from reading other things.
+- title: "Rogue Protocol"
+  url: "https://openlibrary.org/works/OL19753589W"
+  cover: "https://covers.openlibrary.org/b/olid/OL26966631M-M.jpg"
+  started: 2024-12-27
+  finished: 2025-01-02
+  comment: |
+    The third in the MurderBot Diaries, a return to the feelings of the first book. Definitely distracting me from reading other things.
 
-  - title: "Artificial Condition"
-    url: "https://app.thestorygraph.com/books/4786f1fb-5910-4b9e-adf5-6af645ce17fb"
-    cover: "https://cdn.thestorygraph.com/ums75ptk3n1646o5vundzkp4b6xk"
-    started: 2024-11-12
-    finished: 2024-11-22
-    comment: |
-      The second of the MurderBot Diaries, this one felt like it was suffering a bit from “middle book syndrome.” It was still a great read and definitely helpful for the larger story arc I’m expecting, but definitely slower at times.
+- title: "Artificial Condition"
+  url: "https://openlibrary.org/works/OL19747311W"
+  cover: "https://covers.openlibrary.org/b/olid/OL26960367M-M.jpg"
+  started: 2024-11-12
+  finished: 2024-11-22
+  comment: |
+    The second of the MurderBot Diaries, this one felt like it was suffering a bit from “middle book syndrome.” It was still a great read and definitely helpful for the larger story arc I’m expecting, but definitely slower at times.
 
-  - title: "All Systems Red"
-    url: "https://app.thestorygraph.com/books/0885d5f1-edc2-435f-b17c-7e881829dbc6"
-    cover: "https://cdn.thestorygraph.com/yztruznhrnuobb9b0at1xekr3mjn"
-    started: 2024-10-09
-    finished: 2024-10-11
-    comment: |
-      The first of the MurderBot Diaries, it was a rollercoaster of a read. Light and delightful I binge read it in essentially one day.
+- title: "All Systems Red"
+  url: "https://openlibrary.org/works/OL17914663W"
+  cover: "https://covers.openlibrary.org/b/olid/OL26500848M-M.jpg"
+  started: 2024-10-09
+  finished: 2024-10-11
+  comment: |
+    The first of the MurderBot Diaries, it was a rollercoaster of a read. Light and delightful I binge read it in essentially one day.
 
-  - title: "The Hamster Revolution"
-    url: "https://app.thestorygraph.com/books/e769b3b9-4250-4481-8137-1f84b2791598"
-    cover: "https://cdn.thestorygraph.com/2r6cl8mivvxj9iyjz6368yr9lm2g"
-    started: 2024-09-06
-    abandoned: true
-    finished: 2024-09-27
-    comment: |
-      The premise of this time management text is cute. However, by the second or third chapter I was tired of cute hamster references. The book wasn’t helped by covering material I already knew. It wasn’t a bad book, but definitely not for me. It did teach me it’s ok to not struggle through the end of a book that isn’t working.
+- title: "The Hamster Revolution"
+  url: "https://openlibrary.org/works/OL12067474W"
+  cover: "https://covers.openlibrary.org/b/olid/OL17156209M-M.jpg"
+  started: 2024-09-06
+  abandoned: true
+  finished: 2024-09-27
+  comment: |
+    The premise of this time management text is cute. However, by the second or third chapter I was tired of cute hamster references. The book wasn’t helped by covering material I already knew. It wasn’t a bad book, but definitely not for me. It did teach me it’s ok to not struggle through the end of a book that isn’t working.
 
-  - title: "The Dark Forest"
-    url: "https://app.thestorygraph.com/books/5136e9ae-3423-48d8-8b76-d43867d3b202"
-    cover: "https://cdn.thestorygraph.com/sj8ohzyaz3l7s4fbl3qte3rzghol"
-    started: 2025-02-07
-    finished: 2025-02-11
-    comment: |
-      The book started a bit slow as I felt like we abruptly changed gears. It was worth reading, but definitely had places where it seemed to drag.  It isn't clear to me what the third book will pick up from that is relevant.
-      <span class="spoiler" onclick="this.classList.add('revealed')">The abandonment of basically all of the original characters, less one I think the author likes because they're a trope, combined with Chinese names that make it hard for me to remember them all was tough.  to settle in.  To be clear, I don't want the characters to have Western names.  I love the setting and the ability to see China and concepts like a political cadre from a new perspective.  I also really like the multi-generational force ideas allowed for by the introduction of hibernation, however making them exclusively the heroes feels a bit heavy handed.</span>
+- title: "The Dark Forest"
+  url: "https://openlibrary.org/works/OL16314245W/The_Dark_Forest_(The_Three-Body_Problem_Series_Book_2)?edition=key%3A/books/OL27897732M"
+  cover: "https://covers.openlibrary.org/b/olid/OL27897732M-M.jpg"
+  started: 2025-02-07
+  finished: 2025-02-11
+  comment: |
+    The book started a bit slow as I felt like we abruptly changed gears. It was worth reading, but definitely had places where it seemed to drag.  It isn't clear to me what the third book will pick up from that is relevant.
+    <span class="spoiler" onclick="this.classList.add('revealed')">The abandonment of basically all of the original characters, less one I think the author likes because they're a trope, combined with Chinese names that make it hard for me to remember them all was tough.  to settle in.  To be clear, I don't want the characters to have Western names.  I love the setting and the ability to see China and concepts like a political cadre from a new perspective.  I also really like the multi-generational force ideas allowed for by the introduction of hibernation, however making them exclusively the heroes feels a bit heavy handed.</span>
 
-  - title: "Death's End"
-    url: "https://app.thestorygraph.com/books/8432c134-4564-4f8c-8422-edcf63778e58"
-    cover: "https://cdn.thestorygraph.com/7rjyz7eq1k08nzt4iy5kkmwpfzxv"
-    started: 2025-02-15
-    finished: 2025-02-19
-    comment: |
-      When finishing the second book I'd noted, that "It isn't clear to me what the third book will pick up from that is relevant."  This was born out as this book surprised me by where in the timeline it started, but it made sense.  This book also covers the most time, which is interesting because it felt like the longest read in terms of the time I felt like was going by as read it.
-      <span class="spoiler" onclick="this.classList.add('revealed')">Adding a new "hero's" story arc feels like an interesting way to refresh, again, with a new cast of characters.  That Luo Ji was around until near the end of the book makes me feel like there were other ways the story could be told.  There were also a ton of places that could have been explored in more depth.  This isn't a bad thing is well within the author's rights, it is an interesting one.  I think part of the lack of exploration and change of cast comes from the use of the memoir as a vehicle of story telling.  It's clever, but also makes the book feel like Cheng Xin's life of only about 10 years outside of hibernation over such a long period of time.  She doesn't do a grea job explaining all of her thinking and we are expected to take it for granted, despite us ostensibly reading her memoir.  That said, I still think the book was great.</span>
+- title: "Death's End"
+  url: "https://openlibrary.org/works/OL17610507W"
+  cover: "https://covers.openlibrary.org/b/olid/OL26214600M-M.jpg"
+  started: 2025-02-15
+  finished: 2025-02-19
+  comment: |
+    When finishing the second book I'd noted, that "It isn't clear to me what the third book will pick up from that is relevant."  This was born out as this book surprised me by where in the timeline it started, but it made sense.  This book also covers the most time, which is interesting because it felt like the longest read in terms of the time I felt like was going by as read it.
+    <span class="spoiler" onclick="this.classList.add('revealed')">Adding a new "hero's" story arc feels like an interesting way to refresh, again, with a new cast of characters.  That Luo Ji was around until near the end of the book makes me feel like there were other ways the story could be told.  There were also a ton of places that could have been explored in more depth.  This isn't a bad thing is well within the author's rights, it is an interesting one.  I think part of the lack of exploration and change of cast comes from the use of the memoir as a vehicle of story telling.  It's clever, but also makes the book feel like Cheng Xin's life of only about 10 years outside of hibernation over such a long period of time.  She doesn't do a grea job explaining all of her thinking and we are expected to take it for granted, despite us ostensibly reading her memoir.  That said, I still think the book was great.</span>
 
-  - title: "Exit Strategy"
-    url: "https://app.thestorygraph.com/books/c3127cac-54ba-4e44-992e-1906a5672c82"
-    cover: "https://cdn.thestorygraph.com/i55wzy613lj5d0trb33fq9yuc8mm"
-    started: 2025-02-20
-    finished: 2025-02-23
-    comment: |
-      Exit Strategy is a brisk, highly readable novella that packs character-driven moments into an action-packed narrative. In this installment, Martha Wells shifts the focus away from pure "murderbotting" to highlight the subtle evolution of Murderbot’s identity. Even though combat is still in its DNA, <span class="spoiler" onclick="this.classList.add('revealed')">its deliberate acts of self-modification—tweaking its appearance to blend in</span>—underscore a determined bid for independence, <span class="spoiler" onclick="this.classList.add('revealed')">despite there being no legal promise of freedom.</span>
+- title: "Exit Strategy"
+  url: "https://openlibrary.org/works/OL19763338W"
+  cover: "https://covers.openlibrary.org/b/olid/OL32025937M-M.jpg"
+  started: 2025-02-20
+  finished: 2025-02-23
+  comment: |
+    Exit Strategy is a brisk, highly readable novella that packs character-driven moments into an action-packed narrative. In this installment, Martha Wells shifts the focus away from pure "murderbotting" to highlight the subtle evolution of Murderbot’s identity. Even though combat is still in its DNA, <span class="spoiler" onclick="this.classList.add('revealed')">its deliberate acts of self-modification—tweaking its appearance to blend in</span>—underscore a determined bid for independence, <span class="spoiler" onclick="this.classList.add('revealed')">despite there being no legal promise of freedom.</span>
 
-      This was, once again, a crushable read that is hard to put down. It’s interesting that, even when <span class="spoiler" onclick="this.classList.add('revealed')">Murderbot chooses to remain in a fight for revenge even after the client has already been saved, this isn’t so much a conscious act of autonomy as it is an ingrained instinct. Yet these moments, juxtaposed with its more measured decisions to change itself, </span>reveal a heroically defiant journey toward self-definition—a journey that feels both non-linear and compelling.
+    This was, once again, a crushable read that is hard to put down. It’s interesting that, even when <span class="spoiler" onclick="this.classList.add('revealed')">Murderbot chooses to remain in a fight for revenge even after the client has already been saved, this isn’t so much a conscious act of autonomy as it is an ingrained instinct. Yet these moments, juxtaposed with its more measured decisions to change itself, </span>reveal a heroically defiant journey toward self-definition—a journey that feels both non-linear and compelling.
 
-  - title: "Network Effect"
-    url: "https://app.thestorygraph.com/books/9fcaffe0-7f5b-48a8-96b4-6a741cfdeb23"
-    cover: "https://cdn.thestorygraph.com/wvjdn4u4g3knrf9rj3orle5wfdop"
-    started: 2025-04-10
-    finished: 2025-04-13
-    comment: |
-      The Murderbot series has taken an interesting turn with the introduction of new characters and a ... relationship.  I an't decide if the future holds more episodic content as we are putting hte old story arch to bed or what.  I can't wait to find out.
+- title: "Network Effect"
+  url: "https://openlibrary.org/works/OL20735675W"
+  cover: "https://covers.openlibrary.org/b/olid/OL28044727M-M.jpg"
+  started: 2025-04-10
+  finished: 2025-04-13
+  comment: |
+    The Murderbot series has taken an interesting turn with the introduction of new characters and a ... relationship.  I an't decide if the future holds more episodic content as we are putting hte old story arch to bed or what.  I can't wait to find out.
 
-  - title: "Brave New Words: How AI Will Revolutionize Education (and Why That's a Good Thing)"
-    url: "https://app.thestorygraph.com/books/b85b017b-575e-4c67-8ed4-d6a05dade2af"
-    cover: "https://cdn.thestorygraph.com/eizvl16knztnzv515leuvey0j9k8"
-    started: 2025-02-10
-    abandoned: true
-    finished: 2025-02-10
-    comment: |
-      I was excited about this book.  It felt like a great counterpoint "Co-Intelligence: Living and Working with AI" which I was going to try and read at the same time.  Candidly, I got busy and it wasn't really catching me.  I think I wanted to be excited about the future of education, but I think that part of me isn't still trying to make waves.
+- title: "Brave New Words: How AI Will Revolutionize Education (and Why That's a Good
+    Thing)"
+  url: "https://openlibrary.org/works/OL37572507W"
+  cover: "https://cdn.thestorygraph.com/eizvl16knztnzv515leuvey0j9k8"
+  started: 2025-02-10
+  abandoned: true
+  finished: 2025-02-10
+  comment: |
+    I was excited about this book.  It felt like a great counterpoint "Co-Intelligence: Living and Working with AI" which I was going to try and read at the same time.  Candidly, I got busy and it wasn't really catching me.  I think I wanted to be excited about the future of education, but I think that part of me isn't still trying to make waves.
 
-  - title: "Co-Intelligence: Living and Working with AI"
-    url: "https://app.thestorygraph.com/books/b6bd7881-c08c-4f6d-9de6-5c7d9b4f69dc"
-    cover: "https://cdn.thestorygraph.com/fvwt0qkbz3j728o7o5qne1kxxme6"
-    started: 2025-02-23
-    abandoned: true
-    finished: 2025-02-23
-    comment: |
-      I found this book via Harper Read's Blog, <a href="https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/">My LLM Codegen Workflow ATM</a> which I found in Simon Willison's <a href="https://simonwillison.net/2025/Feb/21/">Feb 21 2025 post</a>."  It was interesting, but not overly interesting.  I don't think it is a bad book, but I think it approached AI from an area where I have less exploratory interest.
+- title: "Co-Intelligence: Living and Working with AI"
+  url: "https://openlibrary.org/works/OL37565105W"
+  cover: "https://covers.openlibrary.org/b/olid/OL50620808M-M.jpg"
+  started: 2025-02-23
+  abandoned: true
+  finished: 2025-02-23
+  comment: |
+    I found this book via Harper Read's Blog, <a href="https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/">My LLM Codegen Workflow ATM</a> which I found in Simon Willison's <a href="https://simonwillison.net/2025/Feb/21/">Feb 21 2025 post</a>."  It was interesting, but not overly interesting.  I don't think it is a bad book, but I think it approached AI from an area where I have less exploratory interest.
 
-  - title: "Fugitive Telemetry"
-    url: "https://app.thestorygraph.com/books/51ce5ad2-cea4-4604-83c7-b5b2db29984d"
-    cover: "https://cdn.thestorygraph.com/q4v27bmqfao8zijo0cnmn6bq4bts"
-    started: 2025-04-15
-    finished: 2025-04-16
+- title: "Fugitive Telemetry"
+  url: "https://openlibrary.org/works/OL20805971W"
+  cover: "https://covers.openlibrary.org/b/olid/OL28166035M-M.jpg"
+  started: 2025-04-15
+  finished: 2025-04-16
 
-  - title: "Wicked Problems: How to Engineer a Better World"
-    url: "https://app.thestorygraph.com/books/05100118-f298-4e5f-a2e2-77dfd1924fdf"
-    cover: "https://cdn.thestorygraph.com/n27e9j6vb18vqdqqnbumqowumlw6"
-    started: 2025-01-07
-    abandoned: true
-    finished: 2025-01-07
-    comment: |
-      I gave this book a college try.  I didn't succeed.
+- title: "Wicked Problems: How to Engineer a Better World"
+  url: "https://openlibrary.org/works/OL37571729W"
+  cover: "https://covers.openlibrary.org/b/olid/OL51612637M-M.jpg"
+  started: 2025-01-07
+  abandoned: true
+  finished: 2025-01-07
+  comment: |
+    I gave this book a college try.  I didn't succeed.
 
-  - title: "System Collapse"
-    url: "https://app.thestorygraph.com/books/33d1b402-3875-4fff-b981-0cdc884d7a7c"
-    cover: "https://cdn.thestorygraph.com/3pd6u1l9kjli5wgd1c6zcia60z4o"
-    started: 2025-04-16
-    finished: 2025-04-18
-    comment: |
-      This book has left me feeling like the author stopped at a good point.  It didn't become formulaic and and I am excited about the upcoming Apple TV series.  I wonder if there will be a fan fiction or alternative author series that comes out to tell us of the adventures after this book.
+- title: "System Collapse"
+  url: "https://openlibrary.org/works/OL33402895W"
+  cover: "https://covers.openlibrary.org/b/olid/OL45311812M-M.jpg"
+  started: 2025-04-16
+  finished: 2025-04-18
+  comment: |
+    This book has left me feeling like the author stopped at a good point.  It didn't become formulaic and and I am excited about the upcoming Apple TV series.  I wonder if there will be a fan fiction or alternative author series that comes out to tell us of the adventures after this book.
 
-  - title: "The Redemption of Time"
-    url: "https://app.thestorygraph.com/books/6e252518-c754-410b-a79e-beff1b06c2c4"
-    cover: "https://cdn.thestorygraph.com/6razb0kzyb2mxhej696458vnpk92"
-    started: 2025-04-19
-    finished: 2025-04-21
-    comment: |
-      An interesting piece of blessed fanfiction.  It fills in some gaps and expands the universe in a way that was somewhat missing from the triology given how the jump from book two to book three happened.  It is a bit over the top in a couple of places, but I suspect that the ideas were ones that the forum-fans really appreciated.  All in all, I am impressed by the writing style being so similar and well executed.  I don't know if that is, in part, because of the translation.
+- title: "The Redemption of Time"
+  url: "https://openlibrary.org/works/OL20847868W"
+  cover: "https://covers.openlibrary.org/b/olid/OL28226451M-M.jpg"
+  started: 2025-04-19
+  finished: 2025-04-21
+  comment: |
+    An interesting piece of blessed fanfiction.  It fills in some gaps and expands the universe in a way that was somewhat missing from the triology given how the jump from book two to book three happened.  It is a bit over the top in a couple of places, but I suspect that the ideas were ones that the forum-fans really appreciated.  All in all, I am impressed by the writing style being so similar and well executed.  I don't know if that is, in part, because of the translation.
 
-  - title: "The Forever War"
-    url: "https://app.thestorygraph.com/books/1461a10a-5875-4ae2-a234-d4849dff4a34"
-    cover: "https://cdn.thestorygraph.com/6blt0q6pvcnlp3ulj7lkuvhh4pvh"
-    started: 2025-04-25
-    finished: 2025-04-28
-    comment: |
-      There is a lot to this book and it's timeline.  Our lead is present fom the beginning to the end of the war, which is forgivable as we are telling the whole war's story. The idea of time dialation was well done and left open an avenue for books about how the governing system manages that problem, given that information can take literal centuries to get back.  One thing that has definitely not aged well is the statements and beliefs about homosexuality.  I feel like the entire plot line could have been toned down or even dispensed with without harming the book.  It's inclusion reads like a macho-1970s that we now know isn't healthy.
+- title: "The Forever War"
+  url: "https://openlibrary.org/works/OL271163W"
+  cover: "https://covers.openlibrary.org/b/olid/OL32027982M-M.jpg"
+  started: 2025-04-25
+  finished: 2025-04-28
+  comment: |
+    There is a lot to this book and it's timeline.  Our lead is present fom the beginning to the end of the war, which is forgivable as we are telling the whole war's story. The idea of time dialation was well done and left open an avenue for books about how the governing system manages that problem, given that information can take literal centuries to get back.  One thing that has definitely not aged well is the statements and beliefs about homosexuality.  I feel like the entire plot line could have been toned down or even dispensed with without harming the book.  It's inclusion reads like a macho-1970s that we now know isn't healthy.
 
-  - title: "Project Hail Mary"
-    url: "https://app.thestorygraph.com/books/ac3ea915-993d-4f30-8632-0f91e4ad0704"
-    cover: "https://cdn.thestorygraph.com/myt2brttft7i9aj21rv9nlgxo1ck"
-    started: 2025-07-16
-    finished: 2025-07-20
-    comment: |
-      Recommended to me by a friend who, after I finished it, rightly pointed out that the <span class="spoiler" onclick="this.classList.add('revealed')">protagonist is almost the same as the one in The Martian</span>.  I enjoyed the book, it was gripping and had a very believable plot.  While the end scene was predictable, it was easy to forget it was likely coming.  I appreciated the effort that went into the *hard science* of the science fiction and strongly recommend it as a fun read.
+- title: "Project Hail Mary"
+  url: "https://openlibrary.org/works/OL21745884W/Project_Hail_Mary?edition=key%3A/books/OL57487091M"
+  cover: "https://covers.openlibrary.org/b/olid/OL32553390M-M.jpg"
+  started: 2025-07-16
+  finished: 2025-07-20
+  comment: |
+    Recommended to me by a friend who, after I finished it, rightly pointed out that the <span class="spoiler" onclick="this.classList.add('revealed')">protagonist is almost the same as the one in The Martian</span>.  I enjoyed the book, it was gripping and had a very believable plot.  While the end scene was predictable, it was easy to forget it was likely coming.  I appreciated the effort that went into the *hard science* of the science fiction and strongly recommend it as a fun read.
 
-  - title: "Artemis"
-    url: "https://app.thestorygraph.com/books/89ba2335-8865-4534-86a1-be2315090865"
-    cover: "https://cdn.thestorygraph.com/1ln6pkaos0nx006sp7j300h0i1vj"
-    started: 2025-07-21
-    finished: 2025-07-27
-    comment: |
-      I didn't realize this was his second book, as I read Project Hail Mary first.  It's a solid read, but not nearly as *hard* as his previous novels.  There is nothing wrong with that and there is definitely still plenty of science around.  However, the book feels like it is full of cliched scenes and the predictability of those hurt the actual unpredicatable twists that were present.
+- title: "Artemis"
+  url: "https://openlibrary.org/works/OL17837968W"
+  cover: "https://covers.openlibrary.org/b/olid/OL26940537M-M.jpg"
+  started: 2025-07-21
+  finished: 2025-07-27
+  comment: |
+    I didn't realize this was his second book, as I read Project Hail Mary first.  It's a solid read, but not nearly as *hard* as his previous novels.  There is nothing wrong with that and there is definitely still plenty of science around.  However, the book feels like it is full of cliched scenes and the predictability of those hurt the actual unpredicatable twists that were present.
 
-  - title: "A General History of the Robberies and Murders of the  Most Notorious Pirates"
-    url: "https://app.thestorygraph.com/books/ae03fcad-4670-48d4-bf82-879787ac50d3"
-    cover: "https://cdn.thestorygraph.com/xjc46ci4gz1fa958mfhnf8tczvpq"
-    started: 2025-06-09
-    abandoned: true
-    finished: 2025-06-20
-    comment: |
-      [Eleanor Konik](https://www.eleanorkonik.com), whom I discovered through her writings about [Obsidian](https://obsidian.md) writes extensivelly on history and related topics.  She started a [book club/seminar](https://pirateseminar.substack.com) to group read and discuss this book.  I was excited to join and knew I was biting off a lot given that it is written in period English.  I thought I could do it, but personal travel and general business compsired to let it slip away.  The book is interesting and the conversations I participated in were fun, so I encourage others to take on this challenge.  Even not completing it is worthwhile.
+- title: "A General History of the Robberies and Murders of the  Most Notorious Pirates"
+  url: "https://openlibrary.org/works/OL36747031W"
+  cover: "https://cdn.thestorygraph.com/xjc46ci4gz1fa958mfhnf8tczvpq"
+  started: 2025-06-09
+  abandoned: true
+  finished: 2025-06-20
+  comment: |
+    [Eleanor Konik](https://www.eleanorkonik.com), whom I discovered through her writings about [Obsidian](https://obsidian.md) writes extensivelly on history and related topics.  She started a [book club/seminar](https://pirateseminar.substack.com) to group read and discuss this book.  I was excited to join and knew I was biting off a lot given that it is written in period English.  I thought I could do it, but personal travel and general business compsired to let it slip away.  The book is interesting and the conversations I participated in were fun, so I encourage others to take on this challenge.  Even not completing it is worthwhile.
 
-  - title: "Slow Productivity: The Lost Art of Accomplishment Without Burnout"
-    url: "https://app.thestorygraph.com/books/c4037cdf-1b2d-4980-ba6a-4317b786242f"
-    cover: "https://cdn.thestorygraph.com/s7dk76pf0wt7u1k4rb21x9lqd58o"
-    started: 2025-07-11
-    audiobook: true
-    comment: |
-      I couldn't find a copy of this to borrow that wasn't an audiobook.  The book is very pop-science feeling, as most of Cal Newport's writing feels too me.  Not being able to skim/review this book was frustrating and I think this experiment in audiobooks may mean I either never do it again or I stick exclusively to fiction audio books.  That said, I have taken notes on the book.  It is broken into three main ideas: Do Fewer Things; Work at a natural pace; and Obsess over quality.  The first two are ideas worth listening to and exploring.  If you can control your schedule/work, and most of us have way more control than we want to admit, then these ideas can help you actually get the work that matters done.  The third idea is one I am struggling with.  Even Cal doesn't seem to really know what he wants you take away from this.  I get the impression he had some vague feelings, possibly a page limit he needed to hit, and/or a bunch of awesome stories left over from his research.
+- title: "Slow Productivity: The Lost Art of Accomplishment Without Burnout"
+  url: "https://openlibrary.org/works/OL36996011W"
+  cover: "https://covers.openlibrary.org/b/olid/OL49948382M-M.jpg"
+  started: 2025-07-11
+  audiobook: true
+  comment: |-
+    I couldn't find a copy of this to borrow that wasn't an audiobook.  The book is very pop-science feeling, as most of Cal Newport's writing feels too me.  Not being able to skim/review this book was frustrating and I think this experiment in audiobooks may mean I either never do it again or I stick exclusively to fiction audio books.  That said, I have taken notes on the book.  It is broken into three main ideas: Do Fewer Things; Work at a natural pace; and Obsess over quality.  The first two are ideas worth listening to and exploring.  If you can control your schedule/work, and most of us have way more control than we want to admit, then these ideas can help you actually get the work that matters done.  The third idea is one I am struggling with.  Even Cal doesn't seem to really know what he wants you take away from this.  I get the impression he had some vague feelings, possibly a page limit he needed to hit, and/or a bunch of awesome stories left over from his research.

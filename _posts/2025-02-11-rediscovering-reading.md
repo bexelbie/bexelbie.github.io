@@ -30,3 +30,5 @@ An unexpected benefit of a focus on borrowing has been having to wait for holds 
 The upshot of all of this is that I am reading more books and less bite-sized, scroll-feed information or journalism that just raises my blood pressure.  I’m still reading blogs and other articles of interest, but it is now done with a lot more intentionality.  I’ve done so in a way that slows me down, makes me more mindful, and doesn’t add clutter to my life.  I am going to log what I read publicly in case someone wants to engage with me about it or I need to share details with someone when a book comes up in conversation.  These feel like wins.
 
 Note: Where possible, I’ll link what I’m reading or have read to StoryGraph. I’d like them to have the traffic and be strong in the market both as a statement to their own success and to provide the balance and competition healthy markets require.
+
+Note: (Updated 28 July 2025): After re-reading the terms and conditions at StoryGraph, I am not 100% sure hot linking is acceptable.  I have therefore moved to using [Open Library](https://openlibrary.org) whereever possible.
