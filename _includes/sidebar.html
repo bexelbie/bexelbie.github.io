@@ -16,7 +16,7 @@
     {% endif %}
   {% endif %}
 
-  {%- assign reading = site.data.reading.books | where_exp: "book", "book.started and book.finished == nil" -%}
+  {%- assign reading = site.data.reading.books | where: "started", true | where: "finished", nil -%}
   {%- assign reading = reading | sort: "started" -%}
   {%- assign reading = reading | sort: "title" -%}
 
