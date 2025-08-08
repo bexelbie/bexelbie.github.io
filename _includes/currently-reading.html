@@ -1,0 +1,10 @@
+{% for book in include.books %}
+  <p>
+    {% if book.cover %}
+      <a href="{{ book.url }}" class="book-title">
+        <img src="{{ book.cover }}" alt="Cover of {{ book.title }}" style="width: 96px; height: auto; margin-right: 10px;">
+        {% if book.audiobook %}<span class="fa fa-headphones" title="Audiobook" aria-label="Audiobook" style="margin-left: 5px;"></span>{% endif %}
+      </a>
+    {% endif %}
+  </p>
+{% endfor %}

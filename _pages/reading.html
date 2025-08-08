@@ -11,8 +11,6 @@ permalink: /reading/
     | where: "finished", nil
     | where: "abandoned", nil
     | where_exp: "book", "book.started"
--%}
-{% assign reading = reading | sort: "title" %}
 {% assign reading = reading | sort: "started" %}
 
 {% assign finished = site.data.reading.books | reject: "finished", nil %}
@@ -21,18 +19,7 @@ permalink: /reading/
 {% if reading.size > 0 %}
 <h1>Currently Reading</h1>
   <div class="currently-reading-list" style="display: flex; flex-wrap: wrap; gap: 24px;">
-    {% for book in reading %}
-      <div class="currently-reading-item" style="display: flex; flex-direction: column; align-items: center;">
-        {% if book.cover %}
-          <a href="{{ book.url }}">
-            <img src="{{ book.cover | escape }}" alt="Cover of {{ book.title }}" style="width: 96px; height: auto; margin-bottom: 6px;">
-          </a>
-          {% if book.audiobook %}
-            <span class="fa fa-headphones" title="Audiobook" aria-label="Audiobook" style="color: #008CBA; font-size: 1.5em; margin-bottom: 4px;"></span>
-          {% endif %}
-        {% endif %}
-      </div>
-    {% endfor %}
+    {% include currently-reading.html books=reading %}
   </div>
 {% endif %}
 
