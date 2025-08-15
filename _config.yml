@@ -299,8 +299,15 @@ defaults:
       author_profile: true
 # _colls
   - scope:
+      path: "colls"
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
+# _colls
+  - scope:
       path: "colls/wtd-2016-prague"
-      type: pages
+      type: "pages"
     values:
       layout: single
       excerpt:  "Write The Docs Europe - 2016 Prague"
@@ -312,3 +319,8 @@ defaults:
         caption: "Photo credit: author"
         overlay_filter: 0.5
       classes: wide
+
+collections:
+  colls:
+    output: true
+    permalink: /:collection/:path

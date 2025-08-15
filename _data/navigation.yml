@@ -1,11 +1,13 @@
 main:
-    - title: "Talks & Demos"
-      url: /talks
-    - title: "About"
-      url: /about
+  - title: "Talks & Demos"
+    url: /talks
+  - title: "Collections"
+    url: /collections/
+  - title: "About"
+    url: /about
 #    - title: "Archive"
 #      url: /navigation/tags
-    - title: "Reading"
-      url: /reading
-    - title: "Home"
-      url: /
+  - title: "Reading"
+    url: /reading
+  - title: "Home"
+    url: /
