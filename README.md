@@ -1,3 +1,3 @@
 # This is the repo for my personal website, www.winglemeyer.org
 
-Note to self: Use this to test locally: `bundle exec jekyll serve`
+Note to self: Use this to test locally: `chruby 3.4; bundle exec jekyll serve`

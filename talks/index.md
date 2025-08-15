@@ -83,7 +83,6 @@ Welcome to my archive of talks, demos, and community engagements. Here, you'll f
   [Details](DevStars.cz.20151019/)  
   [Slides](DevStars.cz.20151019/slides.pdf)
 
-
 ## Community Contributions
 
 - **FOSDEM Distributions DevRoom**
@@ -95,14 +94,14 @@ I've saved community booth and table requests along with unsuccessful talk CFPs 
 
 ### Booth and Panel/Group Meetings
 
-- [FOSDEM Project Atomic Table @ FOSDEM 2016](fosdem-2016-table-proposal-atomic)
+- [FOSDEM Project Atomic Table @ FOSDEM 2016](cfp-submissions/fosdem-2016-table-proposal-atomic)
 - Fedora, CentOS and EPEL BoFs
-  - [Open Source Summit Europe 2018 - Edinburgh](oss-EU-2018-BoF)
-  - [LinuxCon China 2018 - Beijing](linux-con-China-2018-BoF)
-  - [Open Source Summit Japan 2018 - Tokyo](oss-Japan-2018-BoF)
-  - [Open Source Summit Europe 2017 - Prague](oss-prague-2017-BoF)
-  - [LinuxCon China 2017 - Beijing](linux-con-China-2017-BoF)
+  - [Open Source Summit Europe 2018 - Edinburgh](cfp-submissions/oss-EU-2018-BoF)
+  - [LinuxCon China 2018 - Beijing](cfp-submissions/linux-con-China-2018-BoF)
+  - [Open Source Summit Japan 2018 - Tokyo](cfp-submissions/oss-Japan-2018-BoF)
+  - [Open Source Summit Europe 2017 - Prague](cfp-submissions/oss-prague-2017-BoF)
+  - [LinuxCon China 2017 - Beijing](cfp-submissions/linux-con-China-2017-BoF)
 
 ### Talks
 
-* [3 Orchestrators, 1 Dev Environment @ Container Con EU 2016](containercon.eu)
+- [3 Orchestrators, 1 Dev Environment @ Container Con EU 2016](cfp-submissions/containercon.eu)
