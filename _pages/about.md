@@ -73,13 +73,8 @@ While I previously used GPG for secure communications, I no longer find it pract
 
 ## About This Site
 
-This website is hosted on [Cloudflare Pages](https://pages.cloudflare.com/) from my [bexelbie.github.io](https://github.com/bexelbie/bexelbie.github.io) repository.
+This site is built with a few tools I appreciate. I write posts in Markdown and HTML, and [Jekyll](https.jekyllrb.com/) builds everything. The code lives in a [GitHub repository](https://github.com/bexelbie/bexelbie.github.io), and [Cloudflare Pages](https://pages.cloudflare.com/) handles the hosting.
 
-The site is authored in a combination of [HTML](https://en.wikipedia.org/wiki/HTML) and [Markdown](https://daringfireball.net/projects/markdown/) which is built by [Jekyll](https://jekyllrb.com/).
+The design comes from the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme, and book cover images are courtesy of [Open Library](https://openlibrary.org/).
 
-The theme is [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/).
-
-Comments are rarely enabled.
-I encourage responses to my writing through your blog or social media.
-In a few situations I've enabled comments because they make sense for that particular article.
-When enabled, comments are powered by [Staticman](https://staticman.net/).
+I've chosen to keep comments turned off for most posts, as I encourage responses on your own blog or social media. In the rare cases where comments make sense for an article, they are powered by [Staticman](https://staticman.net/).
