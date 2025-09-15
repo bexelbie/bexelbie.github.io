@@ -1,7 +1,7 @@
 ---
 date: 2025-07-25 10:25:00 +0200
 title: "Email was a bad idea, or: How I Learned to Love DNS records"
-excerpt: ""
+excerpt: "A practical, non-technical tour of SPF, DKIM, DMARC and ARC — why modern email needs DNS help and what to do about it."
 tags:
   - Coding
 categories:
@@ -25,8 +25,8 @@ Now that we know who an email claims to be from, SPF helps us check whether it�
 ### What should you do?
 
 - If you’re an email user: Use your mail provider’s sending host (SMTP) to ensure  a valid SPF check when the receiver gets your email.
-- If you’re a provider: If at all possible, put together an exhaustive list of hosts your server uses and keep it up to date. 
-- If you’re a mailing list provider: Set up SPF for your list domain so administrative messages pass. If you’re providing the  Envelope From (and you should be), you’ll also need the SPF record for that. If your top-level domain can’t do SPF for some reason, at least use SPF on your list subdomain. 
+- If you’re a provider: If at all possible, put together an exhaustive list of hosts your server uses and keep it up to date.
+- If you’re a mailing list provider: Set up SPF for your list domain so administrative messages pass. If you’re providing the  Envelope From (and you should be), you’ll also need the SPF record for that. If your top-level domain can’t do SPF for some reason, at least use SPF on your list subdomain.
 
 ## DKIM (DomainKeys Identified Mail)
 
@@ -36,8 +36,8 @@ DKIM’s signature is verifiable via a public key in the domain’s DNS entry, w
 
 ### What should you do?
 
-- If you’re an email user: Other than holding your provider accountable, there is nothing you can do. 
-- If you’re a provider: Use DKIM for your users. 
+- If you’re an email user: Other than holding your provider accountable, there is nothing you can do.
+- If you’re a provider: Use DKIM for your users.
 - If you’re a mailing list provider: Set up DKIM on your own messages and sign outgoing list email. It’s good practice, especially if you’re modifying the message by adding headers, footers, or even mangling existing headers.
 
 ## DMARC (Domain-based Message Authentication, Reporting, and Conformance)
@@ -49,13 +49,13 @@ DMARC has two sets of conditions it considers to determine if a message passes. 
 1. The DKIM signature is valid AND the DKIM signing domain (from the `d=` tag in the DKIM-Signature) aligns (matches) with the FROM Header domain.
 2. The SPF check passes for the ENVELOPE FROM domain AND the ENVELOPE FROM domain aligns (matches) with the FROM Header domain.
 
-Note: DMARC HAS relaxed and strict modes.  Strict mode requires domains to align (match) exactly (e.g. bexelbie.com = bexelbie.com), while relaxed mode (the default) allows alignment (matching) to be only at the top-level (e.g. mail.winglemeyer.org = winglemeyer.org). 
+Note: DMARC HAS relaxed and strict modes.  Strict mode requires domains to align (match) exactly (e.g. bexelbie.com = bexelbie.com), while relaxed mode (the default) allows alignment (matching) to be only at the top-level (e.g. mail.winglemeyer.org = winglemeyer.org).
 
 ### What should you do?
 
 - If you’re an email user: Keep holding your provider accountable, because this is all on them.
-- If you’re a provider: Set up a DMARC policy, ideally at least `p=quarantine` if you’re high volume. Monitor your DMARC returns. 
-- If you’re a mailing list provider: Set up a DMARC policy, `p=none` is acceptable. Monitor your DMARC returns to see if quarantine makes more sense. 
+- If you’re a provider: Set up a DMARC policy, ideally at least `p=quarantine` if you’re high volume. Monitor your DMARC returns.
+- If you’re a mailing list provider: Set up a DMARC policy, `p=none` is acceptable. Monitor your DMARC returns to see if quarantine makes more sense.
 
 ## ARC (Authenticated Received Chain)
 
@@ -69,6 +69,6 @@ ARC comes into play when email is forwarded. It solves the problem of legitimate
 - If you’re a provider: Add ARC records if you’re forwarding mail.  
 - If you’re a mailing list provider: Add ARC records as you are a mail forwarder. It’s doubly important if you’re modifying the email in any way that would break DKIM.
 
-All of this complexity leads to one conclusion … email was a bad idea.  Additionally, it’s now almost all sent on behalf of companies or spam. The pockets of actual human to human email are shrinking. In a world like this email servers need all the help they can get to stop unwanted or fake mail. Use providers that set these headers. If you own a domain, set them too. If you’re using an external mail provider for your domain they should have guidance how to set these records up and should manage all of these headers and keys for you. It isn’t hard and it is necessary if you want your emails to be delivered. 
+All of this complexity leads to one conclusion … email was a bad idea.  Additionally, it’s now almost all sent on behalf of companies or spam. The pockets of actual human to human email are shrinking. In a world like this email servers need all the help they can get to stop unwanted or fake mail. Use providers that set these headers. If you own a domain, set them too. If you’re using an external mail provider for your domain they should have guidance how to set these records up and should manage all of these headers and keys for you. It isn’t hard and it is necessary if you want your emails to be delivered.
 
 *Thanks to [Patrick Uiterwijk](https://puiterwijk.org) for reviewing an earlier draft of this post. Any mistakes that remain are probably mine, but feel free to blame DNS.*

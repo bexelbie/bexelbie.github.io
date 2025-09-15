@@ -1,7 +1,7 @@
 ---
 date: 2024-11-28 08:40:00 +0100
 title: "Archiving Rarely Quotable and Happiness Packets"
-excerpt: 
+excerpt: "Why I archived two older pages — context, decisions, and a curated archive of quotes and happiness packets."
 tags:
   - Personal
 categories:
@@ -11,11 +11,11 @@ redirect_from:
  - /happiness-packets/
 ---
 
-As part of evolving this site to better reflect my current priorities, I am archiving two pages: **Rarely Quotable** and **Happiness Packets**. Both pages served meaningful purposes when I created them, but over time, their relevance and active role here have diminished. 
+As part of evolving this site to better reflect my current priorities, I am archiving two pages: **Rarely Quotable** and **Happiness Packets**. Both pages served meaningful purposes when I created them, but over time, their relevance and active role here have diminished.
 
 ## Rarely Quotable
 
-This page began as a lighthearted acknowledgment of moments when my words were quoted in articles or publications. At the time, I found it validating and worth celebrating. However, as I've progressed in my career, I've found that being quoted, while nice, no longer defines my sense of accomplishment or happiness. Additionally, I haven't kept up with maintaining the page, and it feels less central to who I am now. 
+This page began as a lighthearted acknowledgment of moments when my words were quoted in articles or publications. At the time, I found it validating and worth celebrating. However, as I've progressed in my career, I've found that being quoted, while nice, no longer defines my sense of accomplishment or happiness. Additionally, I haven't kept up with maintaining the page, and it feels less central to who I am now.
 
 While the archived quotes remain here, I see this as part of embracing a more grounded approach to my work and how I reflect on it publicly.
 
@@ -27,7 +27,7 @@ While I still value the spirit of the project, it seems to have transitioned int
 
 ## Why Archive?
 
-Archiving these pages isn't about erasing the past but about acknowledging that their time has passed. By redirecting the old URLs here, I hope to honor the reasons these pages existed while moving forward with a more focused site. 
+Archiving these pages isn't about erasing the past but about acknowledging that their time has passed. By redirecting the old URLs here, I hope to honor the reasons these pages existed while moving forward with a more focused site.
 
 ## Archived Content
 
@@ -36,7 +36,8 @@ Archiving these pages isn't about erasing the past but about acknowledging that 
 **Original Introduction:**  
 This page is pure vanity. You should really click away right now. I am not quoted all that often which is fine with me. But ... if you have it, flaunt it.
 
-**List of Quotes:**  
+**List of Quotes:**
+
 - October 23, 2017 - [Linux Foundation wants to do to data what it's done for software](https://www.theregister.co.uk/2017/10/23/linux_foundation_community_data_license_agreement/)  
 - July 11, 2017 - [红帽开放日：倾听“来自开源的声音”](https://news.watchstor.com/news-161977.htm)  
 - October 17, 2011 - [Overseas universities vie for Chinese talent](https://cpcchina.chinadaily.com.cn/news/2011-10/17/content_13942529.htm)  

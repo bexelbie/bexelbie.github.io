@@ -2,6 +2,7 @@
 date:    2021-04-12 14:00:00 +0200
 title:   "I am a Youtube Rock Star!"
 excerpt:   "Narrator: Not Really"
+excerpt: "A tongue-in-cheek look at my brief YouTube debut and the perils of home networking."
 categories:
   - Ramblings
 tags:

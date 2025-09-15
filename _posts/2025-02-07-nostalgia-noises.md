@@ -1,7 +1,7 @@
 ---
 date: 2025-02-07 11:55:00 +0100
 title: Nostalgic Noises
-excerpt: 
+excerpt: "On the small pleasures of owning a NAS — the sounds of background jobs and how they reconnect you to what your machines are doing."
 tags:
   - Life Lessons
   - Personal

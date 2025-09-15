@@ -1,7 +1,7 @@
 ---
 date: 2025-01-08 18:44:00 +0100
 title: 2025 Open Source Predictions
-excerpt: 
+excerpt: "Predictions on how AI and open source tooling will reshape contributor flows, tooling, and conferences in 2025."
 tags:
   - Conferences
   - Community
@@ -34,7 +34,7 @@ This dynamic is going to have a long-term impact on AI. Today’s LLMs rely on a
 
 ## License Skirmishes
 
-Continuing with our theme on strange bedfellows, one place we aren’t seeing that dynamic is in the ongoing licensing skirmishes. I call them skirmishes and not a war because war requires both sides to be committed, and, candidly, the companies aren’t committed. This is not crowing over the walking back that Elastic did. This is the opposite. Companies basically don’t care. 
+Continuing with our theme on strange bedfellows, one place we aren’t seeing that dynamic is in the ongoing licensing skirmishes. I call them skirmishes and not a war because war requires both sides to be committed, and, candidly, the companies aren’t committed. This is not crowing over the walking back that Elastic did. This is the opposite. Companies basically don’t care.
 
 Companies will follow the rules and the law. When what they have to do is no longer convenient they will choose another legal path. They are playing for revenue not idealism. So far, this has been rewarded as their revenue providers (i.e. customers) have so far made it clear that license and open source is far down on their list of reasons to part with cash.
 

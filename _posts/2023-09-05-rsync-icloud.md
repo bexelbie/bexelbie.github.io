@@ -1,7 +1,7 @@
 ---
 date: 2023-09-05 10:41:00 +0200
 title: "rsync+iCloud: A proposal"
-excerpt: This is all Apple's fault but we can make it work
+excerpt: "Proposal for making rsync and iCloud Drive work together so evicted files are included in backups."
 categories:
   - Technology
 tags:
@@ -50,6 +50,7 @@ I suspect what needs to happen, from a code perspective, is that rsync needs to 
 4. If the file was downloaded, perform the system call equivalent of `brctl evict <filename>` to remove the file to leave the system in the same state.
 
 This simplistic algorithm would leave some open issues/caveats:
+
 - It is likely that the rsync can only be run one-way from iCloud Drive to non-iCloud Drive data storage.  While it is possible it could be run two-way research is needed on whether you'd have to download the old file before you replace it.
 - Timeouts may happen.  iCloud Drive still gets stuck sometimes and there will be non-zero time during downloads that don't get stuck.
 - There is no guarantee there is ever enough room on disk to hold a specific file from iCloud Drive.  This is likely resolved by MacOS directly, however, this may take excessive time.

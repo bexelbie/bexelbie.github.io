@@ -1,6 +1,6 @@
 ---
 title:   "Man Rides Tram"
-excerpt:  "No, not that tram"
+excerpt:  "A tram-side anecdote about language, small kindnesses, and teaching through casual conversation."
 date:    2023-09-14 10:11:00 +0200
 categories:
   - Ramblings

@@ -1,7 +1,7 @@
 ---
 date: 2023-09-29 11:29:00 +0200
 title: Intentionally losing things and the curse of backlogs
-excerpt: 
+excerpt: "... because backlogs turn into junk drawers."
 tags:
   - Life Lessons
   - Personal

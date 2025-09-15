@@ -1,7 +1,7 @@
 ---
 date:    2021-01-05 15:00:00 +0100
 title:   "Less is More: New Year’s Resolution"
-excerpt:   ""
+excerpt: "Why doing less (less frequent tasks) can free time to do more of what matters."
 categories:
   - Ramblings
 tags:

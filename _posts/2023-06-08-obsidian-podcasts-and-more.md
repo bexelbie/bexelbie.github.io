@@ -1,7 +1,7 @@
 ---
 date:    2023-06-08 12:42:00 +0200
 title:   "Obsidian, podcasts, and more"
-excerpt:  "This is all Apple's fault"
+excerpt: "A ramble about notes, journaling, and whether Obsidian or a diary app fits my workflow."
 categories:
   - Ramblings
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "A Quarter of a Billion Laptops ... #Endof10"
 date: 2025-08-19 14:10:00 +0200
-excerpt: ""
+excerpt: "A reality check on '#EndOf10' panic: numbers, the used laptop market, and practical ways to help users migrate safely."
 ---
 
 Disclaimer: I work at Microsoft on upstream Linux in Azure. These are my personal opinions; I don’t work on Windows.

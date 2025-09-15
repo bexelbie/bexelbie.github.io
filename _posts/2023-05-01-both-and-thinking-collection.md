@@ -7,7 +7,7 @@ header:
   teaser: "https://covers.openlibrary.org/b/olid/OL33959454M-M.jpg"
   caption: "Cover image courtesy of [Open Library](https://openlibrary.org/works/OL25346680W)."
   overlay_filter: 0.3
-excerpt: ""
+excerpt: "Consolidated notes: paradox frameworks and practical tools for messy decisions."
 ---
 
 I've recently consolidated my series of posts on the book [*Both/And Thinking* by Wendy Smith and Marianne Lewis](https://openlibrary.org/works/OL25346680W) into a single, unified collection. Previously, these were scattered as individual blog entries, but I believe they are more valuable and coherent when presented together. You can now find all of my notes and reflections in the [Both/And Thinking Collection](/colls/both-and-thinking/).

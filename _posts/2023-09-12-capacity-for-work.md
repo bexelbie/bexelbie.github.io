@@ -1,6 +1,7 @@
 ---
 date: 2023-09-12 12:41:00 +0200
 title: "Capacity for Work"
+excerpt: "Practical thoughts on estimating personal capacity: why task size, context, and health matter more than raw checkboxes."
 tags:
   - Life Lessons
   - Personal
@@ -23,6 +24,7 @@ Third, you wake up in a particular state of health every day.  Some days you’r
 When you put all of these together you are approaching your capacity for work.  This is what will really let you know what you can do on any given day.  To manage this, I use a slightly modified form of the [Time Sector System that Carl Pullein](https://www.carlpullein.com/) created for task management.  (I have not taken his course and currently do not intend to.  I have gleaned this from his YouTube videos.). I bring it up because it has a novel, to me at least, daily planning component.
 
 Every day you have to categorize tasks into one of 4 buckets:
+
 - Important and must get done
 - to be done in the morning
 - to be done in the afternoon/evening
