@@ -1,7 +1,7 @@
 ---
 title: "Day 2: Microsoft Hackathon — Distractions, Brainstorming, and Infrastructure"
 date: 2025-09-16 21:50:00 +0200
-excerpt: "Day 2: tackling distractions, brainstorming with ChatGPT, and shifting to SQLite for scaling."
+excerpt: "Distractions derailed metadata work; brainstormed importance heuristics and moved the MVP to SQLite for scale."
 ---
 
 Today was a mixed bag. I started with the goal of advancing the central metadata architecture, which is critical for figuring out what’s worth surfacing in the notebook. However, distractions and infrastructure challenges dominated the day. The day included a hot project at work, a meeting that couldn’t be skipped, and the ever-present TPS reports (or in my case, an expense report from a recent trip). These interruptions made it hard to focus on the metadata work.
