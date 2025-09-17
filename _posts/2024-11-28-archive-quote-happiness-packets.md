@@ -21,7 +21,7 @@ While the archived quotes remain here, I see this as part of embracing a more gr
 
 ## Happiness Packets
 
-This page was originally a way to archive the happiness packets I received or sent as messages of appreciation and encouragement through the [Happiness Packets project](https://www.happinesspackets.io/). I admired the project and hoped it would grow into a widespread tradition of sharing gratitude within open-source communities.
+This page was originally a way to archive the happiness packets I received or sent as messages of appreciation and encouragement through the [Happiness Packets project](https://www.happinesspackets.io/). I admired the project and hoped it would grow into a widespread tradition of sharing gratitude within open source communities.
 
 While I still value the spirit of the project, it seems to have transitioned into an archival state itself. I don’t anticipate sending or receiving more happiness packets, and maintaining this page has become less relevant. I remain deeply appreciative of the kind words shared with me, and this archive preserves that appreciation while closing the chapter on an active role for the page.
 
