@@ -63,7 +63,7 @@ Emphasis: sparing *italics*; avoid bold except when already present historically
 Inline code / terms: backticks for commands, filenames, literals. No shell prompts inside code spans.
 Code blocks: only when code or multi‑line command is essential. Language tag if fenced.
 Links: prefer descriptive text over bare URLs; avoid link stuffing.
-Internal post links: use Jekyll `post_url` Liquid tag instead of hard-coded paths. Pattern: write the markdown link with the Liquid tag inside the parentheses. Example (shown escaped so it won’t resolve): ``[she speaks Czech]({% post_url 2025-09-17-microsoft-hackathon-3 %})``. If the target post does not exist yet, add an inline marker `[UNCLEAR link target?]` immediately after the link until created.
+Internal post links: use Jekyll `post_url` Liquid tag instead of hard-coded paths. Pattern: write the markdown link with the Liquid tag inside the parentheses. Example (shown escaped so it won’t resolve): ``[she speaks Czech]({% post_url 2025-09-17-Microsoft-hackathon-3 %})``. If the target post does not exist yet, add an inline marker `[UNCLEAR link target?]` immediately after the link until created.
 Numbers: supply source if potentially contested (mark `[CHECK FACT]` if missing).
 Images: always include alt text in markdown image OR mention context in caption (see Section 9).
 Terminology: use “open source” as two words, lowercase, and unhyphenated even when used adjectively (e.g., “open source community”, “open source policy”). Do NOT change it inside proper nouns, event names, direct quotations, or URLs. Avoid “open-source” except when preserving an original quoted title.

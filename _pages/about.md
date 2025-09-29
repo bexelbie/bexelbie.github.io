@@ -12,7 +12,9 @@ permalink: /about/
 
 ## About Me
 
-This blog takes its name from a quirky inspiration: a 2015 Dilbert cartoon where even General Custer’s horse knows trouble is ahead. For reasons I still don’t fully understand, this has always resonated with me. The domain name, on the other hand, stems from a practical choice—it’s an alias I’ve often used in places like restaurants. I enjoy it because it feels simple, yet somehow just as perplexing as “Exelbierd.”
+This blog is my digital home, now found at **bexelbie.com**. For years, it lived at *winglemeyer.org*—a domain that came from a practical choice. It’s an alias I’ve often used in places like restaurants, and I enjoyed it because it felt simple, yet somehow just as perplexing as my last name.
+
+The blog’s subtitle, on the other hand, takes its name from a quirky inspiration: a 2015 Dilbert cartoon where even General Custer’s horse knows trouble is ahead. For reasons I still don’t fully understand, this has always resonated with me.
 
 Professionally, I wear multiple hats:  
 - Product Manager specializing in open source communities and upstream Linux.  
@@ -35,11 +37,11 @@ I keep a few here for use.
 
 ### Short Bio
 
-Brian “bex” Exelbierd is a product manager at Microsoft, balancing investments in community Linux distributions with their independent growth and Azure goals. He brings a career of open source leadership, strategy, and advocacy to his work. Discover more at www.winglemeyer.org.
+Brian “bex” Exelbierd is a product manager at Microsoft, balancing investments in community Linux distributions with their independent growth and Azure goals. He brings a career of open source leadership, strategy, and advocacy to his work. Discover more at bexelbie.com.
 
 ### Medium Bio
 
-Brian “bex” Exelbierd is a seasoned product manager at Microsoft, specializing in open source strategy and community collaboration. He directs investments in Linux distributions like Fedora and Debian, ensuring alignment with Azure’s priorities while supporting their independent growth. A strong advocate for open source, Brian’s career highlights include shaping Red Hat’s policies for Fedora and CentOS, as well as fostering productive interactions between communities and corporate goals. Beyond his professional achievements, Brian co-founded Electric Pliers, an entrepreneurial venture, and contributes to Japan Culture Exchange, honing cross-cultural leadership skills. His approach emphasizes strategy, pragmatism, and fostering meaningful collaboration. Learn more about his work at www.winglemeyer.org.
+Brian “bex” Exelbierd is a seasoned product manager at Microsoft, specializing in open source strategy and community collaboration. He directs investments in Linux distributions like Fedora and Debian, ensuring alignment with Azure’s priorities while supporting their independent growth. A strong advocate for open source, Brian’s career highlights include shaping Red Hat’s policies for Fedora and CentOS, as well as fostering productive interactions between communities and corporate goals. Beyond his professional achievements, Brian co-founded Electric Pliers, an entrepreneurial venture, and contributes to Japan Culture Exchange, honing cross-cultural leadership skills. His approach emphasizes strategy, pragmatism, and fostering meaningful collaboration. Learn more about his work at bexelbie.com.
 
 ### Long Bio
 
@@ -49,15 +51,15 @@ Previously, Brian shaped open source policy at Red Hat, where he spearheaded ini
 
 Outside his corporate roles, Brian co-founded Electric Pliers, a venture focused on solving real-world problems through technology, and serves as a principal at Japan Culture Exchange, where he applies his expertise in cross-cultural collaboration and business strategy.
 
-Brian’s approach to leadership is grounded in clarity, collaboration, and fostering innovative solutions. Connect with his work and thoughts at www.winglemeyer.org.
+Brian’s approach to leadership is grounded in clarity, collaboration, and fostering innovative solutions. Connect with his work and thoughts at bexelbie.com.
 
 ### Quirky Bio
 
-Brian “bex” Exelbierd is a spreadsheet aficionado who’s happiest debating the finer points of international taxation over a perfectly brewed coffee or beer. An American expat in Brno, Czech Republic, he balances life as a Linux strategist, tech tinkerer, and dad on a quest for the city’s best artisanal bread. When not decoding business complexities, he dives into long-form journalism, crafts “glue code” projects, or connects with friends. Discover his musings and curiosities at www.winglemeyer.org.
+Brian “bex” Exelbierd is a spreadsheet aficionado who’s happiest debating the finer points of international taxation over a perfectly brewed coffee or beer. An American expat in Brno, Czech Republic, he balances life as a Linux strategist, tech tinkerer, and dad on a quest for the city’s best artisanal bread. When not decoding business complexities, he dives into long-form journalism, crafts “glue code” projects, or connects with friends. Discover his musings and curiosities at bexelbie.com.
 
 ### Short Quirky Bio
 
-Spreadsheet nerd, Linux strategist, and dad exploring life in Brno, CZ. Fan of coffee, beer, artisanal bread hunts, and long-form journalism. Sharing musings & tech tinkering. 🌍 www.winglemeyer.org
+Spreadsheet nerd, Linux strategist, and dad exploring life in Brno, CZ. Fan of coffee, beer, artisanal bread hunts, and long-form journalism. Sharing musings & tech tinkering. 🌍 bexelbie.com
 
 ### Headshots
 

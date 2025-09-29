@@ -11,7 +11,7 @@ comments:
 
   # When allowedOrigins is defined, only requests sent from one of the domains
   # listed will be accepted.
-  allowedOrigins: ["localhost", "www.winglemeyer.org"]
+  allowedOrigins: ["localhost", "www.bexelbie.org"]
 
   # (*) REQUIRED
   #
