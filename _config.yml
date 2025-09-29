@@ -7,7 +7,7 @@ title                    : "even the horse knew"
 title_separator          : "!"
 name                     : 'Brian "bex" Exelbierd'
 description              : "The personal ramblings of Brian Exelbierd and not his employers."
-url                      : "https://www.winglemeyer.org"
+url                      : "https://bexelbie.com"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bexelbie/bexelbie.github.io"
 teaser                   : "" # "img/header.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -25,14 +25,14 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
-  branch                 : "master"
+  branch                 : "main"
   allowedFields          : # ['name', 'email', 'url', 'message']
-  allowedOrigins         : ["localhost", "www.winglemeyer.org"]
+  allowedOrigins         : ["localhost", "bexelbie.com"]
   commitMessage          : # "New comment."
   filename               : "entry{@timestamp}" # comment-{@timestamp}
   format                 : "yaml" # "yml"
   moderation             : # true
-  name                   : "winglemeyer.org"
+  name                   : "bexelbie.com"
   path                   : # "/_data/comments/{options.slug}" (default)
   requiredFields         : # ['name', 'email', 'message']
   transforms:
@@ -101,7 +101,7 @@ author:
   bio              : "My ramblings about tech, security, productivity, finance, taxes and life in general."
   location         : "Brno, Czech Republic"
   email            : "bex@bexelbie.com"
-  uri              : null # "https://www.winglemeyer.org"
+  uri              : "https://bexelbie.com"
   home             : "about" # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
