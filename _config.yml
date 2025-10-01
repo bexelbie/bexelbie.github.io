@@ -140,6 +140,7 @@ author:
 # Reading Files
 include:
   - .htaccess
+  - .well-known
   - _pages
   - _includes/head-custom.html
 exclude:

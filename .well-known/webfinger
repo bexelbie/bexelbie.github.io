@@ -1,0 +1,28 @@
+{
+  "subject": "acct:bexelbie@bexelbie.com",
+  "aliases": [
+    "https://toot.io/@bexelbie",
+    "https://toot.io/users/bexelbie"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://toot.io/@bexelbie"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://toot.io/users/bexelbie"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://toot.io/authorize_interaction?uri={uri}"
+    },
+    {
+      "rel": "http://webfinger.net/rel/avatar",
+      "type": "image/jpeg",
+      "href": "https://s3.toot.io/system/accounts/avatars/113/010/512/519/992/743/original/1a95ae8af674328e.jpg" 
+    }
+  ]
+}

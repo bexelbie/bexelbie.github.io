@@ -11,7 +11,7 @@ permalink: /reading/
     | where: "finished", nil
     | where: "abandoned", nil
     | where_exp: "book", "book.started"
-{% assign reading = reading | sort: "started" %}
+    | sort: "started" -%}
 
 {% assign finished = site.data.reading.books | reject: "finished", nil %}
 {% assign finished = finished | sort: "finished" | reverse %}
