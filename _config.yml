@@ -284,6 +284,19 @@ defaults:
       share: # true
       related: true
       classes: wide
+# _drafts
+  - scope:
+      path: ""
+      type: drafts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: true
+      comments: # true
+      share: # true
+      related: true
+      classes: wide
 # _pages
   - scope:
       path: "_pages"

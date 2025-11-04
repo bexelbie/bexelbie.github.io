@@ -14,6 +14,12 @@ This document defines how automated assistants ("agents") collaborate on draftin
 - Never smooth edges into corporate PR. Friction is allowed if factual.
 - Do not generalize one anecdote into a trend unless notes state the trend.
 
+Important restrictions on quoted text and code
+
+- Text that appears inside block quotes or that is explicitly quoted from another person or source must not be altered. These are other people's words; keep them verbatim. If the quoted text contains an error or you believe clarification is needed, do not rewrite the quote — add a parenthetical note such as "(sic)" immediately after the quoted text or add a brief clarifying note outside the quote. Mark any uncertainty with the repository's markers (for example, `[UNCLEAR attribution?]`).
+
+- Code appearing inside fenced code blocks (triple-backtick blocks, indented code blocks, or language-tagged blocks) SHOULD NEVER BE CHANGED. Code blocks are executable or prescriptive artifacts; editing them can introduce subtle bugs or change intent. If you think a code block contains an error, add a separate comment or note (outside the code block) describing the suspected issue and how to test or fix it rather than modifying the original block.
+
 Markers (use inline, UPPER CASE in brackets):
 
 - `[UNCLEAR]` missing info or ambiguous reference (explain briefly)
@@ -54,6 +60,7 @@ Disallowed tone patterns:
 
 ---
 
+
 ## 3. Style Mechanics
 
 Paragraphs: 2–5 sentences; break longer sequences.
@@ -68,6 +75,28 @@ Internal post links: use Jekyll `post_url` Liquid tag instead of hard-coded path
 Numbers: supply source if potentially contested (mark `[CHECK FACT]` if missing).
 Images: always include alt text in markdown image OR mention context in caption (see Section 9).
 Terminology: use “open source” as two words, lowercase, and unhyphenated even when used adjectively (e.g., “open source community”, “open source policy”). Do NOT change it inside proper nouns, event names, direct quotations, or URLs. Avoid “open-source” except when preserving an original quoted title.
+
+
+### Long Pull-Out Quotes
+
+Use long pull-out quotes for passages that are substantial, notable, or central to the post’s argument or theme. These are typically multi-line quotations from external sources or individuals (e.g., Andrej Karpathy, Simon Willison) that merit visual emphasis and separation from the main text.
+
+- Format: Use Markdown blockquote syntax (`>` at the start of each quoted line). Place the quote on its own, then insert a blank line, then the citation line (e.g., `<cite>Author Name</cite>`), also inside the blockquote.
+- Do not use bold or italics for the quote body unless present in the original.
+- Only use pull-out quotes for material that is worth highlighting; do not convert routine inline quotes or short phrases into blockquotes.
+- Inline quoting remains appropriate for brief references, partial sentences, or when the quote is not a central argument.
+- Do not invent or paraphrase quotes; always use the original wording and attribute clearly.
+- If the source or attribution is unclear, append `[UNCLEAR attribution?]` after the citation.
+
+Example:
+
+> "There's a new kind of coding I call 'vibe coding,' where you fully give in to the vibes, embrace exponentials, and forget that the code even exists."
+>
+> <cite>Andrej Karpathy</cite>
+
+For multi-paragraph quotes, repeat the `>` at the start of each paragraph.
+
+Do not overuse pull-out quotes; reserve for cases where the quote itself is a focal point or provides unique insight.
 
 ---
 
