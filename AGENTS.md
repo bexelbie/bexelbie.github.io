@@ -35,6 +35,7 @@ Universal qualities:
 - Avoid unrequested calls to action.
 - Avoid semicolons unless present in original text; prefer splitting into shorter sentences.
 - Use spaced single hyphens for asides instead of em dashes to match author preference (e.g., "this - not that").
+- An ellispsis is always three periods set apart from the preceeding and succeeding words by a space (e.g., "This ... or that").
 
 Content‑type modulation (see Section 4 for types):
 

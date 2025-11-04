@@ -31,6 +31,7 @@ Purpose: Minimal, context‑agnostic packet to hand any assistant for one‑off 
 
 - Paragraphs: 2–4 sentences max; break long ones.
 - Use spaced single hyphens for quick asides ("idea - caveat"), not em dashes.
+- An ellispsis is always three periods set apart from the preceeding and succeeding words by a space (e.g., "This ... or that").
 - Bullets acceptable for enumerations; fragments allowed.
 - Remove redundant openings and closings unless they carry social intent.
 
