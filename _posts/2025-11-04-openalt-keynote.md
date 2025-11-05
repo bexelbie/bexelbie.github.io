@@ -27,4 +27,6 @@ In the end, the talk, ["Bring Wood for the Fire,"](https://talks.openalt.cz/open
 
 So when you watch a polished keynote, appreciate the craft, but don't use it as a stick to beat yourself with. As practitioners, our process is different. It's messier, more chaotic, and intensely personal. And succeeding within those constraints is a victory worth celebrating.
 
-A [recording of the talk](https://www.youtube.com/watch?v=1vIHjugGnIU) is available, thanks to the organizers of OpenAlt.
+A [recording of the talk](https://vhsky.cz/w/p/bWAJnZ6Y15zzkEuUywi8sL?playlistPosition=1), including Czech subtitles, is available on the conference's PeerTube instance.  An alternate version is also available on [Youtube](https://www.youtube.com/watch?v=1vIHjugGnIU).  I appreciate the organizers uploading these so quickly and for doing the translation.
+
+Note: Updated on 5 November 2025 with the PeerTube Link.
