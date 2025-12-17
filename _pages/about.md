@@ -39,9 +39,15 @@ I keep a few here for use.
 
 Brian “bex” Exelbierd is a product manager at Microsoft, balancing investments in community Linux distributions with their independent growth and Azure goals. He brings a career of open source leadership, strategy, and advocacy to his work. Discover more at bexelbie.com.
 
-### Medium Bio
+### Medium Bio 1
 
 Brian “bex” Exelbierd is a seasoned product manager at Microsoft, specializing in open source strategy and community collaboration. He directs investments in Linux distributions like Fedora and Debian, ensuring alignment with Azure’s priorities while supporting their independent growth. A strong advocate for open source, Brian’s career highlights include shaping Red Hat’s policies for Fedora and CentOS, as well as fostering productive interactions between communities and corporate goals. Beyond his professional achievements, Brian co-founded Electric Pliers, an entrepreneurial venture, and contributes to Japan Culture Exchange, honing cross-cultural leadership skills. His approach emphasizes strategy, pragmatism, and fostering meaningful collaboration. Learn more about his work at bexelbie.com.
+
+### Medium Bio 2
+
+Brian “bex” Exelbierd is a spreadsheet aficionado and open source strategist who splits his time between Linux communities and life in Brno, Czech Republic. At Microsoft, he directs investments in Fedora and Debian, aligning community growth with Azure’s strategy while keeping the projects independent and healthy. Before that, he helped shape Red Hat’s open source policies for Fedora and CentOS, finding pragmatic ways to balance community ideals with business reality.
+
+When he’s not decoding the politics of open source, he’s usually debating international tax quirks over a perfect coffee or beer or tinkering with his entrepreneurial projects at Electric Pliers. Find his latest musings at bexelbie.com.
 
 ### Long Bio
 

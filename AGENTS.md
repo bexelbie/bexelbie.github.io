@@ -1,6 +1,10 @@
-# Agent Guidance: Voice, Integrity, and Workflow (General Blog Use)
+# Agent Guidance: Voice, Integrity, and Workflow
 
-This document defines how automated assistants ("agents") collaborate on drafting, revising, summarizing, or refactoring ANY blog content in this repository (technical, event reports, opinion pieces, travel, notes, meta-posts, link posts, social snippets). It encodes style, constraints, challenge rules, and delivery workflows. Treat it as the contract. When in doubt: do not guess — surface uncertainty.
+This document defines how automated assistants ("agents") collaborate on drafting, revising, summarizing, or refactoring content in this repository. While the repository focuses on a blog, it is also a workspace for talks, deep dives, and private notes.
+
+This guidance is split into **Universal Principles** (apply to everything) and **Work Modes** (specific constraints for Blogs, Talks, or Deep Work).
+
+Treat this as the contract. When in doubt: do not guess — surface uncertainty.
 
 ---
 
@@ -33,37 +37,16 @@ Agents MUST leave these markers intact unless resolved with explicit new user in
 
 ## 2. Voice & Tone
 
-Universal qualities:
+**Primary Source:** Refer to `STYLE-CAPSULE.md` in this repository for all core voice, tone, and style constraints. It defines the universal qualities (direct, concise, grounded), disallowed patterns (hype, artificial urgency), and structural preferences (paragraph length, punctuation).
 
-- Direct, concise, grounded. Plain verbs over abstractions.
-- Mild dry humor acceptable; no memes, emojis, hype words.
-- Use first person singular (“I”) for personal experience; avoid “we” unless collaboration or community consensus is explicit in the source material.
-- Avoid unrequested calls to action.
-- Avoid semicolons unless present in original text; prefer splitting into shorter sentences.
-- Use spaced single hyphens for asides instead of em dashes to match author preference (e.g., "this - not that").
-- An ellispsis is always three periods set apart from the preceeding and succeeding words by a space (e.g., "This ... or that").
-
-Content‑type modulation (see Section 4 for types):
-
-- Technical / Analytical: tighter paragraphs, emphasize constraints, trade‑offs, and failure modes.
-- Event Report: chronological skeleton + synthesis of value; avoid travelogue filler unless contextually relevant.
-- Opinion / Editorial: clear thesis early; separate fact claims from value judgments.
-- Travel / Personal: small sensory details ok; still avoid purple prose.
-- Link / Pointer Post: minimal framing + why it matters + one takeaway.
-- Raw Notes → Polished: compress repetition; preserve stated uncertainties; never upgrade a tentative statement to certainty.
-
-Disallowed tone patterns:
-
-- Hype (“game‑changing”, “revolutionary”) unless quoting others (quote + source).
-- Artificial urgency (“must read”) without explicit justification.
-- Vague collectivization (“we all know”) — replace with sourced or personal statement.
+**Repository-Specific Overrides:**
+- **Formatting:** See Section 3 for Markdown/Jekyll specifics.
 
 ---
 
 
 ## 3. Style Mechanics
 
-Paragraphs: 2–5 sentences; break longer sequences.
 Excerpt (YAML `excerpt`): single factual sentence <140 chars; no evaluative adjectives unless necessary for precision.
 Headings: `##` for major sections only; avoid trailing punctuation. One H1 (`#`) only if legacy post already uses it inside body—do not add new H1s.
 Lists: concise; prefer fragments over full sentences when readable.
@@ -74,7 +57,6 @@ Links: prefer descriptive text over bare URLs; avoid link stuffing.
 Internal post links: use Jekyll `post_url` Liquid tag instead of hard-coded paths. Pattern: write the markdown link with the Liquid tag inside the parentheses. Example (shown escaped so it won’t resolve): ``[she speaks Czech]({% post_url 2025-09-17-Microsoft-hackathon-3 %})``. If the target post does not exist yet, add an inline marker `[UNCLEAR link target?]` immediately after the link until created.
 Numbers: supply source if potentially contested (mark `[CHECK FACT]` if missing).
 Images: always include alt text in markdown image OR mention context in caption (see Section 9).
-Terminology: use “open source” as two words, lowercase, and unhyphenated even when used adjectively (e.g., “open source community”, “open source policy”). Do NOT change it inside proper nouns, event names, direct quotations, or URLs. Avoid “open-source” except when preserving an original quoted title.
 
 
 ### Long Pull-Out Quotes
@@ -100,25 +82,58 @@ Do not overuse pull-out quotes; reserve for cases where the quote itself is a fo
 
 ---
 
-## 4. Content Types & Required Elements
+## 4. The Router: Determining Work Mode
 
-1. Technical / Analytical
+Most work begins in `_drafts/` and may never be published. Agents must determine the **Work Mode** based on user intent.
+
+### 4.1 Default: Deep Work / Private Mode
+
+**Trigger:** User provides raw notes, asks for a summary, or works in `_drafts/` without explicit publication instructions.
+**Goal:** Clarity, structure, and rigorous thinking. No performative formatting.
+**Constraints:**
+
+- **Length:** Unlimited.
+- **Front Matter:** Minimal (Title/Date only). No rounding, no excerpts.
+- **Socials:** None.
+- **Tone:** Candid, precise, "thinking in public."
+
+### 4.2 Mode: Public Talk
+
+**Trigger:** User says "Draft a talk," "Create slides," or works in `talks/`.
+**Goal:** Spoken rhythm, visual support, audience connection.
+**Components:**
+
+- **Abstract:** Compelling hook for organizers/attendees.
+- **Slides:** High signal, minimal text. **NEVER edit code blocks in slides.**
+- **Speaker Notes:** Conversational, transition cues. No length limit.
+
+### 4.3 Mode: Blog Post (Publication)
+
+**Trigger:** User says "Ready to publish," "Make this a post," "Draft for the blog," or moves file to `_posts/`.
+**Constraints:** Ideally 900 words or more. Flag if overly short (insufficient depth) or overly long (needs tightening). Full Front Matter, Socials required.
+
+**Blog Content Types & Required Elements:**
+
+1. **Technical / Analytical**
+   - Tone: Tighter paragraphs; emphasize constraints, trade-offs, and failure modes.
    - Mandatory: problem framing, constraints, trade‑offs, (if present) failure modes.
    - Optional: minimal reproduction snippet (only if notes explicitly include or request).
-2. Event Report
+2. **Event Report**
+   - Tone: Chronological skeleton + synthesis of value; avoid travelogue filler unless contextually relevant.
    - Include: purpose of event, structure, 2–6 key takeaways (bullet list), notable gaps.
    - Avoid exhaustive session blow‑by‑blow unless uniquely insightful.
-3. Opinion / Editorial
+3. **Opinion / Editorial**
+   - Tone: Clear thesis early; separate fact claims from value judgments.
    - Early thesis, evidence separation, at least one acknowledgment of alternate perspective (`[ALT VIEW]` if not elaborated).
-4. Travel / Experience
+4. **Travel / Experience**
+   - Tone: Small sensory details ok; still avoid purple prose.
    - Focus on observation > cliché sentiment. Skip generic “beautiful”, prefer a concrete detail.
-5. Link / Pointer
+5. **Link / Pointer**
+   - Tone: Minimal framing + why it matters + one takeaway.
    - 1–2 sentence context + why it matters + optional contrasting link.
-6. Personal Notes / Journaling
-   - Convert timestamp bullets into thematic clusters; keep raw form only if user explicitly requests.
-7. Meta / Process Post
+6. **Meta / Process Post**
    - Clearly label scope (what changed, why, what’s next when known; omit speculation when unknown).
-8. Announcement
+7. **Announcement**
    - Stick to verifiable facts, timeline, actionable implications. If future work uncertain → `[UNCLEAR]`.
 
 If content does not fit, declare `[UNCLEAR: content type?]` and propose classification.
@@ -144,6 +159,13 @@ Escalation protocol:
 ## 6. Front Matter & Metadata Rules
 
 Do NOT alter existing YAML key names unless explicitly requested.
+
+**For Deep Work / Private Mode:**
+
+- Minimal keys only: `title`, `date`.
+- No rounding, no excerpts, no social images.
+
+**For Blog Mode (Publication):**
 
 Required keys for new posts (current practice):
 
@@ -252,7 +274,7 @@ Do NOT add if neither employer nor sensitive topic appears.
 
 ## 8. Workflows & Prompts
 
-DEFAULT MODE: When the user supplies raw notes, proceed directly to a Full Draft (Section 8.2) unless the user explicitly asks for an outline first OR the notes exceed ~900 words and are highly fragmented—in that case propose an Outline (Section 8.1) before drafting. Err on shipping a usable draft quickly.
+DEFAULT MODE: See Section 4. Unless specified, assume **Deep Work Mode** (no length limits). If **Blog Mode** is triggered, proceed to Full Draft (Section 8.2).
 
 ### 8.1 Outline Extraction (only when requested or pre‑agreed)
 
@@ -265,7 +287,7 @@ Inputs: raw notes (possibly messy) + any existing front matter.
 Actions:
 
 - Normalize front matter per Section 6 (date rounding, excerpt check, no categories/tags).
-- Draft ≤900 words unless user sets a different ceiling.
+- Draft to ideal length (900+ words). Flag if <700 words (too short?) or >1500 words (needs tightening?).
 - Preserve hedges; insert markers where needed.
 - Append Verification Checklist + Clarifications Requested.
 
@@ -324,14 +346,17 @@ Never silently drop a marker.
 
 Mastodon (≤500 chars): factual pointer; at most 0–2 hashtags; no CTA unless user explicitly asks. Include one concrete hook (stat, question, or contrast) from post; avoid duplicate full excerpt. **Use the full character limit when possible to craft engaging, concise summaries that reflect the post’s tone. Add a URL placeholder if the post is live or planned.**
 
+Bluesky (≤300 chars): similar to Mastodon; factual pointer; no CTA. Focus on the core insight or hook. **Use the full character limit to craft engaging, concise summaries.**
+
 LinkedIn: 2–4 short paragraphs; mention context + 1–3 insights + optional neutral observation; no inflated impact; no invented metrics.
 
 Hashtags:
 
 - Mastodon: 0-4 relevant hashtags max; place at end; skip if they add no discovery value.
+- Bluesky: 0-2 relevant hashtags max; place at end.
 - LinkedIn: 2–4 concise, high-signal hashtags at end (after an empty line). Avoid novelty or vanity tags; prefer topic/category (#Hackathon, #OpenSource, #Debian, #AI) over slogans.
 - Do not embed hashtags mid-sentence unless quoting or unavoidable; preserve readability.
-- Formatting: keep social body text, then a blank line, then the URL (or placeholder), then a blank line, then the hashtags on a line. Don't worry about escaping or otherwise fencing anything.  The social section should be written as a cut and paste, the user will deal with it.
+- Formatting: keep social body text, then a blank line, then the URL (or placeholder), then a blank line, then the hashtags on a line. **Do not use Markdown formatting (bold, italics, links) as these platforms do not support it.** Don't worry about escaping or otherwise fencing anything. The social section should be written as a cut and paste, the user will deal with it. Ignore markdown linting errors in this section; these suggestions are ephemeral and not part of the permanent file.
 
 Optional Additional Formats (on request only):
 
@@ -375,13 +400,14 @@ When a claim seems weakly supported:
 ## 15. Quick Reference (Cheat Sheet)
 
 Tone: direct, factual, occasional dry humor.
-Required front matter: title, date (rounded next 10 min Prague), excerpt.
+Modes: **Deep Work** (default, unlimited), **Blog** (900w, strict), **Talk** (slides/notes).
+Required front matter (Blog): title, date (rounded next 10 min Prague), excerpt.
 No categories/tags on new posts (leave legacy alone).
 Header: only when image adds substantive context (book cover, original photo, key diagram, etc.).
 Date rule: round up to next 10‑minute mark; correct DST offset.
 Markers: `[UNCLEAR]` `[CHECK FACT]` `[ASSUMPTION?]` `[ALT VIEW]`.
-Default workflow: Raw notes → Full Draft.
-Max standard draft length: 900 words (unless specified).
+Default workflow: Raw notes → Deep Work (clean up) OR Blog Draft (if requested).
+Draft length (Blog): Ideally 900+ words. Flag if <700 or >1500.
 Social: Mastodon ≤500 chars, ≤2 hashtags. LinkedIn: no hype.
 Disclaimer: once only when relevant.
 Never invent anything. Surface uncertainty.
@@ -394,16 +420,7 @@ Append dated **Changelog** entries for substantive shifts. Do not retroactively 
 
 ### Changelog
 
+- 2025-11-22: Refactored to support "Work Modes" (Deep Work, Blog, Talk). Clarified that `_drafts/` defaults to private/unlimited mode until publication is requested.
 - 2025-09-17: Initial creation (generalized guidance for all blog content; includes removal of categories/tags requirement, header usage rules, date rounding protocol, and default raw-notes→draft workflow; merged and expanded prior hackathon-focused draft into unified style & integrity rules).
-
----
-
-## Evolution of Guidance
-
-### Updates to STYLE CAPSULE
-
-When making changes to `AGENTS.md`, consider whether the `STYLE-CAPSULE.md` requires updates to maintain alignment. The STYLE CAPSULE is a condensed version of this document for one-off rewrites and should reflect any significant shifts in tone, markers, or execution protocols.
-
----
 
 End of AGENTS.md
