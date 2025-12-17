@@ -1,0 +1,58 @@
+---
+title:      "Building Bridges: Microsoft’s Participation in the Fedora Linux Community"
+excerpt:  "posted on the Microsoft Tech Community Linux and Open Source Blog"
+date:       2025-12-17 10:30:00 +0100
+header:
+  overlay_color: "#333"
+---
+
+<p>While I was at Flock 2025, I had the opportunity to share what Microsoft has been contributing to Fedora over the last year.  I finally got a blog post written for the Microsoft Tech Community Linux and Open Source Blog.</p>
+
+<p>Read the full blog over at the <a href=" https://techcommunity.microsoft.com/blog/linuxandopensourceblog/building-bridges-microsofts-participation-in-the-fedora-linux-community/4478461">Microsoft Tech Community</a> where this was originally posted.</p>
+
+<!--
+
+<P>At Microsoft, we believe that meaningful open source participation is driven by people, not corporations. But companies can - and should - create the conditions that empower individuals to contribute. Over the past year, our Community Linux Engineering team has been doing just that, focusing on Fedora Linux and working closely with the community to improve infrastructure, tooling, and collaboration. This post shares some of the highlights of that work and outlines where we’re headed next.&nbsp;</P>
+<H2 id="community-4478461-toc-hId-1338639118">Modernizing Fedora Cloud Image Delivery&nbsp;</H2>
+<P>One of our most impactful contributions this year has been expanding the availability of Fedora Cloud images across major cloud platforms. We introduced support for publishing images to both the Azure Community Gallery and Google Cloud Platform—capabilities that didn’t exist before. At the same time, we modernized the existing AWS image publishing process by migrating it to a new, OpenShift-hosted automation framework. This new system, developed by our team and led by engineer Jeremy Cline, streamlines image delivery across all three platforms and positions the project to scale and adapt more easily in the future.&nbsp;</P>
+<P>We partnered with Adam Williamson in Fedora QE to extend this tooling to support container image uploads, replacing fragile shell scripts with a robust, maintainable system. Nightly Fedora builds are now uploaded to Azure, with one periodically promoted to “latest” after manual validation and basic functionality testing. This ensures cloud users get up-to-date, ready-to-run images - critical for workloads that demand fast boot times and minimal setup. &nbsp;As you’ll see , we have ideas for improving this testing.&nbsp;</P>
+<H2 id="community-4478461-toc-hId--468815345">Enabling Secure Boot on ARM with Sigul&nbsp;</H2>
+<P>Secure Boot is essential for trusted cloud workloads across architectures. Our current focus includes enabling it on ARM-based systems. Fedora currently signs most artifacts with Sigul, but UEFI applications are handled separately via a dedicated x86_64 builder with a smart card. We’re working to enable Sigul-based signing for UEFI applications across architectures, but Sigul is a complex project with unmaintained dependencies. We’ve stepped in to help modernize Sigul, starting with a Rust-based client and a roadmap to re-architect the code and structure for easier maintenance and improved performance. &nbsp;</P>
+<P>This work is about more than just Microsoft’s needs - it’s about enabling Secure Boot support out of the box, like what users expect on x86_64 systems.&nbsp;</P>
+<H2 id="community-4478461-toc-hId-2018697488">Bringing Inspektor Gadget to Fedora&nbsp;</H2>
+<P>Inspektor Gadget is an eBPF-based toolkit for kernel instrumentation, enabling powerful observability use cases like performance profiling and syscall tracing. Microsoft has been collaborating with the Inspektor Gadget team to ensure the project is natively packaged and maintained in Fedora.&nbsp;</P>
+<P>We are encouraging teams to become active Fedora participants, to maintain their own packages, and to engage directly with the community. We believe in bi-directional feedback: upstream contributions should benefit both the project and the contributors.&nbsp;</P>
+<H2 id="community-4478461-toc-hId-211243025">Azure VM Utils: Simplifying Cloud Enablement&nbsp;</H2>
+<P>To streamline Fedora’s compatibility with Azure, we’ve introduced a package called azure-vm-utils. It consolidates Udev rules and low-level utilities that make Fedora work better on Azure infrastructure, particularly with NVMe devices. This package is a step toward greater transparency and maintainability and could serve as a model for other cloud providers.&nbsp;</P>
+<H2 id="community-4478461-toc-hId--1596211438">Fedora WSL: A Layer 9 Success&nbsp;</H2>
+<P>Fedora is now officially available in the Windows Subsystem for Linux (WSL) catalog - a milestone that required both technical and organizational effort. While the engineering work was substantial, the real challenge was navigating the legal and governance landscape. This success reflects deep collaboration between Fedora leadership, Red Hat, and Microsoft.&nbsp;</P>
+<H2 id="community-4478461-toc-hId-891301395">Looking Ahead: Strategic Participation and Testing&nbsp;</H2>
+<P>We’re not stopping here. Our roadmap includes:&nbsp;</P>
+<UL>
+    <LI>
+        <STRONG>Replacing Sigul</STRONG>
+            with a modern, maintainable signing infrastructure.&nbsp;
+    </LI>
+    <LI>
+        <STRONG>Expanding participation</STRONG>
+            in Fedora SIGs (Cloud, Go, Rust) where Microsoft has relevant expertise.&nbsp;
+    </LI>
+    <LI>
+        <STRONG>Improving automated testing</STRONG>
+            using Microsoft’s open source LISA framework to validate Fedora images at cloud scale.&nbsp;
+    </LI>
+    <LI>
+        <STRONG>Enhancing the Fedora-on-Azure experience</STRONG>
+        , including exploring mirrors within Azure and expanding agent/extension support.&nbsp;
+    </LI>
+</UL>
+<P>We’re also working closely with the Azure Linux team, which is aligning its development model with Fedora - much like RHEL does. while Azure Linux has used some Fedora sources in the past, their upcoming 4.0 release is intended to align much more closely with Fedora as an upstream&nbsp;</P>
+<H2 id="community-4478461-toc-hId--916153068">A Call for Collaboration&nbsp;</H2>
+<P>While contributing patches is a good start, we intend to do much more. We aim to be a deeply involved member of the Fedora community - participating in SIGs, maintaining packages, and listening to feedback. If you have ideas for where Microsoft can make strategic investments that benefit Fedora, we want to hear them. &nbsp;You’ll find us alongside you in Fedora meetings, forums, and at conferences like Flock.&nbsp;</P>
+<P>Open source thrives when contributors bring their whole selves to the table. At Microsoft, we’re working to ensure our engineers can do just that - by aligning company goals with community value.</P>
+<P>
+    (This post is based on a 
+    <A class="lia-external-url" href="https://www.youtube.com/live/YhoFPG7Ack0?si=v5KH_0nRXl_bKtBD&amp;t=4290" target="_blank" rel="noopener nofollow noreferrer">talk delivered at Flock to Fedora 2025</A>
+    .)&nbsp;
+</P>
+-->
