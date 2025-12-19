@@ -209,3 +209,14 @@
       While there are many great take aways in the book, I don't work in a production environment where touch time is short.  Knowledge projects are long touch time efforts.  That said, it turns out another book by the same author, *Critical Chain*, is more appropriate for my work, it seems.  I am putting it on the list.
 
       I really appreciated the big frameworks in the book so I have put them in a [blog post]({% post_url 2025-08-15-the-goal %})
+
+  - title: "Atomic Habits"
+    url: "https://openlibrary.org/books/OL27918581M/Atomic_Habits"
+    cover: "https://covers.openlibrary.org/b/id/15108516-M.jpg"
+    started: 2025-12-08
+
+  - title: "Meditations for Mortals"
+    url: "https://openlibrary.org/books/OL51125016M/Meditations_for_Mortals"
+    cover: "https://covers.openlibrary.org/b/id/15091836-M.jpg"
+    started: 2025-12-12
+    audiobook: true
