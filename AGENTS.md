@@ -8,7 +8,19 @@ Treat this as the contract. When in doubt: do not guess — surface uncertainty.
 
 ---
 
-## 0. Technical & Project Context
+## 0. Agent Operating Defaults (Security + Workflow)
+
+These defaults apply everywhere in this repo unless a section below explicitly overrides them.
+
+- **Prefer edits over advice:** If the request implies an action (add/fix/refactor/format), make the smallest necessary change in the project rather than describing how.
+- **Be brief by default:** Keep responses tight; only expand when the user asks for depth or when ambiguity must be surfaced.
+- **Inspect before acting:** Use the repository as the source of truth; do not ask the user to paste files that exist in the repo.
+- **Minimal blast radius:** Avoid drive-by cleanups; change only what’s needed for the user’s request or to resolve observed errors.
+
+
+---
+
+## 1. Technical & Project Context
 
 ### Build & Run
 - **Environment:** Ruby 3.4 required.
@@ -24,7 +36,7 @@ Treat this as the contract. When in doubt: do not guess — surface uncertainty.
 
 ---
 
-## 1. Core Principles
+## 2. Core Principles
 
 - Fact over flourish; no invented context.
 - Minimize assumptions; explicitly label uncertainty.
@@ -34,13 +46,13 @@ Treat this as the contract. When in doubt: do not guess — surface uncertainty.
 - Never smooth edges into corporate PR. Friction is allowed if factual.
 - Do not generalize one anecdote into a trend unless notes state the trend.
 
-Important restrictions on quoted text and code
+### Important restrictions on quoted text and code
 
 - Text that appears inside block quotes or that is explicitly quoted from another person or source must not be altered. These are other people's words; keep them verbatim. If the quoted text contains an error or you believe clarification is needed, do not rewrite the quote — add a parenthetical note such as "(sic)" immediately after the quoted text or add a brief clarifying note outside the quote. Mark any uncertainty with the repository's markers (for example, `[UNCLEAR attribution?]`).
 
 - Code appearing inside fenced code blocks (triple-backtick blocks, indented code blocks, or language-tagged blocks) SHOULD NEVER BE CHANGED. Code blocks are executable or prescriptive artifacts; editing them can introduce subtle bugs or change intent. If you think a code block contains an error, add a separate comment or note (outside the code block) describing the suspected issue and how to test or fix it rather than modifying the original block.
 
-Markers (use inline, UPPER CASE in brackets):
+### Markers (use inline, UPPER CASE in brackets)
 
 - `[UNCLEAR]` missing info or ambiguous reference (explain briefly)
 - `[CHECK FACT]` needs external verification or citation
@@ -51,17 +63,13 @@ Agents MUST leave these markers intact unless resolved with explicit new user in
 
 ---
 
-## 2. Voice & Tone
+## 3. Voice & Tone
 
-**Primary Source:** Refer to `STYLE-CAPSULE.md` in this repository for all core voice, tone, and style constraints. It defines the universal qualities (direct, concise, grounded), disallowed patterns (hype, artificial urgency), and structural preferences (paragraph length, punctuation).
-
-**Repository-Specific Overrides:**
-- **Formatting:** See Section 3 for Markdown/Jekyll specifics.
+**Primary Source:** Refer to `STYLE-CAPSULE.md` in this repository for all core voice, tone, and style constraints.
 
 ---
 
-
-## 3. Style Mechanics
+## 4. Style Mechanics
 
 Excerpt (YAML `excerpt`): single factual sentence <140 chars; no evaluative adjectives unless necessary for precision.
 Headings: `##` for major sections only; avoid trailing punctuation. One H1 (`#`) only if legacy post already uses it inside body—do not add new H1s.
@@ -70,20 +78,16 @@ Emphasis: sparing *italics*; avoid bold except when already present historically
 Inline code / terms: backticks for commands, filenames, literals. No shell prompts inside code spans.
 Code blocks: only when code or multi‑line command is essential. Language tag if fenced.
 Links: prefer descriptive text over bare URLs; avoid link stuffing.
-Internal post links: use Jekyll `post_url` Liquid tag instead of hard-coded paths. Pattern: write the markdown link with the Liquid tag inside the parentheses. Example (shown escaped so it won’t resolve): ``[she speaks Czech]({% post_url 2025-09-17-Microsoft-hackathon-3 %})``. If the target post does not exist yet, add an inline marker `[UNCLEAR link target?]` immediately after the link until created.
+Internal post links: use Jekyll `post_url` Liquid tag instead of hard-coded paths. Example (escaped so it won’t resolve): ``[she speaks Czech]({% post_url 2025-09-17-Microsoft-hackathon-3 %})``. If the target post does not exist yet, add an inline marker `[UNCLEAR link target?]` immediately after the link until created.
 Numbers: supply source if potentially contested (mark `[CHECK FACT]` if missing).
-Images: always include alt text in markdown image OR mention context in caption (see Section 9).
-
+Images: always include alt text in markdown image OR mention context in caption.
 
 ### Long Pull-Out Quotes
 
-Use long pull-out quotes for passages that are substantial, notable, or central to the post’s argument or theme. These are typically multi-line quotations from external sources or individuals (e.g., Andrej Karpathy, Simon Willison) that merit visual emphasis and separation from the main text.
+Use long pull-out quotes for passages that are substantial, notable, or central to the post’s argument or theme.
 
-- Format: Use Markdown blockquote syntax (`>` at the start of each quoted line). Place the quote on its own, then insert a blank line, then the citation line (e.g., `<cite>Author Name</cite>`), also inside the blockquote.
-- Do not use bold or italics for the quote body unless present in the original.
-- Only use pull-out quotes for material that is worth highlighting; do not convert routine inline quotes or short phrases into blockquotes.
-- Inline quoting remains appropriate for brief references, partial sentences, or when the quote is not a central argument.
-- Do not invent or paraphrase quotes; always use the original wording and attribute clearly.
+- Format: Use Markdown blockquote syntax (`>`). Put the quote on its own, then a blank line, then a citation line (e.g., `<cite>Author Name</cite>`), also inside the blockquote.
+- Do not invent or paraphrase quotes; use original wording and attribute clearly.
 - If the source or attribution is unclear, append `[UNCLEAR attribution?]` after the citation.
 
 Example:
@@ -98,11 +102,11 @@ Do not overuse pull-out quotes; reserve for cases where the quote itself is a fo
 
 ---
 
-## 4. The Router: Determining Work Mode
+## 5. The Router: Determining Work Mode
 
 Most work begins in `_drafts/` and may never be published. Agents must determine the **Work Mode** based on user intent.
 
-### 4.1 Default: Deep Work / Private Mode
+### 5.1 Default: Deep Work / Private Mode
 
 **Trigger:** User provides raw notes, asks for a summary, or works in `_drafts/` without explicit publication instructions.
 **Goal:** Clarity, structure, and rigorous thinking. No performative formatting.
@@ -113,7 +117,7 @@ Most work begins in `_drafts/` and may never be published. Agents must determine
 - **Socials:** None.
 - **Tone:** Candid, precise, "thinking in public."
 
-### 4.2 Mode: Public Talk
+### 5.2 Mode: Public Talk
 
 **Trigger:** User says "Draft a talk," "Create slides," or works in `talks/`.
 **Goal:** Spoken rhythm, visual support, audience connection.
@@ -123,7 +127,7 @@ Most work begins in `_drafts/` and may never be published. Agents must determine
 - **Slides:** High signal, minimal text. **NEVER edit code blocks in slides.**
 - **Speaker Notes:** Conversational, transition cues. No length limit.
 
-### 4.3 Mode: Blog Post (Publication)
+### 5.3 Mode: Blog Post (Publication)
 
 **Trigger:** User says "Ready to publish," "Make this a post," "Draft for the blog," or moves file to `_posts/`.
 **Constraints:** Ideally 900 words or more. Flag if overly short (insufficient depth) or overly long (needs tightening). Full Front Matter, Socials required.
@@ -140,7 +144,7 @@ Most work begins in `_drafts/` and may never be published. Agents must determine
    - Avoid exhaustive session blow‑by‑blow unless uniquely insightful.
 3. **Opinion / Editorial**
    - Tone: Clear thesis early; separate fact claims from value judgments.
-   - Early thesis, evidence separation, at least one acknowledgment of alternate perspective (`[ALT VIEW]` if not elaborated).
+   - At least one acknowledgment of alternate perspective (`[ALT VIEW]` if not elaborated).
 4. **Travel / Experience**
    - Tone: Small sensory details ok; still avoid purple prose.
    - Focus on observation > cliché sentiment. Skip generic “beautiful”, prefer a concrete detail.
@@ -156,7 +160,7 @@ If content does not fit, declare `[UNCLEAR: content type?]` and propose classifi
 
 ---
 
-## 5. Integrity & Fact Handling
+## 6. Integrity & Fact Handling
 
 Never invent: people, dates, metrics, venues, code, attributions, quotes.
 Do not silently “upgrade” hedges (“maybe”, “roughly”) to precise claims.
@@ -165,34 +169,28 @@ Disputed / contestable claim? Suggest a neutral rephrase; optionally supply `[AL
 If user supplies partial quote without source, retain quote + mark `[CHECK FACT source]`.
 
 Escalation protocol:
-
 1. Identify ambiguous or unsupported claim.
 2. Decide: remove? mark? request? → Prefer marking unless clearly erroneous.
 3. Surface concise question at end under **Clarifications Requested**.
 
 ---
 
-## 6. Front Matter & Metadata Rules
+## 7. Front Matter & Metadata Rules
 
 Do NOT alter existing YAML key names unless explicitly requested.
 
 **For Deep Work / Private Mode:**
-
 - Minimal keys only: `title`, `date`.
 - No rounding, no excerpts, no social images.
 
 **For Blog Mode (Publication):**
-
-Required keys for new posts (current practice):
-
+Required keys for new posts:
 - `title`
-- `date` (see Section 6.1 for format & rounding)
+- `date` (see Section 7.1 for format & rounding)
 - `excerpt` (fill with a factual <140 char sentence; leave empty string only if explicitly directed)
 
 Intentionally NOT used anymore: `categories`, `tags`.
-
 - If legacy posts contain them, leave as-is; do not add to new posts.
-- Do not attempt to auto-classify or backfill categories/tags.
 
 Optional keys when relevant:
 
@@ -206,20 +204,19 @@ Slug: determined by filename (`YYYY-MM-DD-slug.md`). Never rename existing slugs
 
 Timezone: site config sets `Europe/Prague`; honor DST (CET = UTC+1 standard, CEST = UTC+2 summer).
 
-### 6.1 Date & Time Standard (Autogeneration Rule)
+### 7.1 Date & Time Standard (Autogeneration Rule)
 
 When creating a new draft/post unless a date is already provided, compute:
-
 1. Current time in `Europe/Prague`.
-2. Round UP to the next 10‑minute boundary (e.g., 14:03 → 14:10; 14:10 stays 14:10; 14:59 → 15:00).
+2. Round UP to the next 10‑minute boundary.
 3. Set seconds to `00`.
 4. Use the appropriate offset (`+0100` or `+0200`) based on whether Prague is in DST.
 
-Format (placed after rounding): `YYYY-MM-DD HH:MM:00 +ZZZZ` (four‑digit numeric offset, no colon) matching existing post style.
+Format: `YYYY-MM-DD HH:MM:00 +ZZZZ`.
 
 If user supplies a date/time, preserve it verbatim except to normalize zero‑padded month/day (e.g., `2025-8-5` → `2025-08-05`) unless explicitly told not to.
 
-### 6.2 `header` Usage Guidelines
+### 7.2 `header` Usage Guidelines
 
 Include a `header` block ONLY when a visual element materially aids context, recognition, or accessibility. Otherwise omit to reduce visual noise.
 
@@ -262,7 +259,7 @@ Validation Before Accepting a Provided `header`:
 - Check that each provided URL is absolute (starts with `http` or `/`). If missing scheme → flag `[UNCLEAR image URL scheme?]`.
 - Ensure caption includes source or “Photo credit: author”. If absent → append `[UNCLEAR attribution?]`.
 
-### 6.3 Excerpt
+### 7.3 Excerpt
 
 - Must stand alone out of context (feed readers, social cards).
 - Avoid subjective adjectives unless precision requires (e.g., “five focusing steps” is fine; avoid “powerful five focusing steps”).
@@ -273,7 +270,7 @@ Validation Before Accepting a Provided `header`:
 
 ---
 
-## 7. Disclaimers
+## 8. Disclaimers
 
 Use a disclaimer exactly once when:
 
@@ -288,46 +285,46 @@ Do NOT add if neither employer nor sensitive topic appears.
 
 ---
 
-## 8. Workflows & Prompts
+## 9. Workflows & Prompts
 
-DEFAULT MODE: See Section 4. Unless specified, assume **Deep Work Mode** (no length limits). If **Blog Mode** is triggered, proceed to Full Draft (Section 8.2).
+DEFAULT MODE: See Section 5. Unless specified, assume **Deep Work Mode**.
 
-### 8.1 Outline Extraction (only when requested or pre‑agreed)
+### 9.1 Outline Extraction (only when requested or pre‑agreed)
 
 Output: concise bullet list of proposed sections + open questions + unresolved markers; no prose paragraphs.
 
-### 8.2 Full Draft
+### 9.2 Full Draft
 
 Inputs: raw notes (possibly messy) + any existing front matter.
 
 Actions:
 
-- Normalize front matter per Section 6 (date rounding, excerpt check, no categories/tags).
+- Normalize front matter per Section 7.
 - Draft to ideal length (900+ words). Flag if <700 words (too short?) or >1500 words (needs tightening?).
 - Preserve hedges; insert markers where needed.
 - Append Verification Checklist + Clarifications Requested.
 
-### 8.3 Condense
+### 9.3 Condense
 
 - Produce ≤350 word version; mark any materially dropped section with `[DROPPED:<short label>]` at end.
 
-### 8.4 Expand
+### 9.4 Expand
 
 - Only elaborate on points already present. If user requests new angle not in source → ask or mark `[ASSUMPTION?]`.
 
-### 8.5 Refactor Tone
+### 9.5 Refactor Tone
 
 - Adjust density, directness, or structure without introducing new claims.
 
-### 8.6 Summarize Series
+### 9.6 Summarize Series
 
 - List posts + one‑line factual takeaway each. No synthetic narrative beyond provided material.
 
-### 8.7 Social Post Generation
+### 9.7 Social Post Generation
 
 - Produce Mastodon + LinkedIn variants (Section 11) referencing final draft content only.
 
-### 8.8 Gap Analysis
+### 9.8 Gap Analysis
 
 - Provide **Gaps** section enumerating missing data that would strengthen argument; do not fill.
 
@@ -335,7 +332,7 @@ Delivery order for a Full Draft output: Front matter (unchanged except normalize
 
 ---
 
-## 9. Media & Accessibility
+## 10. Media & Accessibility
 
 Images:
 
@@ -346,7 +343,7 @@ Avoid ASCII art for structure; use lists / headings.
 
 ---
 
-## 10. Markers & Resolution
+## 11. Markers & Resolution
 
 Leave markers untouched until explicitly resolved by user reply or added citation.
 Resolution steps:
@@ -358,7 +355,7 @@ Never silently drop a marker.
 
 ---
 
-## 11. Social Media Patterns
+## 12. Social Media Patterns
 
 Mastodon (≤500 chars): factual pointer; at most 0–2 hashtags; no CTA unless user explicitly asks. Include one concrete hook (stat, question, or contrast) from post; avoid duplicate full excerpt. **Use the full character limit when possible to craft engaging, concise summaries that reflect the post’s tone. Add a URL placeholder if the post is live or planned.**
 
@@ -381,7 +378,7 @@ Optional Additional Formats (on request only):
 
 ---
 
-## 12. Challenge & Feedback Protocol
+## 13. Challenge & Feedback Protocol
 
 When a claim seems weakly supported:
 
@@ -391,7 +388,7 @@ When a claim seems weakly supported:
 
 ---
 
-## 13. Verification Checklist (Attach to Drafts)
+## 14. Verification Checklist (Attach to Drafts)
 
 - Fabrication introduced: Y/N
 - All markers (`[UNCLEAR]`, `[CHECK FACT]`, etc.) enumerated: Y/N (list count)
@@ -404,7 +401,7 @@ When a claim seems weakly supported:
 
 ---
 
-## 14. Formatting Safeguards
+## 15. Formatting Safeguards
 
 - Never modify YAML key names; only values if instructed.
 - Preserve trailing newline.
@@ -413,7 +410,7 @@ When a claim seems weakly supported:
 
 ---
 
-## 15. Quick Reference (Cheat Sheet)
+## 16. Quick Reference (Cheat Sheet)
 
 Tone: direct, factual, occasional dry humor.
 Modes: **Deep Work** (default, unlimited), **Blog** (900w, strict), **Talk** (slides/notes).
@@ -427,16 +424,5 @@ Draft length (Blog): Ideally 900+ words. Flag if <700 or >1500.
 Social: Mastodon ≤500 chars, ≤2 hashtags. LinkedIn: no hype.
 Disclaimer: once only when relevant.
 Never invent anything. Surface uncertainty.
-
----
-
-## 16. Evolution of This File
-
-Append dated **Changelog** entries for substantive shifts. Do not retroactively rewrite history; clarify intent.
-
-### Changelog
-
-- 2025-11-22: Refactored to support "Work Modes" (Deep Work, Blog, Talk). Clarified that `_drafts/` defaults to private/unlimited mode until publication is requested.
-- 2025-09-17: Initial creation (generalized guidance for all blog content; includes removal of categories/tags requirement, header usage rules, date rounding protocol, and default raw-notes→draft workflow; merged and expanded prior hackathon-focused draft into unified style & integrity rules).
 
 End of AGENTS.md
