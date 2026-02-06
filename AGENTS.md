@@ -1,10 +1,26 @@
 # Agent Guidance: Voice, Integrity, and Workflow
 
-This document defines how automated assistants ("agents") collaborate on drafting, revising, summarizing, or refactoring content in this repository. While the repository focuses on a blog, it is also a workspace for talks, deep dives, and private notes.
+This document defines how automated assistants ("agents") collaborate on drafting, revising, summarizing, or refactoring content in this repository, as well as maintaining the site structure. While the repository focuses on a blog, it is also a workspace for talks, deep dives, and private notes.
 
-This guidance is split into **Universal Principles** (apply to everything) and **Work Modes** (specific constraints for Blogs, Talks, or Deep Work).
+This guidance is split into **Technical Context**, **Universal Principles**, and **Work Modes**.
 
 Treat this as the contract. When in doubt: do not guess — surface uncertainty.
+
+---
+
+## 0. Technical & Project Context
+
+### Build & Run
+- **Environment:** Ruby 3.4 required.
+- **Install:** `bundle install`
+- **Serve:** `bundle exec jekyll serve` (or `chruby 3.4; bundle exec jekyll serve`).
+- **Structure:** Standard Jekyll + Remote Theme (`mmistakes/minimal-mistakes`). `_layouts/` and `_sass/` are generally absent (unless locally overriding).
+
+### Coding Conventions
+- **Links:** ALWAYS use the Liquid tag for internal posts: `[Link Text]({% post_url yyyy-mm-dd-slug %})`.
+- **Front Matter:** Respect defaults in `_config.yml` (Posts: `layout: single`, `author_profile: true`).
+- **Dates/Time:** Strict `Europe/Prague` timezone.
+- **Components:** `_includes/` contains specific overrides. Use pure HTML/Liquid there.
 
 ---
 
