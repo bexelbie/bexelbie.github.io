@@ -1,6 +1,12 @@
 ---
 title: "CentOS Dojo, Brussels, 2016"
 excerpt: "Atomic Developer Bundle"
+entry_type: talk
+status: delivered
+speaking_event: "CentOS Dojo Brussels 2016"
+speaking_date: 2016-01-29
+speaking_links:
+  details: /talks/CentOS.Dojo.Brussels.2016/
 header:
   overlay_image: "/img/about-bg.jpg"
   og_image: "/img/about-bg.jpg"

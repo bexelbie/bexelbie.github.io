@@ -1,6 +1,12 @@
 ---
 title: "DEVCONF Brno 2016"
 excerpt: "Atomic Developer Bundle: Containerized Development Made Easy"
+entry_type: talk
+status: delivered
+speaking_event: "DevConf.cz 2016"
+speaking_date: 2016-02-06
+speaking_links:
+  details: /talks/DevConf.cz.2016/
 header:
   overlay_image: "/img/about-bg.jpg"
   og_image: "/img/about-bg.jpg"

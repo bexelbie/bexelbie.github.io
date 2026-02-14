@@ -1,6 +1,13 @@
 ---
 title: "SFSCon, Bozen, South Tyrol, Italy"
 excerpt: "The Secret to Keeping Your Community Strong for Decades"
+entry_type: talk
+status: delivered
+speaking_event: "SFScon"
+speaking_date: 2017-11-10
+speaking_links:
+  details: /talks/SFS-Bozen-Italy-2017/
+  recording: "https://www.sfscon.it/talks/secret-keeping-community-strong-decades/"
 header:
   overlay_image: "/img/about-bg.jpg"
   og_image: "/img/about-bg.jpg"

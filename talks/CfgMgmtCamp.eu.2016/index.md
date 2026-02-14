@@ -1,6 +1,13 @@
 ---
 title: "Config Management Camp EU 2016"
 excerpt: "Nulecule: Packaging, Distributing & Deploying Container Applications the Cloud Way"
+entry_type: talk
+status: delivered
+speaking_event: "CfgMgmtCamp EU 2016"
+speaking_date: 2016-02-02
+speaking_links:
+  details: /talks/CfgMgmtCamp.eu.2016/
+  slides: /talks/CfgMgmtCamp.eu.2016/slides.pdf
 header:
   overlay_image: "/img/about-bg.jpg"
   og_image: "/img/about-bg.jpg"

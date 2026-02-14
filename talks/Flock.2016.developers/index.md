@@ -1,6 +1,12 @@
 ---
 title: "Flock 2016, Kraków Poland"
 excerpt: "Bringing Developers into the Flock"
+entry_type: talk
+status: delivered
+speaking_event: "Flock 2016"
+speaking_date: 2016-08-03
+speaking_links:
+  details: /talks/Flock.2016.developers/
 header:
   overlay_image: "/img/about-bg.jpg"
   og_image: "/img/about-bg.jpg"

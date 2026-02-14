@@ -1,6 +1,10 @@
 ---
 title: "FOSDEM 2020"
 description: "FOSDEM cfps and the Distribution Devroom"
+entry_type: organizing
+status: delivered
+speaking_event: "FOSDEM Distributions Devroom"
+speaking_date: 2020-02-01
 header:
   overlay_image: "/img/about-bg.jpg"
   og_image: "/img/about-bg.jpg"

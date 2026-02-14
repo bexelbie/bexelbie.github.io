@@ -1,6 +1,12 @@
 ---
 title: "Flock 2016, Kraków Poland"
 excerpt: "Hackfest: Fedora Docs Learn and Hack"
+entry_type: talk
+status: delivered
+speaking_event: "Flock 2016"
+speaking_date: 2016-08-04
+speaking_links:
+  details: /talks/Flock.2016.docs/
 header:
   overlay_image: "/img/about-bg.jpg"
   og_image: "/img/about-bg.jpg"

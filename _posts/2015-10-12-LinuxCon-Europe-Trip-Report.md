@@ -8,6 +8,12 @@ tags:
   - Conferences
   - Project Atomic
   - Containers
+entry_type: article
+status: delivered
+speaking_event: "community.redhat.com"
+speaking_date: 2015-10-12
+speaking_links:
+  external: "https://community.redhat.com/blog/2015/10/a-containers-eye-view-of-linuxcon-eu/"
 header:
   overlay_color: "#333"
 redirect_from:

@@ -1,6 +1,12 @@
 ---
 title: "FUDCon LATAM 2016, Puno, Peru"
 excerpt: "What's New in Fedora 25 Beta"
+entry_type: talk
+status: delivered
+speaking_event: "FUDCon LATAM 2016"
+speaking_date: 2016-10-12
+speaking_links:
+  details: /talks/Fedora-25-Beta/
 header:
   overlay_image: "/img/about-bg.jpg"
   og_image: "/img/about-bg.jpg"

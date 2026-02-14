@@ -8,6 +8,12 @@ tags:
   - Encryption
   - Security
   - Fedora
+entry_type: article
+status: delivered
+speaking_event: "opensource.com"
+speaking_date: 2019-06-24
+speaking_links:
+  external: "https://opensource.com/article/19/6/check-passwords"
 header:
   overlay_color: "#333"
 ---

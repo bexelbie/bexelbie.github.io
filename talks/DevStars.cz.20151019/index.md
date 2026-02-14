@@ -1,6 +1,13 @@
 ---
 title: "DevStars"
 excerpt: "Getting to DevOps with Docker"
+entry_type: talk
+status: delivered
+speaking_event: "DevStars.cz"
+speaking_date: 2015-10-19
+speaking_links:
+  details: /talks/DevStars.cz.20151019/
+  slides: /talks/DevStars.cz.20151019/slides.pdf
 header:
   overlay_image: "/img/about-bg.jpg"
   og_image: "/img/about-bg.jpg"
