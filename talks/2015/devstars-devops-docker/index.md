@@ -5,9 +5,12 @@ entry_type: talk
 status: delivered
 speaking_event: "DevStars.cz"
 speaking_date: 2015-10-19
+permalink: /talks/2015/devstars-devops-docker/
+redirect_from:
+ - /talks/DevStars.cz.20151019
 speaking_links:
-  details: /talks/DevStars.cz.20151019/
-  slides: /talks/DevStars.cz.20151019/slides.pdf
+  details: /talks/2015/devstars-devops-docker/
+  slides: /talks/2015/devstars-devops-docker/slides.pdf
 header:
   overlay_image: "/img/about-bg.jpg"
   og_image: "/img/about-bg.jpg"

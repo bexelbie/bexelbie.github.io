@@ -5,8 +5,11 @@ entry_type: talk
 status: delivered
 speaking_event: "Flock 2016"
 speaking_date: 2016-08-04
+permalink: /talks/2016/flock-docs-hackfest/
+redirect_from:
+ - /talks/Flock.2016.docs
 speaking_links:
-  details: /talks/Flock.2016.docs/
+  details: /talks/2016/flock-docs-hackfest/
 header:
   overlay_image: "/img/about-bg.jpg"
   og_image: "/img/about-bg.jpg"

@@ -5,9 +5,12 @@ entry_type: talk
 status: delivered
 speaking_event: "CfgMgmtCamp EU 2016"
 speaking_date: 2016-02-02
+permalink: /talks/2016/cfgmgmtcamp-nulecule/
+redirect_from:
+ - /talks/CfgMgmtCamp.eu.2016
 speaking_links:
-  details: /talks/CfgMgmtCamp.eu.2016/
-  slides: /talks/CfgMgmtCamp.eu.2016/slides.pdf
+  details: /talks/2016/cfgmgmtcamp-nulecule/
+  slides: /talks/2016/cfgmgmtcamp-nulecule/slides.pdf
 header:
   overlay_image: "/img/about-bg.jpg"
   og_image: "/img/about-bg.jpg"

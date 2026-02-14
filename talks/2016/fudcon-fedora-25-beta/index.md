@@ -5,8 +5,11 @@ entry_type: talk
 status: delivered
 speaking_event: "FUDCon LATAM 2016"
 speaking_date: 2016-10-12
+permalink: /talks/2016/fudcon-fedora-25-beta/
+redirect_from:
+ - /talks/Fedora-25-Beta
 speaking_links:
-  details: /talks/Fedora-25-Beta/
+  details: /talks/2016/fudcon-fedora-25-beta/
 header:
   overlay_image: "/img/about-bg.jpg"
   og_image: "/img/about-bg.jpg"

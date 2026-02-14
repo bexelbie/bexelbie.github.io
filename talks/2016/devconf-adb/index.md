@@ -5,8 +5,11 @@ entry_type: talk
 status: delivered
 speaking_event: "DevConf.cz 2016"
 speaking_date: 2016-02-06
+permalink: /talks/2016/devconf-adb/
+redirect_from:
+ - /talks/DevConf.cz.2016
 speaking_links:
-  details: /talks/DevConf.cz.2016/
+  details: /talks/2016/devconf-adb/
 header:
   overlay_image: "/img/about-bg.jpg"
   og_image: "/img/about-bg.jpg"

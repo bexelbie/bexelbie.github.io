@@ -5,8 +5,11 @@ entry_type: talk
 status: delivered
 speaking_event: "SFScon"
 speaking_date: 2017-11-10
+permalink: /talks/2017/sfscon-community-strong-decades/
+redirect_from:
+ - /talks/SFS-Bozen-Italy-2017
 speaking_links:
-  details: /talks/SFS-Bozen-Italy-2017/
+  details: /talks/2017/sfscon-community-strong-decades/
   recording: "https://www.sfscon.it/talks/secret-keeping-community-strong-decades/"
 header:
   overlay_image: "/img/about-bg.jpg"

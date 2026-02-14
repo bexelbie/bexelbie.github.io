@@ -5,8 +5,9 @@ entry_type: talk
 status: delivered
 speaking_event: "OSCAL 2017"
 speaking_date: 2017-05-13
+permalink: /talks/2017/oscal-dont-write-it-all/
 speaking_links:
-  details: /talks/OSCAL.2017.Dont.Write.It.All/
+  details: /talks/2017/oscal-dont-write-it-all/
 header:
   overlay_image: "/img/about-bg.jpg"
   og_image: "/img/about-bg.jpg"
@@ -16,6 +17,7 @@ header:
 classes: wide
 redirect_from:
  - /bexelbie-talks-demos/OSCAL.2017.Dont.Write.It.All/
+ - /talks/OSCAL.2017.Dont.Write.It.All
 ---
 
 #  Building Applications Doesn't Mean Writing It All From Scratch
