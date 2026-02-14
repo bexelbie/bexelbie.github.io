@@ -34,6 +34,56 @@ These defaults apply everywhere in this repo unless a section below explicitly o
 - **Dates/Time:** Strict `Europe/Prague` timezone.
 - **Components:** `_includes/` contains specific overrides. Use pure HTML/Liquid there.
 
+### Talks & Publications Page
+
+The `/talks/` page auto-generates from YAML front matter. No manual list editing. The Liquid template in `talks/index.md` collects all pages and posts with `entry_type` set, sorts by `speaking_date` descending, and groups by year.
+
+**Three entry types:**
+
+1. **Talks** (`entry_type: talk`): Conference presentations. File lives at `talks/YYYY/slug/index.md`. Title links to the detail page.
+2. **Proposals** (`entry_type: proposal`): Submitted CFPs awaiting decision. Same file structure. Shown as "Submitted proposal" on the index. When accepted, change `entry_type` to `talk`. If not accepted, delete the page or repurpose as a blog post.
+3. **Articles** (`entry_type: article`): Writing published on external sites. YAML metadata is added to the existing blog post stub in `_posts/`. Title links to the blog post. No separate page under `talks/` needed (exception: articles without a blog post stub get a standalone page under `talks/YYYY/slug/`).
+
+**Display format (two lines per entry):**
+- Line 1: Title as a clickable link (bold)
+- Line 2: Type label (Article/Talk/Submitted proposal), month year, venue or publication name
+
+**Filesystem convention:** `talks/YYYY/slug/index.md`. Year = event or publication year. Slug = lowercase-hyphenated short name.
+
+**YAML front matter for talk/proposal pages:**
+
+```yaml
+entry_type: talk          # talk | proposal | article
+speaking_event: "Flock 2016"
+speaking_date: 2016-08-04  # YYYY-MM-DD, used for sorting and display
+permalink: /talks/2016/flock-docs-hackfest/
+speaking_links:
+  details: /talks/2016/flock-docs-hackfest/
+```
+
+**YAML additions for external article blog posts:**
+
+Add to existing `_posts/` front matter:
+
+```yaml
+entry_type: article
+speaking_event: "opensource.com"
+speaking_date: 2019-04-24
+speaking_links:
+  external: "https://opensource.com/article/19/4/gpg-subkeys-ssh"
+```
+
+**Key rules:**
+- `speaking_date` must be a date-parseable string (`YYYY-MM-DD`) for Liquid date filters.
+- `title` in YAML must be the actual talk/article title, not the event name.
+- Old URLs must be preserved via `redirect_from` when moving or renaming pages.
+- The FOSDEM organizer pages (`talks/fosdem/`) are historical artifacts; they have no `entry_type` and do not appear on the index.
+- The `status` YAML key is not used; `entry_type` itself distinguishes talks from proposals.
+
+### Projects Page
+
+The `/projects/` page is a manually maintained list of software projects at `projects/index.md`. Each project gets a short description and links to its GitHub repo, app store listing, and/or blog post. No sub-pages needed unless a project grows complex enough to warrant one.
+
 ---
 
 ## 2. Core Principles
@@ -126,6 +176,8 @@ Most work begins in `_drafts/` and may never be published. Agents must determine
 - **Abstract:** Compelling hook for organizers/attendees.
 - **Slides:** High signal, minimal text. **NEVER edit code blocks in slides.**
 - **Speaker Notes:** Conversational, transition cues. No length limit.
+
+**File location:** `talks/YYYY/slug/index.md`. Include `entry_type: talk` (or `proposal` if not yet accepted), `speaking_event`, `speaking_date`, and `permalink` in front matter. The talk will auto-appear on the `/talks/` index page.
 
 ### 5.3 Mode: Blog Post (Publication)
 
@@ -415,14 +467,18 @@ When a claim seems weakly supported:
 Tone: direct, factual, occasional dry humor.
 Modes: **Deep Work** (default, unlimited), **Blog** (900w, strict), **Talk** (slides/notes).
 Required front matter (Blog): title, date (rounded next 10 min Prague), excerpt.
+Required front matter (Talk/Proposal): title, entry_type, speaking_event, speaking_date, permalink.
+External article blog posts: add entry_type: article, speaking_event, speaking_date, speaking_links to existing post.
 No categories/tags on new posts (leave legacy alone).
 Header: only when image adds substantive context (book cover, original photo, key diagram, etc.).
-Date rule: round up to next 10‑minute mark; correct DST offset.
+Date rule: round up to next 10-minute mark; correct DST offset.
 Markers: `[UNCLEAR]` `[CHECK FACT]` `[ASSUMPTION?]` `[ALT VIEW]`.
-Default workflow: Raw notes → Deep Work (clean up) OR Blog Draft (if requested).
+Default workflow: Raw notes -> Deep Work (clean up) OR Blog Draft (if requested).
 Draft length (Blog): Ideally 900+ words. Flag if <700 or >1500.
-Social: Mastodon ≤500 chars, ≤2 hashtags. LinkedIn: no hype.
+Social: Mastodon <=500 chars, <=2 hashtags. LinkedIn: no hype.
 Disclaimer: once only when relevant.
 Never invent anything. Surface uncertainty.
+Talks filesystem: talks/YYYY/slug/index.md. Title = talk title, not event name.
+Projects: projects/index.md, manually maintained.
 
 End of AGENTS.md
