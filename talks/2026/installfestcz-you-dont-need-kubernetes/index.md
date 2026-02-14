@@ -20,8 +20,6 @@ author_profile: true
 classes: wide
 ---
 
-This proposal was originally part of a combined submission to Installfest.cz 2026. The second proposal is [Flatcar Linux 101: A Hands-Free Server OS](/talks/2026/installfestcz-flatcar-linux-101/).
-
 ## Abstract
 
 You probably do not need Kubernetes, a dedicated secrets vault, or Grafana to run a small side project on the internet. In this talk, I show how I run a reliable web service on a single immutable Flatcar Linux server with rootless Podman containers managed by systemd. I also explain how I reuse 1Password for secret injection and Home Assistant via MQTT for simple monitoring. The goal is a practical, repeatable setup you can run at home and mostly ignore between feature updates. This talk is for developers and homelab enthusiasts who want to run reliable services without spending all their time on maintenance.

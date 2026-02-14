@@ -18,8 +18,6 @@ author_profile: true
 classes: wide
 ---
 
-This proposal was originally part of a combined submission to Installfest.cz 2026. The first proposal is [You Don't Need Kubernetes: Side Projects on One Linux Server](/talks/2026/installfestcz-you-dont-need-kubernetes/).
-
 ## Abstract
 
 Flatcar Linux is an immutable, container-focused Linux distribution that automatically updates itself without breaking your applications. If you want an alternative to manually coordinating package updates across servers, choosing between stable releases with selective backports or newer packages from additional repositories, Flatcar offers a different approach. In this talk, I introduce the core concepts of Flatcar Linux, show you how to provision a server with Ignition configuration, and explain how systemd-sysext lets you extend the minimal base with official and community-maintained packages like Podman, Tailscale and more. This talk is for Linux administrators and developers who want to spend less time maintaining servers and more time running services.
