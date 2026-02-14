@@ -6,6 +6,11 @@ categories:
   - Technology
 tags:
   - Project Atomic
+entry_type: article
+speaking_event: "linux.com"
+speaking_date: 2015-10-06
+speaking_links:
+  external: https://www.linux.com/news/enterprise/storage/858082-project-atomic-or-how-i-learned-to-stop-worrying-and-love-containers
 header:
   overlay_color: "#333"
 redirect_from:

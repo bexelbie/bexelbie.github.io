@@ -37,7 +37,7 @@ You will learn:
 - how automatic updates work and why they are safe
 - how to extend Flatcar with systemd-sysext and the community sysext-bakery
 
-## Outline (20-25 minutes)
+## Provisional Outline (20-25 minutes)
 
 **Opening: What is Flatcar? (2 minutes)**
 - Immutable, container-focused Linux distribution

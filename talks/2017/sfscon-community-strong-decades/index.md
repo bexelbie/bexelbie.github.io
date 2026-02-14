@@ -20,11 +20,7 @@ header:
 classes: wide
 ---
 
-# The Secret to Keeping Your Community Strong for Decades
-
-## Presented at [SFScon, Bozen, South Tyrol, Italy](https://www.sfscon.it/) on 10 November 2017 - [talk link](https://www.sfscon.it/talks/secret-keeping-community-strong-decades/)
-
-This repo contains the slides and files used for the talk.
+## Presented at [SFScon](https://www.sfscon.it/) in Bolzano, Italy on 10 November 2017
 
 ## Talk Description
 
@@ -35,9 +31,3 @@ Open source software communities, as well as the individuals and the companies t
 ## Slides and Source Files
 
 * [slides.revealjs](slides.revealjs.txt) - this used reveal-js which I no longer use.  As of 7 May 2020 you can only review the input file.
-
-## Speaker Bios
-
-### Brian Exelbierd
-
-Brian (bex) Exelbierd is the Fedora Community Action and Impact Coordinator on behalf of the Open Source and Standards team at Red Hat. At Red Hat, Brian has worked as a technical writer, software engineer, content strategist and now as an Open Source community manager. Brian spends his day enabling the Fedora community by clearing roadblocks and easing the way for the community to do great things. Before Red Hat, Brian worked with the University of Delaware as the Director of Graduate and Executive Programs in the Alfred Lerner College of Business and Economics and as a Budget Analyst. Brian’s background in software engineering stretches back years before his university work and includes stints at small, medium, large and governmental organizations. “Glue Code” is how a lot of Brian’s projects could be described. These are projects that fill in the interstitial spaces between large systems and provide continuity and ease of use. Follow him on Twitter @bexelbie or via his blog at www.winglemeyer.org.

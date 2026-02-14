@@ -37,7 +37,7 @@ You will see:
 - how to inject credentials via 1Password instead of building a new secrets system
 - how to use Telegraf and MQTT to treat Home Assistant as a simple monitoring and alerting layer
 
-## Outline (20-25 minutes)
+## Provisional Outline (20-25 minutes)
 
 **Opening: The Over-Engineering Trap (3 minutes)**
 - Live example: Show a typical "simple" homelab architecture diagram (K8s, Vault, Grafana, Prometheus)

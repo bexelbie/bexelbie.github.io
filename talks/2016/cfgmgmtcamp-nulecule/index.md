@@ -20,11 +20,7 @@ header:
 classes: wide
 ---
 
-# [Nulecule: Packaging, Distributing & Deploying Container Applications the Cloud Way](https://lanyrd.com/2016/cfgmgmtcamp/sdxytt/)
-## Presented at [Config Management Camp EU 2016](https://cfgmgmtcamp.eu/schedule/speakers/BrianExelbierd.html) on 2 Feb 2016
-
-This repo contains the slides slides and files used for the talk and demo
-I presented about [Nulecule](https://github.com/projectatomic/nulecule).
+## Presented at [Config Management Camp EU 2016](https://cfgmgmtcamp.eu/) in Ghent, Belgium on 2 February 2016
 
 I am very grateful to my colleagues, [Tomas
 Kral](https://www.twitter.com/kadel) and Michael Scherer, for their
@@ -50,14 +46,3 @@ by Vaclav Pavlin.
 - [Slides](slides.pdf)
 - [Source File - Download from Google Docs](slides.pptx)
 - [demo source files](https://github.com/bexelbie/bexelbie-talks-demos/tree/master/CfgMgmtCamp.eu.2016)
-
-## Speaker Bio
-
-Brian Exelbierd (@bexelbie) is a Red Hatter with experience in many
-different IS/IT areas, including time in large and small enterprises,
-US state government, non-profits and for-profits. Brian joined Red Hat in
-2014 to work on platform technologies and containers. An active member of
-Project Atomic, Brian has worked closely on the design and implementation
-of the Atomic Developer Bundle and has also worked with documentation
-and related tasks. Brian lives in Brno, Czech Republic and is happy to
-show visitors good adopted-country beer.

@@ -19,13 +19,9 @@ header:
 classes: wide
 ---
 
-# [Atomic Developer Bundle](https://github.com/projectatomic/adb-atomic-developer-bundle/): Containerized Development Made Easy
-## Presented at the [CentOS Dojo, Brussels, 2016](https://wiki.centos.org/Events/Dojo/Brussels2016) on 29 Jan 2016
+## Presented at [CentOS Dojo Brussels 2016](https://wiki.centos.org/Events/Dojo/Brussels2016) on 29 January 2016
 
-This repo contains the slides and files used
-for the talk and demo I presented with [Navid
-Shaikh](https://twitter.com/swordphilic) about the [Atomic Developer
-Bundle] (https://github.com/projectatomic/adb-atomic-developer-bundle/).
+Co-presented with [Navid Shaikh](https://twitter.com/swordphilic).
 
 ## Talk Description
 
@@ -52,31 +48,3 @@ and how you can make it better.
 - ["Command Line Carl"](carl/README.md.txt)
 - ["IDE Igor"](igor/README.md.txt)
 - ["My Environment Mike"](mike/README.md.txt)
-
-## Speaker Bios
-
-### Brian Exelbierd
-
-Brian Exelbierd has over 13 years of experience in IT/IS ranging from
-programming to team leadership and business roles.  He has worked for
-non-profits, for-profits and government. Brian joined Red Hat in 2014 to
-work on platform technologies and containers. An active member of Project
-Atomic, Brian has worked closely on the design and implementation of
-the Atomic Developer Bundle and has also worked with documentation and
-related tasks.  Brian has a BS in Mathematics Education (concentration
-Computer Science) from NC State University and an MS in Information
-Systems and Technology Management from the University of Delaware.
-
-Twitter: @bexelbie Blog: www.winglemeyer.org Email: bex@pobox.com
-
-### Navid Shaikh
-
-Navid Shaikh is a Software Engineer working on Containers, Project
-Atomic, Kubernetes and Atomic Developer Bundle at Red Hat. He is actively
-involved in development of Atomic Developer Bundler. Navid is also an
-active member of Docker community and organizer of Docker Pune Meetup
-group, hosting and presenting in meetup events about container related
-technologies. He also contributes in Open Source initiatives and part
-of Virt SIG group for CentOS.
-
-Twitter: @swordphilic

@@ -19,14 +19,11 @@ header:
 classes: wide
 ---
 
-# [Atomic Developer Bundle: Containerized Development Made Easy](https://devconfcz2016.sched.org/event/53556807a38c5eb825ebdfdebccd1def)
-## Presented at [DEVCONF Brno 2016](https://devconf.cz/) on 6 Feb 2016
+## Presented at [DevConf.cz 2016](https://devconf.cz/) in Brno, Czech Republic on 6 February 2016
 
-Speakers: 
-- [Brian Exelbierd @bexelbie](https://twitter.com/bexelbie) - bex@pobox.com or bexelbie@redhat.com
-- [Navid Shaikh @swordphilic](https://twitter.com/swordphilic) - nshaikh@redhat.com
+Co-presented with [Navid Shaikh](https://twitter.com/swordphilic).
 
-## Talk Synopsis:
+## Talk Description
 The [Atomic Developer Bundle
 (ADB)](https://github.com/projectatomic/adb-atomic-developer-bundle/)
 is a development environment for containers from the same people that
