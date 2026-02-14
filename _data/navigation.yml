@@ -1,12 +1,10 @@
 main:
-  - title: "Speaking & Writing"
+  - title: "Talks & Publications"
     url: /talks
-  - title: "Collections"
-    url: /collections/
+  - title: "Projects"
+    url: /projects/
   - title: "About"
     url: /about
-#    - title: "Archive"
-#      url: /navigation/tags
   - title: "Reading"
     url: /reading
   - title: "Home"

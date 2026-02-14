@@ -3,10 +3,10 @@ minimal_mistakes_skin    : "default" # "default" # "air", "aqua", "contrast", "d
 
 # Site Settings
 locale                   : "en-US"
-title                    : "even the horse knew"
+title                    : "this could've been an email"
 title_separator          : "!"
 name                     : 'Brian "bex" Exelbierd'
-description              : "The personal ramblings of Brian Exelbierd and not his employers."
+description              : "The personal site of Brian Exelbierd."
 url                      : "https://bexelbie.com"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bexelbie/bexelbie.github.io"
@@ -14,7 +14,7 @@ teaser                   : "" # "img/header.jpg" # path of fallback teaser image
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 180 # 200 default
 comments:
-  provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : false # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -24,29 +24,29 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
-staticman:
-  branch                 : "main"
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  allowedOrigins         : ["localhost", "bexelbie.com"]
-  commitMessage          : # "New comment."
-  filename               : "entry{@timestamp}" # comment-{@timestamp}
-  format                 : "yaml" # "yml"
-  moderation             : # true
-  name                   : "bexelbie.com"
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
-  transforms:
-    email                : # "md5"
-  generatedFields:
-    date:
-      type               : # "date"
-      options:
-        format           : timestamp-seconds # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  notifications:
-    enabled: true
-reCaptcha:
-  siteKey                :
-  secret                 :
+# staticman:
+#   branch                 : "main"
+#   allowedFields          : # ['name', 'email', 'url', 'message']
+#   allowedOrigins         : ["localhost", "bexelbie.com"]
+#   commitMessage          : # "New comment."
+#   filename               : "entry{@timestamp}" # comment-{@timestamp}
+#   format                 : "yaml" # "yml"
+#   moderation             : # true
+#   name                   : "bexelbie.com"
+#   path                   : # "/_data/comments/{options.slug}" (default)
+#   requiredFields         : # ['name', 'email', 'message']
+#   transforms:
+#     email                : # "md5"
+#   generatedFields:
+#     date:
+#       type               : # "date"
+#       options:
+#         format           : timestamp-seconds # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+#   notifications:
+#     enabled: true
+# reCaptcha:
+#   siteKey                :
+#   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : # true, false (default)
@@ -98,7 +98,7 @@ analytics:
 author:
   name             : 'Brian "bex" Exelbierd'
   avatar           : /img/headshots/bexelbie-headshot.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "My ramblings about tech, security, productivity, finance, taxes and life in general."
+  bio              : "Upstream Linux. Open source politics. Tools for oddly specific frustrations."
   location         : "Brno, Czech Republic"
   email            : "bex@bexelbie.com"
   uri              : "https://bexelbie.com"
@@ -130,6 +130,9 @@ author:
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: "https://toot.io/@bexelbie"
+    - label: "Signal"
+      icon: "fa-brands fa-fw fa-signal-messenger"
+      url: "https://signal.me/#eu/Xq61rYekV8JjgkuKv4KdgMsl6OAjW4q2JPKrhM7QTW72j_hTSzxEKomeqkNxnJZu"
     - label: "RSS Feed"
       icon: "fa-solid fa-fw fa-rss"
       url: "/feed.xml"

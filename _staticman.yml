@@ -42,7 +42,7 @@ comments:
   moderation: true
 
   # Name of the site. Used in notification emails.
-  name: "winglemeyer.org"
+  name: "bexelbie.com"
   
   notifications:
     enabled: true
