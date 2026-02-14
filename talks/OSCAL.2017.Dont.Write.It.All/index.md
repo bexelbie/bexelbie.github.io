@@ -1,5 +1,5 @@
 ---
-title: "OSCAL 2017, Tirana, Albania"
+title: "Building Applications Doesn't Mean Writing It All From Scratch"
 excerpt: "Building Applications Doesn't Mean Writing It All From Scratch"
 entry_type: talk
 status: delivered

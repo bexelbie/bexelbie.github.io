@@ -1,5 +1,5 @@
 ---
-title: "Speaking & Writing"
+title: "Talks & Publications"
 excerpt: "Talks, articles, and proposals"
 header:
   overlay_image: "/img/bex-speaking.jpg"
@@ -12,13 +12,11 @@ redirect_from:
  - /cfp-submissions/
 ---
 
-An archive of talks, proposals, and externally published articles in reverse chronological order. For demo scripts, slides, or code, I host a comprehensive [archive on GitHub](https://github.com/bexelbie/bexelbie-talks-demos), linked as appropriate.
-
-Items appear here automatically when their front matter includes `entry_type` and `speaking_date`.
+Talks I've given and articles I've written for other publications.
 
 {% comment %}
   Collect all pages and posts with entry_type set.
-  Exclude organizing and template entries from the main timeline.
+  Exclude organizing and template entries.
 {% endcomment %}
 
 {% assign speaking_pages = "" | split: "" %}
@@ -47,27 +45,8 @@ Items appear here automatically when their front matter includes `entry_type` an
 ## {{ current_year }}
 
   {% endif %}
-- **{{ item.title | strip }}**
-  {{ item.speaking_event }}{% if item.entry_type == "article" %}, {{ item.speaking_date | date: "%B %Y" }}{% else %}, {{ item.speaking_date | date: "%B %d, %Y" }}{% endif %} · {{ item.entry_type }} · {{ item.status }}{% if item.speaking_links.details %} · [details]({{ item.speaking_links.details }}){% endif %}{% if item.speaking_links.external %} · [read]({{ item.speaking_links.external }}){% endif %}{% if item.speaking_links.external_en %} · [English]({{ item.speaking_links.external_en }}){% endif %}{% if item.speaking_links.external_fr %} · [French]({{ item.speaking_links.external_fr }}){% endif %}{% if item.speaking_links.slides %} · [slides]({{ item.speaking_links.slides }}){% endif %}{% if item.speaking_links.recording %} · [recording]({{ item.speaking_links.recording }}){% endif %}{% if item.entry_type == "article" and item.url %} · [blog post]({{ item.url }}){% endif %}
-{% endfor %}
-
----
-
-## Organizational & template material
-
-Items below are not personal speaking or writing -- they are community organizing artifacts, booth/table proposals, and reusable templates.
-
-{% assign org_pages = "" | split: "" %}
-{% for page in site.pages %}
-  {% if page.entry_type == "organizing" or page.status == "template" %}
-    {% if page.speaking_date %}
-      {% assign org_pages = org_pages | push: page %}
-    {% endif %}
+  {% if item.entry_type == "article" %}- [**{{ item.title | strip }}**]({{ item.url }})<br>Article, {{ item.speaking_date | date: "%B %Y" }}, {{ item.speaking_event }}
+  {% elsif item.entry_type == "proposal" %}- [**{{ item.title | strip }}**]({{ item.permalink | default: item.url }})<br>Submitted proposal, {{ item.speaking_date | date: "%B %Y" }}, {{ item.speaking_event }}
+  {% else %}- [**{{ item.title | strip }}**]({% if item.speaking_links.details %}{{ item.speaking_links.details }}{% else %}{{ item.permalink | default: item.url }}{% endif %})<br>Talk, {{ item.speaking_date | date: "%B %Y" }}, {{ item.speaking_event }}
   {% endif %}
-{% endfor %}
-
-{% assign org_pages = org_pages | sort: "speaking_date" | reverse %}
-
-{% for item in org_pages %}
-- [{{ item.title }}]({{ item.permalink | default: item.url }}) -- {{ item.speaking_event }}{% if item.status == "template" %} (template){% endif %}
 {% endfor %}

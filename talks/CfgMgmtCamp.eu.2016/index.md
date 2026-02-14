@@ -1,5 +1,5 @@
 ---
-title: "Config Management Camp EU 2016"
+title: "Nulecule: Packaging, Distributing & Deploying Container Applications the Cloud Way"
 excerpt: "Nulecule: Packaging, Distributing & Deploying Container Applications the Cloud Way"
 entry_type: talk
 status: delivered

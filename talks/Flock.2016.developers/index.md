@@ -1,5 +1,5 @@
 ---
-title: "Flock 2016, Kraków Poland"
+title: "Bringing Developers into the Flock"
 excerpt: "Bringing Developers into the Flock"
 entry_type: talk
 status: delivered

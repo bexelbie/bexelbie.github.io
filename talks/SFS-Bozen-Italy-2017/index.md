@@ -1,5 +1,5 @@
 ---
-title: "SFSCon, Bozen, South Tyrol, Italy"
+title: "The Secret to Keeping Your Community Strong for Decades"
 excerpt: "The Secret to Keeping Your Community Strong for Decades"
 entry_type: talk
 status: delivered

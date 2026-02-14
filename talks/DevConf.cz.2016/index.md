@@ -1,5 +1,5 @@
 ---
-title: "DEVCONF Brno 2016"
+title: "Atomic Developer Bundle: Containerized Development Made Easy"
 excerpt: "Atomic Developer Bundle: Containerized Development Made Easy"
 entry_type: talk
 status: delivered

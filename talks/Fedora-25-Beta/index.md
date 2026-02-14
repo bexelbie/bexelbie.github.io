@@ -1,5 +1,5 @@
 ---
-title: "FUDCon LATAM 2016, Puno, Peru"
+title: "What's New in Fedora 25 Beta"
 excerpt: "What's New in Fedora 25 Beta"
 entry_type: talk
 status: delivered

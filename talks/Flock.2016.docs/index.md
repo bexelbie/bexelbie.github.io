@@ -1,5 +1,5 @@
 ---
-title: "Flock 2016, Kraków Poland"
+title: "Hackfest: Fedora Docs Learn and Hack"
 excerpt: "Hackfest: Fedora Docs Learn and Hack"
 entry_type: talk
 status: delivered

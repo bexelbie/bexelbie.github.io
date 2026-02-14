@@ -1,5 +1,5 @@
 ---
-title: "DevStars"
+title: "Getting to DevOps with Docker"
 excerpt: "Getting to DevOps with Docker"
 entry_type: talk
 status: delivered
