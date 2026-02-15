@@ -82,7 +82,33 @@ speaking_links:
 
 ### Projects Page
 
-The `/projects/` page is a manually maintained list of software projects at `projects/index.md`. Each project gets a short description and links to its GitHub repo, app store listing, and/or blog post. No sub-pages needed unless a project grows complex enough to warrant one.
+The `/projects/` page lives at `projects/index.md` using `layout: single` with `author_profile: true`. Projects are written as plain markdown - each project is an `##` heading followed by an inline links line (dot-separated) and a short description paragraph.
+
+**Format per project:**
+
+```markdown
+## Project Name
+
+[primary-link](https://url) · [secondary-link](https://url)
+
+Short description paragraph. Markdown allowed.
+```
+
+**Interaction model drives the primary (first) link:**
+- Web apps: link to the live app (e.g., `cc.bexelbie.com`)
+- Phone apps: link to the product website; App Store link goes second
+- CLI/server tools: link to the blog post (if it exists) or GitHub repo
+
+**Ownership disclosure:**
+- Projects built under Electric Pliers LLC: include "Built under [Electric Pliers LLC](https://electricpliers.com)" at the end of the description
+- Personal projects: no per-project attribution needed (the page intro covers the default)
+- The page intro sentence handles the high-level disclosure; per-project attribution is only for Electric Pliers projects
+
+**Key rules:**
+- Internal post links in the body use Liquid `post_url` tags as normal
+- Order projects newest-first
+- No sub-pages per project unless one grows complex enough to warrant it
+- Screenshots: add as standard markdown images when available
 
 ---
 
