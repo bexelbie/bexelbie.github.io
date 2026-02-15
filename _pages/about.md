@@ -4,38 +4,21 @@ header:
   overlay_image: "/img/about-bg.jpg"
   caption: "Photo credit: author"
   overlay_filter: 0.3
-toc: true
-toc_icon: 
-toc_label: "Table of Contents"
 permalink: /about/
 ---
 
-## About Me
+I'm a Principal Product Manager at [Microsoft](https://opensource.microsoft.com). I shape how Azure participates in upstream Linux communities like [Fedora](https://www.fedoraproject.org) and [Flatcar](https://flatcar-linux.org/). That's product strategy, community engagement, and making sure the company shows up responsibly in projects it depends on.
 
-This blog is my digital home, now found at **bexelbie.com**. For years, it lived at winglemeyer.org -- a domain that came from a practical choice. It's an alias I've often used in places like restaurants, and I enjoyed it because it felt simple, yet somehow just as perplexing as my last name.
+Before that, I wrote code, ran the open source program office's community work for Fedora, and worked in the RHEL business unit during a decade at Red Hat. Earlier careers included ISP infrastructure, financial analysis, tax preparation, university administration, and consulting. A path that makes more sense than it sounds.
 
-Professionally, I wear multiple hats:  
-- Product Manager specializing in open source communities and upstream Linux.  
-- American expat living in Brno, Czech Republic.  
-- Enthusiast of international taxation and technology "glue code."  
+I go by "bex" (always lowercase). It's usually short for Becky, not Brian, which keeps introductions interesting.
 
-Currently, I work at [Microsoft](https://opensource.microsoft.com), focusing on Linux distributions like [Fedora](https://www.fedoraproject.org) and [Debian](https://www.debian.org). My career blends strategic leadership with a passion for open source collaboration.  
+I'm an American expat in Brno, Czech Republic, living with my partner and daughter. Interests outside of work include coffee, long-form journalism, home automation, personal finance, international taxation, and writing glue code to connect things that were never meant to be connected.
 
-I keep code on [GitHub](https://github.com/bexelbie) and talks and articles I wrote elsewhere on [Talks & Publications](/talks/). [LinkedIn](https://www.linkedin.com/in/bexelbie) covers the formalities. Need a bio or headshot? [Bios & Press](/about/bios/) has you covered.
+Need a bio or headshot? [Bios & Headshots](/about/bios/) has you covered.
 
-## Fun Facts
-- **Nickname**: I go by "bex" (always lowercase). Most "bexes" I meet are short for Becky -- not Brian!  
-- **Text Quirks**: I use two spaces after periods and hard-wrap text. Also, my tabs are set to 4 spaces instead of 8. Consider this your fair warning.
-- **Favorite Hobbies**: Artisanal bread hunting, long-form journalism, and tinkering with tech and home automation projects.  
+Comments are off. If something here sparks a thought, I'd rather hear it on your own blog or social media.
 
-## About This Site
+I use an LLM as an editing assistant. Rough drafts and voice transcripts go in, tighter prose comes out, then I do a final manual pass. The workflow is codified in [AGENTS.md](../AGENTS.md) and the leaner [STYLE-CAPSULE.md](../STYLE-CAPSULE.md).
 
-This site is built with a few tools I appreciate. I write posts in Markdown and HTML, and [Jekyll](https://jekyllrb.com/) builds everything. The code lives in a [GitHub repository](https://github.com/bexelbie/bexelbie.github.io), and [Cloudflare Pages](https://pages.cloudflare.com/) handles the hosting.
-
-The design comes from the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme, and book cover images are courtesy of [Open Library](https://openlibrary.org/).
-
-I keep comments turned off. If something I write sparks a thought, I'd love to hear it on your own blog or social media.
-
-I use an LLM as an editing assist. I'll dump a rough draft or a voice transcript in and have it help me tighten and clarify before a final manual pass. Sometimes it's smooth and sometimes it's a slog, but it has been net helpful. I've tried to codify the workflow in [AGENTS.md](../AGENTS.md) and the lean [STYLE-CAPSULE.md](../STYLE-CAPSULE.md) for one-off use.
-
-For those who care, this site is my personal views and notes and not those of my employers, past or present.
+This site reflects my personal views, not those of my employers, past or present.

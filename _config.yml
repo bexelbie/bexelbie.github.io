@@ -6,7 +6,7 @@ locale                   : "en-US"
 title                    : "this could've been an email"
 title_separator          : "!"
 name                     : 'Brian "bex" Exelbierd'
-description              : "The personal site of Brian Exelbierd."
+description              : "Notes on Linux, side projects, and figuring things out in the Czech Republic."
 url                      : "https://bexelbie.com"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bexelbie/bexelbie.github.io"
