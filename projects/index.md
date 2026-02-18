@@ -9,9 +9,12 @@ Software I've built to solve problems that bothered me enough to write code. Som
 
 ## Online Compact Calendar
 
-[cc.bexelbie.com](https://cc.bexelbie.com) · [GitHub](https://github.com/bexelbie/online-compact-calendar)
+[cc.bexelbie.com](https://cc.bexelbie.com) · [Blog post]({% post_url 2026-02-18-online-compact-calendar %}) · [GitHub](https://github.com/bexelbie/online-compact-calendar)
 
-Year-at-a-glance web app that reads ICS feeds and highlights scheduling conflicts on a single page. Built to replace a spreadsheet that only I understood on Thursdays when there was a full moon.
+![A full-year compact calendar view showing one row per week, with multi-day events highlighted in color to make travel and vacation conflicts easy to spot.](/img/2026/CC-FullCalendar.png)
+
+Year-at-a-glance web app that reads ICS feeds and highlights multi-day, all-day events in a single-page view. Useful for planning vacations, travel, and school breaks and, critically, spotting conflicts early.
+
 
 ## Currency Feel
 
