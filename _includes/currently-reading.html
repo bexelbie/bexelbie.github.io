@@ -1,10 +1,19 @@
 {% for book in include.books %}
   <p>
     {% if book.cover %}
-      <a href="{{ book.url }}" class="book-title">
-        <img src="{{ book.cover }}" alt="Cover of {{ book.title }}" style="width: 96px; height: auto; margin-right: 10px;">
-        {% if book.audiobook %}<span class="fa fa-headphones" title="Audiobook" aria-label="Audiobook" style="margin-left: 5px;"></span>{% endif %}
-      </a>
+      {%- assign icon_placement = include.icon_placement | default: "inline" -%}
+
+      {% if icon_placement == "below" %}
+        <a href="{{ book.url }}" class="book-title" style="display: inline-flex; flex-direction: column; align-items: center; gap: 6px;">
+          <img src="{{ book.cover }}" alt="Cover of {{ book.title }}" style="width: 96px; height: auto;">
+          {% if book.audiobook %}<span class="fa fa-headphones" title="Audiobook" aria-label="Audiobook"></span>{% endif %}
+        </a>
+      {% else %}
+        <a href="{{ book.url }}" class="book-title">
+          <img src="{{ book.cover }}" alt="Cover of {{ book.title }}" style="width: 96px; height: auto; margin-right: 10px;">
+          {% if book.audiobook %}<span class="fa fa-headphones" title="Audiobook" aria-label="Audiobook" style="margin-left: 5px;"></span>{% endif %}
+        </a>
+      {% endif %}
     {% endif %}
   </p>
 {% endfor %}

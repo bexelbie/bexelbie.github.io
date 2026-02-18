@@ -15,7 +15,7 @@ permalink: /reading/
 {% if reading.size > 0 %}
 <h1>Currently Reading</h1>
   <div class="currently-reading-list" style="display: flex; flex-wrap: wrap; gap: 24px;">
-    {% include currently-reading.html books=reading %}
+    {% include currently-reading.html books=reading icon_placement="below" %}
   </div>
 {% endif %}
 
