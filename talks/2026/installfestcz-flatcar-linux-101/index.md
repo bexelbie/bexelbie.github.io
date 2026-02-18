@@ -2,17 +2,10 @@
 title: "Flatcar Linux 101: A Hands-Free Server OS"
 permalink: /talks/2026/installfestcz-flatcar-linux-101/
 entry_type: proposal
-status: submitted
 speaking_event: "Installfest.cz"
 speaking_date: 2026-03-15
 speaking_links:
   details: /talks/2026/installfestcz-flatcar-linux-101/
-header:
-  overlay_image: "/img/about-bg.jpg"
-  og_image: "/img/about-bg.jpg"
-  teaser: "/img/about-bg.jpg"
-  caption: "Photo credit: author"
-  overlay_filter: 0.5
 layout: single
 author_profile: true
 classes: wide

@@ -7,12 +7,6 @@ permalink: /talks/2025/openalt-bring-wood-for-the-fire/
 speaking_links:
   details: /talks/2025/openalt-bring-wood-for-the-fire/
   recording: "https://www.youtube.com/watch?v=1vIHjugGnIU"
-header:
-  overlay_image: "/img/about-bg.jpg"
-  og_image: "/img/about-bg.jpg"
-  teaser: "/img/about-bg.jpg"
-  caption: "Photo credit: author"
-  overlay_filter: 0.5
 layout: single
 author_profile: true
 classes: wide

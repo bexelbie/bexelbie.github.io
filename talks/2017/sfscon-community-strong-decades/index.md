@@ -2,7 +2,6 @@
 title: "The Secret to Keeping Your Community Strong for Decades"
 excerpt: "The Secret to Keeping Your Community Strong for Decades"
 entry_type: talk
-status: delivered
 speaking_event: "SFScon"
 speaking_date: 2017-11-10
 permalink: /talks/2017/sfscon-community-strong-decades/
@@ -11,12 +10,6 @@ redirect_from:
 speaking_links:
   details: /talks/2017/sfscon-community-strong-decades/
   recording: "https://www.sfscon.it/talks/secret-keeping-community-strong-decades/"
-header:
-  overlay_image: "/img/about-bg.jpg"
-  og_image: "/img/about-bg.jpg"
-  teaser: "/img/about-bg.jpg"
-  caption: "Photo credit: author"
-  overlay_filter: 0.5
 classes: wide
 ---
 

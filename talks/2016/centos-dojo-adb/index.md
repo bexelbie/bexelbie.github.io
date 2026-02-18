@@ -2,7 +2,6 @@
 title: "Atomic Developer Bundle: Containerized Development Made Easy"
 excerpt: "Atomic Developer Bundle"
 entry_type: talk
-status: delivered
 speaking_event: "CentOS Dojo Brussels 2016"
 speaking_date: 2016-01-29
 permalink: /talks/2016/centos-dojo-adb/
@@ -10,12 +9,6 @@ redirect_from:
  - /talks/CentOS.Dojo.Brussels.2016
 speaking_links:
   details: /talks/2016/centos-dojo-adb/
-header:
-  overlay_image: "/img/about-bg.jpg"
-  og_image: "/img/about-bg.jpg"
-  teaser: "/img/about-bg.jpg"
-  caption: "Photo credit: author"
-  overlay_filter: 0.5
 classes: wide
 ---
 

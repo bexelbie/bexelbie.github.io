@@ -2,7 +2,6 @@
 title: "Atomic Developer Bundle: Containerized Development Made Easy"
 excerpt: "Atomic Developer Bundle: Containerized Development Made Easy"
 entry_type: talk
-status: delivered
 speaking_event: "DevConf.cz 2016"
 speaking_date: 2016-02-06
 permalink: /talks/2016/devconf-adb/
@@ -10,12 +9,6 @@ redirect_from:
  - /talks/DevConf.cz.2016
 speaking_links:
   details: /talks/2016/devconf-adb/
-header:
-  overlay_image: "/img/about-bg.jpg"
-  og_image: "/img/about-bg.jpg"
-  teaser: "/img/about-bg.jpg"
-  caption: "Photo credit: author"
-  overlay_filter: 0.5
 classes: wide
 ---
 

@@ -1,9 +1,5 @@
 ---
 title: "About"
-header:
-  overlay_image: "/img/about-bg.jpg"
-  caption: "Photo credit: author"
-  overlay_filter: 0.3
 permalink: /about/
 ---
 

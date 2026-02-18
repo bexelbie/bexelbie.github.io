@@ -2,7 +2,6 @@
 title: "Bringing Developers into the Flock"
 excerpt: "Bringing Developers into the Flock"
 entry_type: talk
-status: delivered
 speaking_event: "Flock 2016"
 speaking_date: 2016-08-03
 permalink: /talks/2016/flock-developers/
@@ -10,12 +9,6 @@ redirect_from:
  - /talks/Flock.2016.developers
 speaking_links:
   details: /talks/2016/flock-developers/
-header:
-  overlay_image: "/img/about-bg.jpg"
-  og_image: "/img/about-bg.jpg"
-  teaser: "/img/about-bg.jpg"
-  caption: "Photo credit: author"
-  overlay_filter: 0.5
 classes: wide
 ---
 

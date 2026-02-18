@@ -2,18 +2,11 @@
 title: "Building Applications Doesn't Mean Writing It All From Scratch"
 excerpt: "Building Applications Doesn't Mean Writing It All From Scratch"
 entry_type: talk
-status: delivered
 speaking_event: "OSCAL 2017"
 speaking_date: 2017-05-13
 permalink: /talks/2017/oscal-dont-write-it-all/
 speaking_links:
   details: /talks/2017/oscal-dont-write-it-all/
-header:
-  overlay_image: "/img/about-bg.jpg"
-  og_image: "/img/about-bg.jpg"
-  teaser: "/img/about-bg.jpg"
-  caption: "Photo credit: author"
-  overlay_filter: 0.5
 classes: wide
 redirect_from:
  - /bexelbie-talks-demos/OSCAL.2017.Dont.Write.It.All/

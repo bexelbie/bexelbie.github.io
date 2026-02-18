@@ -7,12 +7,6 @@ permalink: /talks/2024/flock-what-does-red-hat-want/
 speaking_links:
   details: /talks/2024/flock-what-does-red-hat-want/
   recording: "https://www.youtube.com/watch?v=iE4cf0Ngs5g"
-header:
-  overlay_image: "/img/about-bg.jpg"
-  og_image: "/img/about-bg.jpg"
-  teaser: "/img/about-bg.jpg"
-  caption: "Photo credit: author"
-  overlay_filter: 0.5
 layout: single
 author_profile: true
 classes: wide

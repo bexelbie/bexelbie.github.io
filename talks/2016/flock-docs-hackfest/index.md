@@ -2,7 +2,6 @@
 title: "Hackfest: Fedora Docs Learn and Hack"
 excerpt: "Hackfest: Fedora Docs Learn and Hack"
 entry_type: talk
-status: delivered
 speaking_event: "Flock 2016"
 speaking_date: 2016-08-04
 permalink: /talks/2016/flock-docs-hackfest/
@@ -10,12 +9,6 @@ redirect_from:
  - /talks/Flock.2016.docs
 speaking_links:
   details: /talks/2016/flock-docs-hackfest/
-header:
-  overlay_image: "/img/about-bg.jpg"
-  og_image: "/img/about-bg.jpg"
-  teaser: "/img/about-bg.jpg"
-  caption: "Photo credit: author"
-  overlay_filter: 0.5
 classes: wide
 ---
 

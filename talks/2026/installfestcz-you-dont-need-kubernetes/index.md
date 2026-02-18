@@ -4,17 +4,10 @@ permalink: /talks/2026/installfestcz-you-dont-need-kubernetes/
 redirect_from:
   - /talks/cfp-submissions/installfest.cz-2026
 entry_type: proposal
-status: submitted
 speaking_event: "Installfest.cz"
 speaking_date: 2026-03-15
 speaking_links:
   details: /talks/2026/installfestcz-you-dont-need-kubernetes/
-header:
-  overlay_image: "/img/about-bg.jpg"
-  og_image: "/img/about-bg.jpg"
-  teaser: "/img/about-bg.jpg"
-  caption: "Photo credit: author"
-  overlay_filter: 0.5
 layout: single
 author_profile: true
 classes: wide

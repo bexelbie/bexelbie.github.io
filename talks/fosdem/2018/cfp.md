@@ -1,12 +1,6 @@
 ---
 title: "Distributions Devroom 2018"
 excerpt: "CfP Email"
-header:
-  overlay_image: "/img/about-bg.jpg"
-  og_image: "/img/about-bg.jpg"
-  teaser: "/img/about-bg.jpg"
-  caption: "Photo credit: author"
-  overlay_filter: 0.5
 classes: wide
 ---
 
