@@ -56,7 +56,7 @@ The tool uses color to signal status at a glance:
 
 Here's what the full-year view looks like with demo data loaded:
 
-![A full-year compact calendar view with one row per week (Monday through Sunday), with committed events shown in green, possible events in yellow, public holidays in red, and overlaps highlighted with a yellow border.]({{ "/img/2026/CC-FullCalendar.png" | absolute_url }})
+![A full-year compact calendar view with one row per week (Monday through Sunday), with committed events shown in green, possible events in yellow, public holidays in red, and overlaps highlighted with a yellow border.]({{ "/img/2026/CC-FullCalendar.png" | relative_url }})
 
 ## Inputs: URL, file, or demo
 
@@ -76,7 +76,7 @@ Both are published as `webcal` URLs, and the compact calendar fetches them and r
 
 The setup controls are intentionally simple:
 
-![Configuration controls showing a country dropdown (for public holidays) and two inputs for selecting the committed and possible calendar sources.]({{ "/img/2026/CC-Controls.png" | absolute_url }})
+![Configuration controls showing a country dropdown (for public holidays) and two inputs for selecting the committed and possible calendar sources.]({{ "/img/2026/CC-Controls.png" | relative_url }})
 
 ## The tech (and the annoying part)
 
@@ -110,7 +110,7 @@ The source is on GitHub at [bexelbie/online-compact-calendar](https://github.com
 
 On first visit, there's a banner that points you at settings:
 
-![A first-run welcome banner that tells the user to use the gear icon to configure the app.]({{ "/img/2026/CC-first-run-banner.png" | absolute_url }})
+![A first-run welcome banner that tells the user to use the gear icon to configure the app.]({{ "/img/2026/CC-first-run-banner.png" | relative_url }})
 
 ## What’s next
 
