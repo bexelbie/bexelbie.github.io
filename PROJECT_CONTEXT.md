@@ -25,6 +25,17 @@ Work in main. `_drafts/` files are untracked and should not be committed unless 
 
 ALWAYS use the Liquid tag for internal posts: `[Link Text]({% post_url yyyy-mm-dd-slug %})`. If the target post does not exist yet, raise the broken reference in chat.
 
+## Images & Asset URLs
+
+Preview deployments may run on a different domain than production. To avoid broken images on preview/staging:
+
+- **In post/page body content:** use local, root-relative paths with the `relative_url` filter.
+  - Example: `![Alt text]({{ "/img/2026/example.png" | relative_url }})`
+  - Avoid `absolute_url` in body content (it will hard-code the production domain).
+- **In metadata / SEO contexts** (canonical URLs, feeds, OpenGraph images): `absolute_url` is appropriate/required.
+
+Rule of thumb: **content assets = relative**; **metadata/share URLs = absolute**.
+
 ## Front Matter
 
 Respect defaults in `_config.yml` (Posts: `layout: single`, `author_profile: true`). Do NOT alter existing YAML key names unless explicitly requested.
