@@ -1,4 +1,6 @@
 main:
+  - title: "Home"
+    url: /
   - title: "Talks & Publications"
     url: /talks
   - title: "Projects"
@@ -7,5 +9,3 @@ main:
     url: /about
   - title: "Reading"
     url: /reading
-  - title: "Home"
-    url: /
