@@ -34,3 +34,9 @@ Distribute [1Password](https://1password.com/) secrets to multi-user Linux syste
 [GitHub](https://github.com/bexelbie/phone-a-friend) · [npm](https://www.npmjs.com/package/@bexelbie/phone-a-friend)
 
 MCP server that lets VS Code Copilot Chat dispatch subtasks to a different AI model via GitHub Copilot CLI, returning a unified diff so the calling agent can apply changes with gutter indicators intact. This works around current limitations in VS Code.
+
+## Jekyll Reads
+
+[GitHub](https://github.com/ElectricPliers/jekyll-reads) · [Reading page](/reading/)
+
+Tools for keeping a reading list in a single `_data/reading.yml` file and rendering it on this site. Includes a Node.js library, CLI tool, Vim integration, and Visual Studio Code extension for searching Open Library and inserting YAML entries with the right formatting. Built under [Electric Pliers LLC](https://electricpliers.com).
