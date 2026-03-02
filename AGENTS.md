@@ -126,4 +126,4 @@ PROJECT_CONTEXT.md may define additional project-specific checks.
 - Preserve trailing newline.
 - Avoid mass reflow; limit edits to necessary spans.
 
-End of AGENTS-writing.md
+End of AGENTS.md

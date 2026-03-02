@@ -1,6 +1,6 @@
 # STYLE CAPSULE (Portable Voice & Tone Guidance)
 
-Purpose: Minimal, context-agnostic packet to hand any assistant for one-off rewrites (emails, short memos, comment replies) without pulling in full workflows from AGENTS-writing.md.
+Purpose: Minimal, context-agnostic packet to hand any assistant for one-off rewrites (emails, short memos, comment replies) without pulling in full workflows from AGENTS.md.
 
 ## Voice Core
 
@@ -63,12 +63,12 @@ Rewrite the text below using the STYLE CAPSULE. Preserve all facts, commitments,
 
 ## When NOT to Use This Capsule
 
-- Full blog post or structured content → use AGENTS-writing.md (and PROJECT_CONTEXT.md if available).
+- Full blog post or structured content → use AGENTS.md (and PROJECT_CONTEXT.md if available).
 - Legal/contract language → requires separate precision rules.
 - Large, fragmented brain dump → outline first (not a straight rewrite).
 
-## Relationship to AGENTS-writing.md
+## Relationship to AGENTS.md
 
-This capsule is a distilled version of the voice and tone guidance in AGENTS-writing.md, designed for quick, context-agnostic rewrites. Significant updates to voice or tone in either document should be reflected in the other.
+This capsule is a distilled version of the voice and tone guidance in AGENTS.md, designed for quick, context-agnostic rewrites. Significant updates to voice or tone in either document should be reflected in the other.
 
 End of STYLE CAPSULE.

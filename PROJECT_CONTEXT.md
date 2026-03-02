@@ -12,14 +12,14 @@ Project-specific conventions for the blog. Read alongside AGENTS-writing.md for 
 ## File Conventions
 
 - **Posts:** `_posts/YYYY-MM-DD-slug.md`
-- **Drafts:** `_drafts/` — untracked by git. Do not commit drafts unless explicitly instructed.
+- **Drafts:** `working-notes/` (symlinked) — excluded via `.git/info/exclude`. Do not commit drafts unless explicitly instructed.
 - **Talks:** `talks/YYYY/slug/index.md`
 - **Projects:** `projects/index.md`
 - **Components:** `_includes/` contains specific overrides. Use pure HTML/Liquid there.
 
 ## Git Workflow
 
-Work in main. `_drafts/` files are untracked and should not be committed unless explicitly instructed. Never rename existing post slugs without explicit instruction — it breaks inbound links. Use `redirect_from` in front matter when moving or renaming published pages.
+Work in main. `working-notes/` is excluded via `.git/info/exclude` and should not be committed unless explicitly instructed. Never rename existing post slugs without explicit instruction — it breaks inbound links. Use `redirect_from` in front matter when moving or renaming published pages.
 
 ## Internal Links
 
