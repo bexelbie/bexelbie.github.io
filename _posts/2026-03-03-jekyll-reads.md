@@ -53,4 +53,4 @@ The repository README walks through how to set up your own `_data/reading.yml`, 
 
 The code is MIT‑licensed and shipped under Electric Pliers LLC. If you want a lightweight way to publish a reading log without standing up a whole social network, you might find it useful.
 
-You can find the repository and full documentation here: https://github.com/ElectricPliers/jekyll-reads
+You can find the repository and full documentation here: [https://github.com/ElectricPliers/jekyll-reads](https://github.com/ElectricPliers/jekyll-reads)
