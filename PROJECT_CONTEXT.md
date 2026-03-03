@@ -12,7 +12,7 @@ Project-specific conventions for the blog. Read alongside AGENTS-writing.md for 
 ## File Conventions
 
 - **Posts:** `_posts/YYYY-MM-DD-slug.md`
-- **Drafts:** `working-notes/` (symlinked) — excluded via `.git/info/exclude`. Do not commit drafts unless explicitly instructed.
+- **Drafts:** `working-notes/` (symlinked) — excluded via `.git/info/exclude`. Do not commit drafts unless explicitly instructed. When promoting a draft to a post, move it with `mv` from the repository root and then `git add` the new file; `git mv` from inside `working-notes/` will fail because the source is ignored and symlinked.
 - **Talks:** `talks/YYYY/slug/index.md`
 - **Projects:** `projects/index.md`
 - **Components:** `_includes/` contains specific overrides. Use pure HTML/Liquid there.
