@@ -40,3 +40,9 @@ MCP server that lets VS Code Copilot Chat dispatch subtasks to a different AI mo
 [GitHub](https://github.com/ElectricPliers/jekyll-reads) · [Reading page](/reading/)
 
 Tools for keeping a reading list in a single `_data/reading.yml` file and rendering it on this site. Includes a Node.js library, CLI tool, Vim integration, and Visual Studio Code extension for searching Open Library and inserting YAML entries with the right formatting. Built under [Electric Pliers LLC](https://electricpliers.com).
+
+## Synofoto Media Count
+
+[GitHub](https://github.com/bexelbie/synofoto-media-count)
+
+Read-only bash script that queries the Synology Photos PostgreSQL database (`synofoto`) and prints a breakdown of what’s actually in your library: non-live photos, Live Photo groups, standalone videos, and incomplete Live Photo pairs.
