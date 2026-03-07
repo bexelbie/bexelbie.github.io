@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 gem "jekyll"
 gem "csv" # no longer in base ruby
+gem "faraday-retry"
 group :jekyll_plugins do
   gem "jekyll-remote-theme"
   gem "jekyll-paginate"
