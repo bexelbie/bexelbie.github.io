@@ -199,7 +199,7 @@ Short description paragraph.
 
 ### Rules
 
-- Order newest-first
+- Order by likelihood of interest (most broadly useful first)
 - Internal links use `post_url` tags
 - No sub-pages unless a project grows complex
 
