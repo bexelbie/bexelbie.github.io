@@ -1,0 +1,13 @@
+{%- assign reading = site.data.reading.books
+  | where: "finished", nil
+  | where: "abandoned", nil
+  | where_exp: "book", "book.started"
+-%}
+{%- assign reading = reading | sort: "started" -%}
+
+{% if reading.size > 0 %}
+<div class="sidebar__books">
+  <h4>What I'm reading</h4>
+  {% include currently-reading.html books=reading %}
+</div>
+{% endif %}

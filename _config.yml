@@ -1,4 +1,4 @@
-remote_theme             : "mmistakes/minimal-mistakes"
+remote_theme             : "bexelbie/minimal-mistakes@bex-master"
 minimal_mistakes_skin    : "default" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -66,8 +66,6 @@ bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
 naver_site_verification  :
-mastodon_verification    : "https://toot.io/@bexelbie"
-
 # Social Sharing
 twitter:
   username               : 
@@ -76,6 +74,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : /img/headshots/bexelbie-headshot.png # Open Graph/Twitter default site image
+og_image_alt             : "Headshot of Brian bex Exelbierd"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -101,6 +100,7 @@ author:
   bio              : "Upstream Linux. Open source politics. Tools for oddly specific frustrations."
   location         : "Brno, Czech Republic"
   email            : "bex@bexelbie.com"
+  fediverse        : "@bexelbie@toot.io"
   uri              : "https://bexelbie.com"
   home             : "about" # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -244,6 +244,7 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
+show_taxonomy: false
 category_archive:
   type: liquid
   path: /navigation/categories/
