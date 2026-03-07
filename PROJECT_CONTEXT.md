@@ -7,7 +7,7 @@ Project-specific conventions for the blog. Read alongside AGENTS-writing.md for 
 - **Environment:** Ruby 3.4 required.
 - **Install:** `bundle install`
 - **Serve:** `bundle exec jekyll serve` (or `chruby 3.4; bundle exec jekyll serve`).
-- **Structure:** Standard Jekyll + Remote Theme (`mmistakes/minimal-mistakes`). `_layouts/` and `_sass/` are generally absent unless locally overriding.
+- **Structure:** Standard Jekyll + Remote Theme (`bexelbie/minimal-mistakes@bex-master`). `_layouts/` and `_sass/` are generally absent unless locally overriding.
 
 ## File Conventions
 

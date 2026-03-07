@@ -10,71 +10,18 @@ description              : "Notes on Linux, side projects, and figuring things o
 url                      : "https://bexelbie.com"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bexelbie/bexelbie.github.io"
-teaser                   : "" # "img/header.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 180 # 200 default
+enable_copy_code_button  : true
+copyright                : 'Brian "bex" Exelbierd'
 comments:
-  provider               : false # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-# staticman:
-#   branch                 : "main"
-#   allowedFields          : # ['name', 'email', 'url', 'message']
-#   allowedOrigins         : ["localhost", "bexelbie.com"]
-#   commitMessage          : # "New comment."
-#   filename               : "entry{@timestamp}" # comment-{@timestamp}
-#   format                 : "yaml" # "yml"
-#   moderation             : # true
-#   name                   : "bexelbie.com"
-#   path                   : # "/_data/comments/{options.slug}" (default)
-#   requiredFields         : # ['name', 'email', 'message']
-#   transforms:
-#     email                : # "md5"
-#   generatedFields:
-#     date:
-#       type               : # "date"
-#       options:
-#         format           : timestamp-seconds # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-#   notifications:
-#     enabled: true
-# reCaptcha:
-#   siteKey                :
-#   secret                 :
+  provider               : false
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
-algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
-google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+
 # SEO Related
-google_site_verification :
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
-naver_site_verification  :
-# Social Sharing
-twitter:
-  username               : 
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
 og_image                 : /img/headshots/bexelbie-headshot.png # Open Graph/Twitter default site image
-og_image_alt             : "Headshot of Brian bex Exelbierd"
+og_image_alt             : 'Headshot of Brian "bex" Exelbierd'
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -85,60 +32,45 @@ social:
     - "https://linkedin.com/in/bexelbie"
     - "https://toot.io/@bexelbie"
 
-# Analytics
-analytics:
-  provider               :  # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          : # "UA-72767771-1"
-    anonymize_ip         : # true, false (default)
-
-
 # Site Author
 author:
   name             : 'Brian "bex" Exelbierd'
   avatar           : /img/headshots/bexelbie-headshot.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Upstream Linux. Open source politics. Tools for oddly specific frustrations."
   location         : "Brno, Czech Republic"
-  email            : "bex@bexelbie.com"
   fediverse        : "@bexelbie@toot.io"
-  uri              : "https://bexelbie.com"
   home             : "about" # null (default), "absolute or relative url to link to author home"
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "bexelbie"
-  gitlab           :
-  google_plus      :
-  keybase          : # "bexelbie"
-  instagram        :
-  lastfm           :
-  linkedin         : "bexelbie" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
-  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
-  tumblr           :
-  twitter          : 
-  vine             :
-  weibo            :
-  xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
   links:
     - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon"
+      icon: "fa-brands fa-fw fa-mastodon"
       url: "https://toot.io/@bexelbie"
     - label: "Signal"
       icon: "fa-brands fa-fw fa-signal-messenger"
       url: "https://signal.me/#eu/Xq61rYekV8JjgkuKv4KdgMsl6OAjW4q2JPKrhM7QTW72j_hTSzxEKomeqkNxnJZu"
+    - label: "GitHub"
+      icon: "fa-brands fa-fw fa-github"
+      url: "https://github.com/bexelbie"
+    - label: "Email"
+      icon: "fa-solid fa-fw fa-square-envelope"
+      url: "mailto:bex@bexelbie.com"
+    - label: "LinkedIn"
+      icon: "fa-brands fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/bexelbie"
     - label: "RSS Feed"
       icon: "fa-solid fa-fw fa-rss"
       url: "/feed.xml"
 #   - label: "Fractal FM Podcast"
-#     icon: "fas fa-podcast"
+#     icon: "fa-brands fa-fw fa-podcast"
 #     url: "https://fractal.fm"
+
+# Site Footer
+footer:
+  links:
+    - label: "Mastodon"
+      icon: "fa-brands fa-fw fa-mastodon"
+      url: "https://toot.io/@bexelbie"
+      rel: "me"
+  since: "2015"
 
 # Reading Files
 include:
@@ -235,15 +167,6 @@ whitelist:
 
 
 # Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
 show_taxonomy: false
 category_archive:
   type: liquid
@@ -251,17 +174,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /navigation/tags/
-# https://github.com/jekyll/jekyll-archives
-#jekyll-archives:
-#  enabled:
-#    - categories
-#    - tags
-#  layouts:
-#    category: archive-taxonomy
-#    tag: archive-taxonomy
-#  permalinks:
-#    category: /categories/:name/
-#    tag: /tags/:name/
 
 
 # HTML Compression
