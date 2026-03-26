@@ -3,15 +3,18 @@ title: "You Don't Need Kubernetes: Side Projects on One Linux Server"
 permalink: /talks/2026/installfestcz-you-dont-need-kubernetes/
 redirect_from:
   - /talks/cfp-submissions/installfest.cz-2026
-entry_type: proposal
+entry_type: talk
 speaking_event: "Installfest.cz"
-speaking_date: 2026-03-15
+speaking_date: 2026-03-28
 speaking_links:
   details: /talks/2026/installfestcz-you-dont-need-kubernetes/
+  slides: /talks/2026/installfestcz-you-dont-need-kubernetes/nokube-slides.html
 layout: single
 author_profile: true
 classes: wide
 ---
+
+## Presented at [Installfest.cz 2026](https://pretalx.installfest.cz/installfest-2026-2025/talk/XLRXK9/) in Prague, Czech Republic on 28 March 2026
 
 ## Abstract
 
@@ -29,4 +32,9 @@ You will see:
 - how Flatcar auto-updates and rootless Podman quadlets help with isolation
 - how to inject credentials via 1Password instead of building a new secrets system
 - how to use Telegraf and MQTT to treat Home Assistant as a simple monitoring and alerting layer
+
+## Slides
+
+- [Slides (HTML)](nokube-slides.html)
+- [Slides (PowerPoint)](nokube-slides.pptx)
 

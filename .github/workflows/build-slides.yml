@@ -1,0 +1,33 @@
+name: Build Slides
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - run: npm install -g @marp-team/marp-cli
+
+      - name: Build nokube slides
+        working-directory: talks/2026/installfestcz-you-dont-need-kubernetes
+        run: |
+          marp --pptx --html nokube-slides.md -o nokube-slides.pptx --allow-local-files
+          marp --html nokube-slides.md -o nokube-slides.html --allow-local-files
+
+      - name: Build flatcar 101 slides
+        working-directory: talks/2026/installfestcz-flatcar-linux-101
+        run: |
+          marp --pptx --html 101-slides.md -o 101-slides.pptx --allow-local-files
+          marp --html 101-slides.md -o 101-slides.html --allow-local-files
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: slides
+          path: |
+            talks/2026/installfestcz-you-dont-need-kubernetes/nokube-slides.pptx
+            talks/2026/installfestcz-you-dont-need-kubernetes/nokube-slides.html
+            talks/2026/installfestcz-flatcar-linux-101/101-slides.pptx
+            talks/2026/installfestcz-flatcar-linux-101/101-slides.html

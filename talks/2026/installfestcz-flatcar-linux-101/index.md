@@ -1,15 +1,18 @@
 ---
 title: "Flatcar Linux 101: A Hands-Free Server OS"
 permalink: /talks/2026/installfestcz-flatcar-linux-101/
-entry_type: proposal
+entry_type: talk
 speaking_event: "Installfest.cz"
-speaking_date: 2026-03-15
+speaking_date: 2026-03-28
 speaking_links:
   details: /talks/2026/installfestcz-flatcar-linux-101/
+  slides: /talks/2026/installfestcz-flatcar-linux-101/101-slides.html
 layout: single
 author_profile: true
 classes: wide
 ---
+
+## Presented at [Installfest.cz 2026](https://pretalx.installfest.cz/installfest-2026-2025/talk/BBARCX/) in Prague, Czech Republic on 28 March 2026
 
 ## Abstract
 
@@ -29,4 +32,9 @@ You will learn:
 - how Ignition lets you declaratively configure servers at boot time
 - how automatic updates work and why they are safe
 - how to extend Flatcar with systemd-sysext and the community sysext-bakery
+
+## Slides
+
+- [Slides (HTML)](101-slides.html)
+- [Slides (PowerPoint)](101-slides.pptx)
 
