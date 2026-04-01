@@ -33,8 +33,12 @@ You will learn:
 - how automatic updates work and why they are safe
 - how to extend Flatcar with systemd-sysext and the community sysext-bakery
 
+## Recording
+
+- [Recording](https://www.youtube.com/watch?v=reR0UCJ7Ezo&list=PLub6xBWO8gV8rGgwk66l2P8rIUCdWklkj&index=15) (with some technical issues at the start)
+
 ## Slides
 
-- [Slides (HTML)](101-slides.html)
+- [Slides (HTML)](101-slides.html){:target="_blank"} 
 - [Slides (PowerPoint)](101-slides.pptx)
-
+- Information about [recreating the demo](demo)

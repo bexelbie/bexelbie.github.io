@@ -33,8 +33,12 @@ You will see:
 - how to inject credentials via 1Password instead of building a new secrets system
 - how to use Telegraf and MQTT to treat Home Assistant as a simple monitoring and alerting layer
 
+## Recording
+
+- [Recording](https://www.youtube.com/watch?v=WdjUUvePfC4&list=PLub6xBWO8gV8rGgwk66l2P8rIUCdWklkj&index=6)
+
 ## Slides
 
-- [Slides (HTML)](nokube-slides.html)
+- [Slides (HTML)](nokube-slides.html){:target="_blank"}
 - [Slides (PowerPoint)](nokube-slides.pptx)
 

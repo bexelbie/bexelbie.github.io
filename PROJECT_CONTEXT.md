@@ -129,13 +129,19 @@ Do NOT add if neither employer nor sensitive topic appears.
 
 ## Talks & Publications Page
 
-The `/talks/` page auto-generates from YAML front matter. No manual list editing. The Liquid template collects all pages and posts with `entry_type` set, sorts by `speaking_date` descending, and groups by year.
+The `/talks/` page auto-generates from YAML front matter. No manual list editing. The Liquid template collects all pages and posts with `entry_type` set (excluding proposals), sorts by `speaking_date` descending, and groups by year.
 
 ### Entry Types
 
 1. **Talks** (`entry_type: talk`): Conference presentations. File at `talks/YYYY/slug/index.md`. Title links to detail page.
-2. **Proposals** (`entry_type: proposal`): Submitted CFPs. Same structure. Shown as "Submitted proposal." When accepted, change `entry_type` to `talk`. If rejected, delete or repurpose.
+2. **Proposals** (`entry_type: proposal`): Submitted CFPs. Same structure. Listed on `/talks/proposals/`.
 3. **Articles** (`entry_type: article`): External publications. YAML added to existing blog post in `_posts/`. Title links to blog post. No separate page needed (exception: articles without a blog post stub get a standalone page under `talks/YYYY/slug/`).
+
+#### Proposal Status
+
+- Default: submitted proposal
+- If rejected and you want to keep it for reference: set `proposal_status: rejected`
+- When accepted: change `entry_type` to `talk`
 
 ### Display Format (two lines per entry)
 
@@ -231,9 +237,9 @@ Generate social posts only when requested, typically at publication time.
 
 Factual pointer; 0-2 hashtags; no CTA unless explicitly asked. Include one concrete hook (stat, question, or contrast). Avoid duplicating the full excerpt. Use the full character limit for engaging, concise summaries. Add URL placeholder if post is live or planned.
 
-### Bluesky (≤300 chars)
+### Bluesky (≤300 chars / graphemes)
 
-Similar to Mastodon. Factual pointer; no CTA. Focus on core insight or hook. Use full character limit.
+Similar to Mastodon. Factual pointer; no CTA. Focus on core insight or hook. Platform limit is 300 Unicode grapheme clusters (not bytes), so local tools may report higher counts.
 
 ### LinkedIn
 

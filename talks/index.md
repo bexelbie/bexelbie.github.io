@@ -1,12 +1,12 @@
 ---
 title: "Talks & Publications"
-excerpt: "Talks, articles, and proposals"
+excerpt: "Talks and articles"
 classes: wide
-redirect_from:
- - /cfp-submissions/
 ---
 
 Talks I've given and articles I've written for other publications.
+
+If you're interested in what I'm proposing (or what wasn't accepted) and want to learn more about CFPs, see [Proposals & rejections](/talks/proposals/).
 
 {% comment %}
   Collect all pages and posts with entry_type set.
@@ -15,13 +15,13 @@ Talks I've given and articles I've written for other publications.
 
 {% assign speaking_pages = "" | split: "" %}
 {% for page in site.pages %}
-  {% if page.entry_type and page.entry_type != "organizing" and page.status != "template" and page.speaking_date %}
+  {% if page.entry_type and page.entry_type != "organizing" and page.entry_type != "proposal" and page.status != "template" and page.speaking_date %}
     {% assign speaking_pages = speaking_pages | push: page %}
   {% endif %}
 {% endfor %}
 
 {% for post in site.posts %}
-  {% if post.entry_type and post.entry_type != "organizing" and post.status != "template" and post.speaking_date %}
+  {% if post.entry_type and post.entry_type != "organizing" and post.entry_type != "proposal" and post.status != "template" and post.speaking_date %}
     {% assign speaking_pages = speaking_pages | push: post %}
   {% endif %}
 {% endfor %}
@@ -40,7 +40,6 @@ Talks I've given and articles I've written for other publications.
 
   {% endif %}
   {% if item.entry_type == "article" %}- [**{{ item.title | strip }}**]({{ item.url }})<br>Article, {{ item.speaking_date | date: "%B %Y" }}, {{ item.speaking_event }}
-  {% elsif item.entry_type == "proposal" %}- [**{{ item.title | strip }}**]({{ item.permalink | default: item.url }})<br>Submitted proposal, {{ item.speaking_date | date: "%B %Y" }}, {{ item.speaking_event }}
   {% else %}- [**{{ item.title | strip }}**]({% if item.speaking_links.details %}{{ item.speaking_links.details }}{% else %}{{ item.permalink | default: item.url }}{% endif %})<br>Talk, {{ item.speaking_date | date: "%B %Y" }}, {{ item.speaking_event }}
   {% endif %}
 {% endfor %}
