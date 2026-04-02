@@ -1,8 +1,7 @@
 ---
 title: "systemd-sysext in Production: What We Learned Extending /usr Without a Package Manager"
 permalink: /talks/2026/devconfcz-systemd-sysext-in-production/
-entry_type: proposal
-proposal_status: submitted
+entry_type: talk
 speaking_event: "DevConf.CZ"
 speaking_date: 2026-06-18
 speaking_links:
@@ -12,7 +11,7 @@ author_profile: true
 classes: wide
 ---
 
-## Submitted to [DevConf.CZ 2026](https://devconf.info/cz/) in Brno, Czech Republic on June 18-19, 2026
+## Accepted at [DevConf.CZ 2026](https://devconf.info/cz/) in Brno, Czech Republic on June 18-19, 2026
 
 ## Abstract
 
