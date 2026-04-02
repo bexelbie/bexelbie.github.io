@@ -237,10 +237,6 @@ Generate social posts only when requested, typically at publication time.
 
 Factual pointer; 0-2 hashtags; no CTA unless explicitly asked. Include one concrete hook (stat, question, or contrast). Avoid duplicating the full excerpt. Use the full character limit for engaging, concise summaries. Add URL placeholder if post is live or planned.
 
-### Bluesky (≤300 chars / graphemes)
-
-Similar to Mastodon. Factual pointer; no CTA. Focus on core insight or hook. Platform limit is 300 Unicode grapheme clusters (not bytes), so local tools may report higher counts.
-
 ### LinkedIn
 
 2-4 short paragraphs. Context + 1-3 insights + optional neutral observation. No inflated impact; no invented metrics.
@@ -248,7 +244,6 @@ Similar to Mastodon. Factual pointer; no CTA. Focus on core insight or hook. Pla
 ### Hashtags
 
 - Mastodon: 0-4 max, at end. Skip if no discovery value.
-- Bluesky: 0-2 max, at end.
 - LinkedIn: 2-4 concise, high-signal at end after blank line. Prefer topic/category over slogans.
 - Do not embed hashtags mid-sentence.
 
