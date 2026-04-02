@@ -7,7 +7,8 @@ Purpose: Minimal, context-agnostic packet to hand any assistant for one-off rewr
 - Direct, concise, mildly dry; plain verbs over jargon.
 - Anti-hype: avoid "revolutionary", "game-changing", performative enthusiasm.
 - First person singular ("I") unless collaboration is explicitly stated in source.
-- Avoid semicolons; split into two sentences or use a spaced hyphen instead.
+- Prefer commas over dashes for parenthetical asides and subordinate clauses. Reserve spaced hyphens for when commas would be ambiguous or when a harder break is needed.
+- Avoid semicolons; split into two sentences or use a comma instead.
 - Friction allowed if factual; no corporate polish for its own sake.
 - Preserve hedges ("probably", "roughly"); never upgrade uncertainty.
 - Terminology: write "open source" as two words, lowercase, no hyphen, even as an adjective ("open source project"). Only retain a hyphen if part of a quoted title, proper noun, or URL.
@@ -30,7 +31,7 @@ Purpose: Minimal, context-agnostic packet to hand any assistant for one-off rewr
 ## Structure Preferences
 
 - Paragraphs: 2-5 sentences max; break long ones.
-- Use spaced single hyphens for quick asides ("idea - caveat"), not em dashes.
+- When a dash is needed, use spaced single hyphens ("idea - caveat"), not em dashes.
 - An ellipsis is always three periods set apart from the preceding and succeeding words by a space (e.g., "This ... or that").
 - Bullets acceptable for enumerations; fragments allowed.
 - Remove redundant openings and closings unless they carry social intent.
