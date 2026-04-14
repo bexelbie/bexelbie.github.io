@@ -4,10 +4,22 @@
   | where_exp: "book", "book.started"
 -%}
 {%- assign reading = reading | sort: "started" -%}
+{%- assign reading_notes = site.posts | where: "series", "things-i-read" -%}
+{%- assign latest_reading_note = reading_notes | first -%}
 
 {% if reading.size > 0 %}
 <div class="sidebar__books">
   <h4>What I'm reading</h4>
   {% include currently-reading.html books=reading %}
+</div>
+{% endif %}
+
+{% if latest_reading_note %}
+<div class="sidebar__reading-notes">
+  <h4>Latest reading note</h4>
+  <p><a href="{{ latest_reading_note.url | relative_url }}">{{ latest_reading_note.title }}</a></p>
+  {% if latest_reading_note.excerpt %}
+  <p class="sidebar__reading-notes-excerpt">{{ latest_reading_note.excerpt }}</p>
+  {% endif %}
 </div>
 {% endif %}

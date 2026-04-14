@@ -127,6 +127,19 @@ If an earlier post in a series uses a slightly different variant, standardize un
 
 Do NOT add if neither employer nor sensitive topic appears.
 
+## Reading Notes Series
+
+Use these rules for posts in the "Things I Read" series.
+
+- The series is primarily curated reading notes, not a bundle of mini-essays. Commentary should explain why an item stuck, not try to turn every entry into a standalone post.
+- Snark is allowed, but the post should not become a snark dump. Keep sharp lines that add voice or judgment; cut ones that exist only to sneer.
+- A small number of lighter entries is fine, but each item should earn its place by doing at least one of these clearly:
+  - surface a surprising fact or angle
+  - reveal something about the author's own thinking
+  - deliver a joke or aside sharp enough to justify the space
+- Trim entries that do not add value beyond "I read this" or a placeholder reaction.
+- When a disclaimer is needed for the post, place it once near the top so it applies to the whole entry rather than to a single reading note.
+
 ## Talks & Publications Page
 
 The `/talks/` page auto-generates from YAML front matter. No manual list editing. The Liquid template collects all pages and posts with `entry_type` set (excluding proposals), sorts by `speaking_date` descending, and groups by year.

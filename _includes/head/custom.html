@@ -4,9 +4,166 @@
     margin-top: 2em;
     font-size: 1.25em;
   }
+
+  .sidebar__reading-notes {
+    margin-top: 1.5rem;
+  }
+
+  .sidebar__reading-notes p {
+    margin: 0 0 0.65rem;
+  }
+
+  .sidebar__reading-notes-excerpt {
+    font-size: 0.9em;
+    color: #666;
+  }
+
+  .reading-notes-post .page__content > p {
+    max-width: 42rem;
+  }
+
+  .reading-notes-post .reading-notes-section {
+    margin: 2.5rem 0 3rem;
+  }
+
+  .reading-notes-post .reading-notes-section > h2,
+  .reading-notes-post .reading-notes-section__label {
+    margin: 0 0 1.1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #d8d8d8;
+    font-size: 1.45em;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+  }
+
+  .reading-notes-post .reading-notes-section__label {
+    color: #666;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.95em;
+    letter-spacing: 0.06em;
+  }
+
+  .reading-notes-post .reading-note {
+    margin: 0 0 1.6rem;
+    padding: 0;
+    border-bottom: 0;
+  }
+
+  .reading-notes-post .reading-note:last-child {
+    margin-bottom: 0;
+  }
+
+  .reading-notes-post .reading-note__title {
+    margin: 0 0 0.55rem;
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 1.35;
+  }
+
+  .reading-notes-post .reading-note__title a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .reading-notes-post .reading-note__title a:hover {
+    text-decoration: underline;
+  }
+
+  .reading-notes-post .reading-note__title a[href^="http"]::after {
+    content: " ↗";
+    color: #666;
+    font-weight: 400;
+  }
+
+  .reading-notes-post .reading-note blockquote {
+    margin: 0 0 0.8rem;
+    padding: 0.1rem 0 0.1rem 1rem;
+    border-left: 3px solid #b8c4d4;
+    color: #555;
+    font-size: 0.95em;
+    background: transparent;
+  }
+
+  .reading-notes-post .reading-note blockquote p:last-child,
+  .reading-notes-post .reading-note p:last-child {
+    margin-bottom: 0;
+  }
+
+  .reading-notes-post .reading-note p + p {
+    margin-top: 0.8rem;
+  }
+
+  .reading-notes-post .reading-notes-section--coda {
+    margin-top: 2rem;
+  }
+
+  .reading-notes-related .page__related-title {
+    margin-bottom: 1rem;
+  }
+
+  .reading-notes-related__nav {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+
+  .reading-notes-related__item {
+    display: block;
+    padding: 0.9rem 1rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    text-decoration: none;
+    color: inherit;
+    background: #fcfcfc;
+  }
+
+  .reading-notes-related__item:hover {
+    text-decoration: none;
+    border-color: #cbd5e1;
+  }
+
+  .reading-notes-related__eyebrow {
+    display: block;
+    margin-bottom: 0.35rem;
+    color: #666;
+    font-size: 0.85em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .reading-notes-related__title {
+    display: block;
+    font-size: 1.05em;
+    font-weight: 700;
+    line-height: 1.35;
+  }
+
+  .spoiler {
+    background: #444;
+    color: #444;
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .spoiler.revealed {
+    background: none;
+    color: inherit;
+  }
+
   @media (max-width: 800px) {
     .sidebar__books {
       display: none;
+    }
+
+    .sidebar__reading-notes {
+      display: none;
+    }
+
+    .reading-notes-post .reading-note {
+      margin-bottom: 1.35rem;
     }
   }
 </style>

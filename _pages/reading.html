@@ -11,12 +11,20 @@ permalink: /reading/
 
 {% assign finished = site.data.reading.books | reject: "finished", nil %}
 {% assign finished = finished | sort: "finished" | reverse %}
+{% assign reading_notes = site.posts | where: "series", "things-i-read" %}
+{% assign latest_reading_note = reading_notes | first %}
 
 {% if reading.size > 0 %}
 <h1>Currently Reading</h1>
   <div class="currently-reading-list" style="display: flex; flex-wrap: wrap; gap: 24px;">
     {% include currently-reading.html books=reading icon_placement="below" %}
   </div>
+{% endif %}
+
+{% if latest_reading_note %}
+<aside class="reading-notes-callout">
+  <p>I also keep notes on articles, essays, and other short-form reading, most recently in <a href="{{ latest_reading_note.url | relative_url }}">{{ latest_reading_note.title }}</a>.</p>
+</aside>
 {% endif %}
 
 {% if finished.size > 0 %}
@@ -70,19 +78,6 @@ permalink: /reading/
   margin-bottom: 20px;
 }
 
-.book-details {
-  display: flex;
-  align-items: center;
-}
-
-.book-cover {
-  margin-right: 20px;
-}
-
-.book-info {
-  flex: 1;
-}
-
 .book-title {
   font-size: 1.5em;
   font-weight: bold;
@@ -100,6 +95,19 @@ permalink: /reading/
   margin-top: 5px;
 }
 
+.book-details {
+  display: flex;
+  align-items: center;
+}
+
+.book-cover {
+  margin-right: 20px;
+}
+
+.book-info {
+  flex: 1;
+}
+
 .book-comment {
   margin-top: 15px;
   padding: 10px;
@@ -110,6 +118,17 @@ permalink: /reading/
 .book-comment-text {
   font-size: 1.1em;
   line-height: 1.6;
+}
+
+.reading-notes-callout {
+  margin: 1.5rem 0 2rem;
+  padding: 1rem 1.25rem;
+  border-left: 4px solid #008CBA;
+  background-color: #f9f9f9;
+}
+
+.reading-notes-callout p {
+  margin: 0;
 }
 
 .spoiler {
