@@ -1,10 +1,10 @@
 ---
 title: "Talks & Publications"
-excerpt: "Talks and articles"
+excerpt: "Talks, podcast appearances, and articles"
 classes: wide
 ---
 
-Talks I've given and articles I've written for other publications.
+Talks I've given, podcast appearances, and articles I've written for other publications.
 
 If you're interested in what I'm proposing (or what wasn't accepted) and want to learn more about CFPs, see [Proposals & rejections](/talks/proposals/).
 
@@ -40,6 +40,7 @@ If you're interested in what I'm proposing (or what wasn't accepted) and want to
 
   {% endif %}
   {% if item.entry_type == "article" %}- [**{{ item.title | strip }}**]({{ item.url }})<br>Article, {{ item.speaking_date | date: "%B %Y" }}, {{ item.speaking_event }}
+  {% elsif item.entry_type == "podcast" %}- [**{{ item.title | strip }}**]({% if item.speaking_links.details %}{{ item.speaking_links.details }}{% else %}{{ item.permalink | default: item.url }}{% endif %})<br>Podcast, {{ item.speaking_date | date: "%B %Y" }}, {{ item.speaking_event }}
   {% else %}- [**{{ item.title | strip }}**]({% if item.speaking_links.details %}{{ item.speaking_links.details }}{% else %}{{ item.permalink | default: item.url }}{% endif %})<br>Talk, {{ item.speaking_date | date: "%B %Y" }}, {{ item.speaking_event }}
   {% endif %}
 {% endfor %}

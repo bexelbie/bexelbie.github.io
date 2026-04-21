@@ -149,6 +149,7 @@ The `/talks/` page auto-generates from YAML front matter. No manual list editing
 1. **Talks** (`entry_type: talk`): Conference presentations. File at `talks/YYYY/slug/index.md`. Title links to detail page.
 2. **Proposals** (`entry_type: proposal`): Submitted CFPs. Same structure. Listed on `/talks/proposals/`.
 3. **Articles** (`entry_type: article`): External publications. YAML added to existing blog post in `_posts/`. Title links to blog post. No separate page needed (exception: articles without a blog post stub get a standalone page under `talks/YYYY/slug/`).
+4. **Podcasts** (`entry_type: podcast`): Podcast interviews or appearances. File at `talks/YYYY/slug/index.md`. Title links to a detail page that can point to the recording.
 
 #### Proposal Status
 
@@ -164,12 +165,24 @@ The `/talks/` page auto-generates from YAML front matter. No manual list editing
 ### Talk/Proposal Front Matter
 
 ```yaml
-entry_type: talk          # talk | proposal | article
+entry_type: talk          # talk | proposal | article | podcast
 speaking_event: "Flock 2016"
 speaking_date: 2016-08-04  # YYYY-MM-DD
 permalink: /talks/2016/flock-docs-hackfest/
 speaking_links:
   details: /talks/2016/flock-docs-hackfest/
+```
+
+### Podcast Front Matter
+
+```yaml
+entry_type: podcast
+speaking_event: "Coffee With Kusari"
+speaking_date: 2026-04-21
+permalink: /talks/2026/coffee-with-kusari-episode-10/
+speaking_links:
+  details: /talks/2026/coffee-with-kusari-episode-10/
+  recording: "https://www.youtube.com/watch?v=..."
 ```
 
 ### External Article Front Matter
