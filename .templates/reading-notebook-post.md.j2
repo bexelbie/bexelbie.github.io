@@ -26,42 +26,39 @@ _Excerpt note: write a factual sentence under 140 characters that tells a reader
 
 _Write 1-2 sentences here on what kept showing up in this pile, what mood the reading had, or why these were the pieces that stayed with you._
 
-_If a couple of items obviously belong together, split this into multiple `<section class="reading-notes-section">` blocks and add `<h2>` headings. If not, leave it as a single stream._
+_If a couple of items obviously belong together, split this into multiple `##` sections. If not, leave it as a single stream._
 
-_If one item feels like a coda, use `<section class="reading-notes-section reading-notes-section--coda">` with `<p class="reading-notes-section__label">And finally</p>`._
+_If one item feels like a coda, use a final `## And finally` section._
 
-<section class="reading-notes-section">
 {% for article in articles %}
-  <article class="reading-note" markdown="1">
-    <p class="reading-note__title"><a href="{{ article.url }}">{{ article.title }}</a></p>
+* [{{ article.title | replace('|', '\\|') }}]({{ article.url }})
 
 {% for highlight in article.highlights %}
 {% if highlight.text %}
-    <blockquote>
 {% for paragraph in highlight.text.split('\n\n') %}
-      <p>{{ paragraph | replace('\n', ' ') }}</p>
+    > {{ paragraph | replace('\n', ' ') }}
+{% if not loop.last %}
+    >
+{% endif %}
 {% endfor %}
-    </blockquote>
 
 {% endif %}
 {% if highlight.note %}
 {% for paragraph in highlight.note.split('\n\n') %}
-    <p>{{ paragraph | replace('\n', ' ') }}</p>
+    {{ paragraph | replace('\n', ' ') }}
 {% endfor %}
 
 {% endif %}
 {% endfor %}
 {% if article.description %}
 {% for paragraph in article.description.split('\n\n') %}
-    <p>{{ paragraph | replace('\n', ' ') }}</p>
+    {{ paragraph | replace('\n', ' ') }}
 {% endfor %}
 
 {% endif %}
 {% if not article.highlights and not article.description %}
-_Add a note, pull a short quote, or delete this item._
+    _Add a note, pull a short quote, or delete this item._
 
 {% endif %}
-  </article>
 
 {% endfor %}
-</section>
