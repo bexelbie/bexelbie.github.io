@@ -6,7 +6,7 @@ excerpt: "False positives aren't the real problem with LLM code review. The burd
 
 Disclaimer: I work at Microsoft on upstream Linux in Azure. These are my personal notes and opinions.
 
-I kept thinking about the [LWN article $](https://lwn.net/Articles/1064830/) and the [basic analysis I did yesterday]({% post_url 2026-04-01-whats-in-a-sashiko-review %}). I kept coming back to one of the central themes of the mailing list conversation: false positives. Sashiko's false positive rate is debated, but, I'm gathering, is pretty good by LLM standards. Still, there was a complaint about the number of false positives focused on the burden that false positives put on contributors and maintainers.
+I kept thinking about the [LWN article $](https://lwn.net/Articles/1064830/) and the [basic analysis I did yesterday]({% post_url 2026/2026-04-01-whats-in-a-sashiko-review %}). I kept coming back to one of the central themes of the mailing list conversation: false positives. Sashiko's false positive rate is debated, but, I'm gathering, is pretty good by LLM standards. Still, there was a complaint about the number of false positives focused on the burden that false positives put on contributors and maintainers.
 
 I wanted to understand if the false positive rate, and by extension the burden, was higher from an LLM than from human reviewers. To run that experiment, I needed to define what a false positive actually is. That turns out to be the interesting part.
 

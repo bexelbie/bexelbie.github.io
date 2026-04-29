@@ -12,7 +12,7 @@ Editor's Note: This is in the category "Ramblings" for a reason.  You are promis
 
 So Apple announced a bunch of things like VR headsets and stuff.  The VR headsets caused [Adam](https://blog.samalik.com/2023/06/07/apple-vision-pro.html) to go drop a blog post for the first time in a while and motivated all of us to consider recording another episode of our [Fractal FM](https://fractal.fm/) Podcast.
 
-"Wait, what podcast?" you say.  Well about [three years ago]({% post_url 2020-07-13-podcast %}) we announced a podcast that ... well ... didn't have a lot of staying power.  We've missed it and we'd like to reboot.  
+"Wait, what podcast?" you say.  Well about [three years ago]({% post_url 2020/2020-07-13-podcast %}) we announced a podcast that ... well ... didn't have a lot of staying power.  We've missed it and we'd like to reboot.  
 
 We were excited to try today.  We started setting up and then ... my daughter woke up early and my role as Daddy overrode my role as Podcaster.  We may try again tomorrow - let's see.
 

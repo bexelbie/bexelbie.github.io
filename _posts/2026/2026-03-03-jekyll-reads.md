@@ -6,7 +6,7 @@ excerpt: "A tiny, dependency-free toolkit for keeping a Jekyll reading log in sy
 
 ## Why I needed more than a social reading site
 
-In [Rediscovering Reading (Without the Social Media Part)]({% post_url 2025-02-11-rediscovering-reading %}) I wrote about stepping away from scrolling and building a slower, more deliberate reading habit. Part of that shift was making my reading log public without tying it to a dedicated social network.
+In [Rediscovering Reading (Without the Social Media Part)]({% post_url 2025/2025-02-11-rediscovering-reading %}) I wrote about stepping away from scrolling and building a slower, more deliberate reading habit. Part of that shift was making my reading log public without tying it to a dedicated social network.
 
 The mechanics behind that were simple but fussy: keep a YAML file up to date, copy and paste links from Open Library, remember to grab cover images, and wire everything into Jekyll templates for the reading page and sidebar. None of it was hard, but it was just annoying enough that I knew future‑me would start skipping updates.
 

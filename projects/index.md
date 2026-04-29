@@ -17,7 +17,7 @@ Compare prices abroad using the Big Mac Index, average wages, and purchase power
 
 ## Online Compact Calendar
 
-[cc.bexelbie.com](https://cc.bexelbie.com) · [Blog post]({% post_url 2026-02-18-online-compact-calendar %}) · [GitHub](https://github.com/bexelbie/online-compact-calendar)
+[cc.bexelbie.com](https://cc.bexelbie.com) · [Blog post]({% post_url 2026/2026-02-18-online-compact-calendar %}) · [GitHub](https://github.com/bexelbie/online-compact-calendar)
 
 ![A full-year compact calendar view showing one row per week, with multi-day events highlighted in color to make travel and vacation conflicts easy to spot.](/img/2026/CC-FullCalendar.png)
 
@@ -25,7 +25,7 @@ Year-at-a-glance web app that reads ICS feeds and highlights multi-day, all-day 
 
 ## op-secret-manager
 
-[Blog post]({% post_url 2026-02-06-op-secret-manager %}) · [GitHub](https://github.com/bexelbie/op-secret-manager)
+[Blog post]({% post_url 2026/2026-02-06-op-secret-manager %}) · [GitHub](https://github.com/bexelbie/op-secret-manager)
 
 Distribute [1Password](https://1password.com/) secrets to multi-user Linux systems. SUID privilege separation, no daemon, no persistent state.
 
@@ -37,7 +37,7 @@ Tools for keeping a reading list in a single `_data/reading.yml` file and render
 
 ## HedgeDoc Draft Share
 
-[Runbook](https://github.com/bexelbie/hedgedoc-container/blob/master/FORK.md) · [Fork notes](https://github.com/bexelbie/hedgedoc/blob/bex-master/FORK.md) · [Blog post]({% post_url 2026-02-12-yak-shaving %})
+[Runbook](https://github.com/bexelbie/hedgedoc-container/blob/master/FORK.md) · [Fork notes](https://github.com/bexelbie/hedgedoc/blob/bex-master/FORK.md) · [Blog post]({% post_url 2026/2026-02-12-yak-shaving %})
 
 Self-hosted collaborative editing/review platform for markdown documents. Built on HedgeDoc v1 because it runs comfortably on tiny hardware with SQLite; the fork adds a few collaboration/UI fixes that allow for anonymous reviewers to prevent the need to create accounts, adds the ability to easily leave comments in addition to changes and ensure everything has appropriate color highlighting. See the fork notes or my blog post for details.
 

@@ -18,7 +18,7 @@ classes: wide
 
 [Recording](https://www.youtube.com/watch?v=ZTc0NPL6wRs)
 
-This conversation with [Ben Cotton](https://funnelfiasco.com) of [Kusari](https://www.kusari.dev) is drawn from my posts [What's Actually in a Sashiko Review?]({% post_url 2026-04-01-whats-in-a-sashiko-review %}) and [A Few More Thoughts on Sashiko and the Kernel]({% post_url 2026-04-02-more-thoughts-sashiko-kernel %}).
+This conversation with [Ben Cotton](https://funnelfiasco.com) of [Kusari](https://www.kusari.dev) is drawn from my posts [What's Actually in a Sashiko Review?]({% post_url 2026/2026-04-01-whats-in-a-sashiko-review %}) and [A Few More Thoughts on Sashiko and the Kernel]({% post_url 2026/2026-04-02-more-thoughts-sashiko-kernel %}).
 
 We talked about the two hypotheses behind the analysis, why repeated findings do not seem to be the real problem, how pre-existing bugs show up unevenly in review output, and why the harder issue is the social burden of making humans respond to machine-generated review comments.
 

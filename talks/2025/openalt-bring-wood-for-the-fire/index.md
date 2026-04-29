@@ -20,4 +20,4 @@ classes: wide
 
 The hallway conversations at conferences can be as valuable as the talks. This keynote explores how shared space transforms open source communities. We touch on why principled and pragmatic projects need each other, and what we've lost when we stopped celebrating our wins. Through stories, we examine what OpenAlt's 211 meetups and 19 conferences have already proven and how we can keep it going. You'll leave knowing what to do this weekend, next month, and next year. Bring wood for the fire.
 
-I wrote a [blog post]({% post_url 2025-11-04-openalt-keynote %}) reflecting on the process of preparing and delivering this keynote as a practitioner.
+I wrote a [blog post]({% post_url 2025/2025-11-04-openalt-keynote %}) reflecting on the process of preparing and delivering this keynote as a practitioner.

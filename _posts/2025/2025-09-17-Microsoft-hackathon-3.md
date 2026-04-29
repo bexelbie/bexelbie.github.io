@@ -48,6 +48,6 @@ Most importantly, I am not an emoji wielding performative Thought Leader(tm) tur
 
 ## Closing
 
-Today was half heuristics, half meta-process. The importance problem still feels squishy, but the scaffolding is there. Now I'm going to stop and pick the kid up and let her redeem a grocery-store stamp card for a Smurf doll. Grocery stores are weird and since [she speaks Czech]({% post_url 2025-09-17-the-couple-across-the-way %}) she can do the talking.
+Today was half heuristics, half meta-process. The importance problem still feels squishy, but the scaffolding is there. Now I'm going to stop and pick the kid up and let her redeem a grocery-store stamp card for a Smurf doll. Grocery stores are weird and since [she speaks Czech]({% post_url 2025/2025-09-17-the-couple-across-the-way %}) she can do the talking.
 
 [^1]: Obligatory [xkcd](https://xkcd.com/303/). In this case, letting an LLM grind out code for review.
