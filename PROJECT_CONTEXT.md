@@ -127,7 +127,11 @@ If an earlier post in a series uses a slightly different variant, standardize un
 
 Do NOT add if neither employer nor sensitive topic appears.
 
-## Reading Notes Series
+## Read Recently/Reading Notes Series
+
+If bex asks to build, start, or do the next read recently or reading-notes post, the first response should be: run `gen-read-recently`. Do that before searching the repo or outlining the post, unless bex has already pointed to a specific existing draft in `working-notes/`.
+
+This is a blocking first step, not a suggestion. Do not search the repo, inspect prior posts, check command availability, or run any tool before giving that response. The only exception is when bex has already pointed to a specific existing draft in `working-notes/`.
 
 Use these rules for posts in the "Things I Read" series.
 
@@ -139,6 +143,19 @@ Use these rules for posts in the "Things I Read" series.
   - deliver a joke or aside sharp enough to justify the space
 - Trim entries that do not add value beyond "I read this" or a placeholder reaction.
 - When a disclaimer is needed for the post, place it once near the top so it applies to the whole entry rather than to a single reading note.
+
+### Generating Drafts With `ip-read-recently`
+
+Assume `ip-read-recently` is already installed as a user-level tool. If bex asks for a new read recently or reading-notes post, remind bex to run `gen-read-recently`, which already picks up the right pieces for this repo.  This creates a draft in working-notes.
+
+In practice, this is the default first step. Do not start by inspecting old posts or drafting structure unless the draft already exists.
+
+1. Edit the draft by hand. The generator gives you the scaffolding, not a publishable post. Before moving it to `_posts/`, write the excerpt, tighten the generated title/date range if needed, group items into sections only where the grouping actually helps, trim weak entries and extra highlights, and add the disclaimer once near the top if it applies. Note, the template now consumes the generator's `title` value, but you should still normalize the title before publishing if the auto-generated range is awkward.
+
+1. Once the draft is safely captured and the post work is done, remind bex to run `move-read-recently` manually to move the processed Instapaper items out of the source folder.
+
+1. When promoting the draft to a real post, move it from the repo root with `mv` into `_posts/`. Do not use `git mv` from inside `working-notes/`; that source is ignored and symlinked.
+
 
 ## Talks & Publications Page
 

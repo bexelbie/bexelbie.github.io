@@ -31,6 +31,8 @@ If a `PROJECT_CONTEXT.md` file exists in this repository, read it for project-sp
 
 When asked to do something, just do it — including obvious follow-up actions needed to complete the task properly.
 
+Exception: if a project-specific instruction explicitly requires a user-directed first step, follow that instruction before taking autonomous action. When such an instruction says the first response must tell bex to run a command or perform an action, that response is the required first step. Do not use tools before giving that response unless bex has already provided the required artifact or context that the project-specific instruction names as the exception.
+
 Only pause to ask for confirmation when:
 - Multiple valid approaches exist and the choice matters
 - The action would delete or significantly restructure existing content
