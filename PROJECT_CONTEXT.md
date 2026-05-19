@@ -276,7 +276,7 @@ One H1 (`#`) only if a legacy post already uses it inside body. Do not add new H
 
 Generate social posts only when requested, typically at publication time.
 
-### Mastodon (≤500 chars)
+### Mastodon (≤2048 chars)
 
 Factual pointer; 0-2 hashtags; no CTA unless explicitly asked. Include one concrete hook (stat, question, or contrast). Avoid duplicating the full excerpt. Use the full character limit for engaging, concise summaries. Add URL placeholder if post is live or planned.
 

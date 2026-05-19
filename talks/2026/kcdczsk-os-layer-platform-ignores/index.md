@@ -1,18 +1,18 @@
 ---
 title: "The OS Layer Your Platform Ignores"
 permalink: /talks/2026/kcdczsk-os-layer-platform-ignores/
-entry_type: proposal
-proposal_status: submitted
+entry_type: talk
 speaking_event: "KCD Czech & Slovak"
 speaking_date: 2026-05-21
 speaking_links:
   details: /talks/2026/kcdczsk-os-layer-platform-ignores/
+  slides: /talks/2026/kcdczsk-os-layer-platform-ignores/slides.html
 layout: single
 author_profile: true
 classes: wide
 ---
 
-## Submitted to [KCD Czech & Slovak 2026](https://community.cncf.io/kcd-czech-slovak/) in Prague, Czech Republic on 21-22 May 2026
+## Presented at [KCD Czech & Slovak 2026](https://community.cncf.io/kcd-czech-slovak/) in Prague, Czech Republic on 21-22 May 2026
 
 ## Abstract
 
@@ -25,6 +25,11 @@ Most drift defenses detect changes after the fact. Detecting drift isn't making 
 Flatcar Container Linux (CNCF Incubating) treats the node OS like containers: immutable, declarative, atomically updated. /usr is dm-verity protected - cryptographically verified at boot. systemd-sysext extends the base without breaking immutability.
 
 I'll show how Flatcar provisions identical nodes from Ignition, updates atomically with rollback, and gives platform teams a node they can reason about.
+
+## Slides
+
+- [Slides (HTML)](slides.html){:target="_blank"}
+- [Slides (PowerPoint)](slides.pptx)
 
 <!--
 ## How This Session Benefits The CNCF Ecosystem
