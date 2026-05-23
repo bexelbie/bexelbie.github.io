@@ -1,0 +1,52 @@
+variant: flatcar
+version: 1.1.0
+passwd:
+  users:
+    - name: core
+      ssh_authorized_keys:
+        - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFJX6TYaALlUc9NKeQU8tmndXXAmDuHHYV0Zur3oPr4H bexelbie@flatcar-demo
+storage:
+  files:
+    - path: /etc/hostname
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: flatcar-demo2
+    # Static IP so SSH works predictably
+    - path: /etc/systemd/network/00-static.network
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: |
+          [Match]
+          Name=eth0 en*
+
+          [Network]
+          Address=192.168.122.104/24
+          Gateway=192.168.122.1
+          DNS=192.168.122.1
+    # Podman container policy (required for podman to pull images)
+    - path: /etc/containers/policy.json
+      overwrite: true
+      mode: 0644
+      contents:
+        local: resources/policy.json
+    # Podman registry search configuration
+    - path: /etc/containers/registries.conf
+      overwrite: true
+      mode: 0644
+      contents:
+        local: resources/registries.conf
+  links:
+    # Disable Docker and containerd sysexts (null-link prevents loading)
+    - path: /etc/extensions/docker-flatcar.raw
+      target: /dev/null
+      overwrite: true
+    - path: /etc/extensions/containerd-flatcar.raw
+      target: /dev/null
+      overwrite: true
+systemd:
+  units:
+    # Mask update-engine so the VM doesn't try to update during the demo
+    - name: update-engine.service
+      mask: true

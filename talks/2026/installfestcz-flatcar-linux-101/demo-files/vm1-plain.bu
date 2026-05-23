@@ -1,0 +1,42 @@
+variant: flatcar
+version: 1.0.0
+passwd:
+  users:
+    - name: core
+      ssh_authorized_keys:
+        - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFJX6TYaALlUc9NKeQU8tmndXXAmDuHHYV0Zur3oPr4H bexelbie@flatcar-demo
+storage:
+  files:
+    - path: /etc/flatcar/update.conf
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: |
+          SERVER=http://192.168.122.1:8000/v1/update/
+          GROUP=stable
+          REBOOT_STRATEGY=off
+    - path: /etc/hostname
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: flatcar-vm1
+    - path: /etc/systemd/network/00-static.network
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: |
+          [Match]
+          Name=eth0 en*
+
+          [Network]
+          Address=192.168.122.101/24
+          Gateway=192.168.122.1
+          DNS=192.168.122.1
+    # OEM grub.cfg — redirect sysext downloads to local nginx (offline support)
+    - path: /oem/grub.cfg
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: |
+          set oem_id="qemu"
+          set linux_append="$linux_append flatcar.autologin flatcar.release_file_server_url=http://192.168.122.1:8080/payload"

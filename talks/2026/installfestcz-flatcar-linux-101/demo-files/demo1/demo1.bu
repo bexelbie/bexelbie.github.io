@@ -1,0 +1,42 @@
+variant: flatcar
+version: 1.1.0
+passwd:
+  users:
+    - name: core
+      ssh_authorized_keys:
+        - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFJX6TYaALlUc9NKeQU8tmndXXAmDuHHYV0Zur3oPr4H bexelbie@flatcar-demo
+storage:
+  files:
+    - path: /etc/hostname
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: flatcar-demo1
+    # Static IP so SSH works predictably
+    - path: /etc/systemd/network/00-static.network
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: |
+          [Match]
+          Name=eth0 en*
+
+          [Network]
+          Address=192.168.122.103/24
+          Gateway=192.168.122.1
+          DNS=192.168.122.1
+    # Custom web page served by the container
+    - path: /var/www/index.html
+      overwrite: true
+      mode: 0644
+      contents:
+        local: resources/index.html
+systemd:
+  units:
+    # Static website container on port 8000
+    - name: my-website.service
+      enabled: true
+      contents_local: resources/my-website.service
+    # Mask update-engine so the VM doesn't try to update during the demo
+    - name: update-engine.service
+      mask: true

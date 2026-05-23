@@ -1,0 +1,120 @@
+variant: flatcar
+version: 1.0.0
+passwd:
+  users:
+    - name: core
+      ssh_authorized_keys:
+        - SSH_PUBKEY
+storage:
+  files:
+    - path: /etc/hostname
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: flatcar-cp
+    - path: /opt/extensions/kubernetes/kubernetes-v1.33.2-x86-64.raw
+      mode: 0644
+      contents:
+        source: https://extensions.flatcar.org/extensions/kubernetes-v1.33.2-x86-64.raw
+    - path: /etc/sysupdate.kubernetes.d/kubernetes-v1.33.transfer
+      mode: 0644
+      contents:
+        inline: |
+          [Transfer]
+          Verify=false
+
+          [Source]
+          Type=url-file
+          Path=https://extensions.flatcar.org/extensions/kubernetes/
+          MatchPattern=kubernetes-v1.33.@v-%a.raw
+
+          [Target]
+          InstancesMax=3
+          Type=regular-file
+          Path=/opt/extensions/kubernetes
+          MatchPattern=kubernetes-v1.33.@v-%a.raw
+          CurrentSymlink=/etc/extensions/kubernetes.raw
+    - path: /etc/sysupdate.d/noop.conf
+      mode: 0644
+      contents:
+        source: https://extensions.flatcar.org/extensions/noop.conf
+    # Tailscale sysext
+    - path: /opt/extensions/tailscale/tailscale-v1.94.1-x86-64.raw
+      mode: 0644
+      contents:
+        source: https://extensions.flatcar.org/extensions/tailscale-v1.94.1-x86-64.raw
+    # Enable IPv4 forwarding for Tailscale subnet routing
+    - path: /etc/systemd/networkd.conf.d/tailscale.conf
+      mode: 0644
+      contents:
+        inline: |
+          [Network]
+          IPForward=ipv4
+  links:
+    - path: /etc/extensions/kubernetes.raw
+      target: /opt/extensions/kubernetes/kubernetes-v1.33.2-x86-64.raw
+      hard: false
+      overwrite: true
+    - path: /etc/extensions/tailscale.raw
+      target: /opt/extensions/tailscale/tailscale-v1.94.1-x86-64.raw
+      hard: false
+      overwrite: true
+    - path: /etc/systemd/system/multi-user.target.wants/tailscaled.service
+      target: /usr/lib/systemd/system/tailscaled.service
+      overwrite: true
+systemd:
+  units:
+    - name: systemd-sysupdate.timer
+      enabled: false
+    - name: update-engine.service
+      mask: true
+    - name: systemd-sysupdate.service
+      dropins:
+        - name: kubernetes.conf
+          contents: |
+            [Service]
+            ExecStartPre=/usr/bin/sh -c "readlink --canonicalize /etc/extensions/kubernetes.raw > /tmp/kubernetes"
+            ExecStartPre=/usr/lib/systemd/systemd-sysupdate -C kubernetes update
+            ExecStartPost=/usr/bin/sh -c "readlink --canonicalize /etc/extensions/kubernetes.raw > /tmp/kubernetes-new"
+            ExecStartPost=/usr/bin/sh -c "if ! cmp --silent /tmp/kubernetes /tmp/kubernetes-new; then touch /run/reboot-required; fi"
+    - name: systemd-networkd.service
+      dropins:
+        - name: tailscale.conf
+          contents: |
+            [Service]
+            ExecStartPost=/sbin/ethtool -K eth0 rx-udp-gro-forwarding on rx-gro-list off
+    - name: locksmithd.service
+      mask: true
+    - name: tailscale-up.service
+      enabled: true
+      contents: |
+        [Unit]
+        Description=Authenticate and configure Tailscale
+        After=tailscaled.service
+        Wants=tailscaled.service
+        ConditionPathExists=!/etc/tailscale-done
+        [Service]
+        Type=oneshot
+        ExecStartPre=/usr/bin/sh -c "until [ -S /run/tailscale/tailscaled.sock ]; do sleep 1; done"
+        ExecStart=/usr/bin/tailscale up --authkey=TS_AUTHKEY --advertise-routes=VNET_CIDR --hostname=flatcar-cp --accept-routes
+        ExecStartPost=/usr/bin/touch /etc/tailscale-done
+        ExecStartPost=/sbin/iptables -t nat -A POSTROUTING -s 100.64.0.0/10 -o eth0 -j MASQUERADE
+        RemainAfterExit=yes
+        [Install]
+        WantedBy=multi-user.target
+    - name: kubeadm.service
+      enabled: true
+      contents: |
+        [Unit]
+        Description=Kubeadm control plane init
+        Requires=containerd.service
+        After=containerd.service
+        After=network-online.target
+        ConditionPathExists=!/etc/kubernetes/kubelet.conf
+        [Service]
+        ExecStartPre=/usr/bin/kubeadm init --pod-network-cidr=192.168.0.0/16
+        ExecStartPre=/usr/bin/mkdir -p /home/core/.kube
+        ExecStartPre=/usr/bin/cp /etc/kubernetes/admin.conf /home/core/.kube/config
+        ExecStart=/usr/bin/chown -R core:core /home/core/.kube
+        [Install]
+        WantedBy=multi-user.target

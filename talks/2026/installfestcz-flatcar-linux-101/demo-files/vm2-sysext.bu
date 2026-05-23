@@ -1,0 +1,124 @@
+variant: flatcar
+version: 1.0.0
+passwd:
+  users:
+    - name: core
+      ssh_authorized_keys:
+        - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFJX6TYaALlUc9NKeQU8tmndXXAmDuHHYV0Zur3oPr4H bexelbie@flatcar-demo
+storage:
+  files:
+    - path: /etc/flatcar/update.conf
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: |
+          SERVER=http://192.168.122.1:8000/v1/update/
+          GROUP=stable
+          REBOOT_STRATEGY=off
+    - path: /etc/hostname
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: flatcar-vm2
+    - path: /etc/systemd/network/00-static.network
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: |
+          [Match]
+          Name=eth0 en*
+
+          [Network]
+          Address=192.168.122.102/24
+          Gateway=192.168.122.1
+          DNS=192.168.122.1
+    # OEM grub.cfg — redirect sysext downloads to local nginx (offline support)
+    - path: /oem/grub.cfg
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: |
+          set oem_id="qemu"
+          set linux_append="$linux_append flatcar.autologin flatcar.release_file_server_url=http://192.168.122.1:8080/payload"
+    # Enable Podman (opt-in sysext shipped with Flatcar)
+    - path: /etc/flatcar/enabled-sysext.conf
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: |
+          podman
+    # Podman container policy (required for podman to pull images)
+    - path: /etc/containers/policy.json
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: |
+          {
+              "default": [
+                  {
+                      "type": "insecureAcceptAnything"
+                  }
+              ]
+          }
+    # Podman registries config
+    - path: /etc/containers/registries.conf
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: |
+          unqualified-search-registries = ['docker.io', 'quay.io']
+    # Tailscale sysext — loaded at boot from local nginx
+    - path: /opt/extensions/tailscale/tailscale-1.70.0-x86-64.raw
+      mode: 0644
+      contents:
+        source: http://192.168.122.1:8080/sysext/tailscale-1.70.0-x86-64.raw
+    # sysupdate config for Tailscale — points at local nginx for updates
+    - path: /etc/sysupdate.tailscale.d/tailscale.conf
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: |
+          [Transfer]
+          Verify=false
+          [Source]
+          Type=url-file
+          Path=http://192.168.122.1:8080/sysext/
+          MatchPattern=tailscale-@v-%a.raw
+          [Target]
+          InstancesMax=3
+          Type=regular-file
+          Path=/opt/extensions/tailscale
+          MatchPattern=tailscale-@v-%a.raw
+          CurrentSymlink=/etc/extensions/tailscale.raw
+  links:
+    # Null out Docker and containerd (replaced by Podman)
+    - path: /etc/extensions/docker-flatcar.raw
+      target: /dev/null
+      overwrite: true
+    - path: /etc/extensions/containerd-flatcar.raw
+      target: /dev/null
+      overwrite: true
+    # Tailscale sysext symlink
+    - path: /etc/extensions/tailscale.raw
+      target: /opt/extensions/tailscale/tailscale-1.70.0-x86-64.raw
+      overwrite: true
+systemd:
+  units:
+    - name: sysupdate-tailscale.timer
+      enabled: true
+      contents: |
+        [Unit]
+        Description=Tailscale sysext update timer
+        [Timer]
+        OnBootSec=5min
+        OnUnitActiveSec=1h
+        [Install]
+        WantedBy=timers.target
+    - name: sysupdate-tailscale.service
+      contents: |
+        [Unit]
+        Description=Tailscale sysext update
+        [Service]
+        Type=oneshot
+        ExecStart=/usr/lib/systemd/systemd-sysupdate --component=tailscale update
+        ExecStartPost=/usr/bin/systemd-sysext refresh

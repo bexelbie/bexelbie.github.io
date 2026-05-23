@@ -1,0 +1,15 @@
+[Unit]
+Description=My Website
+After=docker.service
+Requires=docker.service
+[Service]
+ExecStartPre=-/usr/bin/docker rm -f my-website
+ExecStart=/usr/bin/docker run --name my-website \
+  -p 8000:80 \
+  -v /var/www/index.html:/usr/share/nginx/html/index.html:ro \
+  docker.io/library/nginx:alpine
+ExecStop=/usr/bin/docker stop my-website
+Restart=always
+RestartSec=5
+[Install]
+WantedBy=multi-user.target
