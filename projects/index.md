@@ -31,24 +31,24 @@ Distribute [1Password](https://1password.com/) secrets to multi-user Linux syste
 
 ## Jekyll Reads
 
-[GitHub](https://github.com/ElectricPliers/jekyll-reads) · [Reading page](/reading/)
+[Reading page](/reading/) · [Blog post]({% post_url 2026/2026-03-03-jekyll-reads %}) · [GitHub](https://github.com/ElectricPliers/jekyll-reads)
 
 Tools for keeping a reading list in a single `_data/reading.yml` file and rendering it on this site. Includes a Node.js library, CLI tool, Vim integration, and Visual Studio Code extension for searching Open Library and inserting YAML entries with the right formatting. Built under [Electric Pliers LLC](https://electricpliers.com).
 
 ## HedgeDoc Draft Share
 
-[Runbook](https://github.com/bexelbie/hedgedoc-container/blob/master/FORK.md) · [Fork notes](https://github.com/bexelbie/hedgedoc/blob/bex-master/FORK.md) · [Blog post]({% post_url 2026/2026-02-12-yak-shaving %})
+[Blog post]({% post_url 2026/2026-02-12-yak-shaving %}) · [Runbook](https://github.com/bexelbie/hedgedoc-container/blob/master/FORK.md) · [Fork notes](https://github.com/bexelbie/hedgedoc/blob/bex-master/FORK.md)
 
 Self-hosted collaborative editing/review platform for markdown documents. Built on HedgeDoc v1 because it runs comfortably on tiny hardware with SQLite; the fork adds a few collaboration/UI fixes that allow for anonymous reviewers to prevent the need to create accounts, adds the ability to easily leave comments in addition to changes and ensure everything has appropriate color highlighting. See the fork notes or my blog post for details.
 
 ## Synofoto Media Count
 
-[GitHub](https://github.com/bexelbie/synofoto-media-count)
+[Blog post]({% post_url 2026/2026-03-04-synofoto-media-count %}) · [GitHub](https://github.com/bexelbie/synofoto-media-count)
 
 Read-only bash script that queries the Synology Photos PostgreSQL database (`synofoto`) and prints a breakdown of what’s actually in your library: non-live photos, Live Photo groups, standalone videos, and incomplete Live Photo pairs.
 
-## Phone a Friend
+## Phone a Friend (archived)
 
-[GitHub](https://github.com/bexelbie/phone-a-friend) · [npm](https://www.npmjs.com/package/@bexelbie/phone-a-friend)
+[Blog post]({% post_url 2026/2026-02-23-phone-a-friend %}) · [GitHub](https://github.com/bexelbie/phone-a-friend) · [npm](https://www.npmjs.com/package/@bexelbie/phone-a-friend)
 
-MCP server that lets VS Code Copilot Chat dispatch subtasks to a different AI model via GitHub Copilot CLI, returning a unified diff so the calling agent can apply changes with gutter indicators intact. This works around current limitations in VS Code.
+MCP server that let VS Code Copilot Chat dispatch subtasks to a different AI model via GitHub Copilot CLI, returning a unified diff so the calling agent could apply changes with gutter indicators intact. Archived June 1, 2026: Visual Studio Code now launches cross-model subagents natively, so the tool's primary purpose has been served.

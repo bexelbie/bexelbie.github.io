@@ -4,6 +4,8 @@ date: 2026-02-23 11:10:00 +0100
 excerpt: "Dispatch subtasks to a different AI model - with editor gutter indicators intact."
 ---
 
+*Update (June 1, 2026): Phone a Friend is archived. Visual Studio Code has caught up and you can now launch subagents on a different model than the parent conversation, so the tool's primary purpose has been served. The write-up below stays for the record.*
+
 I wanted a way to stay inside Visual Studio Code, use Copilot Chat as the "orchestrator," and still mix and match models for different parts of the work. Plan a change with one of the slower, more capable models, but let a smaller, faster model handle mechanical refactors. Edit a blog post with one model, but hand Jekyll plumbing or JSON/YAML munging to another. The friction was that the built-in Copilot Chat extension only lets subagents run on the same model as the parent conversation, while the Copilot CLI happily lets you pick any available model per run. Phone a Friend bolts that flexibility onto Copilot Chat, so I can keep the full VS Code experience - including gutter diffs - while dispatching subtasks to whatever model is best for the job.
 
 ## The Problem
