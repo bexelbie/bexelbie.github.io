@@ -1,0 +1,154 @@
+variant: fcos
+version: 1.5.0
+passwd:
+  users:
+    - name: core
+      ssh_authorized_keys:
+        - SSH_PUBKEY
+storage:
+  files:
+    - path: /etc/hostname
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: worker-2
+    # Static IP via NetworkManager keyfile.
+    # Match by MAC address (52:54:00:12:34:12 set in start-fcos.sh) so this
+    # works regardless of whether the interface is named eth0, ens3, etc.
+    # Mirrors the bakery's kubernetes-v1.33.conf but with paths adapted for
+    # FCoOS: versioned files live under /opt/extensions/kubernetes/ (not under
+    # /var/lib/extensions/kubernetes/ which would create a DIRECTORY named
+    # 'kubernetes' — conflicting with the 'kubernetes.raw' symlink and causing
+    # systemd-sysext to treat the directory as an extension with no release
+    # data).  The current-version symlink lives in /var/lib/extensions/ where
+    # systemd-sysext scans for raw images.
+    # FCoOS ships /usr/lib/systemd/systemd-sysupdate but doesn't wire up
+    # any sysupdate definitions — we have to provide them ourselves.
+    - path: /etc/sysupdate.d/kubernetes.transfer
+      mode: 0644
+      contents:
+        inline: |
+          [Transfer]
+          Verify=false
+
+          [Source]
+          Type=url-file
+          Path=http://FILESERVER/flatcar/
+          MatchPattern=kubernetes-v1.33.@v-%a.raw
+
+          [Target]
+          InstancesMax=3
+          Type=regular-file
+          Path=/opt/extensions/kubernetes
+          MatchPattern=kubernetes-v1.33.@v-%a.raw
+          CurrentSymlink=/var/lib/extensions/kubernetes.raw
+    # Override the FCoOS containerd config so the CNI bin_dir points to
+    # /opt/cni/bin (where the sysext and Calico DaemonSet install plugins)
+    # rather than the Fedora default /usr/libexec/cni/.
+    - path: /etc/containerd/config.toml
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: |
+          version = 2
+
+          [plugins]
+            [plugins."io.containerd.grpc.v1.cri"]
+              [plugins."io.containerd.grpc.v1.cri".cni]
+                bin_dir = "/opt/cni/bin"
+                conf_dir = "/etc/cni/net.d"
+            [plugins."io.containerd.internal.v1.opt"]
+              path = "/var/lib/containerd/opt"
+    - path: /etc/NetworkManager/system-connections/static.nmconnection
+      mode: 0600
+      contents:
+        inline: |
+          [connection]
+          id=static
+          type=ethernet
+          autoconnect=true
+          [ethernet]
+          mac-address=52:54:00:12:34:12
+          [ipv4]
+          method=manual
+          address1=W2_IP/24,GATEWAY
+          dns=GATEWAY;
+          [ipv6]
+          method=disabled
+systemd:
+  units:
+    # systemd-sysext is present on FCoOS; enable it so extensions in
+    # /var/lib/extensions/ are merged automatically on every boot.
+    - name: systemd-sysext.service
+      enabled: true
+    # Download the Flatcar kubernetes sysext on first boot, place it where
+    # systemd-sysext expects raw images, then trigger a merge so containerd
+    # and kubelet are available for the kubeadm-join step below.
+    # NOTE: if the sysext ships ID=flatcar in its extension-release rather
+    # than ID=_any, the merge will refuse it. Check with:
+    #   systemd-sysext status
+    #   journalctl -u systemd-sysext
+    # and if needed, rebuild the sysext with the bakery targeting ID=_any.
+    - name: load-flatcar-k8s-sysext.service
+      enabled: true
+      contents: |
+        [Unit]
+        Description=Download Flatcar kubernetes sysext for use on Fedora CoreOS
+        After=network-online.target
+        Wants=network-online.target
+        ConditionPathExists=!/opt/extensions/kubernetes/kubernetes-v1.33.2-x86-64.raw
+        [Service]
+        Type=oneshot
+        RemainAfterExit=yes
+        # Create the versioned storage directory that sysupdate expects.
+        # IMPORTANT: versioned files go under /opt/extensions/kubernetes/, NOT
+        # /var/lib/extensions/kubernetes/. A directory named 'kubernetes' in
+        # /var/lib/extensions/ conflicts with the 'kubernetes.raw' symlink:
+        # systemd-sysext finds the directory first and rejects it (no release
+        # data), never reaching the symlink.
+        ExecStartPre=mkdir -p /opt/extensions/kubernetes
+        ExecStartPre=mkdir -p /var/lib/extensions
+        # Download into the versioned path so sysupdate can manage future
+        # upgrades without conflicting with the bootstrap file.
+        ExecStart=curl -fsSL --retry 5 --retry-delay 3 \
+          -o /opt/extensions/kubernetes/kubernetes-v1.33.2-x86-64.raw \
+          http://FILESERVER/flatcar/kubernetes-v1.33.2-x86-64.raw
+        # Symlink into /var/lib/extensions/ where systemd-sysext scans for .raw
+        ExecStartPost=ln -sf \
+          /opt/extensions/kubernetes/kubernetes-v1.33.2-x86-64.raw \
+          /var/lib/extensions/kubernetes.raw
+        # FCoOS 44+ uses composefs: /usr is part of the root overlay and is NOT
+        # a separate mount point.  systemd-sysext requires a mountable /usr.
+        # Bind-mount /usr to itself to make it a proper mount point first.
+        ExecStartPost=mount --bind /usr /usr
+        ExecStartPost=systemd-sysext merge
+        # Sysext overlayfs files get unlabeled_t; set SELinux permissive so
+        # systemd can exec kubeadm/kubelet from the merged overlay.
+        ExecStartPost=setenforce 0
+        ExecStartPost=sysctl -w net.ipv4.ip_forward=1
+        ExecStartPost=systemctl daemon-reload
+        ExecStartPost=systemctl enable --now containerd
+        ExecStartPost=systemctl enable kubelet
+        StandardOutput=journal+console
+        StandardError=journal+console
+        [Install]
+        WantedBy=multi-user.target
+    # Join the cluster once containerd is running and the sysext is merged.
+    - name: kubeadm-join.service
+      enabled: true
+      contents: |
+        [Unit]
+        Description=Kubeadm worker join (worker-2)
+        After=load-flatcar-k8s-sysext.service
+        Requires=load-flatcar-k8s-sysext.service
+        After=network-online.target
+        ConditionPathExists=!/etc/kubernetes/kubelet.conf
+        [Service]
+        TimeoutStartSec=0
+        ExecStart=/usr/bin/kubeadm join CP_IP:6443 --token JOIN_TOKEN --discovery-token-ca-cert-hash CA_HASH
+        Restart=on-failure
+        RestartSec=10
+        StandardOutput=journal+console
+        StandardError=journal+console
+        [Install]
+        WantedBy=multi-user.target

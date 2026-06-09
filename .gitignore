@@ -5,3 +5,10 @@ _site
 Gemfile.lock
 .DS_Store
 .worktrees
+talks/2026/devconfcz-systemd-sysext-in-production/demo/images/
+talks/2026/devconfcz-systemd-sysext-in-production/demo/ignition/
+talks/2026/devconfcz-systemd-sysext-in-production/demo/pids/
+talks/2026/devconfcz-systemd-sysext-in-production/demo/logs/
+talks/2026/devconfcz-systemd-sysext-in-production/demo/join-info.env
+talks/2026/devconfcz-systemd-sysext-in-production/demo/sysext-cache/
+talks/2026/devconfcz-systemd-sysext-in-production/demo/headlamp-token

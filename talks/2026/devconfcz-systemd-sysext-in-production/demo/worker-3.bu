@@ -1,0 +1,138 @@
+# ABOUTME: Butane config for the second Fedora CoreOS worker node.
+# ABOUTME: Uses the fedora-sysexts/fedora kubernetes-1.33 sysext (Fedora packages, not Flatcar bakery).
+variant: fcos
+version: 1.5.0
+passwd:
+  users:
+    - name: core
+      ssh_authorized_keys:
+        - SSH_PUBKEY
+storage:
+  files:
+    - path: /etc/hostname
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: worker-3
+    # Static IP via NetworkManager keyfile.
+    # Match by MAC address (52:54:00:12:34:13 set in setup.sh) so this
+    # works regardless of whether the interface is named eth0, ens3, etc.
+    - path: /etc/NetworkManager/system-connections/static.nmconnection
+      mode: 0600
+      contents:
+        inline: |
+          [connection]
+          id=static
+          type=ethernet
+          autoconnect=true
+          [ethernet]
+          mac-address=52:54:00:12:34:13
+          [ipv4]
+          method=manual
+          address1=W3_IP/24,GATEWAY
+          dns=GATEWAY;
+          [ipv6]
+          method=disabled
+    # sysupdate transfer definition for the fedora-sysexts kubernetes-1.33 sysext.
+    # Uses the component-based layout that fedora-sysexts publishes:
+    #   conf dir:  /etc/sysupdate.kubernetes-1.33.d/
+    #   invoke as: systemd-sysupdate --component kubernetes-1.33 update
+    # The MatchPattern includes Fedora version (%w) and arch (%a) so sysupdate
+    # correctly filters to fc44 builds for this host.
+    - path: /etc/sysupdate.kubernetes-1.33.d/kubernetes-1.33.transfer
+      mode: 0644
+      contents:
+        inline: |
+          [Transfer]
+          Verify=false
+
+          [Source]
+          Type=url-file
+          Path=http://FILESERVER/fedora/
+          MatchPattern=kubernetes-1.33-@v-%w-%a.raw
+
+          [Target]
+          InstancesMax=2
+          Type=regular-file
+          Path=/var/lib/extensions.d/
+          MatchPattern=kubernetes-1.33-@v-%w-%a.raw
+          CurrentSymlink=/var/lib/extensions/kubernetes-1.33.raw
+    # Override the FCoOS containerd config so the CNI bin_dir points to
+    # /opt/cni/bin (where the sysext and Calico DaemonSet install plugins)
+    # rather than the Fedora default /usr/libexec/cni/.
+    - path: /etc/containerd/config.toml
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: |
+          version = 2
+
+          [plugins]
+            [plugins."io.containerd.grpc.v1.cri"]
+              [plugins."io.containerd.grpc.v1.cri".cni]
+                bin_dir = "/opt/cni/bin"
+                conf_dir = "/etc/cni/net.d"
+            [plugins."io.containerd.internal.v1.opt"]
+              path = "/var/lib/containerd/opt"
+systemd:
+  units:
+    # Download the fedora-sysexts kubernetes-1.33 sysext on first boot.
+    # Starts at an older patch (1.33.10) so the node can be upgraded later
+    # via systemd-sysupdate --component kubernetes-1.33 to demonstrate the
+    # fedora-sysexts update mechanism alongside the Flatcar bakery approach.
+    - name: load-fedora-k8s-sysext.service
+      enabled: true
+      contents: |
+        [Unit]
+        Description=Download fedora-sysexts kubernetes-1.33 sysext for Fedora CoreOS
+        After=network-online.target
+        Wants=network-online.target
+        ConditionPathExists=!/var/lib/extensions/kubernetes-1.33.raw
+        [Service]
+        Type=oneshot
+        RemainAfterExit=yes
+        # Create directories used by fedora-sysexts sysupdate layout.
+        ExecStartPre=mkdir -p /var/lib/extensions
+        ExecStartPre=mkdir -p /var/lib/extensions.d
+        # Download the older patch to demonstrate the upgrade path.
+        ExecStart=curl -fsSL --retry 5 --retry-delay 3 \
+          -o /var/lib/extensions.d/kubernetes-1.33-1.33.10-1.fc44-44-x86-64.raw \
+          http://FILESERVER/fedora/kubernetes-1.33-1.33.10-1.fc44-44-x86-64.raw
+        # Create the CurrentSymlink that sysupdate manages.
+        ExecStartPost=ln -sf \
+          /var/lib/extensions.d/kubernetes-1.33-1.33.10-1.fc44-44-x86-64.raw \
+          /var/lib/extensions/kubernetes-1.33.raw
+        # FCoOS 44+ uses composefs: /usr is part of the root overlay and is NOT
+        # a separate mount point.  systemd-sysext requires a mountable /usr.
+        ExecStartPost=mount --bind /usr /usr
+        ExecStartPost=systemd-sysext merge
+        # Sysext overlayfs files may get unlabeled_t; set SELinux permissive so
+        # systemd can exec kubeadm/kubelet from the merged overlay.
+        ExecStartPost=setenforce 0
+        ExecStartPost=sysctl -w net.ipv4.ip_forward=1
+        ExecStartPost=systemctl daemon-reload
+        ExecStartPost=systemctl enable --now containerd
+        ExecStartPost=systemctl enable kubelet
+        StandardOutput=journal+console
+        StandardError=journal+console
+        [Install]
+        WantedBy=multi-user.target
+    # Join the cluster once containerd is running and the sysext is merged.
+    - name: kubeadm-join.service
+      enabled: true
+      contents: |
+        [Unit]
+        Description=Kubeadm worker join (worker-3)
+        After=load-fedora-k8s-sysext.service
+        Requires=load-fedora-k8s-sysext.service
+        After=network-online.target
+        ConditionPathExists=!/etc/kubernetes/kubelet.conf
+        [Service]
+        TimeoutStartSec=0
+        ExecStart=/usr/bin/kubeadm join CP_IP:6443 --token JOIN_TOKEN --discovery-token-ca-cert-hash CA_HASH
+        Restart=on-failure
+        RestartSec=10
+        StandardOutput=journal+console
+        StandardError=journal+console
+        [Install]
+        WantedBy=multi-user.target

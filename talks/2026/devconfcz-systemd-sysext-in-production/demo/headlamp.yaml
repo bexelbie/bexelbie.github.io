@@ -1,0 +1,68 @@
+# ABOUTME: Headlamp Kubernetes dashboard deployed on the control plane.
+# ABOUTME: NodePort 30080, auto-login via service account, tolerates control-plane taint.
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: headlamp
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: headlamp
+  namespace: headlamp
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: headlamp
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: cluster-admin
+subjects:
+  - kind: ServiceAccount
+    name: headlamp
+    namespace: headlamp
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: headlamp
+  namespace: headlamp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: headlamp
+  template:
+    metadata:
+      labels:
+        app: headlamp
+    spec:
+      serviceAccountName: headlamp
+      containers:
+        - name: headlamp
+          # image: ghcr.io/headlamp-k8s/headlamp:v0.42.0
+          image: ghcr.io/bexelbie/headlamp:fix-drain-5110
+          args: ["-in-cluster"]
+          ports:
+            - containerPort: 4466
+      tolerations:
+        - key: "node-role.kubernetes.io/control-plane"
+          effect: "NoSchedule"
+      nodeSelector:
+        node-role.kubernetes.io/control-plane: ""
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: headlamp
+  namespace: headlamp
+spec:
+  type: NodePort
+  selector:
+    app: headlamp
+  ports:
+    - port: 80
+      targetPort: 4466
+      nodePort: 30080

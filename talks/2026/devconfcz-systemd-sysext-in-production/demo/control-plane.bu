@@ -1,0 +1,96 @@
+variant: flatcar
+version: 1.0.0
+passwd:
+  users:
+    - name: core
+      ssh_authorized_keys:
+        - SSH_PUBKEY
+storage:
+  files:
+    - path: /etc/hostname
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: flatcar-cp
+    - path: /etc/systemd/network/10-static.network
+      mode: 0644
+      contents:
+        inline: |
+          [Match]
+          Name=eth0
+          [Network]
+          Address=CP_IP/24
+          Gateway=GATEWAY
+          DNS=GATEWAY
+    - path: /opt/extensions/kubernetes/kubernetes-v1.33.2-x86-64.raw
+      mode: 0644
+      contents:
+        source: http://FILESERVER/flatcar/kubernetes-v1.33.2-x86-64.raw
+    - path: /etc/sysupdate.kubernetes.d/kubernetes-v1.33.transfer
+      mode: 0644
+      contents:
+        inline: |
+          [Transfer]
+          Verify=false
+
+          [Source]
+          Type=url-file
+          Path=http://FILESERVER/flatcar/
+          MatchPattern=kubernetes-v1.33.@v-%a.raw
+
+          [Target]
+          InstancesMax=3
+          Type=regular-file
+          Path=/opt/extensions/kubernetes
+          MatchPattern=kubernetes-v1.33.@v-%a.raw
+          CurrentSymlink=/etc/extensions/kubernetes.raw
+    - path: /etc/sysupdate.d/noop.conf
+      mode: 0644
+      contents:
+        inline: |
+          [Source]
+          Type=regular-file
+          Path=/
+          MatchPattern=invalid@v.raw
+          [Target]
+          Type=regular-file
+          Path=/
+  links:
+    - path: /etc/extensions/kubernetes.raw
+      target: /opt/extensions/kubernetes/kubernetes-v1.33.2-x86-64.raw
+      hard: false
+      overwrite: true
+systemd:
+  units:
+    - name: systemd-sysupdate.timer
+      enabled: false
+    - name: update-engine.service
+      mask: true
+    - name: locksmithd.service
+      mask: true
+    - name: systemd-sysupdate.service
+      dropins:
+        - name: kubernetes.conf
+          contents: |
+            [Service]
+            ExecStartPre=/usr/bin/sh -c "readlink --canonicalize /etc/extensions/kubernetes.raw > /tmp/kubernetes"
+            ExecStartPre=/usr/lib/systemd/systemd-sysupdate -C kubernetes update
+            ExecStartPost=/usr/bin/sh -c "readlink --canonicalize /etc/extensions/kubernetes.raw > /tmp/kubernetes-new"
+            ExecStartPost=/usr/bin/sh -c "if ! cmp --silent /tmp/kubernetes /tmp/kubernetes-new; then touch /run/reboot-required; fi"
+    - name: kubeadm.service
+      enabled: true
+      contents: |
+        [Unit]
+        Description=Kubeadm control plane init
+        Requires=containerd.service
+        After=containerd.service
+        After=network-online.target
+        ConditionPathExists=!/etc/kubernetes/kubelet.conf
+        [Service]
+        TimeoutStartSec=0
+        ExecStartPre=/usr/bin/kubeadm init --pod-network-cidr=192.168.0.0/16
+        ExecStartPre=/usr/bin/mkdir -p /home/core/.kube
+        ExecStartPre=/usr/bin/cp /etc/kubernetes/admin.conf /home/core/.kube/config
+        ExecStart=/usr/bin/chown -R core:core /home/core/.kube
+        [Install]
+        WantedBy=multi-user.target
