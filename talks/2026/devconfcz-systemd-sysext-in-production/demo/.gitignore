@@ -1,0 +1,10 @@
+# Runtime secrets — never commit
+tailscale.env
+
+# Generated during setup
+join-info.env
+headlamp-token
+setup-background.log
+
+# Large downloaded files
+fcos-vhd-cache/

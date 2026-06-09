@@ -1,0 +1,108 @@
+# ABOUTME: Butane config for worker-2: Fedora CoreOS with Flatcar bakery kubernetes sysext.
+# ABOUTME: No static IP — Azure DHCP handles networking. Composefs bind-mount workaround applied.
+variant: fcos
+version: 1.5.0
+passwd:
+  users:
+    - name: core
+      ssh_authorized_keys:
+        - SSH_PUBKEY
+storage:
+  files:
+    - path: /etc/hostname
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: worker-2
+    # sysupdate transfer definition — pulls Flatcar bakery sysexts from Azure blob storage.
+    # Versioned files go to /opt/extensions/kubernetes/ (not /var/lib/extensions/kubernetes/
+    # which would create a directory conflicting with the kubernetes.raw symlink).
+    - path: /etc/sysupdate.d/kubernetes.transfer
+      mode: 0644
+      contents:
+        inline: |
+          [Transfer]
+          Verify=false
+
+          [Source]
+          Type=url-file
+          Path=https://extensions.flatcar.org/extensions
+          MatchPattern=kubernetes-v1.33.@v-%a.raw
+
+          [Target]
+          InstancesMax=3
+          Type=regular-file
+          Path=/opt/extensions/kubernetes
+          MatchPattern=kubernetes-v1.33.@v-%a.raw
+          CurrentSymlink=/var/lib/extensions/kubernetes.raw
+    # Override containerd CNI bin_dir to /opt/cni/bin (sysext and Calico install here).
+    - path: /etc/containerd/config.toml
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: |
+          version = 2
+
+          [plugins]
+            [plugins."io.containerd.grpc.v1.cri"]
+              [plugins."io.containerd.grpc.v1.cri".cni]
+                bin_dir = "/opt/cni/bin"
+                conf_dir = "/etc/cni/net.d"
+            [plugins."io.containerd.internal.v1.opt"]
+              path = "/var/lib/containerd/opt"
+systemd:
+  units:
+    - name: systemd-sysext.service
+      enabled: true
+    # Download Flatcar kubernetes sysext on first boot, merge, and start containerd/kubelet.
+    # FCoOS 44+ uses composefs: /usr is not a separate mountpoint, so we bind-mount it
+    # before systemd-sysext merge. SELinux set to permissive after merge (overlayfs files
+    # get unlabeled_t; enforcing mode blocks exec with status=203).
+    - name: load-flatcar-k8s-sysext.service
+      enabled: true
+      contents: |
+        [Unit]
+        Description=Download Flatcar kubernetes sysext for use on Fedora CoreOS
+        After=network-online.target
+        Wants=network-online.target
+        ConditionPathExists=!/opt/extensions/kubernetes/kubernetes-v1.33.10-x86-64.raw
+        [Service]
+        Type=oneshot
+        RemainAfterExit=yes
+        ExecStartPre=mkdir -p /opt/extensions/kubernetes
+        ExecStartPre=mkdir -p /var/lib/extensions
+        ExecStart=curl -fsSL --retry 5 --retry-delay 3 \
+          -o /opt/extensions/kubernetes/kubernetes-v1.33.10-x86-64.raw \
+          BLOB_FLATCAR_URL/kubernetes-v1.33.10-x86-64.raw
+        ExecStartPost=ln -sf \
+          /opt/extensions/kubernetes/kubernetes-v1.33.10-x86-64.raw \
+          /var/lib/extensions/kubernetes.raw
+        ExecStartPost=mount --bind /usr /usr
+        ExecStartPost=systemd-sysext merge
+        ExecStartPost=setenforce 0
+        ExecStartPost=sysctl -w net.ipv4.ip_forward=1
+        ExecStartPost=systemctl daemon-reload
+        ExecStartPost=systemctl enable --now containerd
+        ExecStartPost=systemctl enable kubelet
+        StandardOutput=journal+console
+        StandardError=journal+console
+        [Install]
+        WantedBy=multi-user.target
+    - name: kubeadm-join.service
+      enabled: true
+      contents: |
+        [Unit]
+        Description=Kubeadm worker join (worker-2)
+        After=load-flatcar-k8s-sysext.service
+        Requires=load-flatcar-k8s-sysext.service
+        After=network-online.target
+        ConditionPathExists=!/etc/kubernetes/kubelet.conf
+        [Service]
+        TimeoutStartSec=0
+        ExecStart=/usr/bin/kubeadm join CP_IP:6443 --token JOIN_TOKEN --discovery-token-unsafe-skip-ca-verification
+        Restart=on-failure
+        RestartSec=10
+        StandardOutput=journal+console
+        StandardError=journal+console
+        [Install]
+        WantedBy=multi-user.target

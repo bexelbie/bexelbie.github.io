@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 76 1200 188" font-family="Inter, Segoe UI, sans-serif">
+
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#09BAC8"/>
+  </marker>
+</defs>
+
+<!-- ============ LEFT: base /usr ============ -->
+<!-- box: x=40 y=105 w=240 h=150  →  center = (40+120, 105+75) = (160,180) -->
+<rect x="40" y="105" width="240" height="150" rx="8" fill="#F1F2F6" stroke="#09BAC8" stroke-width="2"/>
+<g transform="translate(160,180)" text-anchor="middle" dominant-baseline="central">
+  <text x="0" y="-34" font-family="JetBrains Mono, monospace" font-size="34" fill="#2A3047">/usr</text>
+  <text x="0" y="-3" font-size="19" fill="#7A8094">immutable</text>
+  <text x="0" y="24" font-size="15.5" fill="#7A8094">base OS · lowerdir</text>
+  <text x="0" y="45" font-size="15.5" fill="#7A8094">dm-verity · signed</text>
+</g>
+
+<!-- + operator -->
+<text x="322" y="180" text-anchor="middle" dominant-baseline="central" font-size="40" font-weight="300" fill="#09BAC8">+</text>
+<text x="322" y="212" text-anchor="middle" font-size="13" font-style="italic" fill="#A5ABBC">overlayfs</text>
+
+<!-- ============ MIDDLE: system extension images ============ -->
+<text x="575" y="90" text-anchor="middle" font-size="12.5" font-weight="700" fill="#A5ABBC" letter-spacing="0.08em">SYSTEM EXTENSION IMAGES</text>
+
+<!-- rows: y=105/158/211, h=44 → centers 127/180/233 -->
+<rect x="368" y="105" width="414" height="44" rx="6" fill="#FFFFFF" stroke="#09BAC8" stroke-width="1.5"/>
+<text x="386" y="127" dominant-baseline="central" font-family="JetBrains Mono, monospace" font-size="16" fill="#2A3047">containerd-flatcar.raw</text>
+<text x="764" y="127" text-anchor="end" dominant-baseline="central" font-size="14" fill="#7A8094">erofs DDI</text>
+
+<rect x="368" y="158" width="414" height="44" rx="6" fill="#FFFFFF" stroke="#09BAC8" stroke-width="1.5"/>
+<text x="386" y="180" dominant-baseline="central" font-family="JetBrains Mono, monospace" font-size="16" fill="#2A3047">docker-flatcar.raw</text>
+<text x="764" y="180" text-anchor="end" dominant-baseline="central" font-size="14" fill="#7A8094">erofs DDI</text>
+
+<rect x="368" y="211" width="414" height="44" rx="6" fill="#FFFFFF" stroke="#09BAC8" stroke-width="1.5"/>
+<text x="386" y="233" dominant-baseline="central" font-family="JetBrains Mono, monospace" font-size="16" fill="#2A3047">kubernetes-1.31.raw</text>
+<text x="764" y="233" text-anchor="end" dominant-baseline="central" font-size="14" fill="#7A8094">erofs DDI</text>
+
+<!-- merge arrow -->
+<text x="858" y="168" text-anchor="middle" font-size="14" font-weight="700" fill="#067E89">sysext merge</text>
+<line x1="802" y1="180" x2="912" y2="180" stroke="#09BAC8" stroke-width="2.4" marker-end="url(#arr)"/>
+<text x="858" y="200" text-anchor="middle" font-size="13" font-style="italic" fill="#A5ABBC">no reboot</text>
+
+<!-- ============ RIGHT: composed /usr ============ -->
+<!-- box: x=936 y=105 w=240 h=150  →  center = (936+120, 105+75) = (1056,180) -->
+<rect x="936" y="105" width="240" height="150" rx="8" fill="#09BAC8" fill-opacity="0.10" stroke="#09BAC8" stroke-width="2.5"/>
+<g transform="translate(1056,180)" text-anchor="middle" dominant-baseline="central">
+  <text x="0" y="-34" font-family="JetBrains Mono, monospace" font-size="34" fill="#2A3047">/usr</text>
+  <text x="0" y="-3" font-size="19" fill="#067E89">composed</text>
+  <text x="0" y="24" font-size="15.5" fill="#2A3047">running system</text>
+  <text x="0" y="45" font-size="15.5" fill="#2A3047">sees the union</text>
+</g>
+
+</svg>

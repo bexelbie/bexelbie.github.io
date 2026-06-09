@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-566.4 -70.0 1132.8 530.0" font-family="Inter, Segoe UI, sans-serif" font-size="14">
+
+<defs>
+  <filter id="riserShadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feDropShadow dx="4" dy="8" stdDeviation="8" flood-color="#000" flood-opacity="0.25"/>
+  </filter>
+</defs>
+<polygon points="0.00,0.00 173.21,100.00 0.00,200.00 -173.21,100.00" fill="#E8EBF1" stroke="#9DA3B5" stroke-width="0.8"/>
+<polygon points="173.21,100.00 346.41,200.00 173.21,300.00 0.00,200.00" fill="#E8EBF1" stroke="#9DA3B5" stroke-width="0.8"/>
+<polygon points="-173.21,100.00 0.00,200.00 -173.21,300.00 -346.41,200.00" fill="#E8EBF1" stroke="#9DA3B5" stroke-width="0.8"/>
+<polygon points="-173.21,300.00 0.00,400.00 0.00,330.00 -173.21,230.00" fill="#067E89" stroke="#04555c" stroke-width="0.8" filter="url(#riserShadow)"/>
+<polygon points="173.21,300.00 0.00,400.00 0.00,330.00 173.21,230.00" fill="#0AA1AE" stroke="#04555c" stroke-width="0.8"/>
+<polygon points="0.00,130.00 173.21,230.00 0.00,330.00 -173.21,230.00" fill="#09BAC8" stroke="#04555c" stroke-width="0.8"/>
+<text x="0.00" y="89.25" text-anchor="middle" font-size="15" font-weight="700" fill="#12172B">coreutils · systemd · bash</text>
+<text x="0.00" y="109.75" text-anchor="middle" font-size="13" font-weight="400" fill="#4A5169">— bake it in</text>
+<text x="173.21" y="188.50" text-anchor="middle" font-size="14" font-weight="700" fill="#12172B">prometheus · grafana · your app</text>
+<text x="173.21" y="209.00" text-anchor="middle" font-size="12" font-weight="400" fill="#4A5169">— ship it as a container</text>
+<text x="-173.21" y="189.25" text-anchor="middle" font-size="15" font-weight="700" fill="#12172B">iptables · runc · containerd</text>
+<text x="-173.21" y="209.75" text-anchor="middle" font-size="13" font-weight="400" fill="#4A5169">— bake it in</text>
+<text x="0.00" y="208.25" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">NVIDIA · GPU runtime</text>
+<text x="0.00" y="230.25" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">CRI-O · ollama · kubelet · ZFS</text>
+<text x="0.00" y="250.75" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">sysext lives here</text>
+<text x="86.60" y="28.00" text-anchor="middle" font-size="14" font-weight="700" fill="#09BAC8" transform="rotate(30 86.60 28.00)">Fits in the OS image</text>
+<text x="259.81" y="128.00" text-anchor="middle" font-size="14" font-weight="700" fill="#09BAC8" transform="rotate(30 259.81 128.00)">Doesn't fit in the OS image</text>
+<text x="-101.60" y="50.00" text-anchor="end" font-size="14" font-weight="700" fill="#09BAC8" transform="rotate(-30 -101.60 50.00)">Can run in container</text>
+<text x="-274.81" y="150.00" text-anchor="end" font-size="14" font-weight="700" fill="#09BAC8" transform="rotate(-30 -274.81 150.00)">Can't run in container</text>
+</svg>

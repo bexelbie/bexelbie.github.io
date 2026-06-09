@@ -1,0 +1,108 @@
+# ABOUTME: Butane config for worker-3: Fedora CoreOS with fedora-sysexts kubernetes-1.33.
+# ABOUTME: No static IP — Azure DHCP handles networking. Composefs bind-mount workaround applied.
+variant: fcos
+version: 1.5.0
+passwd:
+  users:
+    - name: core
+      ssh_authorized_keys:
+        - SSH_PUBKEY
+storage:
+  files:
+    - path: /etc/hostname
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: worker-3
+    # sysupdate transfer definition for the fedora-sysexts kubernetes-1.33 sysext.
+    # Component layout: conf dir /etc/sysupdate.kubernetes-1.33.d/
+    #   invoke as: systemd-sysupdate --component kubernetes-1.33 update
+    # MatchPattern includes Fedora version (%w) and arch (%a).
+    - path: /etc/sysupdate.kubernetes-1.33.d/kubernetes-1.33.transfer
+      mode: 0644
+      contents:
+        inline: |
+          [Transfer]
+          Verify=false
+
+          [Source]
+          Type=url-file
+          Path=https://extensions.fcos.fr/fedora/kubernetes-1.33
+          MatchPattern=kubernetes-1.33-@v-%w-%a.raw
+
+          [Target]
+          InstancesMax=2
+          Type=regular-file
+          Path=/var/lib/extensions.d/
+          MatchPattern=kubernetes-1.33-@v-%w-%a.raw
+          CurrentSymlink=/var/lib/extensions/kubernetes-1.33.raw
+    # Override containerd CNI bin_dir to /opt/cni/bin (sysext and Calico install here).
+    - path: /etc/containerd/config.toml
+      overwrite: true
+      mode: 0644
+      contents:
+        inline: |
+          version = 2
+
+          [plugins]
+            [plugins."io.containerd.grpc.v1.cri"]
+              [plugins."io.containerd.grpc.v1.cri".cni]
+                bin_dir = "/opt/cni/bin"
+                conf_dir = "/etc/cni/net.d"
+            [plugins."io.containerd.internal.v1.opt"]
+              path = "/var/lib/containerd/opt"
+systemd:
+  units:
+    # Download the fedora-sysexts kubernetes-1.33 sysext on first boot.
+    # Starts at v1.33.10 to demonstrate the upgrade path to v1.33.12.
+    # Composefs bind-mount workaround applied (same as worker-2), but the key difference:
+    # NO setenforce 0 here. The Fedora-built sysext ships correct SELinux labels
+    # (kubelet_exec_t), so worker-3 runs SELinux *enforcing* from boot through the
+    # update — unlike worker-2, which needs permissive for the foreign Flatcar sysext.
+    - name: load-fedora-k8s-sysext.service
+      enabled: true
+      contents: |
+        [Unit]
+        Description=Download fedora-sysexts kubernetes-1.33 sysext for Fedora CoreOS
+        After=network-online.target
+        Wants=network-online.target
+        ConditionPathExists=!/var/lib/extensions/kubernetes-1.33.raw
+        [Service]
+        Type=oneshot
+        RemainAfterExit=yes
+        ExecStartPre=mkdir -p /var/lib/extensions
+        ExecStartPre=mkdir -p /var/lib/extensions.d
+        ExecStart=curl -fsSL --retry 5 --retry-delay 3 \
+          -o /var/lib/extensions.d/kubernetes-1.33-1.33.10-1.fc44-44-x86-64.raw \
+          BLOB_FEDORA_URL/kubernetes-1.33-1.33.10-1.fc44-44-x86-64.raw
+        ExecStartPost=ln -sf \
+          /var/lib/extensions.d/kubernetes-1.33-1.33.10-1.fc44-44-x86-64.raw \
+          /var/lib/extensions/kubernetes-1.33.raw
+        ExecStartPost=mount --bind /usr /usr
+        ExecStartPost=systemd-sysext merge
+        ExecStartPost=sysctl -w net.ipv4.ip_forward=1
+        ExecStartPost=systemctl daemon-reload
+        ExecStartPost=systemctl enable --now containerd
+        ExecStartPost=systemctl enable kubelet
+        StandardOutput=journal+console
+        StandardError=journal+console
+        [Install]
+        WantedBy=multi-user.target
+    - name: kubeadm-join.service
+      enabled: true
+      contents: |
+        [Unit]
+        Description=Kubeadm worker join (worker-3)
+        After=load-fedora-k8s-sysext.service
+        Requires=load-fedora-k8s-sysext.service
+        After=network-online.target
+        ConditionPathExists=!/etc/kubernetes/kubelet.conf
+        [Service]
+        TimeoutStartSec=0
+        ExecStart=/usr/bin/kubeadm join CP_IP:6443 --token JOIN_TOKEN --discovery-token-unsafe-skip-ca-verification
+        Restart=on-failure
+        RestartSec=10
+        StandardOutput=journal+console
+        StandardError=journal+console
+        [Install]
+        WantedBy=multi-user.target

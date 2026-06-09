@@ -1,0 +1,435 @@
+/* @theme flatcar */
+
+/* Extend Marp's built-in default theme so all base layout rules
+   (slide dimensions, font defaults, paginator, etc.) are preserved.
+   Our rules below override only what we need to change. */
+@import 'default';
+
+/* ---------------------------------------------------------------
+ * Flatcar visual style (ported from the Flatcar Deck)
+ * Palette:
+ *   bg-navy      #12172B   (lead / section / closing slides)
+ *   accent-cyan  #09BAC8   (titles, logo, accents)
+ *   ink          #12172B   (body text on light slides)
+ *   paper        #FFFFFF
+ * --------------------------------------------------------------- */
+
+:root {
+  --bg-navy:      #12172B;
+  --accent-cyan:  #09BAC8;
+  --ink:          #12172B;
+  --paper:        #FFFFFF;
+  --muted:        #7A87A0;
+}
+
+section {
+  font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  /* Padding-top is the title-bar height; bar itself is absolutely
+     positioned on the section so it always pins to the top edge
+     and isn't pushed around by Marp's flex centering. */
+  padding: 124px 70px 70px 70px;
+  font-size: 24px;
+  line-height: 1.45;
+  justify-content: flex-start;
+  align-items: stretch;
+  position: relative;
+}
+
+/* Default content slide: dark navy title bar pinned to the top */
+section h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: var(--bg-navy);
+  color: var(--accent-cyan);
+  margin: 0;
+  padding: 22px 70px;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  /* Tiny Flatcar logo on the right side of the title bar */
+  background-image: url('assets/flatcar-logo.svg');
+  background-repeat: no-repeat;
+  background-position: right 28px center;
+  background-size: 120px 120px;
+}
+
+section h2 {
+  color: var(--ink);
+  font-weight: 600;
+  font-size: 26px;
+  margin-top: 0;
+}
+
+section ul, section ol { padding-left: 1.2em; }
+section li { margin: 0.25em 0; }
+section li::marker { color: var(--accent-cyan); }
+
+section strong { color: var(--ink); font-weight: 600; }
+
+section a { color: var(--accent-cyan); text-decoration: none; }
+
+/* Tables: clean, no chrome */
+section table {
+  border-collapse: collapse;
+  margin: 0.6em 0;
+}
+section th, section td {
+  border: none;
+  padding: 8px 16px 8px 0;
+  vertical-align: top;
+}
+section th {
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 0.9em;
+  text-align: left;
+  border-bottom: 1px solid var(--accent-cyan);
+}
+
+/* Code: subtle gray block, no shadow */
+section code {
+  font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+  background: #F1F2F6;
+  color: var(--ink);
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.92em;
+}
+section pre {
+  background: #F1F2F6;
+  border-left: 4px solid var(--accent-cyan);
+  padding: 16px 20px;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.85em;
+}
+section pre code { background: none; padding: 0; }
+
+/* Pagination: tiny cyan number, bottom-right */
+section::after {
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Footer: tiny muted text, bottom-left */
+section footer {
+  color: var(--muted);
+  font-size: 13px;
+  bottom: 22px;
+  left: 70px;
+}
+
+/* ---------------- LEAD / COVER / SECTION / CLOSING ---------------- */
+
+/* Built-in `lead` class: re-skin to dark navy, no title bar */
+section.lead {
+  background: var(--bg-navy);
+  color: var(--paper);
+  padding: 70px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+section.lead h1 {
+  position: static;
+  background: transparent;
+  margin: 0 0 18px 0;
+  padding: 0;
+  color: var(--accent-cyan);
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  background-image: none;
+}
+section.lead h2 {
+  color: var(--paper);
+  font-weight: 300;
+  font-size: 28px;
+  margin: 0 0 36px 0;
+}
+section.lead strong { color: var(--paper); font-weight: 600; }
+section.lead a { color: var(--accent-cyan); }
+section.lead::after { color: rgba(255,255,255,0.35); }
+
+/* `cover`: title slide — Flatcar logo top-left + corner pattern bottom-right.
+ * The corners SVG is a set of concentric Flatcar silhouettes; we crop it
+ * so only the upper-right slice shows, which reads as nested L-shapes
+ * fanning out from the slide's center toward the bottom-right corner. */
+section.cover {
+  background: var(--bg-navy);
+  color: var(--paper);
+  background-image:
+    url('assets/flatcar-logo.svg'),
+    url('assets/flatcar-corners.svg');
+  background-repeat: no-repeat, no-repeat;
+  /* The corners SVG is the full concentric Flatcar arches (apex at
+     top center, half-arches mirrored either side). To show only the
+     right halves of each arch — which reads as nested L-corners
+     opening down-right, hugging the bottom-right of the slide —
+     anchor LEFT and push the image left by roughly half its width,
+     so the apex sits near the slide's left edge of the visible area
+     and only the right halves extend into view. */
+  background-position:
+    70px 50px,
+    left -80% bottom -10px;
+  background-size:
+    130px auto,
+    auto 80%;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+section.cover h1 {
+  position: static;
+  background: transparent;
+  background-image: none;
+  margin: 0 0 22px 0;
+  padding: 0;
+  color: var(--accent-cyan);
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 1.1;
+  max-width: 60%;
+}
+section.cover h2 {
+  color: var(--paper);
+  font-weight: 300;
+  font-size: 28px;
+  max-width: 55%;
+  margin: 0 0 32px 0;
+}
+section.cover strong { color: var(--paper); font-weight: 600; }
+
+/* `section`: section divider — cyan title low-left, no logo */
+section.section {
+  background: var(--bg-navy);
+  color: var(--paper);
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+section.section h1 {
+  position: static;
+  background: transparent;
+  background-image: none;
+  margin: 0 0 18px 0;
+  padding: 0;
+  color: var(--accent-cyan);
+  font-size: 52px;
+  font-weight: 300;
+}
+section.section h2 {
+  color: var(--paper);
+  font-weight: 300;
+  font-size: 26px;
+  margin: 0;
+}
+
+/* `closing`: dark slide — Flatcar logo top-left, "Thank you" bottom-left */
+section.closing {
+  background: var(--bg-navy);
+  color: var(--paper);
+  background-image: url('assets/flatcar-logo.svg');
+  background-repeat: no-repeat;
+  background-position: 70px 50px;
+  background-size: 130px auto;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+section.closing h1 {
+  position: static;
+  background: transparent;
+  background-image: none;
+  margin: 0 0 24px 0;
+  padding: 0;
+  color: var(--paper);
+  font-size: 64px;
+  font-weight: 300;
+}
+section.closing strong { color: var(--paper); font-weight: 600; }
+section.closing a { color: var(--accent-cyan); }
+
+/* `agenda`: half-dark layout — left 25% is dark navy with a big cyan
+ * "Agenda" title, right 75% is white with the list of items. We use
+ * a solid white base + a navy rectangle overlay (via background-size)
+ * instead of `linear-gradient`, because gradients always anti-alias
+ * the boundary across ~10–15px even with hard color stops. A
+ * positioned solid color renders as a perfectly crisp edge. */
+section.agenda {
+  background-color: var(--paper);
+  background-image: linear-gradient(var(--bg-navy), var(--bg-navy));
+  background-repeat: no-repeat;
+  background-size: 25% 100%;
+  background-position: left top;
+  padding: 0;
+  position: relative;
+}
+section.agenda h1 {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  /* No width constraint — let "Agenda" stay on one line even if it
+     slightly overflows the 25% panel (the original does the same). */
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  background-image: none;
+  color: var(--accent-cyan);
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.05;
+  white-space: nowrap;
+}
+section.agenda ul,
+section.agenda ol {
+  position: absolute;
+  top: 60px;
+  left: calc(25% + 60px);
+  right: 60px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--ink);
+  font-size: 28px;
+  line-height: 1.7;
+}
+/* Solid cyan disc bullet, matching the li::marker on every content slide */
+section.agenda li {
+  margin: 0.1em 0;
+  padding-left: 1.4em;
+  position: relative;
+}
+section.agenda li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent-cyan);
+  font-size: 1em;
+  line-height: 1.7;
+}
+/* Pagination color tweak on the white side */
+section.agenda::after { color: var(--muted); }
+
+/* `photo-divider`: white slide with a Flatcar logo top-left, a big
+ * dark title bottom-left, and a full-bleed photo occupying the
+ * right ~58% of the slide. Used as a chapter break to introduce a
+ * theme with imagery (containers, hardware, etc.). The photo path
+ * is passed in via the data-photo attribute → CSS var --photo,
+ * so multiple divider slides can reuse the same class. */
+section.photo-divider {
+  background-color: var(--paper);
+  color: var(--ink);
+  background-image:
+    url('assets/flatcar-logo.svg'),
+    var(--photo, none);
+  background-repeat: no-repeat, no-repeat;
+  background-position:
+    70px 50px,
+    right top;
+  background-size:
+    130px auto,
+    58% 100%;
+  padding: 0;
+  position: relative;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+section.photo-divider h1 {
+  position: absolute;
+  top: auto;
+  left: 70px;
+  bottom: 220px;
+  right: 60%;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  background-image: none;
+  color: var(--ink);
+  font-size: 44px;
+  font-weight: 300;
+  line-height: 1.15;
+}
+section.photo-divider h2 {
+  position: absolute;
+  left: 70px;
+  bottom: 170px;
+  right: 60%;
+  margin: 0;
+  padding: 0;
+  color: var(--muted);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+/* `quote`: full-slide blockquote — navy background, large white quote text,
+ * cyan decorative opening mark, optional attribution via `- Name` (rendered
+ * as a <ul> by Marp when placed after the blockquote). */
+section.quote {
+  background: var(--bg-navy);
+  color: var(--paper);
+  padding: 80px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+section.quote blockquote {
+  position: relative;
+  margin: 0;
+  padding: 0 0 0 36px;
+  border: none;
+  background: transparent;
+  color: var(--paper);
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+/* Large decorative opening quotation mark */
+section.quote blockquote::before {
+  content: '\201C';
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  font-size: 96px;
+  line-height: 1;
+  color: var(--accent-cyan);
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* Attribution: `- Name` renders as a list item */
+section.quote ul {
+  list-style: none;
+  margin: 32px 0 0 36px;
+  padding: 0;
+}
+section.quote li {
+  color: var(--muted);
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+section.quote li::before {
+  content: '\2014\00A0';
+  color: var(--accent-cyan);
+}
+section.quote li::marker { display: none; color: transparent; }
+section.quote::after { color: rgba(255,255,255,0.35); }
