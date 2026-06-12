@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-60 0 1320 600" font-family="Inter, Segoe UI, sans-serif">
+
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#09BAC8"/>
+  </marker>
+</defs>
+<rect x="600.0" y="300.0" width="360.0" height="256.0" fill="#09BAC8" opacity="0.10"/>
+<line x1="600.0" y1="300.0" x2="960" y2="300.0" stroke="#09BAC8" stroke-width="2"/>
+<line x1="600.0" y1="300.0" x2="600.0" y2="510" stroke="#09BAC8" stroke-width="2"/>
+<rect x="240" y="90" width="720" height="420" fill="none" stroke="#DADDE4" stroke-width="1"/>
+<line x1="240" y1="300.0" x2="960" y2="300.0" stroke="#C4C9D5" stroke-width="1" stroke-dasharray="3,4"/>
+<line x1="600.0" y1="90" x2="600.0" y2="510" stroke="#C4C9D5" stroke-width="1" stroke-dasharray="3,4"/>
+<line x1="600.0" y1="78" x2="600.0" y2="38" stroke="#09BAC8" stroke-width="2.2" marker-end="url(#arr)"/>
+<text x="600.0" y="24" text-anchor="middle" font-size="20" font-weight="700" fill="#09BAC8">Can run in a container</text>
+<line x1="600.0" y1="522" x2="600.0" y2="562" stroke="#09BAC8" stroke-width="2.2" marker-end="url(#arr)"/>
+<text x="600.0" y="582" text-anchor="middle" font-size="20" font-weight="700" fill="#09BAC8">Must run on the host</text>
+<line x1="228" y1="300.0" x2="188" y2="300.0" stroke="#09BAC8" stroke-width="2.2" marker-end="url(#arr)"/>
+<text x="180" y="305.0" text-anchor="end" font-size="20" font-weight="700" fill="#09BAC8">Shipped in the base OS</text>
+<line x1="972" y1="300.0" x2="1012" y2="300.0" stroke="#09BAC8" stroke-width="2.2" marker-end="url(#arr)"/>
+<text x="1020" y="305.0" text-anchor="start" font-size="20" font-weight="700" fill="#09BAC8">Added per deployment</text>
+<text x="254" y="114" font-size="11" font-weight="700" fill="#A5ABBC" letter-spacing="0.08em">SYSTEM AGENTS</text>
+<text x="946" y="114" text-anchor="end" font-size="11" font-weight="700" fill="#A5ABBC" letter-spacing="0.08em">APPLICATIONS</text>
+<text x="254" y="496" font-size="11" font-weight="700" fill="#A5ABBC" letter-spacing="0.08em">BASE OS</text>
+<text x="780" y="541" text-anchor="middle" font-size="24" font-weight="700" fill="#067E89" letter-spacing="0.06em">🎯 SYSEXT</text>
+<circle cx="319.2" cy="136.2" r="3.5" fill="#7A8094"/>
+<text x="328.2" y="141.2" text-anchor="start" font-size="13" font-weight="500" fill="#2A3047">chronyd</text>
+<circle cx="535.2" cy="136.2" r="3.5" fill="#7A8094"/>
+<text x="526.2" y="141.2" text-anchor="end" font-size="13" font-weight="500" fill="#2A3047">node_exporter</text>
+<circle cx="319.2" cy="184.5" r="3.5" fill="#7A8094"/>
+<text x="328.2" y="189.5" text-anchor="start" font-size="13" font-weight="500" fill="#2A3047">fluent-bit</text>
+<circle cx="535.2" cy="184.5" r="3.5" fill="#7A8094"/>
+<text x="526.2" y="189.5" text-anchor="end" font-size="13" font-weight="500" fill="#2A3047">vector</text>
+<circle cx="319.2" cy="232.8" r="3.5" fill="#7A8094"/>
+<text x="328.2" y="237.8" text-anchor="start" font-size="13" font-weight="500" fill="#2A3047">datadog-agent</text>
+<circle cx="535.2" cy="232.8" r="3.5" fill="#7A8094"/>
+<text x="526.2" y="237.8" text-anchor="end" font-size="13" font-weight="500" fill="#2A3047">falco</text>
+<circle cx="319.2" cy="279.0" r="3.5" fill="#7A8094"/>
+<text x="328.2" y="284.0" text-anchor="start" font-size="13" font-weight="500" fill="#2A3047">waagent</text>
+<circle cx="535.2" cy="279.0" r="3.5" fill="#7A8094"/>
+<text x="526.2" y="284.0" text-anchor="end" font-size="13" font-weight="500" fill="#2A3047">ssm-agent</text>
+<circle cx="679.2" cy="136.2" r="3.5" fill="#7A8094"/>
+<text x="688.2" y="141.2" text-anchor="start" font-size="13" font-weight="500" fill="#2A3047">prometheus</text>
+<circle cx="895.2" cy="136.2" r="3.5" fill="#7A8094"/>
+<text x="886.2" y="141.2" text-anchor="end" font-size="13" font-weight="500" fill="#2A3047">grafana</text>
+<circle cx="679.2" cy="184.5" r="3.5" fill="#7A8094"/>
+<text x="688.2" y="189.5" text-anchor="start" font-size="13" font-weight="500" fill="#2A3047">nginx</text>
+<circle cx="895.2" cy="184.5" r="3.5" fill="#7A8094"/>
+<text x="886.2" y="189.5" text-anchor="end" font-size="13" font-weight="500" fill="#2A3047">postgres</text>
+<circle cx="679.2" cy="232.8" r="3.5" fill="#7A8094"/>
+<text x="688.2" y="237.8" text-anchor="start" font-size="13" font-weight="500" fill="#2A3047">redis</text>
+<circle cx="895.2" cy="232.8" r="3.5" fill="#7A8094"/>
+<text x="886.2" y="237.8" text-anchor="end" font-size="13" font-weight="500" fill="#2A3047">your app</text>
+<circle cx="319.2" cy="331.5" r="3.5" fill="#7A8094"/>
+<text x="328.2" y="336.5" text-anchor="start" font-size="13" font-weight="500" fill="#2A3047">kernel</text>
+<circle cx="535.2" cy="331.5" r="3.5" fill="#7A8094"/>
+<text x="526.2" y="336.5" text-anchor="end" font-size="13" font-weight="500" fill="#2A3047">systemd</text>
+<circle cx="319.2" cy="379.8" r="3.5" fill="#7A8094"/>
+<text x="328.2" y="384.8" text-anchor="start" font-size="13" font-weight="500" fill="#2A3047">libc</text>
+<circle cx="535.2" cy="379.8" r="3.5" fill="#7A8094"/>
+<text x="526.2" y="384.8" text-anchor="end" font-size="13" font-weight="500" fill="#2A3047">sshd</text>
+<circle cx="319.2" cy="426.0" r="3.5" fill="#7A8094"/>
+<text x="328.2" y="431.0" text-anchor="start" font-size="13" font-weight="500" fill="#2A3047">coreutils</text>
+<circle cx="535.2" cy="426.0" r="3.5" fill="#7A8094"/>
+<text x="526.2" y="431.0" text-anchor="end" font-size="13" font-weight="500" fill="#2A3047">bash</text>
+<circle cx="679.2" cy="331.5" r="4.5" fill="#09BAC8"/>
+<text x="688.2" y="336.5" text-anchor="start" font-size="13" font-weight="700" fill="#067E89">NVIDIA driver</text>
+<circle cx="895.2" cy="331.5" r="4.5" fill="#09BAC8"/>
+<text x="886.2" y="336.5" text-anchor="end" font-size="13" font-weight="700" fill="#067E89">kubelet</text>
+<circle cx="679.2" cy="379.8" r="4.5" fill="#09BAC8"/>
+<text x="688.2" y="384.8" text-anchor="start" font-size="13" font-weight="700" fill="#067E89">containerd</text>
+<circle cx="895.2" cy="379.8" r="4.5" fill="#09BAC8"/>
+<text x="886.2" y="384.8" text-anchor="end" font-size="13" font-weight="700" fill="#067E89">CRI-O</text>
+<circle cx="679.2" cy="426.0" r="4.5" fill="#09BAC8"/>
+<text x="688.2" y="431.0" text-anchor="start" font-size="13" font-weight="700" fill="#067E89">runc</text>
+<circle cx="895.2" cy="426.0" r="4.5" fill="#09BAC8"/>
+<text x="886.2" y="431.0" text-anchor="end" font-size="13" font-weight="700" fill="#067E89">ZFS module</text>
+<circle cx="679.2" cy="472.2" r="4.5" fill="#09BAC8"/>
+<text x="688.2" y="477.2" text-anchor="start" font-size="13" font-weight="700" fill="#067E89">ollama (GPU)</text>
+<circle cx="895.2" cy="472.2" r="4.5" fill="#09BAC8"/>
+<text x="886.2" y="477.2" text-anchor="end" font-size="13" font-weight="700" fill="#067E89">nvidia-toolkit</text>
+</svg>
