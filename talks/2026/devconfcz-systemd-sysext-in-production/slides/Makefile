@@ -16,10 +16,10 @@ OUT_BASE := sysext-slides
 # Anything inside assets/ is also a build input — touching an SVG must
 # trigger a rebuild even though the .md itself is unchanged.
 ASSETS   := $(wildcard assets/*)
-DEPS     := $(SRC) $(ASSETS)
+DEPS     := $(SRC) flatcar.css $(ASSETS)
 
 MARP         := npx --yes @marp-team/marp-cli@latest
-COMMON_FLAGS := --html --allow-local-files
+COMMON_FLAGS := --html --allow-local-files --theme-set .
 
 .PHONY: pptx all html pdf serve clean help
 
