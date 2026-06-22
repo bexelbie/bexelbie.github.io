@@ -101,6 +101,8 @@ exclude:
   - Rakefile
   - README
   - README.md
+  - AGENTS.md
+  - PROJECT_CONTEXT.md
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test

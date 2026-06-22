@@ -15,6 +15,6 @@ Need a bio or headshot? [Bios & Headshots](/about/bios/) has you covered.
 
 Comments are off. If something here sparks a thought, I'd rather hear it on your own blog or social media.
 
-I use an LLM as an editing assistant. Rough drafts and voice transcripts go in, tighter prose comes out, then I do a final manual pass. The workflow is codified in [AGENTS.md](../AGENTS.md) and the leaner [STYLE-CAPSULE.md](../STYLE-CAPSULE.md).
+I use an LLM as an editing assistant. Rough drafts and voice transcripts go in, tighter prose comes out, then I do a final manual pass.
 
 This site reflects my personal views, not those of my employers, past or present.

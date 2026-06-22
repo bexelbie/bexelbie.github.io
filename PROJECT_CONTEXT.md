@@ -1,6 +1,14 @@
+---
+kind: docs
+purpose: bex's personal blog — Jekyll / Minimal Mistakes site at bexelbie.github.io
+visibility: public
+---
+
 # PROJECT_CONTEXT.md — Blog (Jekyll / Minimal Mistakes)
 
-Project-specific conventions for the blog. Read alongside AGENTS-writing.md for behavioral rules and STYLE-CAPSULE.md for voice guidance.
+Project-specific facts for the blog. Writing conventions come from the global
+`writing` and `style-capsule` skills (they auto-load by task). Task-specific blog
+workflows are project-local skills (see Skills below).
 
 ## Build & Run
 
@@ -12,14 +20,14 @@ Project-specific conventions for the blog. Read alongside AGENTS-writing.md for 
 ## File Conventions
 
 - **Posts:** `_posts/YYYY-MM-DD-slug.md`
-- **Drafts:** `working-notes/` (symlinked) — excluded via `.git/info/exclude`. Do not commit drafts unless explicitly instructed. When promoting a draft to a post, move it with `mv` from the repository root and then `git add` the new file; `git mv` from inside `working-notes/` will fail because the source is ignored and symlinked.
+- **Drafts / scratch:** `_working-notes/` — a real dir, git-ignored (`.gitignore`) and Jekyll-excluded (leading underscore keeps it out of `_site`). Do not commit. When promoting a draft to a post, move it with `mv` from the repository root and then `git add` the new file; `git mv` from inside `_working-notes/` will fail because the source is ignored.
 - **Talks:** `talks/YYYY/slug/index.md`
 - **Projects:** `projects/index.md`
 - **Components:** `_includes/` contains specific overrides. Use pure HTML/Liquid there.
 
 ## Git Workflow
 
-Work in main. `working-notes/` is excluded via `.git/info/exclude` and should not be committed unless explicitly instructed. Never rename existing post slugs without explicit instruction — it breaks inbound links. Use `redirect_from` in front matter when moving or renaming published pages.
+Work in preview. `_working-notes/` is git-ignored and must not be committed unless explicitly instructed. Never rename existing post slugs without explicit instruction — it breaks inbound links. Use `redirect_from` in front matter when moving or renaming published pages.
 
 ## Internal Links
 
@@ -36,190 +44,15 @@ Preview deployments may run on a different domain than production. To avoid brok
 
 Rule of thumb: **content assets = relative**; **metadata/share URLs = absolute**.
 
-## Front Matter
+## Front Matter (defaults)
 
 Respect defaults in `_config.yml` (Posts: `layout: single`, `author_profile: true`). Do NOT alter existing YAML key names unless explicitly requested.
 
-### Draft / Exploratory Work
+- **Draft / exploratory:** minimal keys only — `title`, `date`. No excerpt, no social images.
+- `categories`/`tags` are intentionally **not** used anymore. Leave them in legacy posts; do not add to new posts.
+- **Prohibited additions:** analytics IDs, tracking parameters, marketing campaign tags.
 
-Minimal keys only: `title`, `date`. No excerpt, no social images.
-
-### Publication-Ready Posts
-
-Required keys:
-- `title`
-- `date` (see Date & Time Standard below)
-- `excerpt` (factual sentence, <140 chars; no evaluative adjectives unless necessary for precision)
-
-Intentionally NOT used anymore: `categories`, `tags`. Leave them in legacy posts; do not add to new posts.
-
-Optional keys when relevant:
-- `header` (see Header Guidelines below)
-- `redirect_from` (only for migrated / renamed slugs)
-- `layout`, `author_profile`, etc. rely on `_config.yml` defaults — avoid redefining unless changing behavior.
-
-Prohibited additions: analytics IDs, tracking parameters, marketing campaign tags.
-
-### Date & Time Standard
-
-Timezone: `Europe/Prague`. Honor DST (CET = UTC+1, CEST = UTC+2).
-
-When creating a new post and no date is provided:
-1. Current time in `Europe/Prague`.
-2. Round UP to the next 10-minute boundary.
-3. Set seconds to `00`.
-4. Use the appropriate offset (`+0100` or `+0200`) based on DST.
-
-Format: `YYYY-MM-DD HH:MM:00 +ZZZZ`.
-
-If user supplies a date/time, preserve it verbatim except to normalize zero-padded month/day (e.g., `2025-8-5` → `2025-08-05`).
-
-### Excerpt Rules
-
-- Must stand alone out of context (feed readers, social cards).
-- Avoid subjective adjectives unless precision requires.
-- If summarizing a list → name the framework + action.
-- Inject a hint of the post's tone when appropriate.
-- Do NOT repeat the title or its opening label. Provide a complementary angle.
-- For a multi-day series, surface what changed vs. earlier days.
-
-### Header Guidelines
-
-Include a `header` block ONLY when a visual element materially aids context. Otherwise omit.
-
-Use cases to include:
-- Book cover, event photo, or artifact that anchors the topic
-- Original photography adding context
-- Diagrams central to argument
-
-Avoid when:
-- Pure opinion/editorial without a concrete visual referent
-- Link/pointer posts with minimal commentary
-- Routine note dumps where an image is decoration only
-
-`header` keys (Minimal Mistakes pattern):
-- `overlay_image`: Primary image (remote URL or local path). Remote allowed if stable; prefer local copy when license permits.
-- `og_image`: Match `overlay_image` unless different aspect ratio needed.
-- `teaser`: Smaller version when available (optional).
-- `caption`: Attribution + concise description. Include source link when not author's own.
-- `overlay_filter`: Numeric (0-1); keep if text legibility requires. Omit otherwise.
-
-Attribution: Always cite source unless original work. If license requires specific wording not provided → raise in chat.
-
-Accessibility: If image delivers essential info not in body → add descriptive sentence in body or caption.
-
-Remote stability: Favor reputable sources. If transience risk → suggest downloading locally (do not auto-download).
-
-## Publication Standards
-
-Target length: ideally 900+ words. Flag if under 700 (too thin?) or over 1500 (needs tightening?).
-
-Full front matter required (see above). Excerpt required.
-
-## Disclaimer
-
-Use exactly once when employer, client, or affiliation is referenced or contextually relevant.
-
-Canonical text:
-> Disclaimer: I work at Microsoft on upstream Linux in Azure. These are my personal notes and opinions.
-
-If an earlier post in a series uses a slightly different variant, standardize unless instructed to preserve historical wording.
-
-Do NOT add if neither employer nor sensitive topic appears.
-
-## Read Recently/Reading Notes Series
-
-If bex asks to build, start, or do the next read recently or reading-notes post, the first response should be: run `gen-read-recently`. Do that before searching the repo or outlining the post, unless bex has already pointed to a specific existing draft in `working-notes/`.
-
-This is a blocking first step, not a suggestion. Do not search the repo, inspect prior posts, check command availability, or run any tool before giving that response. The only exception is when bex has already pointed to a specific existing draft in `working-notes/`.
-
-Use these rules for posts in the "Things I Read" series.
-
-- The series is primarily curated reading notes, not a bundle of mini-essays. Commentary should explain why an item stuck, not try to turn every entry into a standalone post.
-- Snark is allowed, but the post should not become a snark dump. Keep sharp lines that add voice or judgment; cut ones that exist only to sneer.
-- A small number of lighter entries is fine, but each item should earn its place by doing at least one of these clearly:
-  - surface a surprising fact or angle
-  - reveal something about the author's own thinking
-  - deliver a joke or aside sharp enough to justify the space
-- Trim entries that do not add value beyond "I read this" or a placeholder reaction.
-- When a disclaimer is needed for the post, place it once near the top so it applies to the whole entry rather than to a single reading note.
-
-### Generating Drafts With `ip-read-recently`
-
-Assume `ip-read-recently` is already installed as a user-level tool. If bex asks for a new read recently or reading-notes post, remind bex to run `gen-read-recently`, which already picks up the right pieces for this repo.  This creates a draft in working-notes.
-
-In practice, this is the default first step. Do not start by inspecting old posts or drafting structure unless the draft already exists.
-
-1. Edit the draft by hand. The generator gives you the scaffolding, not a publishable post. Before moving it to `_posts/`, write the excerpt, tighten the generated title/date range if needed, group items into sections only where the grouping actually helps, trim weak entries and extra highlights, and add the disclaimer once near the top if it applies. Note, the template now consumes the generator's `title` value, but you should still normalize the title before publishing if the auto-generated range is awkward.
-
-1. Once the draft is safely captured and the post work is done, remind bex to run `move-read-recently` manually to move the processed Instapaper items out of the source folder.
-
-1. When promoting the draft to a real post, move it from the repo root with `mv` into `_posts/`. Do not use `git mv` from inside `working-notes/`; that source is ignored and symlinked.
-
-
-## Talks & Publications Page
-
-The `/talks/` page auto-generates from YAML front matter. No manual list editing. The Liquid template collects all pages and posts with `entry_type` set (excluding proposals), sorts by `speaking_date` descending, and groups by year.
-
-### Entry Types
-
-1. **Talks** (`entry_type: talk`): Conference presentations. File at `talks/YYYY/slug/index.md`. Title links to detail page.
-2. **Proposals** (`entry_type: proposal`): Submitted CFPs. Same structure. Listed on `/talks/proposals/`.
-3. **Articles** (`entry_type: article`): External publications. YAML added to existing blog post in `_posts/`. Title links to blog post. No separate page needed (exception: articles without a blog post stub get a standalone page under `talks/YYYY/slug/`).
-4. **Podcasts** (`entry_type: podcast`): Podcast interviews or appearances. File at `talks/YYYY/slug/index.md`. Title links to a detail page that can point to the recording.
-
-#### Proposal Status
-
-- Default: submitted proposal
-- If rejected and you want to keep it for reference: set `proposal_status: rejected`
-- When accepted: change `entry_type` to `talk`
-
-### Display Format (two lines per entry)
-
-- Line 1: Title as clickable link (bold)
-- Line 2: Type label, month year, venue or publication
-
-### Talk/Proposal Front Matter
-
-```yaml
-entry_type: talk          # talk | proposal | article | podcast
-speaking_event: "Flock 2016"
-speaking_date: 2016-08-04  # YYYY-MM-DD
-permalink: /talks/2016/flock-docs-hackfest/
-speaking_links:
-  details: /talks/2016/flock-docs-hackfest/
-```
-
-### Podcast Front Matter
-
-```yaml
-entry_type: podcast
-speaking_event: "Coffee With Kusari"
-speaking_date: 2026-04-21
-permalink: /talks/2026/coffee-with-kusari-episode-10/
-speaking_links:
-  details: /talks/2026/coffee-with-kusari-episode-10/
-  recording: "https://www.youtube.com/watch?v=..."
-```
-
-### External Article Front Matter
-
-Add to existing `_posts/` front matter:
-
-```yaml
-entry_type: article
-speaking_event: "opensource.com"
-speaking_date: 2019-04-24
-speaking_links:
-  external: "https://opensource.com/article/19/4/gpg-subkeys-ssh"
-```
-
-### Key Rules
-
-- `speaking_date` must be date-parseable (`YYYY-MM-DD`).
-- `title` must be the actual talk/article title, not the event name.
-- Preserve old URLs via `redirect_from` when renaming.
-- FOSDEM organizer pages (`talks/fosdem/`) are historical artifacts with no `entry_type`.
+Publication-ready front matter (required keys, the date/time standard, excerpt rules, header guidelines) is in the `blog-publication` skill.
 
 ## Projects Page
 
@@ -252,55 +85,13 @@ Short description paragraph.
 - Internal links use `post_url` tags
 - No sub-pages unless a project grows complex
 
-## Blog-Specific Style Mechanics
+## Skills (task-triggered)
 
-### Long Pull-Out Quotes
+- `blog-publication` — preparing a post for publication (front matter, date/time, excerpt, headers, disclaimer, length, blog verification).
+- `read-recently-post` — building a "Things I Read" / reading-notes post (runs `gen-read-recently` first).
+- `talks-publications` — adding/updating talks, proposals, podcasts, articles, or the `/talks/` page.
+- `social-posts` — generating Mastodon/LinkedIn posts at publication time.
 
-Use for passages that are substantial, notable, or central to the post's argument.
+## Work Tracking
 
-Format: Markdown blockquote (`>`), then blank line, then citation line (e.g., `<cite>Author Name</cite>`), also inside blockquote.
-
-Example:
-
-> "There's a new kind of coding I call 'vibe coding,' where you fully give in to the vibes, embrace exponentials, and forget that the code even exists."
->
-> <cite>Andrej Karpathy</cite>
-
-Do not invent or paraphrase quotes. If attribution is unclear, raise in chat. Reserve for focal points — do not overuse.
-
-### H1 Usage
-
-One H1 (`#`) only if a legacy post already uses it inside body. Do not add new H1s.
-
-## Social Media Patterns
-
-Generate social posts only when requested, typically at publication time.
-
-### Mastodon (≤2048 chars)
-
-Factual pointer; 0-2 hashtags; no CTA unless explicitly asked. Include one concrete hook (stat, question, or contrast). Avoid duplicating the full excerpt. Use the full character limit for engaging, concise summaries. Add URL placeholder if post is live or planned.
-
-### LinkedIn
-
-2-4 short paragraphs. Context + 1-3 insights + optional neutral observation. No inflated impact; no invented metrics.
-
-### Hashtags
-
-- Mastodon: 0-4 max, at end. Skip if no discovery value.
-- LinkedIn: 2-4 concise, high-signal at end after blank line. Prefer topic/category over slogans.
-- Do not embed hashtags mid-sentence.
-
-### Formatting
-
-Body text, then blank line, then URL (or placeholder), then blank line, then hashtags. Do not use Markdown formatting (bold, italics, links) — these platforms don't support it. Write as cut-and-paste ready. Ignore markdown linting errors in social sections; they are ephemeral.
-
-## Blog-Specific Verification Checks
-
-In addition to universal verification (see AGENTS-writing.md), check:
-- Excerpt <140 chars & factual: Y/N
-- Disclaimer present exactly once if needed: Y/N
-- Social outputs within character limits: Y/N/N-A
-- Internal links use `post_url` tag: Y/N
-- `header` includes attribution where required: Y/N/N-A
-
-End of PROJECT_CONTEXT.md
+Open work → `_working-notes/loops.md` (use the `loops` skill; the path is `_working-notes/`, not `working-notes/`, so Jekyll's leading-underscore rule keeps it out of `_site`). No `log.md` for this repo — git commit history is the record.
