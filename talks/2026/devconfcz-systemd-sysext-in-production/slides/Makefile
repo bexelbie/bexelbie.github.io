@@ -19,7 +19,10 @@ ASSETS   := $(wildcard assets/*)
 DEPS     := $(SRC) flatcar.css $(ASSETS)
 
 MARP         := npx --yes @marp-team/marp-cli@latest
-COMMON_FLAGS := --html --allow-local-files --theme-set .
+COMMON_FLAGS := --html --allow-local-files
+# --theme-set takes an array, so it greedily swallows the next positional
+# argument. Keep it trailing (after -o $@) so it only consumes the ".".
+THEME_SET    := --theme-set .
 
 .PHONY: pptx all html pdf serve clean help
 
@@ -34,16 +37,16 @@ pdf:  $(OUT_BASE).pdf
 # $< is always $(SRC) (the first prereq); $(ASSETS) only act as
 # timestamp triggers — marp picks them up via the source's <img src>.
 $(OUT_BASE).pptx: $(DEPS)
-	$(MARP) $(COMMON_FLAGS) --pptx $(SRC) -o $@
+	$(MARP) $(COMMON_FLAGS) --pptx $(SRC) -o $@ $(THEME_SET)
 
 $(OUT_BASE).html: $(DEPS)
-	$(MARP) $(COMMON_FLAGS) $(SRC) -o $@
+	$(MARP) $(COMMON_FLAGS) $(SRC) -o $@ $(THEME_SET)
 
 $(OUT_BASE).pdf: $(DEPS)
-	$(MARP) $(COMMON_FLAGS) --pdf $(SRC) -o $@
+	$(MARP) $(COMMON_FLAGS) --pdf $(SRC) -o $@ $(THEME_SET)
 
 serve:
-	$(MARP) $(COMMON_FLAGS) --server .
+	$(MARP) $(COMMON_FLAGS) --server . $(THEME_SET)
 
 clean:
 	rm -f $(OUT_BASE).pptx $(OUT_BASE).html $(OUT_BASE).pdf

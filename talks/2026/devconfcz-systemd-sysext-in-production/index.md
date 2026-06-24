@@ -6,12 +6,15 @@ speaking_event: "DevConf.CZ"
 speaking_date: 2026-06-18
 speaking_links:
   details: /talks/2026/devconfcz-systemd-sysext-in-production/
+  slides: /talks/2026/devconfcz-systemd-sysext-in-production/slides/sysext-slides.html
 layout: single
 author_profile: true
 classes: wide
 ---
 
-## Accepted at [DevConf.CZ 2026](https://devconf.info/cz/) in Brno, Czech Republic on June 18-19, 2026
+## Presented at [DevConf.CZ 2026](https://devconf.info/cz/) in Brno, Czech Republic on 18-19 June 2026
+
+Co-presented with Daniel Zaťovič.
 
 ## Abstract
 
@@ -22,6 +25,12 @@ Flatcar Container Linux has been shipping all of these as sysext images since 20
 This talk covers what broke, what we fixed, and what we contributed upstream to systemd. You'll see the two hardest engineering problems - dynamic linking collisions and library path isolation - and the open source tools (Flix and Flatwrap) that solve them. We'll discuss when sysext is the right tool and when rpm-ostree is better.
 
 Whether you work on FCOS, Flatcar, or any other systemd-based distro, sysext is already in your systemd. This talk tells you what to expect when you use it for real.
+
+## Slides
+
+- [Slides (HTML)](slides/sysext-slides.html){:target="_blank"}
+- [Slides (PowerPoint)](slides/sysext-slides.pptx)
+- Information about [recreating the demo](demo)
 
 <!--
 ## Proposed Talk Structure (25 min) — speaker notes
