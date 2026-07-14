@@ -220,3 +220,41 @@
     cover: "https://covers.openlibrary.org/b/id/15091836-M.jpg"
     started: 2025-12-12
     audiobook: true
+
+  - title: "1632"
+    url: "https://openlibrary.org/works/OL17176W"
+    cover: "https://covers.openlibrary.org/b/olid/OL50639M-M.jpg"
+    started: 2026-07-06
+    finished: 2026-07-11
+    comment: |
+      I started this as a beach read on vacation and paired it with Thinking, Fast and Slow. It was an easy read. It's basically an alternative history story about what happens if modern Americans get dropped into the past with modern technology. I haven't researched the author, so I don't know whether he is a wannabe historian, a serious researcher, or just someone who really likes writing alternative history.
+
+      The characters are mostly one-dimensional, and when they do gain additional dimensions those tend to be very obvious tropes. It's very schlocky. It's also very rah-rah America and rah-rah the "working man."
+
+      There's a lot of suspension of disbelief required to accept how these people keep their modern technology working. The book does pay some attention to the maintenance problem over time, but mostly leaves it as an exercise to the reader and expects the reader not to care. That said, I do salute the author for creating a genuine political problem around a gear-down in technology against the overwhelming numbers of the people they have landed among in the middle of the Thirty Years' War.
+
+      The book has several challenges. The first is that the author's inability to write real women and real relationships produces a scene where a woman who has suffered abuse in the 1600s as a camp follower is mystically cured by love, marriage, and wedding-night sex with a modern man. If you can somehow put that aside, you then have to deal with the Holocaust being used as shorthand for why an American republic is critical, despite the fact that Germans at this point are far from a world power and no one really seems to understand that you have to be powerful to commit murder on that scale. The last is the combination of using Jews as a stand-in for basically every non-white, non-Christian group on the planet, with the exception of Black people, and the willingness to suggest that people from 1632, while not stupid or backward, would immediately learn a foreign language and grasp the importance of American values and ideals despite mostly coming from poverty.
+
+      Eric Flint comments on his motivations in an afterword. He explains that he wrote this because common working folk, blue-collar workers, schoolteachers, and farmers rarely appear in modern fiction except as spear carriers or bigots. Based on Flint's disclosed past, I also think he sees himself in the main character and likely inserted himself as the hero who saves the world and gets the girl.
+
+  - title: "Alas, Babylon"
+    url: "https://openlibrary.org/works/OL2003035W"
+    cover: "https://covers.openlibrary.org/b/olid/OL10944289M-M.jpg"
+    started: 2026-07-11
+    finished: 2026-07-13
+    comment: |
+      I read this right after 1632. It's a good book, and it has aged reasonably well. It's a compelling read, and I think it mostly does a great job talking about post-apocalyptic survival within the relatively clean bubble the characters inhabit.
+
+      Because I read it after 1632, and because I am from the southern United States, I couldn't help picking up on the subtle racism and stereotyping in the book. That felt more like the author's view of the world, or his desire to write about a very specific part of American society, than something necessary to further the story.
+
+      Even so, it was a great read and I encourage people to pick it up. It does make you think about disaster scenarios from a more realistic perspective, at least in my opinion.
+
+  - title: "Thinking, Fast and Slow"
+    url: "https://openlibrary.org/works/OL15992072W"
+    cover: "https://covers.openlibrary.org/b/id/7889800-M.jpg"
+    started: 2026-07-01
+
+  - title: "The Alchemist"
+    url: "https://openlibrary.org/works/OL796465W"
+    cover: "https://covers.openlibrary.org/b/id/45762-M.jpg"
+    started: 2026-07-13
