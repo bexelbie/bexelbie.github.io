@@ -1,6 +1,7 @@
 {%- assign reading = site.data.reading.books
   | where: "finished", nil
   | where: "abandoned", nil
+  | where: "paused", nil
   | where_exp: "book", "book.started"
 -%}
 {%- assign reading = reading | sort: "started" -%}

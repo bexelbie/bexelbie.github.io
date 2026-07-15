@@ -1,15 +1,17 @@
 {% for book in include.books %}
-  <p>
+  <p{% if include.anchor %} id="{{ book.id }}"{% endif %}>
     {% if book.cover %}
       {%- assign icon_placement = include.icon_placement | default: "inline" -%}
+      {%- assign link_href = book.url -%}
+      {%- if include.link == "reading" -%}{%- assign link_href = "/reading/#" | append: book.id -%}{%- endif -%}
 
       {% if icon_placement == "below" %}
-        <a href="{{ book.url }}" class="book-title" style="display: inline-flex; flex-direction: column; align-items: center; gap: 6px;">
+        <a href="{{ link_href }}" class="book-title" style="display: inline-flex; flex-direction: column; align-items: center; gap: 6px;">
           <img src="{{ book.cover }}" alt="Cover of {{ book.title }}" style="width: 96px; height: auto;">
           {% if book.audiobook %}<span class="fa fa-headphones" title="Audiobook" aria-label="Audiobook"></span>{% endif %}
         </a>
       {% else %}
-        <a href="{{ book.url }}" class="book-title">
+        <a href="{{ link_href }}" class="book-title">
           <img src="{{ book.cover }}" alt="Cover of {{ book.title }}" style="width: 96px; height: auto; margin-right: 10px;">
           {% if book.audiobook %}<span class="fa fa-headphones" title="Audiobook" aria-label="Audiobook" style="margin-left: 5px;"></span>{% endif %}
         </a>

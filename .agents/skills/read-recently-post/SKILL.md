@@ -18,6 +18,29 @@ a suggestion.
 draft in `_working-notes/`. (`ip-read-recently` is a user-level tool, assumed
 installed.)
 
+## Automatic book surfacing
+
+After `gen-read-recently` completes:
+
+1. Detect the most recent published "recently-read" / "things I read" post in `_posts/` by scanning for files matching the pattern (title or metadata will indicate it's a reading-notes post). Extract its publication date.
+2. Parse `_data/reading.yml` and find all books with a `finished` date >= the last post's date.
+3. For each newly finished book, use its full `comment` field as the entry content.
+4. Append these books as a separate section at the end of the generated draft (after Instapaper items).
+5. Display the finished books as static, curated content: select each book explicitly from `site.data.reading.books` by its `id`, concatenate them into one array, and pass that array to the `currently-reading.html` include with `icon_placement="below"`, `anchor=false`, and `link="reading"`. This renders their cover images in a horizontal, wrapping layout with each cover linking to its entry on the reading page (`/reading/#book-id`). Do **not** pass the currently-reading list — only the specific books finished since the last post. Example:
+
+   ```liquid
+   {% assign fb_a = site.data.reading.books | where: "id", "book-27" %}
+   {% assign fb_b = site.data.reading.books | where: "id", "book-28" %}
+   {% assign finished_books = fb_a | concat: fb_b %}
+   <div style="display: flex; flex-wrap: wrap; gap: 24px;">
+   {% include currently-reading.html books=finished_books icon_placement="below" anchor=false link="reading" %}
+   </div>
+   ```
+
+6. Add a brief intro line above the book list: "I've been tracking my [book reading](/reading/) on my blog, but it never gets surfaced anywhere. I've decided to start including them here. Head to my [reading page](/reading/) to find detailed notes or reactions for each book, similar in style to this post."
+
+This surfaces books automatically so they're candidates for inclusion. You'll curate them during editing (trim, reorder, or remove weak entries as per the curation rules).
+
 ## Series curation rules
 
 - Primarily curated reading notes, not a bundle of mini-essays. Commentary should explain why an item stuck, not turn every entry into a standalone post.
@@ -31,10 +54,11 @@ installed.)
 
 ## Editing the generated draft
 
-The generator gives you scaffolding, not a publishable post. Before moving it to `_posts/`:
+The generator gives you scaffolding, not a publishable post. The draft now includes both Instapaper articles (from gen-read-recently) and recently finished books (auto-surfaced from `_data/reading.yml`). Before moving it to `_posts/`:
 
-1. Edit by hand: write the excerpt, tighten the generated title/date range if awkward (the template consumes the generator's `title`, but normalize it before publishing), group items into sections only where the grouping helps, trim weak entries and extra highlights, and add the disclaimer once near the top if it applies.
-2. Once the draft is captured and the post work is done, remind bex to run `move-read-recently` manually — it moves the processed Instapaper items out of the source folder.
-3. Promote to a real post: move it from the repo root with `mv` into `_posts/`. Do not `git mv` from inside `_working-notes/`; that source is git-ignored.
+1. Edit by hand: write the excerpt, tighten the generated title/date range if awkward (the template consumes the generator's `title`, but normalize it before publishing), group items into sections only where the grouping helps, trim weak entries and extra highlights (this applies to both articles and books), and add the disclaimer once near the top if it applies. The title's date range should start the day *after* the previous post's end date (so the ranges don't overlap) — e.g. if the last post ended 29 Apr, this one starts 30 Apr.
+2. Curate both Instapaper and book entries together — they're all candidates and should earn their place by the curation rules above.
+3. Once the draft is captured and the post work is done, remind bex to run `move-read-recently` manually — it moves the processed Instapaper items out of the source folder.
+4. Promote to a real post: move it from the repo root with `mv` into `_posts/`. Do not `git mv` from inside `_working-notes/`; that source is git-ignored.
 
 Apply the `blog-publication` skill for final front matter and verification.

@@ -5,9 +5,12 @@ description: Use when bex wants to pull his Kindle highlights and notes for a bo
 
 # Kindle reading notes → reading.yml
 
-Turns highlights and typed notes bex made on his Kindle into text he can fold
-into a `_data/reading.yml` `comment:`. Books only — for Instapaper articles use
-the `read-recently-post` skill.
+Extracts highlights and typed notes bex made on his Kindle for inclusion into
+`_data/reading.yml` `comment:`. **Agent task**: dump the clippings tagged with
+their type (`[Highlight]` or `[Note]`), nothing more. Do not add commentary,
+interpretation, or additional text — the output is the raw harvest ready for bex
+to edit and contextualize. Books only — for Instapaper articles use the
+`read-recently-post` skill.
 
 ## Two stages
 
@@ -31,8 +34,10 @@ python3 clippings.py --file MyClippings.txt "gentoo"
 
 Each dump prints the knowable metadata (title, author, per-book counts) and one
 block per clipping with its type, Kindle location, and timestamp. Everything
-else in a `reading.yml` entry (url, cover, started/finished dates) is not in the
-clippings file — bex adds it, typically from OpenLibrary.
+else in a `reading.yml` entry (url, cover, started/finished dates, and `id`) is
+not in the clippings file — bex adds it, typically from OpenLibrary. `id` is the
+deep-link anchor (`id: book-N`, next unused number, never reused); see the header
+comment in `reading.yml`.
 
 ## Connection details (baked into the script)
 

@@ -6,10 +6,11 @@ permalink: /reading/
 {%- assign reading = site.data.reading.books
     | where: "finished", nil
     | where: "abandoned", nil
+    | where: "paused", nil
     | where_exp: "book", "book.started"
     | sort: "started" -%}
 
-{% assign finished = site.data.reading.books | reject: "finished", nil %}
+{% assign finished = site.data.reading.books | where_exp: "book", "book.finished" %}
 {% assign finished = finished | sort: "finished" | reverse %}
 {% assign reading_notes = site.posts | where: "series", "things-i-read" %}
 {% assign latest_reading_note = reading_notes | first %}
@@ -17,7 +18,7 @@ permalink: /reading/
 {% if reading.size > 0 %}
 <h1>Currently Reading</h1>
   <div class="currently-reading-list" style="display: flex; flex-wrap: wrap; gap: 24px;">
-    {% include currently-reading.html books=reading icon_placement="below" %}
+    {% include currently-reading.html books=reading icon_placement="below" anchor=true %}
   </div>
 {% endif %}
 
@@ -34,7 +35,7 @@ permalink: /reading/
 
 <ul class="finished-books">
   {% for book in finished %}
-    <li class="book-item">
+    <li class="book-item" id="{{ book.id }}">
       <div class="book-details">
         {% if book.cover %}
           <div class="book-cover">
