@@ -39,6 +39,23 @@ not in the clippings file — bex adds it, typically from OpenLibrary. `id` is t
 deep-link anchor (`id: book-N`, next unused number, never reused); see the header
 comment in `reading.yml`.
 
+## OpenLibrary lookup (url + cover)
+
+`openlibrary_lookup.py` (in this skill dir) fills in the `url`/`cover` fields:
+
+```sh
+python3 openlibrary_lookup.py "The Culture Code"
+python3 openlibrary_lookup.py "Pines" "Blake Crouch"
+```
+
+It queries the OpenLibrary search API, prints up to 5 candidate works
+(title/author/work key) with a ready-to-paste `url:`/`cover:` pair for each, and
+flags covers that are actually OpenLibrary's ~43-byte placeholder GIF rather
+than real art (`(placeholder — don't use as-is)`). Pick the candidate that
+matches the edition bex actually read; when the cover is flagged, leave
+`cover:` off rather than pasting a placeholder. stdlib only, nothing to
+install.
+
 ## Connection details (baked into the script)
 
 - The Kindle is at a static IP `172.21.233.5` over WiFi; if the pull fails it's
