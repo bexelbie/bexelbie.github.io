@@ -313,3 +313,31 @@ books:
     cover: "https://covers.openlibrary.org/b/id/7889800-M.jpg"
     started: 2026-07-01
 
+  - title: "The Father-Thing"
+    id: book-31
+    url: "https://openlibrary.org/works/OL2172382W"
+    cover: "https://covers.openlibrary.org/b/olid/OL9002770M-M.jpg"
+    started: 2026-07-18
+    finished: 2026-07-18
+    comment: |
+      This is unsurprisingly a great read.  The only thing that threw me out of the story was what one child was eating:
+
+      > half a ham-and-peanut-butter sandwich
+
+      wtf!?
+
+  - title: "Pines"
+    id: book-32
+    url: "https://openlibrary.org/works/OL19958266W"
+    cover: "https://covers.openlibrary.org/b/olid/OL38574159M-M.jpg"
+    started: 2026-07-19
+    finished: 2026-07-21
+    comment: |
+      I had read this before and reread it to focus on the ending. I quickly remembered why it had not stuck with me: it is too rushed. After all the time spent developing the earlier plot arcs, too much of the revealed world is left unexplored. That should not stop you from reading it, but expect to leave with worthwhile questions.
+
+  - title: "The Culture Code"
+    id: book-33
+    url: "https://openlibrary.org/works/OL19670476W"
+    cover: "https://covers.openlibrary.org/b/olid/OL28313284M-M.jpg"
+    started: 2026-07-21
+
