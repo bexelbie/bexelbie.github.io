@@ -341,3 +341,11 @@ books:
     cover: "https://covers.openlibrary.org/b/olid/OL28313284M-M.jpg"
     started: 2026-07-21
 
+  - title: "The Third Coincidence"
+    id: book-34
+    url: "https://openlibrary.org/works/OL16724944W"
+    cover: "https://covers.openlibrary.org/b/olid/OL25392246M-M.jpg"
+    started: 2026-07-22
+    finished: 2026-07-23
+    comment: |
+      An easy read thriller about a lone wolf assassin taking on the US Government. It reminds me of simpler days when we could still pretend things were OK. Pretty standard stuff, including the *twist* where the *cop* is unknowingly playing chess by mail with the *bad guy*. If you're looking for something to read on a plane/train/beach - this is for you.
