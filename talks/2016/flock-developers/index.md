@@ -35,4 +35,4 @@ can become a tool for expanding the Fedora community. #TheFedoraADB
 ## Slides and Source Files
 
 * [slides.revealjs](slides.revealjs.txt) - this used reveal-js which I no longer use.  As of 7 May 2020 you can only review the input file.
-* [demo files](https://github.com/bexelbie/bexelbie-talks-demos/tree/master/Flock.2016.developers)
+* [demo files](demo/)

@@ -27,7 +27,7 @@ Last week (and the week before) as FCAIC I:
 - Attended the [Community Leadership Summit](https://www.communityleadershipsummit.com/), an unconference style event with great keynotes and participant driven conversations about communities.  I walked away with some great ideas I hope you'll see soon.
 - Attended [GrimoireCon North America](https://grimoirelab.github.io/con/), a day long series of presentations by the developers and some users of [Grimoire Lab](https://grimoirelab.github.io/).  This looks like a potential platform for metrics related to Fedora.  It is used by some other communities with various levels of success.
 - Attended the first day of [OSCON](https://conferences.oreilly.com/oscon/oscon-tx) and worked the booth talking about Fedora and watching people try to convince us that [Thomas Cameron's car](https://twitter.com/bexelbie/status/862023857393283072) should be given to them as swag.
-- Attended and [presented](https://github.com/bexelbie/bexelbie-talks-demos/tree/master/OSCAL.2017.Dont.Write.It.All) at [OSCAL](https://oscal.openlabs.cc/), an Open Source conference by the folks at [Open Labs](https://openlabs.cc/en/).
+- Attended and [presented](/talks/2017/oscal-dont-write-it-all/) at [OSCAL](https://oscal.openlabs.cc/), an Open Source conference by the folks at [Open Labs](https://openlabs.cc/en/).
 
 # Cake Around the World
 

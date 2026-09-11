@@ -38,4 +38,4 @@ by Vaclav Pavlin.
 
 - [Slides](slides.pdf)
 - [Source File - Download from Google Docs](slides.pptx)
-- [demo source files](https://github.com/bexelbie/bexelbie-talks-demos/tree/master/CfgMgmtCamp.eu.2016)
+- [demo source files](demo/)
